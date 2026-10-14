@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://grandpajackai.github.io/seoasis-strategy/",
-  "checkedAt": "2026-10-14T13:07:45Z",
+  "checkedAt": "2026-10-14T13:17:55Z",
   "passed": true,
   "totalChecked": 20,
   "checks": [
@@ -28,7 +28,7 @@
       "error": null
     },
     {
-      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/app/page-be81a06b33accbbc.js",
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/app/page-b026c86822c6329f.js",
       "status": 200,
       "kind": "asset",
       "error": null
@@ -52,7 +52,7 @@
       "error": null
     },
     {
-      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/css/5654ba16ffcae474.css",
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/css/d7a49e0308311bdc.css",
       "status": 200,
       "kind": "CSS",
       "error": null
