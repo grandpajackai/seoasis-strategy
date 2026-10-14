@@ -46,8 +46,22 @@ Screenshots and route summaries are retained under `qa/`. Reviewer reports are i
 
 The SEOasis technical sample itself has 20/20 final HTTP 200 responses. Indexation, Core Web Vitals, full rendered crawl health, client metrics and actual AI visibility remain outside this public review.
 
-## Public release gate
+## Public release gate — passed
 
-Repository created: https://github.com/grandpajackai/seoasis-strategy
+Live dashboard: https://grandpajackai.github.io/seoasis-strategy/
 
-GitHub Pages deployment and live route/asset checks are the remaining release gate. This section will be updated with observed hosted results after deployment.
+Public repository: https://github.com/grandpajackai/seoasis-strategy
+
+Application revision `52b6f1c` deployed successfully through GitHub Actions run `38569710747`. The lead then tested the published HTTPS application, rather than relying only on local results:
+
+- All 20 desktop views and all 20 mobile views at 390 × 844 navigated with the expected headings and no page-level overflow.
+- All eight Interview Mode steps presented three supporting cards and eight presentation links; Next and Finish completed successfully.
+- Bookmark reloads, backlog filtering, a 28-record export preview, private-data metric/decision disclosures and dark/light themes worked on the public host.
+- No browser-console errors were recorded during the hosted gauntlet.
+- All 20 critical HTTP resources passed, including the HTML, scripts, styles, font and all nine downloadable documents.
+
+Hosted evidence is preserved in `qa/live-desktop-routes.json`, `qa/live-mobile-routes.json`, `qa/live-interview-flow.json`, `qa/live-functional-smoke.json`, `qa/live-http.json`, `qa/live-overview.jpg` and `qa/live-interview.jpg`.
+
+The separate independent release reviewer passed the production build, TypeScript, data integrity, static assets/documents, screenshot review and navigation evidence review; see `research/R-release-review.md`. This was independent command/static review, not an additional independent browser execution.
+
+The final follow-up publication adds the completed QA report and proof artifacts without changing application behavior. The release is approved for feedback. Evidence and browser scope limits above remain explicit.

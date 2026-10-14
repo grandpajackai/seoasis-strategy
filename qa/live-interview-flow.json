@@ -1,0 +1,58 @@
+[
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "01 / 08 · 0:00–0:40",
+    "title": "What I learned about SEOasis"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "02 / 08 · 0:40–1:15",
+    "title": "How I understand the operating model"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "03 / 08 · 1:15–1:55",
+    "title": "What I observed"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "04 / 08 · 1:55–2:45",
+    "title": "Three opportunities worth exploring"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "05 / 08 · 2:45–3:20",
+    "title": "What I would validate internally"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "06 / 08 · 3:20–4:00",
+    "title": "How I would prioritize client work"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "07 / 08 · 4:00–4:40",
+    "title": "My first 90-day framework"
+  },
+  {
+    "cards": 3,
+    "navSteps": 8,
+    "overflow": false,
+    "step": "08 / 08 · 4:40–5:20",
+    "title": "How I could contribute"
+  }
+]

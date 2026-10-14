@@ -1,0 +1,14 @@
+{
+  "deepLink": {
+    "h1": "Show the judgment behind the dashboard.",
+    "hash": "#interview"
+  },
+  "categoryFilter": 1,
+  "exportRecords": 28,
+  "privateValidation": {
+    "detail": "Metric & decisionPullPage indexing, selected-canonical samples and query × landing-page clicks/impressions/CTR by market/device.DecisionRetain, differentiate, consolidate or repair an affected cohort.Source 1Source 2Source 3",
+    "reason": "Public HTTP access and similar URLs cannot establish indexing or cannibalization."
+  },
+  "darkTheme": "dark",
+  "consoleErrors": []
+}
