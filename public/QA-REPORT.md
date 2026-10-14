@@ -73,3 +73,9 @@ The requested SVG replaces the top-left placeholder mark. Its file bytes match t
 The focused production export passed data verification, TypeScript, and all 13 HTML asset/link references. In the local production browser, all 20 desktop views, all 20 mobile views at 390 × 844, and all eight interview steps passed. The logo loaded at 174 × 31.53px, remained clear in light/dark themes, did not overlap the mobile Close control, and returned to Overview when clicked. No console errors were recorded. Evidence is in `qa/feedback-local-checks.json` and `qa/feedback-*.jpg`.
 
 Independent copy review accepted the client/agency framing. The design reviewer independently checked the original asset, implementation diff, and desktop/dark/mobile screenshots, with no required fixes; see `research/FEEDBACK-REVIEW.md`. Independent release command checks are recorded in `research/FEEDBACK-RELEASE-QA.md`.
+
+## Candidate feedback update — public release passed
+
+Application revision `a5149c6` deployed successfully through GitHub Actions run `38644207102`. On the published HTTPS dashboard, all 20 desktop views at 1280 × 800, all 20 mobile views at 390 × 844, and all eight interview steps passed their navigation and layout checks. The SVG loaded correctly on the public base path, matched the supplied original byte-for-byte, and returned to Overview when clicked. The revised client-purpose copy was present. No console errors were recorded during these checks.
+
+All 21 critical HTTP resources returned 200, including the logo, scripts, styles, font, and nine downloadable documents. The live resource checker now includes image references. Hosted evidence is retained in `qa/feedback-live-checks.json`, `qa/feedback-live-overview.jpg`, `qa/feedback-live-mobile.jpg`, and the refreshed `qa/live-http.json`. A subsequent documentation/proof-only publication records these completed checks without changing application behavior.

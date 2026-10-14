@@ -1,0 +1,374 @@
+{
+  "baseUrl": "https://grandpajackai.github.io/seoasis-strategy/",
+  "applicationRevision": "a5149c6a109966d2f2996964c480620ccb1eeb07",
+  "checkedAt": "2026-10-14T21:59:37.801Z",
+  "desktop": [
+    {
+      "href": "#overview",
+      "label": "Executive overview",
+      "hash": "#overview",
+      "heading": "Search creates opportunity. Execution creates revenue.",
+      "overflow": false
+    },
+    {
+      "href": "#methodology",
+      "label": "SEOasis methodology",
+      "hash": "#methodology",
+      "heading": "Built around your operating model.",
+      "overflow": false
+    },
+    {
+      "href": "#technical",
+      "label": "Technical SEO",
+      "hash": "#technical",
+      "heading": "Verify the crawl. Then make the call.",
+      "overflow": false
+    },
+    {
+      "href": "#keywords",
+      "label": "Search & keyword strategy",
+      "hash": "#keywords",
+      "heading": "Start with the buyer’s intent.",
+      "overflow": false
+    },
+    {
+      "href": "#collections",
+      "label": "Shopify collection pages",
+      "hash": "#collections",
+      "heading": "A collection is a revenue hypothesis.",
+      "overflow": false
+    },
+    {
+      "href": "#onpage",
+      "label": "On-page SEO",
+      "hash": "#onpage",
+      "heading": "Make every page earn its place.",
+      "overflow": false
+    },
+    {
+      "href": "#architecture",
+      "label": "Architecture & internal links",
+      "hash": "#architecture",
+      "heading": "Connect the pages. Reinforce the journey.",
+      "overflow": false
+    },
+    {
+      "href": "#schema",
+      "label": "Schema & structured data",
+      "hash": "#schema",
+      "heading": "Structured facts. Validated implementation.",
+      "overflow": false
+    },
+    {
+      "href": "#aeo",
+      "label": "AEO & AI visibility",
+      "hash": "#aeo",
+      "heading": "AI visibility starts with evidence.",
+      "overflow": false
+    },
+    {
+      "href": "#content",
+      "label": "Content coordination",
+      "hash": "#content",
+      "heading": "Useful content, with a clear commercial job.",
+      "overflow": false
+    },
+    {
+      "href": "#authority",
+      "label": "Authority & digital PR",
+      "hash": "#authority",
+      "heading": "Build proof people can verify.",
+      "overflow": false
+    },
+    {
+      "href": "#community",
+      "label": "Reddit & community",
+      "hash": "#community",
+      "heading": "Trust is earned in the conversation.",
+      "overflow": false
+    },
+    {
+      "href": "#shopping",
+      "label": "Organic Google Shopping",
+      "hash": "#shopping",
+      "heading": "Make the catalog eligible. Then test the shelf.",
+      "overflow": false
+    },
+    {
+      "href": "#cro",
+      "label": "CRO & revenue alignment",
+      "hash": "#cro",
+      "heading": "Follow the journey to the purchase.",
+      "overflow": false
+    },
+    {
+      "href": "#competitors",
+      "label": "Competitive landscape",
+      "hash": "#competitors",
+      "heading": "Differentiate through how the work gets done.",
+      "overflow": false
+    },
+    {
+      "href": "#roadmap",
+      "label": "90-day strategy",
+      "hash": "#roadmap",
+      "heading": "A quarter of work. A system that compounds.",
+      "overflow": false
+    },
+    {
+      "href": "#measurement",
+      "label": "Measurement framework",
+      "hash": "#measurement",
+      "heading": "The metric matters when it changes the next move.",
+      "overflow": false
+    },
+    {
+      "href": "#backlog",
+      "label": "Opportunity backlog",
+      "hash": "#backlog",
+      "heading": "Prioritize the work. Make the tradeoffs visible.",
+      "overflow": false
+    },
+    {
+      "href": "#sources",
+      "label": "Sources & evidence",
+      "hash": "#sources",
+      "heading": "Every conclusion has a trail.",
+      "overflow": false
+    },
+    {
+      "href": "#interview",
+      "label": "Interview notes & job fit",
+      "hash": "#interview",
+      "heading": "Show the judgment behind the dashboard.",
+      "overflow": false
+    }
+  ],
+  "mobile": [
+    {
+      "href": "#overview",
+      "label": "Executive overview",
+      "drawerClosed": true,
+      "hash": "#overview",
+      "heading": "Search creates opportunity. Execution creates revenue.",
+      "overflow": false
+    },
+    {
+      "href": "#methodology",
+      "label": "SEOasis methodology",
+      "drawerClosed": true,
+      "hash": "#methodology",
+      "heading": "Built around your operating model.",
+      "overflow": false
+    },
+    {
+      "href": "#technical",
+      "label": "Technical SEO",
+      "drawerClosed": true,
+      "hash": "#technical",
+      "heading": "Verify the crawl. Then make the call.",
+      "overflow": false
+    },
+    {
+      "href": "#keywords",
+      "label": "Search & keyword strategy",
+      "drawerClosed": true,
+      "hash": "#keywords",
+      "heading": "Start with the buyer’s intent.",
+      "overflow": false
+    },
+    {
+      "href": "#collections",
+      "label": "Shopify collection pages",
+      "drawerClosed": true,
+      "hash": "#collections",
+      "heading": "A collection is a revenue hypothesis.",
+      "overflow": false
+    },
+    {
+      "href": "#onpage",
+      "label": "On-page SEO",
+      "drawerClosed": true,
+      "hash": "#onpage",
+      "heading": "Make every page earn its place.",
+      "overflow": false
+    },
+    {
+      "href": "#architecture",
+      "label": "Architecture & internal links",
+      "drawerClosed": true,
+      "hash": "#architecture",
+      "heading": "Connect the pages. Reinforce the journey.",
+      "overflow": false
+    },
+    {
+      "href": "#schema",
+      "label": "Schema & structured data",
+      "drawerClosed": true,
+      "hash": "#schema",
+      "heading": "Structured facts. Validated implementation.",
+      "overflow": false
+    },
+    {
+      "href": "#aeo",
+      "label": "AEO & AI visibility",
+      "drawerClosed": true,
+      "hash": "#aeo",
+      "heading": "AI visibility starts with evidence.",
+      "overflow": false
+    },
+    {
+      "href": "#content",
+      "label": "Content coordination",
+      "drawerClosed": true,
+      "hash": "#content",
+      "heading": "Useful content, with a clear commercial job.",
+      "overflow": false
+    },
+    {
+      "href": "#authority",
+      "label": "Authority & digital PR",
+      "drawerClosed": true,
+      "hash": "#authority",
+      "heading": "Build proof people can verify.",
+      "overflow": false
+    },
+    {
+      "href": "#community",
+      "label": "Reddit & community",
+      "drawerClosed": true,
+      "hash": "#community",
+      "heading": "Trust is earned in the conversation.",
+      "overflow": false
+    },
+    {
+      "href": "#shopping",
+      "label": "Organic Google Shopping",
+      "drawerClosed": true,
+      "hash": "#shopping",
+      "heading": "Make the catalog eligible. Then test the shelf.",
+      "overflow": false
+    },
+    {
+      "href": "#cro",
+      "label": "CRO & revenue alignment",
+      "drawerClosed": true,
+      "hash": "#cro",
+      "heading": "Follow the journey to the purchase.",
+      "overflow": false
+    },
+    {
+      "href": "#competitors",
+      "label": "Competitive landscape",
+      "drawerClosed": true,
+      "hash": "#competitors",
+      "heading": "Differentiate through how the work gets done.",
+      "overflow": false
+    },
+    {
+      "href": "#roadmap",
+      "label": "90-day strategy",
+      "drawerClosed": true,
+      "hash": "#roadmap",
+      "heading": "A quarter of work. A system that compounds.",
+      "overflow": false
+    },
+    {
+      "href": "#measurement",
+      "label": "Measurement framework",
+      "drawerClosed": true,
+      "hash": "#measurement",
+      "heading": "The metric matters when it changes the next move.",
+      "overflow": false
+    },
+    {
+      "href": "#backlog",
+      "label": "Opportunity backlog",
+      "drawerClosed": true,
+      "hash": "#backlog",
+      "heading": "Prioritize the work. Make the tradeoffs visible.",
+      "overflow": false
+    },
+    {
+      "href": "#sources",
+      "label": "Sources & evidence",
+      "drawerClosed": true,
+      "hash": "#sources",
+      "heading": "Every conclusion has a trail.",
+      "overflow": false
+    },
+    {
+      "href": "#interview",
+      "label": "Interview notes & job fit",
+      "drawerClosed": true,
+      "hash": "#interview",
+      "heading": "Show the judgment behind the dashboard.",
+      "overflow": false
+    }
+  ],
+  "interview": [
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH01 / 08 · 0:00–0:40What I learned about SEOasisThe public playbook connects transactional collection pages, schema, internal links, Reddit authority, and measurement. Revenue is the organizing principle.Next",
+      "overflow": false,
+      "title": "What I learned about SEOasis"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH02 / 08 · 0:40–1:15How I understand the operating modelOne workspace for each Shopify client: research, assess, prioritize, coordinate, QA, and review. SEOasis is the agency example here; collection and revenue frameworks apply to its clients.Next",
+      "overflow": false,
+      "title": "How I understand the operating model"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH03 / 08 · 1:15–1:55What I observedA bounded public sample surfaces specific validation tasks. I separate what the HTML proves from what only Search Console or client access could establish.Next",
+      "overflow": false,
+      "title": "What I observed"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH04 / 08 · 1:55–2:45Three opportunities worth exploringCreate a repeatable release QA pack, test commercial-page discovery, and validate the intent roles of nearby service pages. Confirm scope and baseline before execution.Next",
+      "overflow": false,
+      "title": "Three opportunities worth exploring"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH05 / 08 · 2:45–3:20What I would validate internallyWhich query/page combinations convert? Which collections have sufficient products, margin, and stock? What attribution rules and delivery capacity should govern the plan?Next",
+      "overflow": false,
+      "title": "What I would validate internally"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH06 / 08 · 3:20–4:00How I would prioritize client workUse impact × confidence ÷ effort as a transparent starting point. Then apply dependencies, catalog economics, and capacity. Scores support judgment; they do not replace it.Next",
+      "overflow": false,
+      "title": "How I would prioritize client work"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH07 / 08 · 4:00–4:40My first 90-day frameworkBaseline and align, ship a small high-confidence batch, measure and QA it, then expand or revise. Every account gets a visible next action and a quarterly decision.Next",
+      "overflow": false,
+      "title": "My first 90-day framework"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "message": " THE 5–8 MINUTE PATH08 / 08 · 4:40–5:20How I could contributeThis work sample demonstrates research, organization, technical implementation, and documented decisions. I would bring the same discipline to your methodology, learn quickly, and make fulfillment easier to scale.Finish",
+      "overflow": false,
+      "title": "How I could contribute"
+    }
+  ],
+  "logo": {
+    "alt": "SEOasis",
+    "loaded": true,
+    "src": "/seoasis-strategy/seoasis-logo.svg",
+    "width": 174
+  },
+  "consoleErrors": []
+}
