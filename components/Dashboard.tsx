@@ -342,15 +342,17 @@ export default function Dashboard() {
             e.preventDefault();
             go("overview");
           }}
-          className="brand"
-          aria-label="SEOasis Strategist workspace home"
+          className="brand client-brand"
+          aria-label="SEOasis client workspace home"
         >
-          <span className="brand-mark">
-            <Icons.Sprout size={28} />
-          </span>
-          <span>
-            SEOasis<span className="brand-sub">STRATEGIST WORKSPACE</span>
-          </span>
+          <img
+            className="brand-logo"
+            src={`${base}/seoasis-logo.svg`}
+            alt="SEOasis"
+            width={9380}
+            height={1700}
+          />
+          <span className="brand-sub">CLIENT STRATEGY WORKSPACE</span>
         </a>
         <button
           className="sidebar-close icon-button"
@@ -736,6 +738,16 @@ function Overview({ go }: { go: (s: string) => void }) {
           </span>
         </div>
       </section>
+      <div className="notice client-purpose">
+        <Icons.LayoutDashboard size={19} />
+        <p>
+          <strong>Built for Shopify client work.</strong> SEOasis is an agency,
+          and its website supplies the public research example here. The client
+          frameworks support assessments, meeting preparation, and periodic
+          reviews. Performance tracking would require authorized account data;
+          no platforms are connected in this demo.
+        </p>
+      </div>
       <section className="scope-strip" aria-label="Research scope">
         <div>
           <strong>
@@ -1494,9 +1506,10 @@ function InterviewNotes() {
       <div className="interview-opening">
         <Icons.Quote size={28} />
         <p>
-          “I built this to show how I would organize the work if you put me in
-          the seat: understand your playbook, separate evidence from
-          assumptions, ship carefully, and connect the next action to revenue.”
+          “I built a sample workspace for your Shopify client work: research an
+          account, prepare an assessment, prioritize the next actions, and
+          revisit the strategy. SEOasis is the public example here; client data
+          would make the measurement and prioritization account-specific.”
         </p>
         <span>30-SECOND OPENING · ADAPT TO YOUR OWN VOICE</span>
       </div>

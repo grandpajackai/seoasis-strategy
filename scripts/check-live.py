@@ -10,6 +10,7 @@ class Links(HTMLParser):
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag=='script' and a.get('src'):self.refs.append(a['src'])
+  if tag=='img' and a.get('src'):self.refs.append(a['src'])
   if tag=='link' and a.get('href'):self.refs.append(a['href'])
 def fetch(url,body=False):
  args=['curl','-L','--silent','--show-error','--max-time','20']

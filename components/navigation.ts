@@ -8,7 +8,7 @@ export const navigation = [
     eyebrow: "The operating thesis",
     title: "Search creates opportunity. Execution creates revenue.",
     description:
-      "A public-data case study and a practical look at how I would organize, prioritize, and ship the work inside SEOasis.",
+      "A prototype workspace for Shopify client research, assessments, meeting preparation, and quarterly reviews — demonstrated with SEOasis’s public data.",
   },
   {
     id: "methodology",
@@ -184,7 +184,7 @@ export const navigation = [
     eyebrow: "Turn reporting into decisions",
     title: "The metric matters when it changes the next move.",
     description:
-      "Weekly delivery signals, monthly client outcomes, and a 90-day strategic review — with unavailable data clearly marked.",
+      "A model for tracking client performance once authorized account data is available: weekly delivery, monthly outcomes, and a 90-day review. No platforms are connected in this demo.",
   },
   {
     id: "backlog",
@@ -233,7 +233,7 @@ export const interviewSteps = [
     section: "collections",
     time: "0:40–1:15",
     message:
-      "Own the account end to end. Turn the catalog into a prioritized page roadmap, coordinate specialists, QA releases, and communicate the next move.",
+      "One workspace for each Shopify client: research, assess, prioritize, coordinate, QA, and review. SEOasis is the agency example here; collection and revenue frameworks apply to its clients.",
   },
   {
     title: "What I observed",

@@ -65,3 +65,11 @@ Hosted evidence is preserved in `qa/live-desktop-routes.json`, `qa/live-mobile-r
 The separate independent release reviewer passed the production build, TypeScript, data integrity, static assets/documents, screenshot review and navigation evidence review; see `research/R-release-review.md`. This was independent command/static review, not an additional independent browser execution.
 
 The final follow-up publication adds the completed QA report and proof artifacts without changing application behavior. The release is approved for feedback. Evidence and browser scope limits above remain explicit.
+
+## Candidate feedback update — local gate passed
+
+The requested SVG replaces the top-left placeholder mark. Its file bytes match the candidate-supplied original; CSS provides contrast while preserving the geometry. Overview, measurement, Interview Mode, interview notes, and downloadable documents now frame the prototype as a workspace for Shopify client research, assessments, meeting preparation, and periodic reviews. SEOasis remains the specific agency research example. Connected performance tracking is conditional on authorized account data; no integrations or arbitrary-site audit capability were added.
+
+The focused production export passed data verification, TypeScript, and all 13 HTML asset/link references. In the local production browser, all 20 desktop views, all 20 mobile views at 390 × 844, and all eight interview steps passed. The logo loaded at 174 × 31.53px, remained clear in light/dark themes, did not overlap the mobile Close control, and returned to Overview when clicked. No console errors were recorded. Evidence is in `qa/feedback-local-checks.json` and `qa/feedback-*.jpg`.
+
+Independent copy review accepted the client/agency framing. The design reviewer independently checked the original asset, implementation diff, and desktop/dark/mobile screenshots, with no required fixes; see `research/FEEDBACK-REVIEW.md`. Independent release command checks are recorded in `research/FEEDBACK-RELEASE-QA.md`.

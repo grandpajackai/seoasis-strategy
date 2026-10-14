@@ -2,7 +2,7 @@
 
 Research date: 14 October 2026 (UTC).
 
-The objective is to demonstrate how an SEO Strategist would research, prioritize, execute, QA, measure, communicate, and revise work inside SEOasis’s public methodology. The agency website is a public evidence sample; Shopify collection, Shopping, revenue, and fulfillment sections are reusable client frameworks.
+The objective is to demonstrate how an SEO Strategist would research, prioritize, execute, QA, measure, communicate, and revise work inside SEOasis’s public methodology. This prototype organizes Shopify client research, assessments, meeting preparation, and periodic reviews. The agency website is the specific public evidence sample; Shopify collection, Shopping, revenue, and fulfillment sections are reusable client frameworks. Performance tracking is a proposed account-data workflow, not a connected capability in this demo.
 
 ## Independent workstreams
 

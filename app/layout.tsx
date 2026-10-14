@@ -4,7 +4,7 @@ import "./interview.css";
 export const metadata: Metadata = {
   title: "SEOasis — Strategist Workspace",
   description:
-    "An independent interview work sample: public evidence, Shopify execution, and a revenue-led 90-day operating framework.",
+    "An independent Shopify client strategy workspace prototype, demonstrated with SEOasis public research, assessments, and a revenue-led 90-day framework.",
   robots: { index: false, follow: false },
 };
 export default function RootLayout({

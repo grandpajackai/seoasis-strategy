@@ -31,6 +31,8 @@ The ten executive scores measure public evidence coverage. Each has four disclos
 
 Collection, Shopping, CRO, and fulfillment templates are for client ecommerce accounts. SEOasis itself is an agency; its own site has a qualified-lead funnel. Hypothetical collection briefs are clearly labeled and are not prior client engagements. Owners, statuses, deadlines, and priorities are proposed roles and relative windows, not real assignments.
 
+The intended use is a reusable workspace for client research, assessments, meeting preparation, and periodic account reviews. SEOasis supplies the public example, rather than a live client account. Performance tracking would require authorized platform connections or account exports; neither is provided by this demo.
+
 Commercial-page overlap is a hypothesis. Query/page exports, SERP intent, conversions, and intended page roles are needed before choosing differentiation, consolidation, redirects, or new-page creation. Collection expansion depends on relevant products, stock, margin, distinct intent, maintainability, and QA capacity. No guaranteed page, ranking, AI, or revenue outcome is promised.
 
 The job description includes blog and link-building partner coordination; current public service copy emphasizes collection-led delivery and sometimes disclaims blogs/backlinks. Homepage diagrams also include blog spokes. This is a scope question for Mike, not evidence of an undocumented policy change.

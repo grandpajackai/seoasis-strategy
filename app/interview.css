@@ -1,3 +1,29 @@
+.brand.client-brand {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+.client-brand .brand-logo {
+  display: block;
+  width: 174px;
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.94;
+}
+.client-brand .brand-sub {
+  margin-top: 0;
+  font-size: 9px;
+  letter-spacing: 1.05px;
+  line-height: 1.4;
+}
+.client-purpose {
+  margin: 18px 0 0;
+}
+.client-purpose strong {
+  color: var(--ink);
+  font-weight: 600;
+}
 .interview-nav > a {
   padding: 13px 12px;
   line-height: 1.5;

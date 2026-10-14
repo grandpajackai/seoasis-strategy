@@ -2,7 +2,7 @@
 
 [Open the live dashboard](https://grandpajackai.github.io/seoasis-strategy/) · [Public repository](https://github.com/grandpajackai/seoasis-strategy)
 
-An independent interview work sample: a public-evidence audit, reusable Shopify client frameworks, and an accountable 90-day operating plan. This project is not commissioned by or affiliated with SEOasis.
+An independent interview work sample and prototype workspace for SEOasis’s Shopify client research, assessments, meeting preparation, and periodic strategy reviews. SEOasis is an agency; its public website is the specific research example, while the collection, Shopping, revenue, and delivery frameworks apply to its ecommerce clients. Performance tracking would require authorized account data; this demo has no live integrations. This project is not commissioned by or affiliated with SEOasis.
 
 ## Run locally
 
@@ -65,4 +65,4 @@ Working edits are saved in this browser’s localStorage. They do not update JSO
 
 ## Technology
 
-Next.js App Router with static export, React, TypeScript, Tailwind CSS plus custom CSS, Lucide icons, and local JSON. Diagrams use HTML/CSS and accessible controls. Inter is bundled under the SIL Open Font License (`public/fonts/OFL.txt`). The visual system complements the public SEOasis cream/green identity without reproducing the company logo.
+Next.js App Router with static export, React, TypeScript, Tailwind CSS plus custom CSS, Lucide icons, and local JSON. Diagrams use HTML/CSS and accessible controls. Inter is bundled under the SIL Open Font License (`public/fonts/OFL.txt`). The visual system complements the public SEOasis cream/green identity. The sidebar uses the original SVG logo supplied by the candidate, with a CSS color treatment for contrast; the independent work-sample disclosure remains visible.

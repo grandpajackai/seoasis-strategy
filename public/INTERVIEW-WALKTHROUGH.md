@@ -4,7 +4,7 @@ This is a preparation guide. Adapt the wording to your own voice and use only tr
 
 ## 30-second opening
 
-“I built this to show how I would organize the work if you put me in the seat. I started with your public playbook and the strategist role, then separated what I could observe from what I’d need client data to validate. The useful part is the operating system: how I would prioritize, coordinate, QA, report, and revise the strategy around revenue.”
+“I built a sample workspace for your Shopify client work: research an account, prepare an assessment, prioritize the next actions, and revisit the strategy. SEOasis is the public example here; client data would make the measurement and prioritization account-specific. The useful part is how I would organize the work inside your methodology and connect each decision to revenue.”
 
 ## Five-minute walkthrough
 
@@ -38,7 +38,7 @@ If Mike wants to discuss a finding, follow that conversation. The artifact is a 
 ## Likely questions and useful responses
 
 **Why audit our agency website when we work on ecommerce stores?**
-“The agency site is a public case study for my research discipline. I kept the Shopify collection, feed, revenue, and delivery templates separate so I could show how the work translates to client accounts.”
+“Your agency site gave me a specific public example for the research and evidence trail. The client frameworks show how I would organize Shopify account assessments, meeting preparation, and periodic reviews inside your methodology. Performance tracking would need authorized client data; this demo has no live integrations.”
 
 **Are these scores real performance scores?**
 “No. They show what this public sample can substantiate under four disclosed checks per category. The rubric and evidence are visible. I would replace uncertainty with account evidence, not treat the score as a diagnosis.”
