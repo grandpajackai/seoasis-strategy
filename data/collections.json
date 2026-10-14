@@ -1,0 +1,1214 @@
+{
+  "metadata": {
+    "title": "Collection pages as a client operating system",
+    "accessedAt": "2026-10-14",
+    "workstream": "E \u2014 Ecommerce / Shopify collection-page strategy",
+    "scope": "Reusable client framework informed by SEOasis public methodology. SEOasis is an agency, not a Shopify merchant.",
+    "limitations": "No private client access, verified keyword demand, inventory, margin, revenue, ranking or forecast. All three briefs are hypothetical."
+  },
+  "sources": [
+    {
+      "id": "SRC-E-HOME",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-E-EXPERT",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-E-SHOPIFY",
+      "url": "https://help.shopify.com/en/manual/products/collections",
+      "title": "Shopify Help Center | Collections",
+      "accessedAt": "2026-10-14",
+      "note": "Collections group products for discovery. Shopify documents a new collections model replacing legacy manual/smart collections, with account-dependent availability; menus and sorting remain operational checks.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-E-STRUCTURE",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure?hl=en",
+      "title": "Ecommerce Website Navigation Structure | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Google recommends linked category \u2192 subcategory \u2192 product paths and crawlable anchor links; search-box discovery alone is insufficient.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-E-FACETS",
+      "url": "https://developers.google.com/crawling/docs/faceted-navigation",
+      "title": "Managing crawling of faceted navigation URLs | Google Crawling Infrastructure",
+      "accessedAt": "2026-10-14",
+      "note": "Google describes the crawl cost of facet combinations and explains why canonical hints alone are less effective crawl control than dedicated controls.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-E-URLS",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
+      "title": "Ecommerce URL Structure Best Practices | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Guidance covers consistent canonical URLs, pagination URLs, duplicate alternatives, crawlable links and empty category handling.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-E-PRODUCT",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+      "title": "How To Add Product Snippet Structured Data | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Product rich results focus on single products or variants. Google recommends PDP markup and initial-HTML product data; syntax validation does not establish policy eligibility or guarantee appearance.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "findings": [
+    {
+      "id": "COL-OBS-01",
+      "title": "Collections are a client fulfillment method",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The homepage connects keyword clustering to collections with real product grids and hub-and-spoke linking.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME"
+      ],
+      "implication": "Evaluate a Shopify client catalog with this operating model; do not treat SEOasis agency pages as merchant collection pages."
+    },
+    {
+      "id": "COL-OBS-02",
+      "title": "Public method has an audit, build and review sequence",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The expert page describes catalog-specific keyword research, schema/internal-link foundations, collection buildout and 90-day recalibration.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "implication": "Use baseline and release gates before accepting collection output as complete. Public delivery cadence is not a required quota for this sample."
+    },
+    {
+      "id": "COL-OBS-03",
+      "title": "Confirm the collection model in each account",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Current official Shopify guidance describes a new collections model and legacy manual/smart models depending on account availability.",
+      "source": {
+        "id": "SRC-E-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/products/collections",
+        "title": "Shopify Help Center | Collections",
+        "accessedAt": "2026-10-14",
+        "note": "Collections group products for discovery. Shopify documents a new collections model replacing legacy manual/smart collections, with account-dependent availability; menus and sorting remain operational checks.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-SHOPIFY"
+      ],
+      "implication": "Record the account model, source rules, exclusions, publishing channels and merchandising owner before documenting build steps."
+    },
+    {
+      "id": "COL-OPP-01",
+      "title": "Differentiate a new collection before increasing page count",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "SEOasis emphasizes transactional clusters; product inventory and intent differentiation cannot be verified for a hypothetical client.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME",
+        "SRC-E-SHOPIFY"
+      ],
+      "recommendedAction": "Compare intended query, product overlap, visible content and existing landing pages. Improve or merge a suitable existing page when a new URL adds no distinct buyer value.",
+      "businessImplication": "Reduces thin variants and merchandising overhead; prioritizes a usable buying destination."
+    },
+    {
+      "id": "COL-OPP-02",
+      "title": "Separate collection semantics from product rich-result eligibility",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Official Google Product guidelines focus product rich results on single products/variants; category markup alone does not establish eligibility.",
+      "source": {
+        "id": "SRC-E-PRODUCT",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+        "title": "How To Add Product Snippet Structured Data | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Product rich results focus on single products or variants. Google recommends PDP markup and initial-HTML product data; syntax validation does not establish policy eligibility or guarantee appearance.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-PRODUCT"
+      ],
+      "recommendedAction": "Describe the collection and breadcrumbs accurately, validate linked PDP Product/Offer markup, and represent ratings only for the relevant visible reviewed entity. Do not promise collection stars or AI recommendations.",
+      "businessImplication": "Keeps releases faithful to visible catalog data and avoids invalid rich-result expectations."
+    },
+    {
+      "id": "COL-INT-01",
+      "title": "Commercial value must be validated inside the account",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Public SEOasis material describes revenue-led prioritization; this study has no client GSC, Shopify or GA4 access.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GSC + GA4 + Shopify + client finance/merchandising",
+      "metric": "Query/page opportunity; landing-page organic purchase and net-revenue trends; in-stock assortment; contribution margin; returns and seasonality.",
+      "whyItMatters": "A high-intent cluster can still be a poor commercial priority if inventory is shallow, margin is weak or existing pages already satisfy demand.",
+      "decision": "Build, optimize, defer or consolidate; select cohort and reporting baseline."
+    }
+  ],
+  "clientAuditTemplate": [
+    {
+      "id": "COL-F-productCategory",
+      "title": "Product category",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "productCategory",
+      "instruction": "Approved parent category; buyer need and catalog owner.",
+      "platform": "Shopify + merchandising",
+      "decision": "Defines the hub and commercial scope.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-subcategory",
+      "title": "Subcategory",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "subcategory",
+      "instruction": "Meaningful subtype, fit, attribute or use case.",
+      "platform": "Shopify + query research",
+      "decision": "Separates distinct choices from duplicated inventory.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-searchIntent",
+      "title": "Search intent",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "searchIntent",
+      "instruction": "Shopping/comparison/informational; dated SERP evidence by market and device.",
+      "platform": "Public SERP + GSC",
+      "decision": "Selects collection vs PDP vs supporting resource.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-keywordCluster",
+      "title": "Keyword cluster",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "keywordCluster",
+      "instruction": "Primary cluster, variants, excluded intents and mapped primary URL; no invented volume.",
+      "platform": "Public query research + GSC",
+      "decision": "Prevents near-identical pages for minor wording.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-existingCollection",
+      "title": "Existing collection?",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "existingCollection",
+      "instruction": "Existing URL, Shopify collection ID, index policy, products and query overlap.",
+      "platform": "Public website + Shopify + GSC",
+      "decision": "Determines optimize/create/merge/defer.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-rankingOpportunity",
+      "title": "Ranking opportunity",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "rankingOpportunity",
+      "instruction": "Observed queries/pages and dated live result review; unknown until verified.",
+      "platform": "GSC + public SERP or licensed ranking tool",
+      "decision": "Finds an achievable test without claiming rank or search demand.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-revenuePotential",
+      "title": "Revenue potential",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "revenuePotential",
+      "instruction": "Requires Internal Access; measured baseline and scenario inputs rather than a forecast placeholder.",
+      "platform": "GA4 + Shopify",
+      "decision": "Supports opportunity sizing; session attribution is not causal lift.",
+      "default": "Requires Internal Access"
+    },
+    {
+      "id": "COL-F-marginPrioritizationInput",
+      "title": "Margin / prioritization input",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "marginPrioritizationInput",
+      "instruction": "Requires Internal Access; contribution margin, returns, promo dependency and stock runway.",
+      "platform": "Shopify + client finance",
+      "decision": "Changes the order of work toward sustainable revenue.",
+      "default": "Requires Internal Access"
+    },
+    {
+      "id": "COL-F-productsAvailable",
+      "title": "Products available",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "productsAvailable",
+      "instruction": "Requires Internal Access; approved eligible SKUs/variants, live stock and exclusions.",
+      "platform": "Shopify + merchandising",
+      "decision": "Confirms truthful assortment and ability to transact.",
+      "default": "Requires Internal Access"
+    },
+    {
+      "id": "COL-F-recommendedUrl",
+      "title": "Recommended URL",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "recommendedUrl",
+      "instruction": "Proposed stable /collections/handle; collision, redirect, canonical and facet review.",
+      "platform": "Public website + Shopify",
+      "decision": "Sets durable landing page and avoids accidental duplicates.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-title",
+      "title": "Title",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "title",
+      "instruction": "Unique concise promise, main intent and real brand; preview truncation.",
+      "platform": "Public source + editorial approval",
+      "decision": "Improves relevance and search-result clarity.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-h1",
+      "title": "H1",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "h1",
+      "instruction": "Visible shopping label consistent with assortment and primary intent.",
+      "platform": "Theme + editorial approval",
+      "decision": "Orients buyer and preserves semantic structure.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-meta",
+      "title": "Meta description",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "meta",
+      "instruction": "Useful accurate summary; avoid unsupported best/price/shipping claims.",
+      "platform": "Editorial + client policy",
+      "decision": "Creates a potential snippet; Google may rewrite it.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-introCopy",
+      "title": "Intro copy",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "introCopy",
+      "instruction": "Brief useful buying guidance before the grid when helpful.",
+      "platform": "Approved product attributes",
+      "decision": "Introduces differences without delaying shopping.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-supportingContent",
+      "title": "Supporting content",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "supportingContent",
+      "instruction": "Comparison criteria, fit limits, substantiated FAQs and related education.",
+      "platform": "Client product experts + policy",
+      "decision": "Resolves objections and supports choice.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-internalLinks",
+      "title": "Internal links",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "internalLinks",
+      "instruction": "Parent hub, relevant siblings, supporting guide and direct product links with anchors.",
+      "platform": "Public crawl + theme",
+      "decision": "Builds discovery paths and commercial reinforcement.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-schema",
+      "title": "Schema",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "schema",
+      "instruction": "Collection identity/breadcrumbs where accurate; linked PDP Product/Offer; ratings only if valid.",
+      "platform": "Rendered HTML + Rich Results Test",
+      "decision": "Separates machine-readable semantics from feature eligibility.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-conversionConsiderations",
+      "title": "Conversion considerations",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "conversionConsiderations",
+      "instruction": "Grid prominence, filters, merchandising, availability, comparison and mobile accessibility.",
+      "platform": "Public UX QA + GA4 + Shopify",
+      "decision": "Connects landing-page relevance to product selection and purchase.",
+      "default": "Not yet validated"
+    },
+    {
+      "id": "COL-F-status",
+      "title": "Status",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Reusable audit field; values must be filled from the named platform or verified public review.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT",
+        "SRC-E-SHOPIFY"
+      ],
+      "field": "status",
+      "instruction": "Proposed \u2192 validated \u2192 brief approved \u2192 in build \u2192 independent QA \u2192 live \u2192 monitoring \u2192 revised.",
+      "platform": "Asana + release log",
+      "decision": "Makes ownership, blockers and completion reviewable.",
+      "default": "Not yet validated"
+    }
+  ],
+  "exampleBriefs": [
+    {
+      "id": "COL-EX-01",
+      "title": "Trail running shoes: use-case collection",
+      "classification": "OPPORTUNITY",
+      "confidence": "Low",
+      "evidence": "Entirely hypothetical training brief for an unnamed example merchant. No client, inventory, demand, ranking, performance or commercial result has been observed.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME",
+        "SRC-E-EXPERT",
+        "SRC-E-PRODUCT"
+      ],
+      "exampleType": "Hypothetical client brief \u2014 not an SEOasis client audit",
+      "productCategory": "Running footwear",
+      "subcategory": "Trail use",
+      "searchIntent": "Proposed category-shopping intent; verify target-market SERP before choosing page type.",
+      "keywordCluster": "trail running shoes; off-road running shoes; exclude road-only shoes",
+      "existingCollection": "Requires Internal Access \u2014 inventory of existing Shopify collections and GSC query/page mapping.",
+      "rankingOpportunity": "Unknown \u2014 no rankings or search-volume estimate verified.",
+      "revenuePotential": "Requires Internal Access \u2014 GA4 organic landing-page revenue + Shopify orders; no projection provided.",
+      "marginPrioritizationInput": "Requires Internal Access \u2014 contribution margin, return rates and inventory constraints.",
+      "productsAvailable": "Requires Internal Access \u2014 eligible SKUs, variants and live stock; assortment is not assumed.",
+      "recommendedUrl": "/collections/trail-running-shoes",
+      "titleDraft": "Trail Running Shoes | [Client Brand]",
+      "h1": "Trail Running Shoes",
+      "meta": "Explore trail running shoes and compare grip, fit and cushioning to find an option for your next off-road run.",
+      "introCopy": "Find a trail running shoe for your terrain. Compare fit, grip and cushioning across the products below.",
+      "supportingContent": [
+        "Explain surface/terrain fit using verified specifications.",
+        "Offer a concise sizing/fit guide and link to documented return policy."
+      ],
+      "internalLinks": [
+        "Running shoes parent hub",
+        "Relevant hiking/running accessories only if stocked",
+        "Product detail pages and fit guide"
+      ],
+      "schema": "Proposed: truthful collection identity and breadcrumbs; validate linked PDP Product/Offer data. Do not mark the multi-product category as one Product or promise Google product rich results.",
+      "conversionConsiderations": [
+        "Let buyers filter by size and relevant terrain attributes.",
+        "Show actual available sizes; do not merchandise unavailable variants as in stock.",
+        "Keep comparison criteria near the grid."
+      ],
+      "status": "Hypothetical brief \u2014 validate before build",
+      "owner": "Proposed: Account Strategist",
+      "dependencies": [
+        "Intent and existing-page review",
+        "Merchandising/stock approval",
+        "Commercial baseline",
+        "Independent release QA"
+      ],
+      "holdCondition": "Hold if the assortment is not meaningfully different from the general running-shoes collection.",
+      "measurement": "Requires Internal Access \u2014 GSC query/page clicks and impressions; GA4 product selection/add-to-cart/purchase by organic landing-page cohort; Shopify net sales and stock context. No targets assumed."
+    },
+    {
+      "id": "COL-EX-02",
+      "title": "Caffeine-free hydration: attribute collection",
+      "classification": "OPPORTUNITY",
+      "confidence": "Low",
+      "evidence": "Entirely hypothetical training brief for an unnamed example merchant. No client, inventory, demand, ranking, performance or commercial result has been observed.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME",
+        "SRC-E-EXPERT",
+        "SRC-E-PRODUCT"
+      ],
+      "exampleType": "Hypothetical client brief \u2014 not an SEOasis client audit",
+      "productCategory": "Sports hydration",
+      "subcategory": "Caffeine-free formulations",
+      "searchIntent": "Proposed category-shopping intent; verify target-market SERP before choosing page type.",
+      "keywordCluster": "caffeine free hydration; caffeine free electrolyte drinks; exclude stimulant pre-workout",
+      "existingCollection": "Requires Internal Access \u2014 inventory of existing Shopify collections and GSC query/page mapping.",
+      "rankingOpportunity": "Unknown \u2014 no rankings or search-volume estimate verified.",
+      "revenuePotential": "Requires Internal Access \u2014 GA4 organic landing-page revenue + Shopify orders; no projection provided.",
+      "marginPrioritizationInput": "Requires Internal Access \u2014 contribution margin, return rates and inventory constraints.",
+      "productsAvailable": "Requires Internal Access \u2014 eligible SKUs, variants and live stock; assortment is not assumed.",
+      "recommendedUrl": "/collections/caffeine-free-hydration",
+      "titleDraft": "Caffeine-Free Hydration | [Client Brand]",
+      "h1": "Caffeine-Free Hydration",
+      "meta": "Browse caffeine-free hydration products and compare format, flavor and ingredient details to choose an option that suits your routine.",
+      "introCopy": "Compare caffeine-free hydration options by format and ingredient details. Check the individual product label before purchase.",
+      "supportingContent": [
+        "Confirm caffeine-free status from current product labels.",
+        "Explain serving format using verified manufacturer instructions; avoid medical or performance claims."
+      ],
+      "internalLinks": [
+        "Hydration parent hub",
+        "Related drink formats with distinct intent",
+        "Individual product labels and ingredient resource"
+      ],
+      "schema": "Proposed: truthful collection identity and breadcrumbs; validate linked PDP Product/Offer data. Do not mark the multi-product category as one Product or promise Google product rich results.",
+      "conversionConsiderations": [
+        "Show ingredients and allergen information on linked PDPs.",
+        "Offer useful format/flavor filters.",
+        "Distinguish caffeine-free from sugar-free; do not conflate attributes."
+      ],
+      "status": "Hypothetical brief \u2014 validate before build",
+      "owner": "Proposed: Account Strategist",
+      "dependencies": [
+        "Intent and existing-page review",
+        "Merchandising/stock approval",
+        "Commercial baseline",
+        "Independent release QA"
+      ],
+      "holdCondition": "Hold if labels cannot substantiate the attribute or if the same assortment/intent already has a suitable landing page.",
+      "measurement": "Requires Internal Access \u2014 GSC query/page clicks and impressions; GA4 product selection/add-to-cart/purchase by organic landing-page cohort; Shopify net sales and stock context. No targets assumed."
+    },
+    {
+      "id": "COL-EX-03",
+      "title": "Rooftop tents for Tacoma: compatibility collection",
+      "classification": "OPPORTUNITY",
+      "confidence": "Low",
+      "evidence": "Entirely hypothetical training brief for an unnamed example merchant. No client, inventory, demand, ranking, performance or commercial result has been observed.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME",
+        "SRC-E-EXPERT",
+        "SRC-E-PRODUCT"
+      ],
+      "exampleType": "Hypothetical client brief \u2014 not an SEOasis client audit",
+      "productCategory": "Rooftop tents",
+      "subcategory": "Tacoma fit/compatibility",
+      "searchIntent": "Proposed category-shopping intent; verify target-market SERP before choosing page type.",
+      "keywordCluster": "rooftop tents for Tacoma; Tacoma rooftop tent; exclude unsupported vehicle/rack combinations",
+      "existingCollection": "Requires Internal Access \u2014 inventory of existing Shopify collections and GSC query/page mapping.",
+      "rankingOpportunity": "Unknown \u2014 no rankings or search-volume estimate verified.",
+      "revenuePotential": "Requires Internal Access \u2014 GA4 organic landing-page revenue + Shopify orders; no projection provided.",
+      "marginPrioritizationInput": "Requires Internal Access \u2014 contribution margin, return rates and inventory constraints.",
+      "productsAvailable": "Requires Internal Access \u2014 eligible SKUs, variants and live stock; assortment is not assumed.",
+      "recommendedUrl": "/collections/rooftop-tents-for-tacoma",
+      "titleDraft": "Rooftop Tents for Tacoma | [Client Brand]",
+      "h1": "Rooftop Tents for Tacoma",
+      "meta": "Compare rooftop tent options for your Tacoma. Review vehicle, rack and load requirements on each product before selecting a tent.",
+      "introCopy": "Explore rooftop tent options for a Tacoma setup. Confirm vehicle year, rack compatibility and load requirements with the product specifications before buying.",
+      "supportingContent": [
+        "Publish only manufacturer-approved fit information.",
+        "Explain weight/load and mounting checks with an expert-approved compatibility guide."
+      ],
+      "internalLinks": [
+        "Rooftop tent parent hub",
+        "Compatible mounting accessories if verified",
+        "PDP specifications and installation guide"
+      ],
+      "schema": "Proposed: truthful collection identity and breadcrumbs; validate linked PDP Product/Offer data. Do not mark the multi-product category as one Product or promise Google product rich results.",
+      "conversionConsiderations": [
+        "Provide compatibility help before add-to-cart.",
+        "Display real weight/dimensions and fit limits.",
+        "Make shipping/installation policies accessible where accurate."
+      ],
+      "status": "Hypothetical brief \u2014 validate before build",
+      "owner": "Proposed: Account Strategist",
+      "dependencies": [
+        "Intent and existing-page review",
+        "Merchandising/stock approval",
+        "Commercial baseline",
+        "Independent release QA"
+      ],
+      "holdCondition": "Hold if compatibility cannot be verified; a general tent collection plus fit guide may serve users better.",
+      "measurement": "Requires Internal Access \u2014 GSC query/page clicks and impressions; GA4 product selection/add-to-cart/purchase by organic landing-page cohort; Shopify net sales and stock context. No targets assumed."
+    }
+  ],
+  "releaseGates": [
+    {
+      "id": "COL-G01",
+      "title": "Intent + existing-page decision",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME"
+      ],
+      "owner": "Strategist",
+      "question": "Do recorded target-market SERPs favor category shopping, product pages or editorial help? Which existing URL best satisfies the intent?",
+      "acceptance": "Evidence of distinct buyer need; one proposed primary page; expand an existing page when suitable. Save date, market, device and result URLs.",
+      "dependency": "No verified query rankings or volume are available in this example.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G02",
+      "title": "Inventory + overlap",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/products/collections",
+        "title": "Shopify Help Center | Collections",
+        "accessedAt": "2026-10-14",
+        "note": "Collections group products for discovery. Shopify documents a new collections model replacing legacy manual/smart collections, with account-dependent availability; menus and sorting remain operational checks.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-SHOPIFY"
+      ],
+      "owner": "Strategist + Merchandiser",
+      "question": "Does the live eligible assortment support the promise? Compare SKU sets with parent and sibling collections, availability, exclusions and variant duplication.",
+      "acceptance": "Merchandiser approves sufficient real choice and a meaningful distinction. No universal minimum product count or overlap threshold is assumed.",
+      "dependency": "Requires Internal Access: Shopify assortment, inventory and approved product claims.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G03",
+      "title": "Commercial priority",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "owner": "Account Strategist + Client",
+      "question": "Would the collection serve a commercially important, profitable category?",
+      "acceptance": "Record baseline, stock constraints, category margin, seasonal timing and fulfillment restrictions; leave estimates blank until inputs are defensible.",
+      "dependency": "Requires Internal Access: Shopify + GA4 + finance; no projected revenue without inputs.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G04",
+      "title": "URL + index policy",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-URLS",
+        "url": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
+        "title": "Ecommerce URL Structure Best Practices | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Guidance covers consistent canonical URLs, pagination URLs, duplicate alternatives, crawlable links and empty category handling.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-URLS"
+      ],
+      "owner": "Technical SEO + Shopify Developer",
+      "question": "Should this be a stable indexable collection, a user filter or an existing destination?",
+      "acceptance": "Clean persistent URL, intended self-canonical for approved indexable landing page, matching internal/sitemap URLs, no accidental noindex or robots block; independently inspect rendered HTML.",
+      "dependency": "Do not change live URLs or canonicals without migration/redirect review.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G05",
+      "title": "Facet + pagination policy",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-FACETS",
+        "url": "https://developers.google.com/crawling/docs/faceted-navigation",
+        "title": "Managing crawling of faceted navigation URLs | Google Crawling Infrastructure",
+        "accessedAt": "2026-10-14",
+        "note": "Google describes the crawl cost of facet combinations and explains why canonical hints alone are less effective crawl control than dedicated controls.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-FACETS"
+      ],
+      "owner": "Technical SEO + Shopify Developer",
+      "question": "Can size, color, price and sort combinations expand crawl space? Are all products discoverable beyond the first grid?",
+      "acceptance": "Choose allowed indexable facets deliberately; test parameter combinations and separate pagination URLs. Canonical hints alone are not a complete crawl-control plan.",
+      "dependency": "Do not block crawling before confirming whether Google must read noindex/canonical signals; document ordering and verification.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G06",
+      "title": "Copy + merchandising",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "owner": "Strategist + Content + Merchandiser",
+      "question": "Do title, H1, concise intro and product selection answer the same intent?",
+      "acceptance": "Distinct approved metadata; honest attributes; helpful product comparison; early usable grid; shipping/returns claims match policy. Longer supporting guidance follows shopping content where useful.",
+      "dependency": "Content length and title length are editorial checks, not arbitrary ranking thresholds.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G07",
+      "title": "Links + discovery",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-STRUCTURE",
+        "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure?hl=en",
+        "title": "Ecommerce Website Navigation Structure | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Google recommends linked category \u2192 subcategory \u2192 product paths and crawlable anchor links; search-box discovery alone is insufficient.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-STRUCTURE"
+      ],
+      "owner": "Strategist + Developer",
+      "question": "Can users and crawlers reach this page and its products through real links?",
+      "acceptance": "At least one appropriate hub/navigation path; contextual sibling links; useful descriptive anchors; crawlable product links across pagination; return path to parent.",
+      "dependency": "A sitemap entry alone is not a substitute for user navigation.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G08",
+      "title": "Structured data + consistency",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-PRODUCT",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+        "title": "How To Add Product Snippet Structured Data | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Product rich results focus on single products or variants. Google recommends PDP markup and initial-HTML product data; syntax validation does not establish policy eligibility or guarantee appearance.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-PRODUCT"
+      ],
+      "owner": "Developer + Independent QA",
+      "question": "Do structured entities match visible products, prices, availability and actual reviews?",
+      "acceptance": "Validate syntax and Google eligibility separately; test PDP Product/Offer and collection breadcrumb data; resolve duplicate app/theme entities. No fabricated AggregateRating.",
+      "dependency": "Rich Results Test pass does not guarantee rich-result display or AI citation.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G09",
+      "title": "Mobile + accessibility QA",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "owner": "Independent QA + Merchandiser",
+      "question": "Can a shopper find a fitting product, operate filters and move to a PDP with keyboard or touch?",
+      "acceptance": "Test mobile grid, filter labels, focus order, contrast, image alternatives, visible prices/availability, reset filters, empty results and purchase path. Record screenshots and defects.",
+      "dependency": "Accessibility checks are proposed release practice; no specific client defect is claimed.",
+      "status": "Proposed gate"
+    },
+    {
+      "id": "COL-G10",
+      "title": "Measurement + release log",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed operational gate informed by the cited public methodology or platform guidance.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "owner": "Account Strategist + Analytics",
+      "question": "Can a release be evaluated without confusing attribution with incremental lift?",
+      "acceptance": "Save baseline and publish date; annotate URL cohort; verify events and organic channel definition; compare query/page signals with revenue and stock trends; review at 30/60/90 days.",
+      "dependency": "Requires Internal Access: GSC + GA4 + Shopify. Use a comparison cohort where feasible; seasonality, promotions and stock are confounders.",
+      "status": "Proposed gate"
+    }
+  ],
+  "internalDataInputs": [
+    {
+      "id": "COL-P01",
+      "title": "Demand + landing-page baseline",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "No client query or indexation data is available to this public study.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Query \u00d7 page clicks, impressions, CTR, average position and indexing state for the proposed cluster.",
+      "whyItMatters": "Reveals the existing winner and whether demand is being served.",
+      "decision": "Optimize a mapped URL, investigate splitting signals, or test a new destination."
+    },
+    {
+      "id": "COL-P02",
+      "title": "Landing-page buying behavior",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "No client analytics or transactions are available.",
+      "source": {
+        "id": "SRC-E-EXPERT",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-EXPERT"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Organic landing-page cohort sessions, product interactions, purchases, purchase revenue, net sales and refunds; consistent date/channel definition.",
+      "whyItMatters": "Distinguishes traffic from useful shopping and checks analytics against commerce records.",
+      "decision": "Improve relevance/merchandising, expand a winning cluster, or investigate event/attribution gaps."
+    },
+    {
+      "id": "COL-P03",
+      "title": "Profitable, available assortment",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "The example merchants and products are hypothetical.",
+      "source": {
+        "id": "SRC-E-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/products/collections",
+        "title": "Shopify Help Center | Collections",
+        "accessedAt": "2026-10-14",
+        "note": "Collections group products for discovery. Shopify documents a new collections model replacing legacy manual/smart collections, with account-dependent availability; menus and sorting remain operational checks.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify + client finance/merchandising",
+      "metric": "In-stock eligible variants, SKU overlap, category contribution margin, return rate, fulfillment constraints and seasonality.",
+      "whyItMatters": "Demand alone does not make a page commercially ready.",
+      "decision": "Prioritize healthy stocked categories; defer limited or unsupported assortments."
+    }
+  ],
+  "operatingWorkflow": [
+    {
+      "id": "COL-W01",
+      "title": "From audit row to accountable work",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Proposed workflow translates a validated collection opportunity into a reviewable release.",
+      "source": {
+        "id": "SRC-E-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-E-HOME",
+        "SRC-E-SHOPIFY"
+      ],
+      "steps": [
+        "Validate intent + existing page \u2192 choose create / optimize / consolidate / defer.",
+        "Approve inventory and commercial priority \u2192 attach product rules and exclusions.",
+        "Approve brief \u2192 assign strategist, writer/merchandiser, developer and independent QA.",
+        "Build in Shopify \u2192 capture template, account model, URL and canonical/index policy.",
+        "QA \u2192 product grid, filters, content, links, schema, mobile, accessibility and events.",
+        "Publish \u2192 log date/URL/cohort; confirm live status and rendered output.",
+        "Monitor \u2192 weekly delivery health, monthly client outcomes, 90-day decisions."
+      ],
+      "handoffArtifact": "Asana task with one accountable owner, acceptance criteria, source links, dependencies, due window, QA evidence and monitoring date.",
+      "doneDefinition": "Live URL passes acceptance criteria, inventory owner approves, measurement baseline is saved, and the review date has an owner. Publishing alone is not completion."
+    }
+  ]
+}

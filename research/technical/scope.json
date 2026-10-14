@@ -1,0 +1,16 @@
+{
+  "accessed": "2026-10-14",
+  "pageCount": 20,
+  "httpRequestCount": 20,
+  "intervalSeconds": 1.1,
+  "method": "Serial curl GET of 20 sitemap-selected pages; raw HTML parsed with Python standard library.",
+  "limitations": [
+    "Purposive sample, not a complete crawl.",
+    "Source HTML only; browser rendering not tested.",
+    "HTTP 200 and no robots block do not prove Google indexation.",
+    "No GSC, GA4, backlink database, rankings, field CWV or revenue data accessed.",
+    "Linked targets outside this sample were not status-checked; no site-wide broken-link conclusion.",
+    "Image bytes and decoded dimensions not downloaded; HTML response size is not image weight.",
+    "JSON parse success is not a Google Rich Results or Schema.org validation result."
+  ]
+}

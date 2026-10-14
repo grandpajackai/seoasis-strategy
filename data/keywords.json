@@ -1,0 +1,907 @@
+{
+  "metadata": {
+    "title": "Search intent and page ownership",
+    "accessedAt": "2026-10-14",
+    "workstream": "D — Keyword and search-intent strategy",
+    "reviewMode": "Independent specialist pass before synthesis",
+    "scope": "Public SEOasis sitemap plus representative commercial and editorial pages. Proposed cluster ownership is a planning hypothesis.",
+    "guardrails": [
+      "No search-volume, ranking, traffic or backlink estimates.",
+      "Strong/Partial describes reviewed content fit, not market share or current search success.",
+      "Multiple URLs are not proof of cannibalization.",
+      "Proposed URLs must pass intent, inventory, uniqueness and internal-data validation."
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-DI-HOME",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SITEMAP",
+      "url": "https://www.seoasis.io/sitemap.xml",
+      "title": "SEOasis XML Sitemap",
+      "accessedAt": "2026-10-14",
+      "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPIFY",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-CONSULTANT",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Consultant page presents a transactional collection-page service with the same audit/build/grow sequence.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-ECOM",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-ECOMCONSULTANT",
+      "url": "https://www.seoasis.io/ecommerce-seo-consultant",
+      "title": "Ecommerce SEO Consultant | AI-Era SEO for Shopify Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "A separate consultant page promotes collection strategy and AI search visibility.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-BLOG",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public blog hub lists Shopify optimization, agency selection, audit and Reddit articles.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPIFYGUIDE",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPIFYGUIDE2",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+      "title": "How to Optimize Your Shopify Store for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Related April 10 guide includes an FID benchmark in its performance section and overlapping Shopify topics.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-AGENCYGUIDE",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Founder-attributed buyer guide describes methodology, revenue proof and service scope.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-AUDITGUIDE",
+      "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+      "title": "What to Look for in an Ecommerce SEO Audit (2026 Guide) | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Audit guide covers collections and technical checks; its parameter section advises Search Console parameter configuration.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-REDDIT",
+      "url": "https://www.seoasis.io/reddit-ecommerce-seo",
+      "title": "Reddit Ecommerce SEO: How AI Models Find Your Products on Reddit | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Reddit service page describes research, community participation and AI visibility monitoring. Platform-effect claims are SEOasis claims, not independently validated here.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPPING",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "First-party case study describes feed, attributes, titles, diagnostics and reporting. Client outcomes are reported by SEOasis and not independently audited.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-LINKS",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Link-building URL intentionally argues for collection pages and Reddit rather than offering conventional outreach.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-INP",
+      "url": "https://developers.google.com/search/blog/2023/05/introducing-inp",
+      "title": "Introducing INP to Core Web Vitals | Google Search Central Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Official update confirms INP replaced FID on March 12, 2024.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-PARAMETERS",
+      "url": "https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated",
+      "title": "Spring cleaning: the URL Parameters tool | Google Search Central Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Official March 2022 announcement retires the Search Console URL Parameters tool.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "KW-01",
+      "cluster": "Shopify SEO agency",
+      "keywords": [
+        "Shopify SEO agency",
+        "Shopify SEO company",
+        "SEO agency for Shopify"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/shopify-seo-agency",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "recommendedAction": "Treat agency as a proposed cluster owner; validate company/expert differentiation with GSC before changing URLs.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-SHOPIFY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFY",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "A dedicated agency page presents scope and proof; additional company/expert URLs exist in the sitemap.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-02",
+      "cluster": "Shopify SEO consultant",
+      "keywords": [
+        "Shopify SEO consultant",
+        "Shopify SEO expert"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/shopify-seo-consultant",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "recommendedAction": "Define whether consultancy means advisory ownership or the same fulfillment offer, then align copy to that decision.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-CONSULTANT",
+        "url": "https://www.seoasis.io/shopify-seo-consultant",
+        "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Consultant page presents a transactional collection-page service with the same audit/build/grow sequence.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-CONSULTANT",
+        "SRC-DI-SHOPIFY"
+      ],
+      "evidence": "A consultant-specific H1 and commercial CTA are present; service steps resemble the agency page.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-03",
+      "cluster": "Ecommerce SEO",
+      "keywords": [
+        "ecommerce SEO",
+        "ecommerce SEO agency",
+        "SEO for ecommerce sites"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/ecommerce-seo",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "recommendedAction": "Map the broad service intent to one proposed owner and use segment pages only where buyer needs differ.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-ECOM",
+        "url": "https://www.seoasis.io/ecommerce-seo",
+        "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-ECOM",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "An ecommerce service page explains the offering; multiple ecommerce variants are also listed.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-04",
+      "cluster": "Ecommerce SEO consultant",
+      "keywords": [
+        "ecommerce SEO consultant",
+        "ecommerce SEO specialist"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/ecommerce-seo-consultant",
+      "url": "https://www.seoasis.io/ecommerce-seo-consultant",
+      "recommendedAction": "Validate advisory versus execution intent with sales questions and GSC landing-page overlap.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-ECOMCONSULTANT",
+        "url": "https://www.seoasis.io/ecommerce-seo-consultant",
+        "title": "Ecommerce SEO Consultant | AI-Era SEO for Shopify Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "A separate consultant page promotes collection strategy and AI search visibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-ECOMCONSULTANT",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "The consultant page has dedicated positioning; a specialist URL is listed.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-05",
+      "cluster": "Collection and category page SEO",
+      "keywords": [
+        "collection page SEO",
+        "Shopify collection page SEO",
+        "ecommerce category page SEO",
+        "ecommerce collection pages"
+      ],
+      "searchIntent": "Mixed commercial / implementation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Partial",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "recommendedAction": "Inspect the existing category page before considering a new URL; add a concrete decision example if not already present.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-SITEMAP",
+        "url": "https://www.seoasis.io/sitemap.xml",
+        "title": "SEOasis XML Sitemap",
+        "accessedAt": "2026-10-14",
+        "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SITEMAP",
+        "SRC-DI-SHOPIFYGUIDE"
+      ],
+      "evidence": "A category service URL is listed; the reviewed Shopify guide explains collection construction. Category-page body was not reviewed by this workstream.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-06",
+      "cluster": "Schema for Shopify",
+      "keywords": [
+        "schema for Shopify",
+        "Shopify collection schema",
+        "Shopify Product structured data"
+      ],
+      "searchIntent": "Informational",
+      "commercialIntent": "Medium",
+      "businessRelevance": "High",
+      "currentCoverage": "Partial",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "recommendedAction": "Consider a validated implementation appendix or focused resource only after confirming a distinct audience need.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE"
+      ],
+      "evidence": "The guide contains schema implementation sections within a wider Shopify article.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-07",
+      "cluster": "Answer Engine Optimization",
+      "keywords": [
+        "AEO for ecommerce",
+        "answer engine optimization agency",
+        "ecommerce AEO"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/",
+      "url": "https://www.seoasis.io/",
+      "recommendedAction": "Keep one clear route from the AEO promise to scope, proof and an audit request; validate conversion paths internally.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-HOME",
+        "SRC-DI-ECOM"
+      ],
+      "evidence": "AEO is prominent in homepage positioning and service methodology.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-08",
+      "cluster": "AI search optimization",
+      "keywords": [
+        "AI search optimization",
+        "AI SEO for ecommerce",
+        "generative engine optimization ecommerce"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Partial",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/ecommerce-seo",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "recommendedAction": "Explain terminology once and map it to an existing service rather than create a synonym page by default.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-ECOM",
+        "url": "https://www.seoasis.io/ecommerce-seo",
+        "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-ECOM"
+      ],
+      "evidence": "The ecommerce service page explains AI search alongside collection and catalog work.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-09",
+      "cluster": "AI visibility audit",
+      "keywords": [
+        "AI visibility audit",
+        "ChatGPT visibility audit",
+        "AI search audit"
+      ],
+      "searchIntent": "Commercial / diagnostic",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Partial",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "recommendedAction": "Review the existing audit journey and define deliverables, sample output and follow-up action before adding content.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-SITEMAP",
+        "url": "https://www.seoasis.io/sitemap.xml",
+        "title": "SEOasis XML Sitemap",
+        "accessedAt": "2026-10-14",
+        "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SITEMAP",
+        "SRC-DI-HOME"
+      ],
+      "evidence": "An audit URL is listed; homepage offers an audit CTA. Audit-page body was not reviewed by this workstream.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-10",
+      "cluster": "ChatGPT ecommerce visibility",
+      "keywords": [
+        "ChatGPT ecommerce visibility",
+        "get products recommended by ChatGPT",
+        "Shopify ChatGPT visibility"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/",
+      "url": "https://www.seoasis.io/",
+      "recommendedAction": "Link the proposition to a reproducible query-test methodology, with no guaranteed recommendation claim.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-HOME"
+      ],
+      "evidence": "The primary homepage proposition is product recommendation visibility in ChatGPT.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-11",
+      "cluster": "Reddit SEO for ecommerce",
+      "keywords": [
+        "Reddit SEO",
+        "Reddit ecommerce SEO",
+        "Reddit SEO strategy"
+      ],
+      "searchIntent": "Mixed commercial / implementation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/reddit-ecommerce-seo",
+      "url": "https://www.seoasis.io/reddit-ecommerce-seo",
+      "recommendedAction": "Differentiate service selection from how-to guidance and document disclosure and community rules.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-REDDIT",
+        "url": "https://www.seoasis.io/reddit-ecommerce-seo",
+        "title": "Reddit Ecommerce SEO: How AI Models Find Your Products on Reddit | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Reddit service page describes research, community participation and AI visibility monitoring. Platform-effect claims are SEOasis claims, not independently validated here.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-REDDIT",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "Reviewed service content covers research, engagement and monitoring; multiple Reddit variants are listed.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-12",
+      "cluster": "Organic Shopping / Merchant Center",
+      "keywords": [
+        "organic Shopping optimization",
+        "Merchant Center free listings",
+        "ecommerce product feed optimization"
+      ],
+      "searchIntent": "Mixed commercial / implementation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Partial",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "recommendedAction": "Validate sales demand and delivery scope, then decide whether an existing service section or distinct page is warranted.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "First-party case study describes feed, attributes, titles, diagnostics and reporting. Client outcomes are reported by SEOasis and not independently audited.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPPING",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "The Shopping case study explains feed work; a dedicated Shopping service URL was not found in the reviewed sitemap.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-13",
+      "cluster": "Ecommerce SEO audit",
+      "keywords": [
+        "ecommerce SEO audit",
+        "Shopify SEO audit checklist"
+      ],
+      "searchIntent": "Mixed commercial / informational",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+      "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+      "recommendedAction": "Separate buying an audit from conducting one; assign primary query intent to each URL with GSC evidence.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-AUDITGUIDE",
+        "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "title": "What to Look for in an Ecommerce SEO Audit (2026 Guide) | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Audit guide covers collections and technical checks; its parameter section advises Search Console parameter configuration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-AUDITGUIDE",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "A detailed audit guide exists and a separate audit commercial URL is listed.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-14",
+      "cluster": "Choosing a Shopify agency",
+      "keywords": [
+        "how to choose a Shopify SEO agency",
+        "best Shopify SEO agency"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "recommendedAction": "Keep guide intent focused on evaluation criteria; check whether the best-agency URL serves a distinct comparison need.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-AGENCYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Founder-attributed buyer guide describes methodology, revenue proof and service scope.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-AGENCYGUIDE",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "A buyer guide exists alongside a best-agency URL in the sitemap.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-15",
+      "cluster": "Shopify SEO implementation",
+      "keywords": [
+        "how to optimize Shopify sites for search engines",
+        "how to optimize your Shopify store",
+        "Shopify SEO guide"
+      ],
+      "searchIntent": "Informational",
+      "commercialIntent": "Medium",
+      "businessRelevance": "High",
+      "currentCoverage": "Strong",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "recommendedAction": "Compare query demand, links and engagement before consolidating or assigning narrower roles.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE",
+        "SRC-DI-SHOPIFYGUIDE2"
+      ],
+      "evidence": "Two reviewed guides share implementation themes and similar audience framing.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "KW-16",
+      "cluster": "Ecommerce link-building alternatives",
+      "keywords": [
+        "ecommerce link building",
+        "link building for ecommerce sites"
+      ],
+      "searchIntent": "Commercial investigation",
+      "commercialIntent": "High",
+      "businessRelevance": "High",
+      "currentCoverage": "Partial",
+      "coverageScope": "Reviewed public content, not ranking or market-demand coverage",
+      "competitiveDifficulty": "Unknown",
+      "difficultyBasis": "No comparable live SERP difficulty study or paid keyword dataset used.",
+      "mappedPage": "https://www.seoasis.io/ecommerce-link-building",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "recommendedAction": "Treat this as deliberate positioning; validate qualified-lead fit before deciding whether intent alignment needs adjustment.",
+      "searchVolume": "Requires Internal Access",
+      "rankings": "Not tested",
+      "source": {
+        "id": "SRC-DI-LINKS",
+        "url": "https://www.seoasis.io/ecommerce-link-building",
+        "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Link-building URL intentionally argues for collection pages and Reddit rather than offering conventional outreach.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-LINKS"
+      ],
+      "evidence": "The page answers link-building demand with an alternative collection-first approach.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    }
+  ],
+  "overlapReviews": [
+    {
+      "id": "OV-01",
+      "family": "Shopify agency / company / consultant / expert",
+      "urls": [
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/shopify-seo-company",
+        "https://www.seoasis.io/shopify-seo-consultant",
+        "https://www.seoasis.io/shopify-seo-expert"
+      ],
+      "finding": "Possible intent overlap worth validating",
+      "recommendedAction": "Build a query × URL matrix; retain differentiated pages, consolidate only where intent and evidence support it.",
+      "validation": "Requires Internal Access",
+      "platform": "Google Search Console; GA4 / CRM",
+      "metric": "Query-level impressions/clicks by URL, query-owner changes over time, qualified leads per landing page",
+      "decision": "Assign distinct page roles or consolidate with a redirect and link-update plan.",
+      "source": {
+        "id": "SRC-DI-SITEMAP",
+        "url": "https://www.seoasis.io/sitemap.xml",
+        "title": "SEOasis XML Sitemap",
+        "accessedAt": "2026-10-14",
+        "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SITEMAP",
+        "SRC-DI-SHOPIFY",
+        "SRC-DI-CONSULTANT"
+      ],
+      "evidence": "Multiple near-synonym URLs exist; reviewed agency and consultant pages share core service steps.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "OV-02",
+      "family": "Shopify optimization guides",
+      "urls": [
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines"
+      ],
+      "finding": "Possible editorial overlap worth validating",
+      "recommendedAction": "Compare query sets and reader tasks; choose differentiated coverage or a single maintained guide.",
+      "validation": "Requires Internal Access",
+      "platform": "Google Search Console; GA4; backlink tool if available",
+      "metric": "Query overlap, clicks by URL, internal exits to services, relevant external links",
+      "decision": "Refresh, differentiate or merge without discarding useful evidence.",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE",
+        "SRC-DI-SHOPIFYGUIDE2"
+      ],
+      "evidence": "Both reviewed pages cover collection construction, schema, technical checks, Reddit and AI testing.",
+      "confidence": "High",
+      "classification": "INFERRED"
+    },
+    {
+      "id": "OV-03",
+      "family": "Reddit service URL variants",
+      "urls": [
+        "https://www.seoasis.io/reddit-seo",
+        "https://www.seoasis.io/reddit-for-seo",
+        "https://www.seoasis.io/reddit-seo-strategy",
+        "https://www.seoasis.io/reddit-ecommerce-seo",
+        "https://www.seoasis.io/reddit-backlink-strategy"
+      ],
+      "finding": "URL inventory suggests a page-role review",
+      "recommendedAction": "Inspect every page and query set before proposing changes; sitemap similarity alone does not establish duplication.",
+      "validation": "Requires Internal Access",
+      "platform": "Google Search Console; full public crawl",
+      "metric": "Query × landing URL history, page uniqueness, anchor paths",
+      "decision": "Document a service hub and differentiated supporting intent where justified.",
+      "source": {
+        "id": "SRC-DI-SITEMAP",
+        "url": "https://www.seoasis.io/sitemap.xml",
+        "title": "SEOasis XML Sitemap",
+        "accessedAt": "2026-10-14",
+        "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SITEMAP",
+        "SRC-DI-REDDIT"
+      ],
+      "evidence": "Five Reddit service-style URLs appear in the sitemap; only one body was reviewed here.",
+      "confidence": "Medium",
+      "classification": "INFERRED"
+    }
+  ],
+  "internalValidation": [
+    {
+      "id": "KW-PRIVATE-01",
+      "title": "Demand and page ownership",
+      "platform": "Google Search Console",
+      "metric": "Query and landing-page performance with country, device and date segmentation",
+      "why": "Distinguishes separate intent from harmful overlap",
+      "decision": "Differentiate, merge, refresh or keep URLs",
+      "value": "Requires Internal Access",
+      "source": {
+        "id": "SRC-DI-ECOM",
+        "url": "https://www.seoasis.io/ecommerce-seo",
+        "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-ECOM"
+      ],
+      "evidence": "The public methodology begins with Search Console and catalog research.",
+      "confidence": "High",
+      "classification": "REQUIRES INTERNAL DATA"
+    },
+    {
+      "id": "KW-PRIVATE-02",
+      "title": "Revenue fit",
+      "platform": "GA4; Shopify; CRM for SEOasis lead quality",
+      "metric": "Landing-page purchases/revenue for clients; qualified calls and signed clients for the agency",
+      "why": "Prioritizes commercially useful demand",
+      "decision": "Reorder clusters using revenue, margin, inventory and fulfillment fit",
+      "value": "Requires Internal Access",
+      "source": {
+        "id": "SRC-DI-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "First-party case study describes feed, attributes, titles, diagnostics and reporting. Client outcomes are reported by SEOasis and not independently audited.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPPING"
+      ],
+      "evidence": "Public Shopping case study evaluates value beyond session counts.",
+      "confidence": "High",
+      "classification": "REQUIRES INTERNAL DATA"
+    }
+  ],
+  "samplePolicy": {
+    "newPageGate": [
+      "Different user task or buying need",
+      "Sufficient relevant products for client collections",
+      "Distinct, useful visible content",
+      "Clear parent / sibling links",
+      "Canonical and indexability QA",
+      "An accountable owner and measurable outcome"
+    ],
+    "cannibalizationEvidenceNeeded": "Sustained query overlap with conflicting URL performance, evaluated with intent and conversion data; coexistence alone is insufficient.",
+    "serpValidation": "Manually inspect representative SERPs by geography and device before choosing page type; this workstream did not record live Google SERPs."
+  }
+}

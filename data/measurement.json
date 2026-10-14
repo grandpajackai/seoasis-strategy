@@ -1,0 +1,2136 @@
+{
+  "metadata": {
+    "title": "Measurement that ends in a decision",
+    "workstream": "O — Measurement / reporting architecture",
+    "accessedAt": "2026-10-14",
+    "scope": "Proposed client reporting architecture; no live connections or private metrics. Cadence follows SEOasis’s public reporting and quarterly review language.",
+    "limitations": "No account baselines, actual integration health, revenue attribution, forecasts or incrementality estimates. Proposed fields and cadences must be agreed with the team."
+  },
+  "summary": "Keep delivery evidence, search response and commercial outcomes connected by page and product cohorts. A report should explain what changed, what the evidence supports, what remains uncertain and what happens next.",
+  "findings": [
+    {
+      "id": "O-F01",
+      "title": "A delivery cadence is publicly stated",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "SEOasis describes Friday reporting, fortnightly strategy calls and quarterly recalibration.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "operatorAction": "Use weekly exception review, a monthly commercial narrative and a 90-day decision log."
+    },
+    {
+      "id": "O-F02",
+      "title": "Shopping needs its own acquisition definition",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Google documents channel grouping and free-listing measurement. The client implementation has not been inspected.",
+      "source": {
+        "id": "SRC-O-CHANNELS",
+        "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+        "title": "Default channel group - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official channel classification reference; Organic Shopping and Organic Search must be segmented consistently rather than combined without definition.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-CHANNELS",
+        "SRC-L-TRACK"
+      ],
+      "operatorAction": "Document Organic Search versus Organic Shopping filters and validate tagging before comparisons."
+    },
+    {
+      "id": "O-F03",
+      "title": "Revenue definitions should be agreed before ranking workstreams",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Shopify distinguishes gross, net and total sales; GA4 offers attribution under model settings. No source-system reconciliation was performed.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY",
+        "SRC-O-ATTRIBUTION"
+      ],
+      "operatorAction": "Agree net/gross, refunds, currency, timezone and attribution scope with the client."
+    }
+  ],
+  "integrations": [
+    {
+      "id": "O-I01",
+      "title": "Google Search Console",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "accessNeeded": "Verified property reporting access",
+      "metric": "Query/page/device/country/search-appearance performance; index and enhancement reports",
+      "whyItMatters": "Identify intent winners, cannibalization hypotheses and discovery blockers.",
+      "decision": "Identify intent winners, cannibalization hypotheses and discovery blockers.",
+      "joinKey": "Query → canonical landing page",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I02",
+      "title": "GA4",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4",
+      "accessNeeded": "Property reporting + implementation owner",
+      "metric": "Landing-page/session channel cohorts, ecommerce steps and attributed purchases/revenue",
+      "whyItMatters": "Distinguish acquisition gains from landing or checkout constraints.",
+      "decision": "Distinguish acquisition gains from landing or checkout constraints.",
+      "joinKey": "Landing page → session → ecommerce item → transaction",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I03",
+      "title": "Shopify",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify",
+      "accessNeeded": "Analytics/orders/catalog access and finance agreement",
+      "metric": "Orders, discounts, returns, product/collection mapping, stock, new-customer flags and margin inputs",
+      "whyItMatters": "Validate net commercial value and prioritize viable stocked assortments.",
+      "decision": "Validate net commercial value and prioritize viable stocked assortments.",
+      "joinKey": "Transaction ID → line item → variant → collection",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I04",
+      "title": "Google Merchant Center",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "SRC-L-PERFORMANCE",
+        "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+        "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-PERFORMANCE"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Merchant Center",
+      "accessNeeded": "Account reporting/data-source access",
+      "metric": "Processed product data, issues, eligible items and free-listing performance",
+      "whyItMatters": "Separate eligibility repairs from listing-response and revenue tests.",
+      "decision": "Separate eligibility repairs from listing-response and revenue tests.",
+      "joinKey": "Merchant item ID → Shopify variant",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I05",
+      "title": "Ahrefs / Semrush, if licensed",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Ahrefs / Semrush, if licensed",
+      "accessNeeded": "Client/team seat and agreed project",
+      "metric": "Verified tool exports for keyword research, tracked SERPs and referring-domain review",
+      "whyItMatters": "Enrich discovery; label estimates and corroborate claims with first-party evidence.",
+      "decision": "Enrich discovery; label estimates and corroborate claims with first-party evidence.",
+      "joinKey": "Keyword/intent → preferred page; referring URL → destination",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I06",
+      "title": "PageSpeed Insights / CrUX",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Public tooling can provide lab tests and field data when available; this workstream collected no current performance run.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Public test not run",
+      "platform": "PageSpeed Insights / CrUX",
+      "accessNeeded": "Public URL test; Search Console access for account-level CWV groups",
+      "metric": "LCP, INP and CLS field percentiles where available; lab diagnostics separately",
+      "whyItMatters": "Tests whether a template has a performance constraint worth investigating.",
+      "decision": "Prioritize representative templates using field evidence and reproducible diagnostics; do not invent a score.",
+      "joinKey": "Canonical URL → template → device → test timestamp",
+      "status": "Not measured",
+      "value": null
+    },
+    {
+      "id": "O-I07",
+      "title": "Google Ads, if strategically relevant",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Ads, if strategically relevant",
+      "accessNeeded": "Reporting access and paid-search owner",
+      "metric": "Search terms, paid landing tests, product cohorts and conversion definitions",
+      "whyItMatters": "Use paid evidence as one input; account for paid/organic interaction.",
+      "decision": "Use paid evidence as one input; account for paid/organic interaction.",
+      "joinKey": "Query/product → paid cohort → shared landing page",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I08",
+      "title": "AI visibility tools",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "AI visibility tools",
+      "accessNeeded": "Client/team workspace and saved-output history",
+      "metric": "Stable prompt panel, model/surface, date, locale, citation URLs and repeated output logs",
+      "whyItMatters": "Learn whether intended questions produce relevant mentions; avoid treating a panel as total AI market visibility.",
+      "decision": "Learn whether intended questions produce relevant mentions; avoid treating a panel as total AI market visibility.",
+      "joinKey": "Prompt → answer run → cited URL → qualified referral where available",
+      "status": "Not connected",
+      "value": null
+    },
+    {
+      "id": "O-I09",
+      "title": "Asana",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed connection; this interview dashboard has no authenticated client integrations.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Asana",
+      "accessNeeded": "Workspace/project access",
+      "metric": "Tasks, owner, due date, dependency, release evidence and QA status",
+      "whyItMatters": "Surface blocked delivery, capacity and the next accountable decision.",
+      "decision": "Surface blocked delivery, capacity and the next accountable decision.",
+      "joinKey": "Opportunity → task → release → cohort → result",
+      "status": "Not connected",
+      "value": null
+    }
+  ],
+  "metrics": [
+    {
+      "id": "O-M01",
+      "title": "Delivery / QA",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Asana",
+      "metric": "Published work with QA evidence, blocked tasks and owner/due window",
+      "whyItMatters": "Unblocks fulfillment and prevents silent dependencies.",
+      "decision": "Resolve blockers or reduce work in progress.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M02",
+      "title": "Index / canonical health",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Indexation and canonical state of released page cohort",
+      "whyItMatters": "Checks whether work can reach search.",
+      "decision": "Investigate accessibility or consolidate signals before scaling.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M03",
+      "title": "Search response",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Clicks, impressions and CTR by query/page, device and country",
+      "whyItMatters": "Tests whether a release is gaining relevant exposure.",
+      "decision": "Investigate segment changes; do not react to one noisy day.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M04",
+      "title": "Feed health",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-L-PERFORMANCE",
+        "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+        "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-PERFORMANCE"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Merchant Center",
+      "metric": "Eligible, limited and disapproved items; critical issue aging",
+      "whyItMatters": "Measures acquisition prerequisites.",
+      "decision": "Repair blockers before testing listing presentation.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M05",
+      "title": "Tracking integrity",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Purchase/refund event checks and order-ID reconciliation exceptions",
+      "whyItMatters": "Protects decisions from missing or duplicated events.",
+      "decision": "Repair implementation or annotate affected periods.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M06",
+      "title": "AI evidence log",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "AI tools + saved manual outputs",
+      "metric": "Repeated prompt results, cited URLs and query coverage",
+      "whyItMatters": "Records observations that can be reviewed later.",
+      "decision": "Revise a hypothesis when repeated evidence supports it.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M07",
+      "title": "Intent / collection coverage",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GSC + Shopify catalog + Asana",
+      "metric": "Released viable intents, in-stock products and query-to-page map",
+      "whyItMatters": "Connects production to catalog demand rather than page count.",
+      "decision": "Expand a validated cluster or revise the target.",
+      "cadence": "Monthly client",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M08",
+      "title": "Organic acquisition",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-CHANNELS",
+        "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+        "title": "Default channel group - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official channel classification reference; Organic Shopping and Organic Search must be segmented consistently rather than combined without definition.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-CHANNELS"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Search Console",
+      "metric": "Organic sessions and Search clicks; Shopping segmented separately",
+      "whyItMatters": "Shows acquisition patterns with platform definitions intact.",
+      "decision": "Explain traffic changes by intent, page and device.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M09",
+      "title": "Landing engagement",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4",
+      "metric": "Engaged sessions/rate and item-list/detail interaction by landing cohort",
+      "whyItMatters": "Provides a diagnostic before purchase, not a substitute for it.",
+      "decision": "Investigate mismatch or interaction friction.",
+      "cadence": "Monthly client",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M10",
+      "title": "Purchases / conversion",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Transactions and sessions with purchase ÷ organic sessions",
+      "whyItMatters": "Distinguishes traffic growth from buying outcomes.",
+      "decision": "Prioritize a landing or checkout test when acquisition is healthy.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M11",
+      "title": "Organic revenue / session",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Attributed purchase revenue ÷ organic sessions, with agreed refund treatment",
+      "whyItMatters": "Helps compare commercial quality across landing cohorts.",
+      "decision": "Rank cohorts by useful value after stock and margin checks.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M12",
+      "title": "New-customer revenue",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify + agreed attribution dataset",
+      "metric": "Net sales from genuinely first-time customers attributed under the agreed model",
+      "whyItMatters": "Separates acquisition from returning-customer demand.",
+      "decision": "Revise category investments toward profitable customer acquisition.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M13",
+      "title": "Assisted contribution",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 attribution reports",
+      "metric": "Organic touchpoints on conversion paths and model comparison",
+      "whyItMatters": "Reveals a supporting role without double counting totals.",
+      "decision": "Protect useful discovery content when the model supports that interpretation.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M14",
+      "title": "Collection / category value",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify product/collection map",
+      "metric": "Landing-cohort purchases and net product/category sales; separate allocation rules",
+      "whyItMatters": "Tests whether the intended assortment gains valuable demand.",
+      "decision": "Expand, refresh or pause the collection hypothesis.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M15",
+      "title": "Organic Shopping outcomes",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-L-TRACK",
+        "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+        "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-TRACK"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Merchant Center + GA4 + Shopify",
+      "metric": "Free-listing impressions/clicks/CTR, attributed purchases and reconciled net sales",
+      "whyItMatters": "Connects feed work to commercially relevant response.",
+      "decision": "Scale a feed test only after eligibility, stock and measurement checks.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M16",
+      "title": "Revenue / contribution outcome",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify + finance + GA4",
+      "metric": "Comparable cohort net sales, returns, gross margin and fulfillment costs",
+      "whyItMatters": "Makes revenue growth answerable to commercial value.",
+      "decision": "Reallocate effort toward profitable, stocked opportunities.",
+      "cadence": "90-day strategic",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M17",
+      "title": "Incremental organic revenue",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Agreed experiment dataset + Shopify + GA4",
+      "metric": "Outcome versus a credible counterfactual, with uncertainty interval if defensible",
+      "whyItMatters": "Attributed revenue alone cannot establish what would otherwise have happened.",
+      "decision": "Scale only when the design and evidence support a causal interpretation.",
+      "cadence": "90-day strategic",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M18",
+      "title": "Strategy and capacity review",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Asana + client priorities + result archive",
+      "metric": "Hypotheses resolved, work throughput, dependencies and next-quarter decisions",
+      "whyItMatters": "Turns reporting into revised account strategy.",
+      "decision": "Stop, continue, expand or redesign each major workstream.",
+      "cadence": "90-day strategic",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    }
+  ],
+  "cadences": [
+    {
+      "title": "Weekly operator",
+      "purpose": "What changed, what is blocked, what needs QA and who owns the next action.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed implementation of SEOasis’s public Friday reporting cadence.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "metricIds": [
+        "O-M01",
+        "O-M02",
+        "O-M03",
+        "O-M04",
+        "O-M05",
+        "O-M06"
+      ]
+    },
+    {
+      "title": "Monthly client",
+      "purpose": "Explain acquisition and commercial response, delivery completed, limitations and next decisions.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed reporting layer; no client report was accessed.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "metricIds": [
+        "O-M07",
+        "O-M08",
+        "O-M09",
+        "O-M10",
+        "O-M11",
+        "O-M12",
+        "O-M13",
+        "O-M14",
+        "O-M15"
+      ]
+    },
+    {
+      "title": "90-day strategic",
+      "purpose": "Close hypotheses; scale, revise or stop work; agree the next quarter and capacity.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Public quarterly recalibration provides the cadence; this operating agenda is proposed.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "metricIds": [
+        "O-M16",
+        "O-M17",
+        "O-M18"
+      ]
+    }
+  ],
+  "measurementContract": [
+    {
+      "id": "O-C01",
+      "title": "Revenue definition",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Sales measures differ across systems.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY",
+        "SRC-O-GA4"
+      ],
+      "rule": "Agree whether the headline uses gross sales, net sales or purchase revenue. Show discounts, returns, shipping, taxes, duties and fees explicitly. Revenue is not profit."
+    },
+    {
+      "id": "O-C02",
+      "title": "Attribution scope",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Attribution assigns credit under configured settings.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "rule": "Record session acquisition versus event attribution, model, lookback window, reporting identity, channel rules, currency and timezone. Avoid adding model-credit and session-credit totals."
+    },
+    {
+      "id": "O-C03",
+      "title": "Cross-system reconciliation",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "GA4 ecommerce uses transaction IDs; Shopify records actual orders.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "rule": "Compare order IDs and amounts for agreed dates; explain consent, blockers, duplication, refund timing and currency differences. Use finance-approved order totals for net sales."
+    },
+    {
+      "id": "O-C04",
+      "title": "Acquisition separation",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Search, Shopping, referrals and model observations answer different questions.",
+      "source": {
+        "id": "SRC-O-CHANNELS",
+        "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+        "title": "Default channel group - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official channel classification reference; Organic Shopping and Organic Search must be segmented consistently rather than combined without definition.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-CHANNELS",
+        "SRC-L-TRACK"
+      ],
+      "rule": "Report Organic Search, Organic Shopping and identified AI referrals separately. AI referrals undercount exposure; prompt-panel presence is not platform-wide visibility."
+    },
+    {
+      "id": "O-C05",
+      "title": "Incrementality",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "No experiment or counterfactual is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify + GA4 + experiment design",
+      "metric": "Incremental net revenue",
+      "whyItMatters": "Separates credited sales from additional sales caused by work.",
+      "decision": "Use a defensible matched/control cohort or experimental design where feasible; annotate seasonality, promotions, stock, price, paid media and site changes. Before/after lift remains an association without a credible counterfactual."
+    },
+    {
+      "id": "O-C06",
+      "title": "Cohort and denominator discipline",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed analysis convention.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4"
+      ],
+      "rule": "Freeze the tested URL/product cohort, release date and denominator. Separate brand/nonbrand where supportable; compare similar weekdays and seasonal periods; state missing query rows and small samples."
+    },
+    {
+      "id": "O-C07",
+      "title": "Decision log",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed operating record aligned to quarterly recalibration.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "rule": "Every finding closes with evidence, confidence, owner, next action, due date and the condition that changes the recommendation. Save historical reports rather than overwriting the baseline."
+    }
+  ],
+  "funnel": [
+    {
+      "stage": "Impression",
+      "platform": "GSC / Merchant Center",
+      "metric": "Search or free-listing impressions, kept separate",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Organic click",
+      "platform": "GSC / Merchant Center",
+      "metric": "Clicks and CTR",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Landing page",
+      "platform": "GA4",
+      "metric": "Organic sessions and engaged sessions",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Product / category interaction",
+      "platform": "GA4",
+      "metric": "view_item_list / select_item / view_item",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Add to cart",
+      "platform": "GA4",
+      "metric": "add_to_cart",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Checkout",
+      "platform": "GA4",
+      "metric": "begin_checkout",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Purchase",
+      "platform": "GA4 + Shopify",
+      "metric": "purchase and reconciled orders",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    },
+    {
+      "stage": "Revenue",
+      "platform": "Shopify + GA4 + finance",
+      "metric": "Agreed attributed purchase revenue, net sales and contribution",
+      "display": "Requires Internal Access",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed funnel stage; no live client values.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY"
+      ],
+      "value": null
+    }
+  ],
+  "prioritizationScenarios": [
+    {
+      "id": "O-P01",
+      "title": "Before private data: prioritize evidence and prerequisites",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "This public audit has no valid revenue opportunity estimate.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "action": "Use impact as an explicit ordinal hypothesis, confidence from evidence and effort from implementation review. Fix measurement/eligibility blockers and pilot one coherent workstream."
+    },
+    {
+      "id": "O-P02",
+      "title": "After private data: prioritize commercial constraints",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed account decision once orders, stock and economics are reconciled.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY",
+        "SRC-O-ATTRIBUTION"
+      ],
+      "action": "A high-impression category with weak conversion may warrant UX diagnosis; a well-converting category with viable inventory may warrant expansion. Stock, margin and client priorities can outweigh traffic potential. Do not turn attribution into a guaranteed revenue forecast."
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-company-home",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-O-GSC",
+      "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-O-GA4",
+      "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+      "title": "Measure ecommerce | Google Analytics | Google for Developers",
+      "accessedAt": "2026-10-14",
+      "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-O-ATTRIBUTION",
+      "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+      "title": "Get started with attribution - Analytics Help",
+      "accessedAt": "2026-10-14",
+      "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-O-CHANNELS",
+      "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+      "title": "Default channel group - Analytics Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official channel classification reference; Organic Shopping and Organic Search must be segmented consistently rather than combined without definition.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-O-SHOPIFY",
+      "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+      "title": "Shopify Help Center | Sales reports",
+      "accessedAt": "2026-10-14",
+      "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-PERFORMANCE",
+      "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+      "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-TRACK",
+      "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+      "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "internalDataInputs": [
+    {
+      "id": "O-M01",
+      "title": "Delivery / QA",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Asana",
+      "metric": "Published work with QA evidence, blocked tasks and owner/due window",
+      "whyItMatters": "Unblocks fulfillment and prevents silent dependencies.",
+      "decision": "Resolve blockers or reduce work in progress.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M02",
+      "title": "Index / canonical health",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Indexation and canonical state of released page cohort",
+      "whyItMatters": "Checks whether work can reach search.",
+      "decision": "Investigate accessibility or consolidate signals before scaling.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M03",
+      "title": "Search response",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GSC",
+        "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+        "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GSC"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Clicks, impressions and CTR by query/page, device and country",
+      "whyItMatters": "Tests whether a release is gaining relevant exposure.",
+      "decision": "Investigate segment changes; do not react to one noisy day.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M04",
+      "title": "Feed health",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-L-PERFORMANCE",
+        "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+        "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-PERFORMANCE"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Merchant Center",
+      "metric": "Eligible, limited and disapproved items; critical issue aging",
+      "whyItMatters": "Measures acquisition prerequisites.",
+      "decision": "Repair blockers before testing listing presentation.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M05",
+      "title": "Tracking integrity",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Purchase/refund event checks and order-ID reconciliation exceptions",
+      "whyItMatters": "Protects decisions from missing or duplicated events.",
+      "decision": "Repair implementation or annotate affected periods.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M06",
+      "title": "AI evidence log",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "AI tools + saved manual outputs",
+      "metric": "Repeated prompt results, cited URLs and query coverage",
+      "whyItMatters": "Records observations that can be reviewed later.",
+      "decision": "Revise a hypothesis when repeated evidence supports it.",
+      "cadence": "Weekly operator",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M07",
+      "title": "Intent / collection coverage",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GSC + Shopify catalog + Asana",
+      "metric": "Released viable intents, in-stock products and query-to-page map",
+      "whyItMatters": "Connects production to catalog demand rather than page count.",
+      "decision": "Expand a validated cluster or revise the target.",
+      "cadence": "Monthly client",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M08",
+      "title": "Organic acquisition",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-CHANNELS",
+        "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+        "title": "Default channel group - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official channel classification reference; Organic Shopping and Organic Search must be segmented consistently rather than combined without definition.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-CHANNELS"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Search Console",
+      "metric": "Organic sessions and Search clicks; Shopping segmented separately",
+      "whyItMatters": "Shows acquisition patterns with platform definitions intact.",
+      "decision": "Explain traffic changes by intent, page and device.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M09",
+      "title": "Landing engagement",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4",
+      "metric": "Engaged sessions/rate and item-list/detail interaction by landing cohort",
+      "whyItMatters": "Provides a diagnostic before purchase, not a substitute for it.",
+      "decision": "Investigate mismatch or interaction friction.",
+      "cadence": "Monthly client",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M10",
+      "title": "Purchases / conversion",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-GA4",
+        "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+        "title": "Measure ecommerce | Google Analytics | Google for Developers",
+        "accessedAt": "2026-10-14",
+        "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-GA4"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Transactions and sessions with purchase ÷ organic sessions",
+      "whyItMatters": "Distinguishes traffic growth from buying outcomes.",
+      "decision": "Prioritize a landing or checkout test when acquisition is healthy.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M11",
+      "title": "Organic revenue / session",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Attributed purchase revenue ÷ organic sessions, with agreed refund treatment",
+      "whyItMatters": "Helps compare commercial quality across landing cohorts.",
+      "decision": "Rank cohorts by useful value after stock and margin checks.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M12",
+      "title": "New-customer revenue",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify + agreed attribution dataset",
+      "metric": "Net sales from genuinely first-time customers attributed under the agreed model",
+      "whyItMatters": "Separates acquisition from returning-customer demand.",
+      "decision": "Revise category investments toward profitable customer acquisition.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M13",
+      "title": "Assisted contribution",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 attribution reports",
+      "metric": "Organic touchpoints on conversion paths and model comparison",
+      "whyItMatters": "Reveals a supporting role without double counting totals.",
+      "decision": "Protect useful discovery content when the model supports that interpretation.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M14",
+      "title": "Collection / category value",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + Shopify product/collection map",
+      "metric": "Landing-cohort purchases and net product/category sales; separate allocation rules",
+      "whyItMatters": "Tests whether the intended assortment gains valuable demand.",
+      "decision": "Expand, refresh or pause the collection hypothesis.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M15",
+      "title": "Organic Shopping outcomes",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-L-TRACK",
+        "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+        "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-TRACK"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Merchant Center + GA4 + Shopify",
+      "metric": "Free-listing impressions/clicks/CTR, attributed purchases and reconciled net sales",
+      "whyItMatters": "Connects feed work to commercially relevant response.",
+      "decision": "Scale a feed test only after eligibility, stock and measurement checks.",
+      "cadence": "Monthly client",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M16",
+      "title": "Revenue / contribution outcome",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-SHOPIFY",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+        "title": "Shopify Help Center | Sales reports",
+        "accessedAt": "2026-10-14",
+        "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-SHOPIFY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Shopify + finance + GA4",
+      "metric": "Comparable cohort net sales, returns, gross margin and fulfillment costs",
+      "whyItMatters": "Makes revenue growth answerable to commercial value.",
+      "decision": "Reallocate effort toward profitable, stocked opportunities.",
+      "cadence": "90-day strategic",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M17",
+      "title": "Incremental organic revenue",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "SRC-O-ATTRIBUTION",
+        "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+        "title": "Get started with attribution - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-O-ATTRIBUTION"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Agreed experiment dataset + Shopify + GA4",
+      "metric": "Outcome versus a credible counterfactual, with uncertainty interval if defensible",
+      "whyItMatters": "Attributed revenue alone cannot establish what would otherwise have happened.",
+      "decision": "Scale only when the design and evidence support a causal interpretation.",
+      "cadence": "90-day strategic",
+      "indicator": "Lagging",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    },
+    {
+      "id": "O-M18",
+      "title": "Strategy and capacity review",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Proposed client reporting field; no live value or baseline is available.",
+      "source": {
+        "id": "src-company-home",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Asana + client priorities + result archive",
+      "metric": "Hypotheses resolved, work throughput, dependencies and next-quarter decisions",
+      "whyItMatters": "Turns reporting into revised account strategy.",
+      "decision": "Stop, continue, expand or redesign each major workstream.",
+      "cadence": "90-day strategic",
+      "indicator": "Leading",
+      "value": null,
+      "owner": "Account strategist",
+      "dimensions": [
+        "Page/collection cohort",
+        "Brand/nonbrand where supportable",
+        "Device",
+        "Market",
+        "Release date"
+      ]
+    }
+  ]
+}

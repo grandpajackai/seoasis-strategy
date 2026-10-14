@@ -1,0 +1,580 @@
+[
+  {
+    "id": "OP-01",
+    "title": "Agree a measurement and attribution contract",
+    "category": "Measurement",
+    "url": "https://www.seoasis.io/",
+    "evidence": "Public reporting and revenue positioning exist; no account metric definitions or reconciliation were accessed.",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "status": "Proposed",
+    "owner": "Strategist + Analytics",
+    "metric": "Approved channel, net-sales, attribution and cohort definitions",
+    "source": [
+      "src-company-home",
+      "SRC-O-GA4",
+      "SRC-O-SHOPIFY",
+      "SRC-O-ATTRIBUTION"
+    ],
+    "notes": "Requires Internal Access: GA4, Shopify and client finance. P0 is a prerequisite, not a claim of a current tracking defect.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-02",
+    "title": "Validate indexation and query baseline",
+    "category": "Technical SEO",
+    "url": "https://www.seoasis.io/",
+    "evidence": "20/20 sampled pages respond at 200 with index, follow; actual Google indexing and selected canonicals remain unknown.",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "status": "Proposed",
+    "owner": "Technical SEO + Strategist",
+    "metric": "GSC index exceptions and query/page baseline by cohort",
+    "source": [
+      "B-01",
+      "B-02",
+      "B-03",
+      "SRC-O-GSC"
+    ],
+    "notes": "Requires Internal Access: GSC. Compare sitemap, Page indexing and sampled URL Inspection; preserve public controls.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-03",
+    "title": "Confirm assortment, stock and margin before collection selection",
+    "category": "Collection Pages",
+    "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "evidence": "Transactional collection buildout is public methodology; no client inventory or economics were inspected.",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "status": "Proposed",
+    "owner": "Strategist + Merchandiser",
+    "metric": "Approved viable collection cohort and commercial constraints",
+    "source": [
+      "SRC-E-HOME",
+      "SRC-E-EXPERT",
+      "SRC-O-SHOPIFY"
+    ],
+    "notes": "Requires Internal Access: Shopify, merchandising, finance and GSC. No invented product counts, revenue forecast or minimum assortment threshold.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-04",
+    "title": "Set one account board and definition of done",
+    "category": "Operations",
+    "url": "https://www.seoasis.io/",
+    "evidence": "The role names Asana, ownership and QA; public cadence includes Friday reporting and quarterly review.",
+    "impact": 4,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "status": "Proposed",
+    "owner": "Account Strategist",
+    "metric": "Every accepted task has owner, due window, dependency and QA evidence",
+    "source": [
+      "src-job-linkedin",
+      "src-company-home"
+    ],
+    "notes": "Requires Internal Access: Asana/account scope. Agree account capacity and client approvals before promising throughput.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-05",
+    "title": "Remove repeated brand wording in title templates",
+    "category": "On-Page SEO",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "evidence": "7/20 sampled titles end in the exact duplicated suffix | SEOasis | SEOasis. Natural brand wording in a case-study subject is not counted as an issue.",
+    "impact": 2,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Technical SEO + Editor",
+    "metric": "Sampled title-template acceptance pass; query-adjusted CTR after baseline",
+    "source": [
+      "B-14",
+      "B-06",
+      "CF-SHOPIFY-SEO-AGENCY"
+    ],
+    "notes": "Low-severity clarity improvement. Verify title source and rendered head; no ranking or CTR uplift forecast.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-06",
+    "title": "Complete one source meta description",
+    "category": "On-Page SEO",
+    "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "evidence": "Source description ends with tracks real results. Not vanity me.",
+    "impact": 1,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Editor",
+    "metric": "Published description is complete and accurately matches the guide",
+    "source": [
+      "B-22"
+    ],
+    "notes": "The incomplete ending is in HTML, not an observed Google snippet. Google can choose different snippet text.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-07",
+    "title": "Refresh two dated implementation references",
+    "category": "Content",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+    "evidence": "A guide lists FID and the audit guide suggests Search Console parameter settings; Google replaced FID with INP and retired that tool.",
+    "impact": 2,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Content Lead + Technical SEO",
+    "metric": "Primary-source freshness check passes on both instructions",
+    "source": [
+      "SRC-DI-SHOPIFYGUIDE2",
+      "SRC-DI-AUDITGUIDE",
+      "SRC-DI-INP",
+      "SRC-DI-PARAMETERS"
+    ],
+    "notes": "Edit the specific instructions, verify in context and record reviewer/date. Do not use character/word thresholds as ranking rules.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-08",
+    "title": "Check case-study canonical consistency",
+    "category": "Technical SEO",
+    "url": "https://www.seoasis.io/case-studies",
+    "evidence": "No source canonical appears on the case hub and three sampled case pages; 16 other sampled pages have one.",
+    "impact": 2,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Technical SEO + Developer",
+    "metric": "Preferred case URLs confirmed and template output verified",
+    "source": [
+      "B-04",
+      "B-05",
+      "B-06",
+      "B-07"
+    ],
+    "notes": "Requires Internal Access: GSC selected-canonical checks. Omission is not proof of duplicate indexing; confirm preferred URLs before implementation.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-09",
+    "title": "Test one selected homepage service-hub path",
+    "category": "Internal Linking",
+    "url": "https://www.seoasis.io/",
+    "evidence": "Homepage source links expose four page destinations; no sampled direct commercial-service path appears.",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Strategist + UX",
+    "metric": "Useful discovery path and qualified lead behavior",
+    "source": [
+      "CF-HOMEPAGE",
+      "B-02"
+    ],
+    "notes": "Validate complete rendered graph and focused-navigation intent first. No sitewide orphan or crawl-depth claim.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-10",
+    "title": "Connect collection methodology and relevant case proof",
+    "category": "Internal Linking",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+    "evidence": "Bronson AI copy names collections and hub-and-spoke work but lacks a direct category-service link in sampled HTML.",
+    "impact": 3,
+    "effort": 1,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Strategist + Editor",
+    "metric": "Relevant contextual link QA and path to service explanation",
+    "source": [
+      "CF-CASE-STUDIES-BRONSON-VITAMINS",
+      "CF-SHOPIFY-SEO-AGENCY"
+    ],
+    "notes": "Use a natural useful sentence and descriptive anchor. Existing service-to-proof links already exist; no reciprocal quota.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-11",
+    "title": "Assign a primary intent to close service variants",
+    "category": "Search Intent",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "evidence": "Agency/company/consultant/expert URLs coexist; sampled agency and company sections share themes.",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Account Strategist",
+    "metric": "Query × URL ownership, qualified leads and page-role decisions",
+    "source": [
+      "SRC-DI-SITEMAP",
+      "CF-SHOPIFY-SEO-AGENCY"
+    ],
+    "notes": "Requires Internal Access: GSC, GA4/CRM. Similar words do not establish cannibalization; retain valuable distinct pages.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-12",
+    "title": "Review overlap between Shopify optimization guides",
+    "category": "Content",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "evidence": "Two reviewed guides cover collections, schema, technical checks, Reddit and AI testing.",
+    "impact": 3,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Content Lead + Strategist",
+    "metric": "Differentiated reader tasks or approved consolidation plan",
+    "source": [
+      "SRC-DI-SHOPIFYGUIDE",
+      "SRC-DI-SHOPIFYGUIDE2"
+    ],
+    "notes": "Requires Internal Access: GSC, GA4 and relevant links. Compare intent and outcomes before any merge; plan redirects and link updates if chosen.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-13",
+    "title": "Release a commercially gated collection pilot",
+    "category": "Collection Pages",
+    "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "evidence": "SEOasis describes transactional collections with real products; this is a reusable client operating proposal.",
+    "impact": 5,
+    "effort": 4,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Strategist + Shopify Developer",
+    "metric": "Released viable intent cohort; search response and landing-cohort purchases",
+    "source": [
+      "SRC-E-HOME",
+      "SRC-E-EXPERT"
+    ],
+    "notes": "Requires Internal Access: Shopify, GSC, GA4, finance. Gate distinct intent, assortment, copy, stock and margin; no guaranteed page quota.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-14",
+    "title": "Document collection facets, pagination and index policy",
+    "category": "Technical SEO",
+    "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "evidence": "Official ecommerce guidance separates persistent category URLs, facets and crawlable pagination.",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Technical SEO + Shopify Developer",
+    "metric": "Approved indexable URL set and reachable products across pagination",
+    "source": [
+      "SRC-E-URLS",
+      "SRC-E-FACETS",
+      "SRC-E-STRUCTURE"
+    ],
+    "notes": "Client template QA proposal, not an SEOasis agency-site defect. Review robots/noindex/canonical ordering; avoid blocking signals before Google can read them.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-15",
+    "title": "Validate schema parity and current eligibility rules",
+    "category": "Schema",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "evidence": "19/20 sample pages have parseable JSON-LD; syntax alone does not establish semantic accuracy or Google eligibility.",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Schema Specialist + QA",
+    "metric": "Representative template validation with visible-content parity",
+    "source": [
+      "SRC-G-HOME",
+      "SRC-G-GOOGLE-FAQ",
+      "SRC-G-GOOGLE-REVIEWS",
+      "SRC-E-PRODUCT"
+    ],
+    "notes": "FAQ rich results stopped May 7, 2026. No special AI schema; no collection Product stars or self-serving business review-star promise.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-16",
+    "title": "Verify entity references and video endpoints",
+    "category": "Schema",
+    "url": "https://www.seoasis.io/",
+    "evidence": "Homepage sameAs is empty and VideoObject contentUrl ends in .jsonp; actual endpoint contents were not fetched.",
+    "impact": 2,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Schema Specialist + Developer",
+    "metric": "Verified official entity references and playable video metadata",
+    "source": [
+      "SRC-G-HOME",
+      "SRC-G-GOOGLE-VIDEO"
+    ],
+    "notes": "Validate endpoint media and owned profiles before editing. Use correct embedUrl where actual video-byte URL is unavailable.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-17",
+    "title": "Establish a repeated AI query evidence panel",
+    "category": "AEO / AI Visibility",
+    "url": "https://www.seoasis.io/",
+    "evidence": "Public AI monitoring is described; no actual AI outputs were collected for this study.",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "AEO Strategist",
+    "metric": "Saved prompt conditions, answers and exact citations over repeated runs",
+    "source": [
+      "SRC-G-GOOGLE-AI",
+      "src-company-shopify"
+    ],
+    "notes": "Requires Internal Access to any existing client log/tool history. Suggested manual prompts are not observed outputs; compare like conditions.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-18",
+    "title": "Build a community listening map for one client",
+    "category": "Reddit / Community",
+    "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "evidence": "SEOasis guide describes relevant communities and helpful participation; client community fit was not verified.",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Reddit Specialist + Strategist",
+    "metric": "Relevant buyer questions, current rules and approved listen/answer/abstain decisions",
+    "source": [
+      "src-community-guide"
+    ],
+    "notes": "Use public listening to inform collection research; validate stock, margin and claims before turning questions into pages.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-19",
+    "title": "Agree a transparent community response gate",
+    "category": "Reddit / Community",
+    "url": "https://www.seoasis.io/reddit-seo",
+    "evidence": "Reddit rules require authentic participation and prohibit spam/manipulation; service work needs client-specific boundaries.",
+    "impact": 4,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P0",
+    "status": "Proposed",
+    "owner": "Reddit Specialist + Account Lead",
+    "metric": "Approved account, affiliation disclosure, human review and escalation process",
+    "source": [
+      "src-community-reddit-rules",
+      "src-community-guide"
+    ],
+    "notes": "Prerequisite before participation. No deceptive engagement, manufactured endorsements, coordinated voting or evasion of removals.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-20",
+    "title": "Validate Merchant Center eligibility before feed tests",
+    "category": "Organic Shopping",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "evidence": "Feed work is public methodology; no client feed diagnostics or product performance was accessed.",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "status": "Proposed",
+    "owner": "Feed Specialist + Analytics",
+    "metric": "Approved/limited/disapproved items and verified free-listing tracking",
+    "source": [
+      "SRC-L-FREE",
+      "SRC-L-PERFORMANCE",
+      "SRC-L-TRACK"
+    ],
+    "notes": "Requires Internal Access: Merchant Center, GA4 and Shopify. Reconcile GTIN/MPN where applicable, prices, availability, images and destination facts.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-21",
+    "title": "Pilot a product-title structure before a separate image test",
+    "category": "Organic Shopping",
+    "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+    "evidence": "Mike describes supplemental feeds and title/image experiments in an attributable vendor-hosted interview.",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Feed Specialist + Strategist",
+    "metric": "Comparable-cohort free-listing CTR, qualified purchases and reconciled net sales",
+    "source": [
+      "src-company-interview",
+      "SRC-L-TRACK"
+    ],
+    "notes": "Requires Internal Access. Confirm eligibility/stock; avoid changing image and title together; annotate promotions and seasonality; no projected lift.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-22",
+    "title": "Choose a conversion test after funnel reconciliation",
+    "category": "CRO / Revenue",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "evidence": "Public pages provide several next-step and proof formats; no conversion friction or performance effect is measured.",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Strategist + CRO + Analytics",
+    "metric": "Qualified lead behavior for agency; purchase funnel for merchant client",
+    "source": [
+      "M-01",
+      "M-02",
+      "SRC-O-GA4"
+    ],
+    "notes": "Requires Internal Access: agency GA4/CRM or client GA4/Shopify. Keep agency lead funnel distinct from merchant purchase funnel.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-23",
+    "title": "Create an approved proof packet with method notes",
+    "category": "Authority / Links",
+    "url": "https://www.seoasis.io/case-studies",
+    "evidence": "Named public cases provide intervention themes while analytics exports and causal controls remain unavailable.",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Account Lead + Client + Editor",
+    "metric": "Approved scope, dates, definitions, caveats and usable client quotes",
+    "source": [
+      "src-company-cases",
+      "SRC-O-ATTRIBUTION"
+    ],
+    "notes": "Requires Internal Access for validation and client approval for reuse. Company-reported attribution does not establish incremental revenue.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-24",
+    "title": "Confirm blog and link-partner scope before briefing",
+    "category": "Authority / Links",
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "evidence": "Role includes blog and link-building coordination while public service messaging deemphasizes these deliverables.",
+    "impact": 3,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Account Lead + Strategist",
+    "metric": "Documented partner scope, quality criteria, owner and account-specific rationale",
+    "source": [
+      "src-job-linkedin",
+      "src-authority-link-service",
+      "SRC-DI-SHOPIFY"
+    ],
+    "notes": "Unresolved scope question, not a contradiction to explain away. Do not assume a link quota or broad blog-production commitment.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-25",
+    "title": "Validate a dedicated Shopping explanation against buyer needs",
+    "category": "Search Intent",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "evidence": "Shopping methodology has case/founder coverage; no distinct Shopping service URL was found in the reviewed sitemap.",
+    "impact": 3,
+    "effort": 4,
+    "confidence": "Low",
+    "priority": "P3",
+    "status": "Proposed",
+    "owner": "Strategist + Commercial Lead",
+    "metric": "Qualified sales questions and verified target-market intent",
+    "source": [
+      "SRC-DI-SITEMAP",
+      "SRC-DI-SHOPPING",
+      "N-02",
+      "N-06",
+      "N-08"
+    ],
+    "notes": "A page is optional after delivery scope and demand validation. Peers also use AI messaging; differentiate with useful method and proof, not an exclusivity claim.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-26",
+    "title": "Close every quarter with keep/expand/revise/stop decisions",
+    "category": "90-Day Strategy",
+    "url": "https://www.seoasis.io/",
+    "evidence": "Quarterly recalibration and end-to-end strategist ownership are explicit public expectations.",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Account Strategist + Client",
+    "metric": "Every major hypothesis has evidence, decision, rationale and next owner",
+    "source": [
+      "src-company-home",
+      "src-job-linkedin",
+      "SRC-O-ATTRIBUTION"
+    ],
+    "notes": "Requires Internal Access to account outcomes and constraints. Ninety days is a review cadence, not a guaranteed SEO payback window.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-27",
+    "title": "Turn one successful handoff into a reusable SOP",
+    "category": "Operations",
+    "url": "https://www.seoasis.io/",
+    "evidence": "Role values documentation, independent ownership and possible future team leadership.",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P2",
+    "status": "Proposed",
+    "owner": "Account Lead + QA + Strategist",
+    "metric": "Peer can execute brief and QA without undocumented dependencies",
+    "source": [
+      "src-job-linkedin"
+    ],
+    "notes": "Requires Internal Access: Asana and fulfillment process. Review cycle time, rework and capacity; preserve merchant-specific exceptions.",
+    "classification": "OPPORTUNITY"
+  },
+  {
+    "id": "OP-28",
+    "title": "Collect browser and performance evidence before remediation",
+    "category": "Technical SEO",
+    "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "evidence": "The bounded HTTP audit did not collect field Core Web Vitals, mobile interaction or rendered-browser evidence.",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P1",
+    "status": "Proposed",
+    "owner": "Technical SEO + UX + QA",
+    "metric": "Saved mobile/keyboard/browser checks and PSI/CrUX field evidence where available",
+    "source": [
+      "B-03",
+      "B-13",
+      "SRC-O-GSC"
+    ],
+    "notes": "Public PSI may be accessible without account access; GSC CWV requires access. Lack of a test is not a detected performance defect.",
+    "classification": "OPPORTUNITY"
+  }
+]

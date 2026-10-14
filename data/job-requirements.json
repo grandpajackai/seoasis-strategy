@@ -1,0 +1,533 @@
+{
+  "role": "SEO Strategist - US Only - Full Time, Remote Opportunity",
+  "company": "SEOasis",
+  "reviewedAt": "2026-10-14",
+  "primarySource": "src-job-linkedin",
+  "status": "Public role description found; active vacancy unconfirmed",
+  "availabilityNote": "LinkedIn exposes an employer role listing, while direct Gusto posting returns HTTP 410 and the Gusto board lists no openings. Confirm current status with Mike.",
+  "summary": "Hands-on account ownership spanning strategy, delivery, QA, reporting, partner coordination and quarterly revision, with a path toward hiring and fulfillment leadership.",
+  "requirements": [
+    {
+      "id": "own-strategy",
+      "requirement": "Owning account strategy",
+      "operationalMeaning": "Maintain one accountable plan per account: goal, diagnosis, hypothesis, owner and next decision.",
+      "demonstratedIn": "Executive Overview; 90-Day Strategy; Opportunity Backlog",
+      "dashboardSections": [
+        "Executive Overview",
+        "90-Day Strategy",
+        "Opportunity Backlog"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "monitor-results",
+      "requirement": "Monitoring SEO results",
+      "operationalMeaning": "Review changes by page cohort and buyer intent; investigate movement against release dates and seasonality.",
+      "demonstratedIn": "Measurement Framework; Technical SEO",
+      "dashboardSections": [
+        "Measurement Framework",
+        "Technical SEO"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "revise-90",
+      "requirement": "Revising strategy every 90 days",
+      "operationalMeaning": "Close hypotheses and decide what to expand, revise or stop using agreed business outcomes.",
+      "demonstratedIn": "90-Day Strategy; Measurement Framework",
+      "dashboardSections": [
+        "90-Day Strategy",
+        "Measurement Framework"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "keyword-research",
+      "requirement": "Keyword research",
+      "operationalMeaning": "Map distinct buyer needs to suitable page types and viable product assortments.",
+      "demonstratedIn": "Search / Keyword Opportunities; Collection Pages",
+      "dashboardSections": [
+        "Search / Keyword Opportunities",
+        "Collection Pages"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "collection-build",
+      "requirement": "Collection-page creation",
+      "operationalMeaning": "Specify catalog rules, metadata, copy, links, schema, conversion needs and launch QA.",
+      "demonstratedIn": "Collection Pages; On-Page SEO; Schema",
+      "dashboardSections": [
+        "Collection Pages",
+        "On-Page SEO",
+        "Schema"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "shopify",
+      "requirement": "Shopify CMS",
+      "operationalMeaning": "Work with collection rules, templates, canonicals, product data and theme/app ownership.",
+      "demonstratedIn": "Collection Pages; Technical SEO; Organic Shopping",
+      "dashboardSections": [
+        "Collection Pages",
+        "Technical SEO",
+        "Organic Shopping"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "blog-partners",
+      "requirement": "Blog/content coordination",
+      "operationalMeaning": "Brief partners around supporting buyer questions, brand voice, evidence and commercial destinations. Confirm scope first.",
+      "demonstratedIn": "Content; Methodology scope question",
+      "dashboardSections": [
+        "Content",
+        "Methodology scope question"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "link-partners",
+      "requirement": "Link-building coordination",
+      "operationalMeaning": "Coordinate approved partners around relevant audiences and evidence; validate current service scope with Mike.",
+      "demonstratedIn": "Authority / Links; Methodology scope question",
+      "dashboardSections": [
+        "Authority / Links",
+        "Methodology scope question"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "titles",
+      "requirement": "Titles",
+      "operationalMeaning": "Match the page’s distinct intent and proposition; verify deployment and avoid template duplication.",
+      "demonstratedIn": "On-Page SEO; Technical SEO; launch QA",
+      "dashboardSections": [
+        "On-Page SEO",
+        "Technical SEO",
+        "launch QA"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "metas",
+      "requirement": "Meta descriptions",
+      "operationalMeaning": "Give an accurate reason to visit and compare CTR with query mix and position controlled where possible.",
+      "demonstratedIn": "On-Page SEO; Measurement Framework",
+      "dashboardSections": [
+        "On-Page SEO",
+        "Measurement Framework"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "schema",
+      "requirement": "Schema",
+      "operationalMeaning": "Match markup to visible facts and applicable eligibility rules; validate syntax and monitor enhancement reports.",
+      "demonstratedIn": "Schema; Technical SEO",
+      "dashboardSections": [
+        "Schema",
+        "Technical SEO"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "qa",
+      "requirement": "QA before release",
+      "operationalMeaning": "Check destinations, rendered content, metadata, canonicals, schema and mobile behavior against acceptance criteria.",
+      "demonstratedIn": "Technical SEO; Schema; QA report",
+      "dashboardSections": [
+        "Technical SEO",
+        "Schema",
+        "QA report"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "asana",
+      "requirement": "Asana/project management",
+      "operationalMeaning": "Track owner, due window, dependency, status and evidence so handoffs are explicit.",
+      "demonstratedIn": "Opportunity Backlog; 90-Day Strategy",
+      "dashboardSections": [
+        "Opportunity Backlog",
+        "90-Day Strategy"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "reporting",
+      "requirement": "Reporting",
+      "operationalMeaning": "Separate work shipped, leading indicators, commercial outcomes, constraints and next decisions.",
+      "demonstratedIn": "Measurement Framework; Executive Overview",
+      "dashboardSections": [
+        "Measurement Framework",
+        "Executive Overview"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "communication",
+      "requirement": "Client communication",
+      "operationalMeaning": "Write concise updates and explain tradeoffs in the client’s language; surface blocked decisions early.",
+      "demonstratedIn": "Interview Notes; Measurement Framework",
+      "dashboardSections": [
+        "Interview Notes",
+        "Measurement Framework"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "ai-native",
+      "requirement": "AI-native workflows",
+      "operationalMeaning": "Use AI to accelerate structured work; verify claims, preserve sources and edit for merchant context.",
+      "demonstratedIn": "AEO / AI Visibility; data architecture; research provenance",
+      "dashboardSections": [
+        "AEO / AI Visibility",
+        "data architecture",
+        "research provenance"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "independent",
+      "requirement": "Independent ownership",
+      "operationalMeaning": "Choose the next valuable action within agreed scope, state assumptions and escalate material dependencies.",
+      "demonstratedIn": "Opportunity Backlog; 90-Day Strategy",
+      "dashboardSections": [
+        "Opportunity Backlog",
+        "90-Day Strategy"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "documentation",
+      "requirement": "Process documentation",
+      "operationalMeaning": "Make repeatable briefs, QA gates and decision logs that another operator can follow.",
+      "demonstratedIn": "README; RESEARCH; Collection Pages; QA report",
+      "dashboardSections": [
+        "README",
+        "RESEARCH",
+        "Collection Pages",
+        "QA report"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "leadership",
+      "requirement": "Future team leadership",
+      "operationalMeaning": "Design handoffs, onboarding templates and capacity-aware workflows before adding operators.",
+      "demonstratedIn": "90-Day Strategy; Collection Pages; Opportunity Backlog",
+      "dashboardSections": [
+        "90-Day Strategy",
+        "Collection Pages",
+        "Opportunity Backlog"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "sheets",
+      "requirement": "Google Sheets proficiency",
+      "operationalMeaning": "Keep clean row-level data, consistent identifiers and audit trails; export backlog for operational use.",
+      "demonstratedIn": "Structured JSON; sortable/exportable Opportunity Backlog",
+      "dashboardSections": [
+        "Structured JSON",
+        "sortable/exportable Opportunity Backlog"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "multiple-accounts",
+      "requirement": "Multiple clients and deliverables",
+      "operationalMeaning": "Prioritize with account context and dependencies; separate reusable standards from merchant-specific choices.",
+      "demonstratedIn": "Collection audit template; Opportunity Backlog; configurable priority model",
+      "dashboardSections": [
+        "Collection audit template",
+        "Opportunity Backlog",
+        "configurable priority model"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "brand-voice",
+      "requirement": "Brand voice and AI-copy editing",
+      "operationalMeaning": "Replace generic assertions with specific evidence, useful product context and natural language.",
+      "demonstratedIn": "On-Page SEO; Content; Interview Walkthrough",
+      "dashboardSections": [
+        "On-Page SEO",
+        "Content",
+        "Interview Walkthrough"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "onboarding",
+      "requirement": "Client onboarding",
+      "operationalMeaning": "Request access with purpose, confirm goals and constraints, reconcile baseline metrics and agree reporting.",
+      "demonstratedIn": "Measurement Framework; Days 1–30 roadmap",
+      "dashboardSections": [
+        "Measurement Framework",
+        "Days 1–30 roadmap"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "pushback",
+      "requirement": "Constructive pushback",
+      "operationalMeaning": "Show evidence and an alternative test when priorities conflict; revise the view when results contradict it.",
+      "demonstratedIn": "Evidence classifications; Methodology scope questions; Interview Notes",
+      "dashboardSections": [
+        "Evidence classifications",
+        "Methodology scope questions",
+        "Interview Notes"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "html-css",
+      "requirement": "Basic HTML/CSS (nice to have)",
+      "operationalMeaning": "Inspect rendered semantics and templates and collaborate on precise implementation tickets.",
+      "demonstratedIn": "Technical SEO; Schema; working responsive application",
+      "dashboardSections": [
+        "Technical SEO",
+        "Schema",
+        "working responsive application"
+      ],
+      "requirementClassification": "OBSERVED",
+      "operationalClassification": "OPPORTUNITY",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Paraphrased role requirement; operational response and dashboard mapping are proposed demonstrations.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "eligibility": {
+    "note": "Role states US contiguous-state residency/work authorization, agency or ecommerce strategy experience and Eastern Time overlap. Candidate eligibility and career history are not asserted by this artifact.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "source": "src-job-linkedin",
+    "evidence": "Eligibility conditions appear in the employer role description."
+  },
+  "importantBoundary": "The role welcomes AI-assisted building but asks applicants to answer personal application questions in their own voice. Interview notes are rehearsal scaffolding, not invented personal experience.",
+  "sources": [
+    {
+      "id": "src-job-linkedin",
+      "url": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+      "title": "SEOasis hiring SEO Strategist - US Only - Full Time, Remote Opportunity | LinkedIn",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer listing exposed full role description without authentication. Role requirements and growth expectations are observed; active hiring status needs confirmation.",
+      "status": "Publicly accessible employer listing"
+    },
+    {
+      "id": "src-job-gusto",
+      "url": "https://jobs.gusto.com/postings/seoasis-seo-strategist-us-only-full-time-remote-opportunity-7efed2ec-3457-4268-8fd1-026d349add28",
+      "title": "SEO Strategist - US Only - Full Time, Remote Opportunity at SEOASIS",
+      "accessedAt": "2026-10-14",
+      "note": "Search index retained matching role text. Direct page returned HTTP 410 Gone when opened; do not present as a live vacancy or rely on it alone.",
+      "status": "HTTP 410 on direct open; historical corroboration"
+    },
+    {
+      "id": "src-job-board",
+      "url": "https://jobs.gusto.com/boards/seoasis-ca433255-e63d-4b9d-9bf2-ca87a3c84c98",
+      "title": "Careers at SEOASIS",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer careers board stated no open positions. This conflicts with the accessible LinkedIn role listing, so availability is unconfirmed.",
+      "status": "Publicly accessible; no positions listed"
+    }
+  ]
+}

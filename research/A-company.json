@@ -1,0 +1,183 @@
+{
+  "workstream": "A — Company / Methodology + Job Research",
+  "reviewedAt": "2026-10-14",
+  "findings": [
+    {
+      "id": "A-01",
+      "title": "Collection-led ecommerce positioning",
+      "finding": "Public methodology makes product-category intent and collection delivery central.",
+      "implication": "Lead the interview with how catalog, buyer intent and revenue inform work selection.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "Public audit/build/grow process and collection service.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "A-02",
+      "title": "Operator ownership is the role’s organizing principle",
+      "finding": "The position combines strategy, fulfillment, QA and reporting.",
+      "implication": "Demonstrate one connected operating loop rather than a list of isolated tactics.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Employer role responsibilities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "A-03",
+      "title": "Partner scope is worth clarifying",
+      "finding": "Role partner coordination and public no-blog/no-backlink copy differ.",
+      "implication": "Ask which account situations justify partner work; do not erase either source.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Compare with src-company-shopify and src-company-cases.",
+      "classification": "INFERRED",
+      "confidence": "High"
+    },
+    {
+      "id": "A-04",
+      "title": "Organic Shopping belongs in the operating model",
+      "finding": "Founder discusses active feed optimization and title/image testing.",
+      "implication": "Include Merchant Center quality and commercial measurement, gated by internal access.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "evidence": "First-person public Q&A.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "A-05",
+      "title": "AI visibility requires experimentation discipline",
+      "finding": "Founder says lasting AI solutions remain uncertain.",
+      "implication": "Use repeatable observations and qualified revenue evidence; avoid guaranteed visibility claims.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "evidence": "Founder’s discussion of uncertain durability.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "A-06",
+      "title": "Case results are claims requiring source-system validation",
+      "finding": "The public case library reports commercial outcomes across several workstreams.",
+      "implication": "Treat figures as self-reported evidence of positioning, not a causal forecast.",
+      "source": "src-company-cases",
+      "sourceIds": [
+        "src-company-cases"
+      ],
+      "evidence": "Public case descriptions; no internal source data accessed.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "A-07",
+      "title": "Job availability is not established",
+      "finding": "Accessible LinkedIn employer description coexists with an empty Gusto board and a gone direct posting.",
+      "implication": "Use role text to tailor the interview artifact; do not label hiring status verified.",
+      "source": "src-job-board",
+      "sourceIds": [
+        "src-job-board"
+      ],
+      "evidence": "Direct Gusto posting returned HTTP 410; LinkedIn description accessible.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-company-home",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Live homepage: Shopify/ecommerce AEO positioning; team identities; collection, Reddit, foundation/monitoring pillars; quarterly recalibration and client reporting cadence. Outcome claims are company-reported.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-job-linkedin",
+      "url": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+      "title": "SEOasis hiring SEO Strategist - US Only - Full Time, Remote Opportunity | LinkedIn",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer listing exposed full role description without authentication. Role requirements and growth expectations are observed; active hiring status needs confirmation.",
+      "status": "Publicly accessible employer listing"
+    },
+    {
+      "id": "src-job-gusto",
+      "url": "https://jobs.gusto.com/postings/seoasis-seo-strategist-us-only-full-time-remote-opportunity-7efed2ec-3457-4268-8fd1-026d349add28",
+      "title": "SEO Strategist - US Only - Full Time, Remote Opportunity at SEOASIS",
+      "accessedAt": "2026-10-14",
+      "note": "Search index retained matching role text. Direct page returned HTTP 410 Gone when opened; do not present as a live vacancy or rely on it alone.",
+      "status": "HTTP 410 on direct open; historical corroboration"
+    },
+    {
+      "id": "src-job-board",
+      "url": "https://jobs.gusto.com/boards/seoasis-ca433255-e63d-4b9d-9bf2-ca87a3c84c98",
+      "title": "Careers at SEOASIS",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer careers board stated no open positions. This conflicts with the accessible LinkedIn role listing, so availability is unconfirmed.",
+      "status": "Publicly accessible; no positions listed"
+    },
+    {
+      "id": "src-company-shopify",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Commercial methodology page outlines audit/build/grow, collection production, schema, Reddit and AI monitoring. Its no-blog/no-backlink positioning differs from partner coordination in the role listing. Technical and outcome assertions are SEOasis claims, not independently established facts.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-cases",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public case library includes collection work, technical hack cleanup, AI referral revenue, organic Shopping, and blog-related results. Statistics are self-reported; baselines and causal attribution require source-system validation.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-interview",
+      "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+      "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Accessible first-person Q&A with Mike Sack, hosted by a vendor he uses. He discusses boutique delivery, supplemental feeds, images/title experiments, and uncertainty in durable AI tactics. Vendor-hosted results are self-reported.",
+      "status": "Publicly accessible primary interview"
+    },
+    {
+      "id": "src-company-blog",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public article library covers Shopify/ecommerce, AEO, collection strategy and AI recommendations; its existence does not establish client blog deliverable scope.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-guide",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Article attributed to Mike Sack, dated April 30, 2026. Public collection methodology discusses category/modifier research, catalog relevance, URL and structured data.",
+      "status": "Publicly accessible"
+    }
+  ],
+  "limitations": [
+    "Public sources establish positioning and stated responsibilities, not current fulfillment SOPs.",
+    "All reported client results are self-reported; attribution and causality unverified.",
+    "No private platforms, keyword volumes, rankings or AI visibility metrics were accessed.",
+    "No standalone About page was verified; team identities were taken from the live homepage.",
+    "No direct founder social account history was exhaustively reviewed."
+  ],
+  "handoff": [
+    "Review Organic Shopping interview in L/O workstreams.",
+    "Resolve blog/link partner scope with Mike.",
+    "Preserve Gusto 410 distinction and cite LinkedIn for current accessible role text."
+  ]
+}

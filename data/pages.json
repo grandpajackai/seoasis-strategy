@@ -1,0 +1,3853 @@
+{
+  "scope": {
+    "accessed": "2026-10-14",
+    "pageCount": 20,
+    "httpRequestCount": 20,
+    "intervalSeconds": 1.1,
+    "method": "Serial curl GET of 20 sitemap-selected pages; raw HTML parsed with Python standard library.",
+    "limitations": [
+      "Purposive sample, not a complete crawl.",
+      "Source HTML only; browser rendering not tested.",
+      "HTTP 200 and no robots block do not prove Google indexation.",
+      "No GSC, GA4, backlink database, rankings, field CWV or revenue data accessed.",
+      "Linked targets outside this sample were not status-checked; no site-wide broken-link conclusion.",
+      "Image bytes and decoded dimensions not downloaded; HTML response size is not image weight.",
+      "JSON parse success is not a Google Rich Results or Schema.org validation result."
+    ],
+    "sitemapUrlCount": 70,
+    "additionalEndpointRequests": 2,
+    "coverage": "20 purposively selected HTML pages plus robots.txt and sitemap.xml; not a complete crawl."
+  },
+  "pages": [
+    {
+      "id": "homepage",
+      "url": "https://www.seoasis.io/",
+      "finalUrl": "https://www.seoasis.io/",
+      "status": 200,
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "titleLength": 39,
+      "metaDescription": [
+        "SEOasis is a Shopify SEO agency built for the AI era. We help ecommerce brands get recommended by ChatGPT, Perplexity, and Google with AI-ready collection pages, schema markup, and Reddit authority."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io"
+      ],
+      "h1": [
+        "We'll Get Your Products Recommended by ChatGPT with Our Full-Stack AEO System"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "We'll Get Your Products Recommended by ChatGPT with Our Full-Stack AEO System"
+        },
+        {
+          "level": 2,
+          "text": "Search Is Splitting in Two.Most Brands Are Only Visible in Half."
+        },
+        {
+          "level": 3,
+          "text": "AI Can't Find Your Brand"
+        },
+        {
+          "level": 3,
+          "text": "Your Competitors Are Already There"
+        },
+        {
+          "level": 3,
+          "text": "Blogs & Backlinks Won't Fix It"
+        },
+        {
+          "level": 2,
+          "text": "Built for Shopify Brands Burned by Agencies"
+        },
+        {
+          "level": 3,
+          "text": "Proactive, Not Reactive"
+        },
+        {
+          "level": 3,
+          "text": "Month-to-Month, No Contracts"
+        },
+        {
+          "level": 3,
+          "text": "Direct Access, No Middlemen"
+        },
+        {
+          "level": 3,
+          "text": "Results in 8-12 Weeks"
+        },
+        {
+          "level": 3,
+          "text": "Transparent Reporting"
+        },
+        {
+          "level": 2,
+          "text": "One Shopify SEO System, Every Angle Covered"
+        },
+        {
+          "level": 3,
+          "text": "We Build the Pages That AI and Google Reward"
+        },
+        {
+          "level": 2,
+          "text": "See How It All Connects"
+        },
+        {
+          "level": 2,
+          "text": "From Invisible to Recommended"
+        },
+        {
+          "level": 3,
+          "text": "Week 1-2"
+        },
+        {
+          "level": 3,
+          "text": "Week 3+"
+        },
+        {
+          "level": 3,
+          "text": "Month 3+"
+        },
+        {
+          "level": 3,
+          "text": "Every 90 Days"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "+$182K in Organic Revenue for an Outdoor Adventure Brand"
+        },
+        {
+          "level": 3,
+          "text": "+$573K in Organic Revenue from Strategic Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Making a Sustainable Fashion Brand Visible to AI Search"
+        },
+        {
+          "level": 3,
+          "text": "Finding an Extra $66K in Untapped Keywords"
+        },
+        {
+          "level": 2,
+          "text": "What Our Clients Say"
+        },
+        {
+          "level": 2,
+          "text": "Meet the Humans Behind the Strategy"
+        },
+        {
+          "level": 3,
+          "text": "Mike Sack"
+        },
+        {
+          "level": 3,
+          "text": "Nick Winikoff"
+        },
+        {
+          "level": 3,
+          "text": "Jacob Copple"
+        },
+        {
+          "level": 3,
+          "text": "Arly Belgado"
+        },
+        {
+          "level": 2,
+          "text": "See How AI Searches for Your Brand"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 7,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "AggregateRating",
+        "BreadcrumbList",
+        "ContactPoint",
+        "Country",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "OfferCatalog",
+        "Organization",
+        "Person",
+        "ProfessionalService",
+        "Rating",
+        "Review",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebSite"
+      ],
+      "htmlBytes": 174778,
+      "xRobotsTag": [],
+      "source": "B-03",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "case-studies",
+      "url": "https://www.seoasis.io/case-studies",
+      "finalUrl": "https://www.seoasis.io/case-studies",
+      "status": 200,
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "titleLength": 31,
+      "metaDescription": [
+        "See how SEOasis has helped ecommerce brands generate hundreds of thousands in organic revenue \u2014 with detailed breakdowns of exactly what we did."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [],
+      "h1": [
+        "Real Brands. Real Revenue."
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "Planetary Design"
+        },
+        {
+          "level": 3,
+          "text": "8,460 Google Discover Clicks in Two Weekends"
+        },
+        {
+          "level": 3,
+          "text": "6 Shopify Brands"
+        },
+        {
+          "level": 3,
+          "text": "$2.8M in Incremental Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Hidden Counterfeit Store"
+        },
+        {
+          "level": 3,
+          "text": "How We Found a Hidden Hack That Cut Organic Revenue in Half"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Brandt Skincare"
+        },
+        {
+          "level": 3,
+          "text": "First 4 Months in the GEO Era"
+        },
+        {
+          "level": 3,
+          "text": "Organic Revenue in 90 Days"
+        },
+        {
+          "level": 3,
+          "text": "Organic Revenue Lift in the First 90 Days"
+        },
+        {
+          "level": 3,
+          "text": "Bronson \u2014 Organic Shopping"
+        },
+        {
+          "level": 3,
+          "text": "Nearly Doubling Organic Shopping Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Bronson Vitamins"
+        },
+        {
+          "level": 3,
+          "text": "Unlocking AI Visibility \u2014 +264% AI Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Brandt Skincare"
+        },
+        {
+          "level": 3,
+          "text": "+$99K/Month in Incremental Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "TheFeed"
+        },
+        {
+          "level": 3,
+          "text": "+$573K in Organic Revenue in 8 Months"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest"
+        },
+        {
+          "level": 3,
+          "text": "+$182K in Organic Revenue Growth"
+        },
+        {
+          "level": 3,
+          "text": "TriRig"
+        },
+        {
+          "level": 3,
+          "text": "+$66K Revenue in 4 Months \u2014 50% Increase"
+        },
+        {
+          "level": 2,
+          "text": "Want to Be Our Next Case Study?"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 8,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "https://www.seoasis.io/case-studies/counterfeit-hermes-hack-recovery",
+        "https://www.seoasis.io/case-studies/dr-brandt",
+        "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "https://www.seoasis.io/case-studies/planetary-design-google-discover",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/six-shopify-brands-organic-revenue",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/case-studies/tririg",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ItemList",
+        "ListItem"
+      ],
+      "htmlBytes": 85100,
+      "xRobotsTag": [],
+      "source": "B-04",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "case-studies__bronson-vitamins",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "finalUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "status": 200,
+      "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+      "titleLength": 65,
+      "metaDescription": [
+        "SEOasis case study: how an AEO system grew Bronson Vitamins' AI-driven sessions 204%, AI purchases 283%, and AI revenue 264% \u2014 with 71.6% from net-new customers."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [],
+      "h1": [
+        "How SEOasis Unlocked AI Visibility for Bronson Vitamins"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "How SEOasis Unlocked AI Visibility for Bronson Vitamins"
+        },
+        {
+          "level": 2,
+          "text": "The Challenge: Invisible Inside AI Answers"
+        },
+        {
+          "level": 2,
+          "text": "Our Approach: The SEOasis AEO System"
+        },
+        {
+          "level": 2,
+          "text": "How We Did It"
+        },
+        {
+          "level": 3,
+          "text": "AI-Ready Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup"
+        },
+        {
+          "level": 3,
+          "text": "Internal Linking Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "Transparent Reporting"
+        },
+        {
+          "level": 2,
+          "text": "Period-over-Period Growth from AI Traffic"
+        },
+        {
+          "level": 3,
+          "text": "Steady Growth from February Through April 2026"
+        },
+        {
+          "level": 3,
+          "text": "AI Revenue Nearly Tripled"
+        },
+        {
+          "level": 2,
+          "text": "71.6% of AI Revenue Came from New Customers"
+        },
+        {
+          "level": 2,
+          "text": "The AEO Playbook"
+        },
+        {
+          "level": 3,
+          "text": "1. AI Visibility Is Its Own Channel"
+        },
+        {
+          "level": 3,
+          "text": "2. Schema Is the Unlock"
+        },
+        {
+          "level": 3,
+          "text": "3. Reddit Is an AI Citation Source"
+        },
+        {
+          "level": 3,
+          "text": "4. AI Opens the Top of the Funnel"
+        },
+        {
+          "level": 2,
+          "text": "More Case Studies"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Brandt \u2014 +$99K/mo Incremental Revenue"
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in 8 Months"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Want Results Like These for Your Brand?"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 4,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/dr-brandt",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem"
+      ],
+      "htmlBytes": 76433,
+      "xRobotsTag": [],
+      "source": "B-05",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "case-studies__bronson-vitamins-organic-shopping",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "finalUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "status": 200,
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "titleLength": 71,
+      "metaDescription": [
+        "SEOasis case study: one month of Google Merchant Center optimization nearly doubled Bronson Vitamins' organic Shopping revenue (+88.7%), with conversion rate +51% and AOV +39% \u2014 from fewer, far more qualified sessions."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [],
+      "h1": [
+        "Nearly Doubling Bronson's Organic Shopping Revenue"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Nearly Doubling Bronson's Organic Shopping Revenue"
+        },
+        {
+          "level": 2,
+          "text": "About Bronson Vitamins"
+        },
+        {
+          "level": 3,
+          "text": "The Brand"
+        },
+        {
+          "level": 3,
+          "text": "The Opportunity"
+        },
+        {
+          "level": 2,
+          "text": "Nearly Double the Revenue From Fewer Sessions"
+        },
+        {
+          "level": 2,
+          "text": "Why Organic Shopping Outperformed"
+        },
+        {
+          "level": 2,
+          "text": "How We Did It: Merchant Center Optimization"
+        },
+        {
+          "level": 3,
+          "text": "Product Feed Optimization"
+        },
+        {
+          "level": 3,
+          "text": "Structured Data & Attributes"
+        },
+        {
+          "level": 3,
+          "text": "Title & Description Optimization"
+        },
+        {
+          "level": 3,
+          "text": "Feed Health Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Transparent Reporting"
+        },
+        {
+          "level": 2,
+          "text": "More Case Studies"
+        },
+        {
+          "level": 3,
+          "text": "Bronson Vitamins \u2014 +264% AI Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Organic Revenue Growth in 90 Days"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Brandt \u2014 First 4 Months in the GEO Era"
+        },
+        {
+          "level": 2,
+          "text": "Free Traffic. Real Revenue."
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem"
+      ],
+      "htmlBytes": 64113,
+      "xRobotsTag": [],
+      "source": "B-06",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "case-studies__dr-brandt-geo",
+      "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "finalUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "status": 200,
+      "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+      "titleLength": 82,
+      "metaDescription": [
+        "SEOasis case study: how we built Dr. Brandt a new AI-referred revenue channel from zero \u2014 visible and purchasable across ChatGPT, Google AI Overviews, and Perplexity in four months."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [],
+      "h1": [
+        "Dr. Brandt Skincare's First 4 Months in the GEO Era"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Dr. Brandt Skincare's First 4 Months in the GEO Era"
+        },
+        {
+          "level": 2,
+          "text": "The GEO Era Challenge"
+        },
+        {
+          "level": 2,
+          "text": "Where Dr. Brandt Now Shows Up"
+        },
+        {
+          "level": 3,
+          "text": "ChatGPT"
+        },
+        {
+          "level": 3,
+          "text": "Google AI Overviews"
+        },
+        {
+          "level": 3,
+          "text": "Perplexity"
+        },
+        {
+          "level": 2,
+          "text": "January Through April 2026"
+        },
+        {
+          "level": 2,
+          "text": "The AOV Dip Is a Healthy Signal"
+        },
+        {
+          "level": 3,
+          "text": "From a Near-Zero Baseline to Sustained Volume"
+        },
+        {
+          "level": 3,
+          "text": "A Running Average That Re-Accelerated"
+        },
+        {
+          "level": 2,
+          "text": "ChatGPT Dominates AI-Referred Revenue"
+        },
+        {
+          "level": 2,
+          "text": "The SEOasis AEO System"
+        },
+        {
+          "level": 3,
+          "text": "AI-Ready Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup (JSON-LD)"
+        },
+        {
+          "level": 3,
+          "text": "Internal Linking Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "Transparent Reporting"
+        },
+        {
+          "level": 2,
+          "text": "A New Revenue Channel, Built From Zero in Under Four Months"
+        },
+        {
+          "level": 2,
+          "text": "More Case Studies"
+        },
+        {
+          "level": 3,
+          "text": "Bronson Vitamins \u2014 +264% AI Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Organic Revenue Growth in 90 Days"
+        },
+        {
+          "level": 3,
+          "text": "Dr. Brandt \u2014 +$99K/mo Incremental Revenue"
+        },
+        {
+          "level": 2,
+          "text": "The GEO Era Is Already Here"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 4,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "https://www.seoasis.io/case-studies/dr-brandt",
+        "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem"
+      ],
+      "htmlBytes": 80195,
+      "xRobotsTag": [],
+      "source": "B-07",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "chatgpt-visibility-audit",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "finalUrl": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "status": 200,
+      "title": "Free ChatGPT Visibility Audit \u2014 Claude Code Plugin | SEOasis",
+      "titleLength": 60,
+      "metaDescription": [
+        "A free Claude Code plugin that watches what ChatGPT actually searches, scores your brand against the answers it gives, and hands you a report in about 30 minutes."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/chatgpt-visibility-audit"
+      ],
+      "h1": [
+        "Get the ChatGPT Visibility Audit skill"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Get the ChatGPT Visibility Audit skill"
+        },
+        {
+          "level": 2,
+          "text": "Three measured behaviours, not a score"
+        },
+        {
+          "level": 2,
+          "text": "How it works"
+        },
+        {
+          "level": 2,
+          "text": "What you need before installing"
+        },
+        {
+          "level": 2,
+          "text": "Next step"
+        }
+      ],
+      "imageCount": 1,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/"
+      ],
+      "externalLinks": [
+        "https://calendly.com/mikesack-seoasis/aeo-seo-strategy-chat-youtube",
+        "https://www.youtube.com/@seoasis"
+      ],
+      "schemaTypes": [],
+      "htmlBytes": 26872,
+      "xRobotsTag": [],
+      "source": "B-08",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "blog",
+      "url": "https://www.seoasis.io/blog",
+      "finalUrl": "https://www.seoasis.io/blog",
+      "status": 200,
+      "title": "Blog \u2014 Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "titleLength": 51,
+      "metaDescription": [
+        "Field notes from the SEOasis team on Shopify SEO, Answer Engine Optimization, collection page strategy, and getting recommended by AI search."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/blog"
+      ],
+      "h1": [
+        "Field Notes on Ecommerce SEO"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Field Notes on Ecommerce SEO"
+        },
+        {
+          "level": 2,
+          "text": "What to Look for in an Ecommerce SEO Audit (2026 Guide)"
+        },
+        {
+          "level": 2,
+          "text": "How to Optimize BigCommerce Stores for Search Engines in 2026"
+        },
+        {
+          "level": 2,
+          "text": "How to Optimize Shopify Sites for Search Engines in 2026"
+        },
+        {
+          "level": 2,
+          "text": "How to Choose an Ecommerce SEO Agency That Drives Revenue"
+        },
+        {
+          "level": 2,
+          "text": "How to Improve Ecommerce Search Rankings in 2026"
+        },
+        {
+          "level": 2,
+          "text": "What Does an Ecommerce SEO Agency Do? (2026 Guide)"
+        },
+        {
+          "level": 2,
+          "text": "How to Get Backlinks From Reddit Discussions (2026 Guide)"
+        },
+        {
+          "level": 2,
+          "text": "How to Optimize Reddit Posts for Search Visibility in 2026"
+        },
+        {
+          "level": 2,
+          "text": "How to Use Reddit for Ecommerce SEO in 2026"
+        },
+        {
+          "level": 2,
+          "text": "How to Use Reddit for SEO: The 2026 AI-Era Strategy"
+        },
+        {
+          "level": 2,
+          "text": "How to Choose a Shopify SEO Agency That Drives Revenue"
+        },
+        {
+          "level": 2,
+          "text": "How to Improve Shopify Store Search Rankings in 2026"
+        },
+        {
+          "level": 2,
+          "text": "How to Optimize Your Shopify Store for Search Engines in 2026"
+        },
+        {
+          "level": 2,
+          "text": "Skip the Reading. Just Get the Playbook."
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "https://www.seoasis.io/blog/how-to-choose-an-ecommerce-seo-agency",
+        "https://www.seoasis.io/blog/how-to-get-backlinks-from-reddit-discussions",
+        "https://www.seoasis.io/blog/how-to-improve-ecommerce-search-rankings",
+        "https://www.seoasis.io/blog/how-to-improve-shopify-store-search-rankings",
+        "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-reddit-posts-for-search-visibility",
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "https://www.seoasis.io/blog/how-to-use-reddit-for-seo",
+        "https://www.seoasis.io/blog/what-does-an-ecommerce-seo-agency-do",
+        "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "htmlBytes": 69314,
+      "xRobotsTag": [],
+      "source": "B-09",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "ecommerce-seo",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "finalUrl": "https://www.seoasis.io/ecommerce-seo",
+      "status": 200,
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "titleLength": 60,
+      "metaDescription": [
+        "Traditional ecommerce SEO is dead. AI models recommend products now. We build collection pages, schema markup, and Reddit authority so your brand shows up."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/ecommerce-seo"
+      ],
+      "h1": [
+        "Ecommerce SEO Built for AI Search"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ecommerce SEO Built for AI Search"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your Agency Promised Rankings, Delivered Blog Posts"
+        },
+        {
+          "level": 3,
+          "text": "AI Models Don't Recommend Your Products"
+        },
+        {
+          "level": 3,
+          "text": "Your Shopify Store Is Invisible to AI Crawlers"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Revenue-Generating Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "No Contracts, No Retainer Lock-In"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "What Ecommerce SEO Actually Means in 2026"
+        },
+        {
+          "level": 3,
+          "text": "Why Traditional Ecommerce SEO Doesn't Work Anymore"
+        },
+        {
+          "level": 3,
+          "text": "The SEOasis Ecommerce SEO Methodology"
+        },
+        {
+          "level": 3,
+          "text": "Why Collection Pages Drive More Revenue Than Blog Posts"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup: The Difference Between Visible and Invisible"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority: Where AI Models Learn What to Recommend"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring: Know Where You Stand"
+        },
+        {
+          "level": 3,
+          "text": "The 80/20 Rule of Ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Ecommerce SEO Agencies Fail"
+        },
+        {
+          "level": 3,
+          "text": "What the 5 C's of Ecommerce Actually Mean"
+        },
+        {
+          "level": 3,
+          "text": "How Long Ecommerce SEO Takes to Work"
+        },
+        {
+          "level": 3,
+          "text": "Ecommerce SEO for Shopify vs. Other Platforms"
+        },
+        {
+          "level": 3,
+          "text": "Why SEOasis Doesn't Do Traditional SEO"
+        },
+        {
+          "level": 3,
+          "text": "What Happens on the Strategy Call"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "Book a Free Strategy Call"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-seo",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/reddit-ecommerce-seo",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 156724,
+      "xRobotsTag": [],
+      "source": "B-10",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "ecommerce-category-page-seo",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "finalUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "status": 200,
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "titleLength": 75,
+      "metaDescription": [
+        "Category pages are your revenue engine. We build collection pages that rank in AI search, convert browsers into buyers, and generate measurable revenue."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/ecommerce-category-page-seo"
+      ],
+      "h1": [
+        "Ecommerce Category Page SEO That Turns Collections Into Revenue Engines"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ecommerce Category Page SEO That Turns Collections Into Revenue Engines"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your category pages are invisible to AI search"
+        },
+        {
+          "level": 3,
+          "text": "You're ranking for keywords that don't convert"
+        },
+        {
+          "level": 3,
+          "text": "Your collections are built for browsing, not search"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Transactional Keyword Clusters"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "5 New Collection Pages Per Week"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Category Pages Are Your Highest-Leverage SEO Asset"
+        },
+        {
+          "level": 3,
+          "text": "The Anatomy of a Revenue-Generating Category Page"
+        },
+        {
+          "level": 3,
+          "text": "How We Build 5 Collection Pages Per Week"
+        },
+        {
+          "level": 3,
+          "text": "Why AI Search Changes Everything for Category Pages"
+        },
+        {
+          "level": 3,
+          "text": "The 80/20 of Ecommerce Category Page SEO"
+        },
+        {
+          "level": 3,
+          "text": "Common Category Page SEO Mistakes (And How to Avoid Them)"
+        },
+        {
+          "level": 3,
+          "text": "How Long Does It Take to See Results?"
+        },
+        {
+          "level": 3,
+          "text": "What Makes SEOasis Different from Traditional SEO Agencies"
+        },
+        {
+          "level": 3,
+          "text": "The SEOasis Process: Audit, Build, Grow"
+        },
+        {
+          "level": 3,
+          "text": "Pricing and Investment"
+        },
+        {
+          "level": 3,
+          "text": "What Happens on the Strategy Call"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "See Where You're Invisible to AI Search"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-category-page-seo",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-consultant",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 144846,
+      "xRobotsTag": [],
+      "source": "B-11",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "ecommerce-link-building",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "finalUrl": "https://www.seoasis.io/ecommerce-link-building",
+      "status": 200,
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "titleLength": 72,
+      "metaDescription": [
+        "Traditional link building doesn't move the needle for ecommerce. We build collection pages that rank and convert \u2014 no outreach, no guest posts, no backlink chasing."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/ecommerce-link-building"
+      ],
+      "h1": [
+        "Ecommerce Link Building Is Dead. Collection Pages"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ecommerce Link Building Is Dead. Collection Pages"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "You've spent $5K+ on link building and seen zero revenue impact"
+        },
+        {
+          "level": 3,
+          "text": "Your agency keeps sending you 'high-authority placements' that send zero traffic"
+        },
+        {
+          "level": 3,
+          "text": "ChatGPT and Perplexity recommend your competitors, not you"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "We Build Collection Pages, Not Backlinks"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup That AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Revenue, Not Vanity Metrics"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Traditional Link Building Doesn't Work for Ecommerce"
+        },
+        {
+          "level": 3,
+          "text": "What Ecommerce Brands Should Focus On Instead"
+        },
+        {
+          "level": 3,
+          "text": "The Four Types of Ecommerce (And Why It Matters for SEO)"
+        },
+        {
+          "level": 3,
+          "text": "The Seven Pillars of Ecommerce SEO (And Why Most Agencies Only Do Two)"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Ecommerce Link Building Actually Cost?"
+        },
+        {
+          "level": 3,
+          "text": "Why AI Search Changes Everything for Ecommerce"
+        },
+        {
+          "level": 3,
+          "text": "What to Look for in an Ecommerce SEO Agency"
+        },
+        {
+          "level": 3,
+          "text": "How SEOasis Works"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "See Where You're Invisible to AI Search"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-link-building",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/link-building-for-ecommerce-sites",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/reddit-backlink-strategy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 161638,
+      "xRobotsTag": [],
+      "source": "B-12",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "technical-seo-for-ecommerce",
+      "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "finalUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "status": 200,
+      "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+      "titleLength": 78,
+      "metaDescription": [
+        "Technical SEO built for ecommerce. Schema markup AI crawlers can parse, collection pages that rank in 2-3 weeks, and Reddit authority that gets you cited."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/technical-seo-for-ecommerce"
+      ],
+      "h1": [
+        "Technical SEO for Ecommerce That Actually Drives Revenue"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Technical SEO for Ecommerce That Actually Drives Revenue"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your site renders in JavaScript, so AI can't see your products"
+        },
+        {
+          "level": 3,
+          "text": "You're ranking for blog keywords, not buying keywords"
+        },
+        {
+          "level": 3,
+          "text": "AI models recommend your competitors, not you"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Revenue-Generating Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Internal Linking Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Mobile Rendering Optimization"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Technical SEO for Ecommerce Is Different"
+        },
+        {
+          "level": 3,
+          "text": "The Problem with Traditional Ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup: The Technical Foundation"
+        },
+        {
+          "level": 3,
+          "text": "Collection Pages: The Revenue Engine"
+        },
+        {
+          "level": 3,
+          "text": "Faceted Navigation and Crawl Budget"
+        },
+        {
+          "level": 3,
+          "text": "Mobile Rendering and Core Web Vitals"
+        },
+        {
+          "level": 3,
+          "text": "Internal Linking Architecture"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority and AI Search Visibility"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Robots.txt and XML Sitemaps"
+        },
+        {
+          "level": 3,
+          "text": "Structured Data Testing and Validation"
+        },
+        {
+          "level": 3,
+          "text": "Keyword Research for Ecommerce"
+        },
+        {
+          "level": 3,
+          "text": "The 80/20 Rule for Ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Agencies Get Ecommerce SEO Wrong"
+        },
+        {
+          "level": 3,
+          "text": "Case Study: TheFeed (+$573K in Organic Revenue)"
+        },
+        {
+          "level": 3,
+          "text": "Case Study: Roofnest (+$182K Revenue Growth)"
+        },
+        {
+          "level": 3,
+          "text": "How to Choose an Ecommerce SEO Agency"
+        },
+        {
+          "level": 3,
+          "text": "What to Expect When You Work with SEOasis"
+        },
+        {
+          "level": 3,
+          "text": "Pricing and Timeline"
+        },
+        {
+          "level": 3,
+          "text": "Is SEO Dead in 2026?"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "Book a Free Strategy Call"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/reddit-backlink-strategy",
+        "https://www.seoasis.io/shopify-seo-consultant",
+        "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 143825,
+      "xRobotsTag": [],
+      "source": "B-13",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "shopify-seo-agency",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "finalUrl": "https://www.seoasis.io/shopify-seo-agency",
+      "status": 200,
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "titleLength": 58,
+      "metaDescription": [
+        "SEOasis is a Shopify SEO agency that builds collection pages AI crawlers can parse. $1.1M+ organic revenue generated. No blogs, no backlinks."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/shopify-seo-agency"
+      ],
+      "h1": [
+        "The Shopify SEO Agency That Builds for AI Search"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Shopify SEO Agency That Builds for AI Search"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your Shopify store is invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Traditional SEO agencies waste your budget on blogs"
+        },
+        {
+          "level": 3,
+          "text": "You've been burned by agencies that overpromised"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Collection Pages That AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup for AI Visibility"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "No Blogs. No Backlinks. No Fluff."
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Shopify SEO Agencies Are Still Optimizing for 2015"
+        },
+        {
+          "level": 3,
+          "text": "The Problem with Traditional Shopify SEO Services"
+        },
+        {
+          "level": 3,
+          "text": "How AI Search Changed Ecommerce SEO Forever"
+        },
+        {
+          "level": 3,
+          "text": "Why Collection Pages Are the Highest-ROI SEO Investment"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup: The Technical SEO Most Agencies Ignore"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority: The Secret to AI Visibility"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring: Track Where You're Showing Up"
+        },
+        {
+          "level": 3,
+          "text": "The SEOasis Process: Audit, Build, Grow"
+        },
+        {
+          "level": 3,
+          "text": "Why SEOasis Doesn't Do Traditional SEO"
+        },
+        {
+          "level": 3,
+          "text": "Real Results: TheFeed, Roofnest, and Dr. Brandt Skincare"
+        },
+        {
+          "level": 3,
+          "text": "Pricing: $4,000/Month, Month-to-Month, No Contracts"
+        },
+        {
+          "level": 3,
+          "text": "How to Choose a Shopify SEO Agency"
+        },
+        {
+          "level": 3,
+          "text": "The Future of Ecommerce SEO Is AI Visibility"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "Book a Free Strategy Call"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/shopify-seo-expert",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 169726,
+      "xRobotsTag": [],
+      "source": "B-14",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "shopify-seo-company",
+      "url": "https://www.seoasis.io/shopify-seo-company",
+      "finalUrl": "https://www.seoasis.io/shopify-seo-company",
+      "status": 200,
+      "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+      "titleLength": 59,
+      "metaDescription": [
+        "SEOasis builds revenue-generating collection pages, implements AI-parseable schema, and seeds Reddit authority. $1.1M+ organic revenue generated for 18+ Shopify brands."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/shopify-seo-company"
+      ],
+      "h1": [
+        "The Shopify SEO Company That Builds for AI Search"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Shopify SEO Company That Builds for AI Search"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your last SEO agency wrote blog posts that got traffic but zero sales"
+        },
+        {
+          "level": 3,
+          "text": "AI search tools recommend your competitors, not you"
+        },
+        {
+          "level": 3,
+          "text": "You've been burned by agencies that overpromised and underdelivered"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Revenue-Generating Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "No Contracts, No Fluff"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Shopify SEO Companies Fail to Drive Revenue"
+        },
+        {
+          "level": 3,
+          "text": "What Makes a Shopify SEO Company Effective in 2025"
+        },
+        {
+          "level": 3,
+          "text": "The SEOasis Methodology: How We Build Revenue for Shopify Brands"
+        },
+        {
+          "level": 3,
+          "text": "Case Study: How TheFeed Generated +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Case Study: How Roofnest Generated +$182K in 6 Months"
+        },
+        {
+          "level": 3,
+          "text": "Why Traditional Shopify SEO Tactics Don't Work Anymore"
+        },
+        {
+          "level": 3,
+          "text": "How to Evaluate a Shopify SEO Company"
+        },
+        {
+          "level": 3,
+          "text": "What to Expect When You Work with SEOasis"
+        },
+        {
+          "level": 3,
+          "text": "Common Mistakes Shopify Brands Make with SEO"
+        },
+        {
+          "level": 3,
+          "text": "The Future of Shopify SEO: AI Search and Reddit Authority"
+        },
+        {
+          "level": 3,
+          "text": "How Much Should You Spend on Shopify SEO?"
+        },
+        {
+          "level": 3,
+          "text": "Why SEOasis Doesn't Do Traditional SEO"
+        },
+        {
+          "level": 3,
+          "text": "What Makes SEOasis Different"
+        },
+        {
+          "level": 3,
+          "text": "Ready to Build Revenue from Organic Search?"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "Book a Free Strategy Call"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/reddit-seo",
+        "https://www.seoasis.io/reddit-seo-strategy",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/shopify-seo-company",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 176367,
+      "xRobotsTag": [],
+      "source": "B-15",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "shopify-seo-consultant",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "finalUrl": "https://www.seoasis.io/shopify-seo-consultant",
+      "status": 200,
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "titleLength": 66,
+      "metaDescription": [
+        "Hire a Shopify SEO consultant who builds revenue-generating collection pages, not blog posts. $1.1M+ in organic revenue generated for 18+ brands."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/shopify-seo-consultant"
+      ],
+      "h1": [
+        "The Shopify SEO Consultant Who Builds Pages That Actually Rank"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Shopify SEO Consultant Who Builds Pages That Actually Rank"
+        },
+        {
+          "level": 2,
+          "text": "Why Most Shopify Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your Last SEO Consultant Wrote Blog Posts That Never Ranked"
+        },
+        {
+          "level": 3,
+          "text": "Your Products Are Invisible to ChatGPT and Perplexity"
+        },
+        {
+          "level": 3,
+          "text": "You're Ranking for Keywords That Don't Convert"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Collection Pages, Not Blog Posts"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Revenue, Not Vanity Metrics"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About Shopify SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Shopify SEO Consultants Fail to Drive Revenue"
+        },
+        {
+          "level": 3,
+          "text": "The AI Search Problem Most Shopify SEO Consultants Ignore"
+        },
+        {
+          "level": 3,
+          "text": "Why Collection Pages Outperform Blog Posts for Ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "The Reddit Authority Strategy No Other Shopify SEO Consultant Uses"
+        },
+        {
+          "level": 3,
+          "text": "How to Evaluate a Shopify SEO Consultant"
+        },
+        {
+          "level": 3,
+          "text": "What SEOasis Does Differently"
+        },
+        {
+          "level": 3,
+          "text": "The Real Cost of Hiring a Shopify SEO Consultant"
+        },
+        {
+          "level": 3,
+          "text": "Why Shopify SEO Is Different from WordPress SEO"
+        },
+        {
+          "level": 3,
+          "text": "The Shopify SEO Audit You Actually Need"
+        },
+        {
+          "level": 3,
+          "text": "How Long Does Shopify SEO Take?"
+        },
+        {
+          "level": 3,
+          "text": "What Happens When You Don't Hire a Shopify SEO Consultant"
+        },
+        {
+          "level": 3,
+          "text": "How to Get Started with SEOasis"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "See Where Your Store Is Invisible to AI Search"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/shopify-seo-consultant",
+        "https://www.seoasis.io/shopify-seo-expert",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 140129,
+      "xRobotsTag": [],
+      "source": "B-16",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "shopify-seo-expert",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "finalUrl": "https://www.seoasis.io/shopify-seo-expert",
+      "status": 200,
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "titleLength": 71,
+      "metaDescription": [
+        "SEOasis builds revenue-generating collection pages, implements AI-parseable schema, and seeds Reddit authority. $1.1M+ in organic revenue generated for 18+ Shopify brands."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/shopify-seo-expert"
+      ],
+      "h1": [
+        "The Shopify SEO Expert Built for AI Search"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Shopify SEO Expert Built for AI Search"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "Your Shopify store is invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "You're paying for traffic that doesn't convert"
+        },
+        {
+          "level": 3,
+          "text": "You've been burned by agencies before"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Revenue-Generating Collection Pages"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup AI Crawlers Can Parse"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Shopify SEO Experts Are Optimizing for the Wrong Search Engine"
+        },
+        {
+          "level": 3,
+          "text": "What AI-Era SEO Actually Looks Like for Shopify Stores"
+        },
+        {
+          "level": 3,
+          "text": "The Problem with Traditional Shopify SEO Experts"
+        },
+        {
+          "level": 3,
+          "text": "Why Schema Markup Is Non-Negotiable for Shopify Stores"
+        },
+        {
+          "level": 3,
+          "text": "Collection Pages vs. Blog Posts: Why One Drives Revenue and the Other Doesn't"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building: Why AI Models Recommend Brands That Show Up in Subreddits"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring: Tracking When AI Models Recommend Your Brand"
+        },
+        {
+          "level": 3,
+          "text": "The SEOasis Process: Audit, Build, Grow"
+        },
+        {
+          "level": 3,
+          "text": "Real Results: TheFeed and Roofnest Case Studies"
+        },
+        {
+          "level": 3,
+          "text": "Pricing: What You're Actually Paying For"
+        },
+        {
+          "level": 3,
+          "text": "Why We Don't Require Contracts"
+        },
+        {
+          "level": 3,
+          "text": "What Happens on the Strategy Call"
+        },
+        {
+          "level": 3,
+          "text": "Common Objections and Honest Answers"
+        },
+        {
+          "level": 3,
+          "text": "Who SEOasis Is Not For"
+        },
+        {
+          "level": 3,
+          "text": "Why AI-Era SEO Is Different from Traditional SEO"
+        },
+        {
+          "level": 3,
+          "text": "How to Choose a Shopify SEO Expert"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "Book a Free Strategy Call"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-seo-audit",
+        "https://www.seoasis.io/ecommerce-seo-packages",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-company",
+        "https://www.seoasis.io/shopify-seo-expert",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 149600,
+      "xRobotsTag": [],
+      "source": "B-17",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "reddit-seo",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "finalUrl": "https://www.seoasis.io/reddit-seo",
+      "status": 200,
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "titleLength": 51,
+      "metaDescription": [
+        "Reddit is where AI models pull product recommendations. We build Reddit authority that feeds ChatGPT, Perplexity, and Google AI Overviews with your brand."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/reddit-seo"
+      ],
+      "h1": [
+        "Reddit SEO That Feeds AI Search"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Reddit SEO That Feeds AI Search"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "AI Models Ignore Your Brand"
+        },
+        {
+          "level": 3,
+          "text": "Traditional SEO Doesn't Touch Reddit"
+        },
+        {
+          "level": 3,
+          "text": "You're Invisible Where It Counts"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup for AI Crawlers"
+        },
+        {
+          "level": 3,
+          "text": "Revenue-Generating Collection Pages"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Reddit SEO Matters for Ecommerce Brands in 2026"
+        },
+        {
+          "level": 3,
+          "text": "What Reddit SEO Actually Means"
+        },
+        {
+          "level": 3,
+          "text": "How AI Models Use Reddit for Product Recommendations"
+        },
+        {
+          "level": 3,
+          "text": "The Difference Between Reddit SEO and Traditional SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Ecommerce Brands Fail at Reddit Marketing"
+        },
+        {
+          "level": 3,
+          "text": "How SEOasis Builds Reddit Authority for Ecommerce Brands"
+        },
+        {
+          "level": 3,
+          "text": "Reddit SEO vs Reddit Marketing Services"
+        },
+        {
+          "level": 3,
+          "text": "The Role of Schema Markup in Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Collection Pages Matter for Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "How to Track AI Visibility from Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "Reddit SEO for Shopify Brands"
+        },
+        {
+          "level": 3,
+          "text": "Common Mistakes Ecommerce Brands Make with Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "How Reddit SEO Feeds Google AI Overviews"
+        },
+        {
+          "level": 3,
+          "text": "Reddit SEO and the 90-9-1 Rule"
+        },
+        {
+          "level": 3,
+          "text": "Why Traditional SEO Agencies Can't Do Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "How Long Does Reddit SEO Take to Work?"
+        },
+        {
+          "level": 3,
+          "text": "Reddit SEO Pricing and What You Get"
+        },
+        {
+          "level": 3,
+          "text": "Real Results from Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "How to Get Started with Reddit SEO"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "See Where You're Invisible to AI Search"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/reddit-ecommerce-seo",
+        "https://www.seoasis.io/reddit-for-seo",
+        "https://www.seoasis.io/reddit-seo",
+        "https://www.seoasis.io/reddit-seo-strategy",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 145831,
+      "xRobotsTag": [],
+      "source": "B-18",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "reddit-seo-strategy",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "finalUrl": "https://www.seoasis.io/reddit-seo-strategy",
+      "status": 200,
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "titleLength": 60,
+      "metaDescription": [
+        "AI models pull product recommendations from Reddit. Learn the Reddit SEO strategy that gets your brand cited by ChatGPT, Perplexity, and Google AI Overviews."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/reddit-seo-strategy"
+      ],
+      "h1": [
+        "The Reddit SEO Strategy That Gets Your Brand Cited by AI"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "The Reddit SEO Strategy That Gets Your Brand Cited by AI"
+        },
+        {
+          "level": 2,
+          "text": "Why Most general ecommerce Brands Are Invisible to AI"
+        },
+        {
+          "level": 3,
+          "text": "AI Models Ignore Your Website"
+        },
+        {
+          "level": 3,
+          "text": "Your Competitors Are Already There"
+        },
+        {
+          "level": 3,
+          "text": "Traditional SEO Doesn't Reach AI Search"
+        },
+        {
+          "level": 2,
+          "text": "What We Do Differently"
+        },
+        {
+          "level": 3,
+          "text": "Subreddit Mapping"
+        },
+        {
+          "level": 3,
+          "text": "Authority Seeding"
+        },
+        {
+          "level": 3,
+          "text": "AI Visibility Monitoring"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup for AI Crawlers"
+        },
+        {
+          "level": 3,
+          "text": "Collection Page Buildout"
+        },
+        {
+          "level": 2,
+          "text": "How We Get Results"
+        },
+        {
+          "level": 3,
+          "text": "Audit"
+        },
+        {
+          "level": 3,
+          "text": "Build"
+        },
+        {
+          "level": 3,
+          "text": "Grow"
+        },
+        {
+          "level": 2,
+          "text": "Real Brands. Real Revenue."
+        },
+        {
+          "level": 3,
+          "text": "TheFeed \u2014 +$573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Roofnest \u2014 +$182K Revenue Growth"
+        },
+        {
+          "level": 2,
+          "text": "Everything You Need to Know About general ecommerce SEO"
+        },
+        {
+          "level": 3,
+          "text": "Why Reddit SEO Strategy Matters for Ecommerce Brands"
+        },
+        {
+          "level": 3,
+          "text": "How AI Models Use Reddit for Product Recommendations"
+        },
+        {
+          "level": 3,
+          "text": "The Problem with Traditional SEO in the AI Era"
+        },
+        {
+          "level": 3,
+          "text": "What Makes a Reddit SEO Strategy Effective"
+        },
+        {
+          "level": 3,
+          "text": "Why Most Brands Fail at Reddit SEO"
+        },
+        {
+          "level": 3,
+          "text": "How Reddit SEO Integrates with On-Site Optimization"
+        },
+        {
+          "level": 3,
+          "text": "Case Study: How TheFeed Used Reddit SEO to Drive $573K in Organic Revenue"
+        },
+        {
+          "level": 3,
+          "text": "Case Study: How Roofnest Built AI Visibility Through Reddit Authority"
+        },
+        {
+          "level": 3,
+          "text": "The Role of Subreddit Selection in Reddit SEO Strategy"
+        },
+        {
+          "level": 3,
+          "text": "How to Build Karma Without Mentioning Your Brand"
+        },
+        {
+          "level": 3,
+          "text": "When and How to Mention Your Brand on Reddit"
+        },
+        {
+          "level": 3,
+          "text": "How AI Models Decide Which Brands to Cite"
+        },
+        {
+          "level": 3,
+          "text": "The Difference Between Reddit SEO and Reddit Marketing"
+        },
+        {
+          "level": 3,
+          "text": "How Long Does It Take to See Results from Reddit SEO?"
+        },
+        {
+          "level": 3,
+          "text": "Why Schema Markup Matters for AI Recommendations"
+        },
+        {
+          "level": 3,
+          "text": "How Collection Pages Support Reddit SEO Strategy"
+        },
+        {
+          "level": 3,
+          "text": "Common Reddit SEO Mistakes Ecommerce Brands Make"
+        },
+        {
+          "level": 3,
+          "text": "How SEOasis Builds Reddit Authority for Ecommerce Brands"
+        },
+        {
+          "level": 3,
+          "text": "What to Expect from a Reddit SEO Strategy"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Reddit SEO Cost?"
+        },
+        {
+          "level": 3,
+          "text": "Why Reddit SEO Works Better Than Traditional Link Building"
+        },
+        {
+          "level": 3,
+          "text": "The Future of Reddit SEO and AI Search"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "See Where You're Invisible to AI Search"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 3,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/reddit-for-seo",
+        "https://www.seoasis.io/reddit-seo",
+        "https://www.seoasis.io/reddit-seo-strategy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "htmlBytes": 190145,
+      "xRobotsTag": [],
+      "source": "B-19",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "blog__how-to-optimize-shopify-sites-for-search-engines",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "finalUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "status": 200,
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "titleLength": 66,
+      "metaDescription": [
+        "Learn how to optimize Shopify sites for search engines with collection pages, schema markup, and AI visibility strategies that drive revenue, not vanity metrics"
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines"
+      ],
+      "h1": [
+        "How to Optimize Shopify Sites for Search Engines in 2026"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "How to Optimize Shopify Sites for Search Engines in 2026"
+        },
+        {
+          "level": 2,
+          "text": "Why Traditional SEO Doesn't Work for Shopify Stores"
+        },
+        {
+          "level": 3,
+          "text": "Shopify's Platform Limitations"
+        },
+        {
+          "level": 2,
+          "text": "Step 1: Build Collection Pages Around Transactional Keywords"
+        },
+        {
+          "level": 3,
+          "text": "Collection Page Structure"
+        },
+        {
+          "level": 3,
+          "text": "Internal Linking Between Collections"
+        },
+        {
+          "level": 2,
+          "text": "Step 2: Implement Schema Markup for AI Crawlers"
+        },
+        {
+          "level": 3,
+          "text": "Why AI Models Need Schema"
+        },
+        {
+          "level": 3,
+          "text": "How to Add Schema to Shopify"
+        },
+        {
+          "level": 2,
+          "text": "Step 3: Build Reddit Authority for AI Recommendations"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Strategy"
+        },
+        {
+          "level": 2,
+          "text": "Step 4: Monitor AI Visibility Across Platforms"
+        },
+        {
+          "level": 3,
+          "text": "What to Do When You're Not Showing Up"
+        },
+        {
+          "level": 2,
+          "text": "Step 5: Optimize Core Web Vitals for Shopify"
+        },
+        {
+          "level": 3,
+          "text": "How to Improve LCP"
+        },
+        {
+          "level": 3,
+          "text": "How to Reduce CLS"
+        },
+        {
+          "level": 2,
+          "text": "Step 6: Fix Duplicate Content and Indexation Issues"
+        },
+        {
+          "level": 3,
+          "text": "Robots.txt Optimization"
+        },
+        {
+          "level": 3,
+          "text": "XML Sitemap Submission"
+        },
+        {
+          "level": 2,
+          "text": "Step 7: Track Revenue, Not Vanity Metrics"
+        },
+        {
+          "level": 3,
+          "text": "Attribution and Multi-Touch Tracking"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 3,
+          "text": "How do I optimize my Shopify store for search engines?"
+        },
+        {
+          "level": 3,
+          "text": "How to SEO optimize a Shopify website?"
+        },
+        {
+          "level": 3,
+          "text": "Why do 90% of people doing Shopify with FB ads fail?"
+        },
+        {
+          "level": 3,
+          "text": "What are the 3 C's of SEO?"
+        },
+        {
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "More from the Blog"
+        },
+        {
+          "level": 3,
+          "text": "What to Look for in an Ecommerce SEO Audit (2026 Guide)"
+        },
+        {
+          "level": 3,
+          "text": "How to Optimize BigCommerce Stores for Search Engines in 2026"
+        },
+        {
+          "level": 3,
+          "text": "How to Choose an Ecommerce SEO Agency That Drives Revenue"
+        },
+        {
+          "level": 2,
+          "text": "Want Results Like the Ones You Just Read About?"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 5,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io",
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/blog",
+        "https://www.seoasis.io/blog/how-to-choose-an-ecommerce-seo-agency",
+        "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-company",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/",
+        "https://www.shopify.com/blog/seo-checklist-online-store"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "Person"
+      ],
+      "htmlBytes": 100984,
+      "xRobotsTag": [],
+      "source": "B-20",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "blog__how-to-use-reddit-for-ecommerce-seo",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "finalUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "status": 200,
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "titleLength": 53,
+      "metaDescription": [
+        "Learn how to use Reddit for ecommerce SEO. Build authority, reach AI-powered search, and drive revenue through strategic Reddit presence. SEOasis guide."
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo"
+      ],
+      "h1": [
+        "How to Use Reddit for Ecommerce SEO in 2026"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "How to Use Reddit for Ecommerce SEO in 2026"
+        },
+        {
+          "level": 2,
+          "text": "Why Reddit Matters for Ecommerce SEO in 2026"
+        },
+        {
+          "level": 2,
+          "text": "How AI Search Engines Use Reddit for Product Recommendations"
+        },
+        {
+          "level": 2,
+          "text": "Step 1: Identify Where Your Audience Hangs Out on Reddit"
+        },
+        {
+          "level": 3,
+          "text": "Tools for Finding Relevant Subreddits"
+        },
+        {
+          "level": 2,
+          "text": "Step 2: Master Subreddit Rules Before You Post Anything"
+        },
+        {
+          "level": 3,
+          "text": "The Participation Ratio That Keeps You Safe"
+        },
+        {
+          "level": 2,
+          "text": "Step 3: Participate Authentically in Reddit Communities"
+        },
+        {
+          "level": 3,
+          "text": "What to Comment On"
+        },
+        {
+          "level": 2,
+          "text": "Step 4: Create Reddit Content That AI Systems Extract"
+        },
+        {
+          "level": 3,
+          "text": "Long-Tail Keywords in Reddit Discussions"
+        },
+        {
+          "level": 2,
+          "text": "Step 5: Track Reddit's Impact on Revenue and AI Visibility"
+        },
+        {
+          "level": 3,
+          "text": "Tools for Monitoring Reddit Authority"
+        },
+        {
+          "level": 2,
+          "text": "Step 6: Build Schema Markup That Connects Reddit Authority to Your Site"
+        },
+        {
+          "level": 3,
+          "text": "Why Collection Pages Matter for Reddit Traffic"
+        },
+        {
+          "level": 2,
+          "text": "Best Practices for Staying Inside Subreddit Norms"
+        },
+        {
+          "level": 3,
+          "text": "How to Recover from a Misstep"
+        },
+        {
+          "level": 2,
+          "text": "Common Mistakes Ecommerce Brands Make on Reddit"
+        },
+        {
+          "level": 2,
+          "text": "How SEOasis Builds Reddit Authority for Ecommerce Brands"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 3,
+          "text": "How to use Reddit for SEO?"
+        },
+        {
+          "level": 3,
+          "text": "What is the 90 9 1 rule on Reddit?"
+        },
+        {
+          "level": 3,
+          "text": "What is the 80/20 rule for SEO?"
+        },
+        {
+          "level": 3,
+          "text": "Does Reddit help with SEO?"
+        },
+        {
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "More from the Blog"
+        },
+        {
+          "level": 3,
+          "text": "What to Look for in an Ecommerce SEO Audit (2026 Guide)"
+        },
+        {
+          "level": 3,
+          "text": "How to Optimize BigCommerce Stores for Search Engines in 2026"
+        },
+        {
+          "level": 3,
+          "text": "How to Optimize Shopify Sites for Search Engines in 2026"
+        },
+        {
+          "level": 2,
+          "text": "Want Results Like the Ones You Just Read About?"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 5,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/blog",
+        "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-consultant",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/",
+        "https://seoasis.com"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "Person"
+      ],
+      "htmlBytes": 113457,
+      "xRobotsTag": [],
+      "source": "B-21",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "blog__how-to-choose-a-shopify-seo-agency",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "finalUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "status": 200,
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "titleLength": 64,
+      "metaDescription": [
+        "Learn how to choose a Shopify SEO agency that builds revenue-generating collection pages, implements AI-parseable schema, and tracks real results. Not vanity me"
+      ],
+      "robotsMeta": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency"
+      ],
+      "h1": [
+        "How to Choose a Shopify SEO Agency That Drives Revenue"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "How to Choose a Shopify SEO Agency That Drives Revenue"
+        },
+        {
+          "level": 2,
+          "text": "What Makes Shopify SEO Different From General Ecommerce Optimization"
+        },
+        {
+          "level": 2,
+          "text": "Step 1: Verify They Actually Work on Shopify Stores"
+        },
+        {
+          "level": 3,
+          "text": "Questions to Ask"
+        },
+        {
+          "level": 2,
+          "text": "Step 2: Evaluate Their Methodology (Not Their Promises)"
+        },
+        {
+          "level": 3,
+          "text": "Collection Pages Over Blog Content"
+        },
+        {
+          "level": 3,
+          "text": "Schema Markup for AI Visibility"
+        },
+        {
+          "level": 3,
+          "text": "Reddit Authority Building"
+        },
+        {
+          "level": 2,
+          "text": "Step 3: Demand Revenue Metrics, Not Vanity Numbers"
+        },
+        {
+          "level": 3,
+          "text": "Questions to Ask"
+        },
+        {
+          "level": 2,
+          "text": "Step 4: Understand What They Actually Do (And What They Don't)"
+        },
+        {
+          "level": 3,
+          "text": "Red Flags"
+        },
+        {
+          "level": 2,
+          "text": "Step 5: Assess Their Understanding of AI-Era Search"
+        },
+        {
+          "level": 2,
+          "text": "Step 6: Review Their Communication and Support Structure"
+        },
+        {
+          "level": 3,
+          "text": "Questions to Ask"
+        },
+        {
+          "level": 2,
+          "text": "Step 7: Verify They Understand Shopify's Technical Constraints"
+        },
+        {
+          "level": 3,
+          "text": "Core Web Vitals and Site Speed"
+        },
+        {
+          "level": 2,
+          "text": "Step 8: Confirm They Have a Clear Onboarding Process"
+        },
+        {
+          "level": 2,
+          "text": "Step 9: Evaluate Pricing Transparency"
+        },
+        {
+          "level": 3,
+          "text": "Questions to Ask"
+        },
+        {
+          "level": 2,
+          "text": "Step 10: Trust Your Gut on Cultural Fit"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 3,
+          "text": "How to Choose the Right SEO Agency?"
+        },
+        {
+          "level": 3,
+          "text": "How to Choose a Shopify Agency?"
+        },
+        {
+          "level": 3,
+          "text": "Which SEO Tool Is Best for Shopify?"
+        },
+        {
+          "level": 3,
+          "text": "What Are the 3 C's of SEO?"
+        },
+        {
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "level": 2,
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": 2,
+          "text": "More from the Blog"
+        },
+        {
+          "level": 3,
+          "text": "What to Look for in an Ecommerce SEO Audit (2026 Guide)"
+        },
+        {
+          "level": 3,
+          "text": "How to Optimize BigCommerce Stores for Search Engines in 2026"
+        },
+        {
+          "level": 3,
+          "text": "How to Optimize Shopify Sites for Search Engines in 2026"
+        },
+        {
+          "level": 2,
+          "text": "Want Results Like the Ones You Just Read About?"
+        },
+        {
+          "level": 4,
+          "text": "Company"
+        },
+        {
+          "level": 4,
+          "text": "Legal"
+        }
+      ],
+      "imageCount": 5,
+      "missingAltCount": 0,
+      "emptyAltCount": 1,
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/blog",
+        "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "externalLinks": [
+        "https://nadfacecream.shop/"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "Person"
+      ],
+      "htmlBytes": 98397,
+      "xRobotsTag": [],
+      "source": "B-22",
+      "evidence": "Server-delivered HTML parsed on 2026-10-14.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    }
+  ],
+  "sources": [
+    {
+      "id": "B-01",
+      "url": "https://www.seoasis.io/robots.txt",
+      "title": "SEOasis robots.txt",
+      "accessedAt": "2026-10-14",
+      "note": "User-agent: *; Allow: /; Sitemap points to https://www.seoasis.io/sitemap.xml."
+    },
+    {
+      "id": "B-02",
+      "url": "https://www.seoasis.io/sitemap.xml",
+      "title": "SEOasis XML sitemap",
+      "accessedAt": "2026-10-14",
+      "note": "Direct XML response contains 70 loc elements; flat URL set including commercial, case study, blog and legal URLs."
+    },
+    {
+      "id": "B-03",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-04",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-05",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-06",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-07",
+      "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-08",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit \u2014 Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-09",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog \u2014 Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-10",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-11",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-12",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-13",
+      "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-14",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-15",
+      "url": "https://www.seoasis.io/shopify-seo-company",
+      "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-16",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-17",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-18",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-19",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-20",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-21",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-22",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    }
+  ]
+}

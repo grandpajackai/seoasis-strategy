@@ -1,0 +1,832 @@
+{
+  "name": "SEOasis",
+  "reviewedAt": "2026-10-14",
+  "scope": "Public-data interview case study; proposed operating system, not an account-performance audit.",
+  "positioning": {
+    "summary": "Shopify ecommerce growth with collections, AEO, community presence and revenue measurement.",
+    "audience": "Public homepage addresses Shopify brands above $100K per month.",
+    "source": "src-company-home",
+    "sourceIds": [
+      "src-company-home"
+    ],
+    "evidence": "Hero and audience positioning are directly visible; audience revenue is a qualification claim, not verified client data.",
+    "classification": "OBSERVED",
+    "confidence": "High"
+  },
+  "team": [
+    {
+      "name": "Mike Sack",
+      "role": "Co-Founder, CEO",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Named in homepage team section.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "name": "Nick Winikoff",
+      "role": "Co-Founder, COO",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Named in homepage team section.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "name": "Jacob Copple",
+      "role": "SEO Strategist",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Named in homepage team section.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "name": "Arly Belgado",
+      "role": "Reddit Specialist",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Named in homepage team section.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "pillars": [
+    {
+      "id": "collection-pages",
+      "pillar": "AI-Ready Collection Pages",
+      "whatSeoasisSays": "Build Shopify collections for transactional clusters with products in the grid.",
+      "whyItMatters": "Places a useful assortment in front of shoppers who already know their need.",
+      "howMeasured": [
+        "Nonbrand collection clicks",
+        "Collection landing-page purchases and net revenue",
+        "Catalog coverage and qualified assortment"
+      ],
+      "publiclyObservable": [
+        "Page types and merchant-facing methodology",
+        "Page-template structure where public"
+      ],
+      "requiresInternalAccess": [
+        "GSC query/page export",
+        "Shopify catalog, inventory and margin",
+        "GA4/Shopify landing-page revenue"
+      ],
+      "operatorAction": "Map distinct buyer needs to viable assortments; pilot one cluster before scaling.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Collection work is the core public service pillar.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "keyword-clusters",
+      "pillar": "Transactional Keyword Clustering",
+      "whatSeoasisSays": "Organize catalog searches into a custom keyword roadmap.",
+      "whyItMatters": "Makes page selection answerable to demand, assortment and intent.",
+      "howMeasured": [
+        "Unique intent coverage",
+        "Query-to-page overlap",
+        "Revenue opportunity validated with first-party inputs"
+      ],
+      "publiclyObservable": [
+        "Commercial page themes",
+        "Category and modifier coverage"
+      ],
+      "requiresInternalAccess": [
+        "GSC performance",
+        "Paid keyword tool access if licensed",
+        "Product availability and margin"
+      ],
+      "operatorAction": "Maintain one preferred target page per coherent intent and document exceptions.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "Audit process names Search Console, keyword research and a catalog-specific cluster roadmap.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "schema",
+      "pillar": "Schema Markup (JSON-LD)",
+      "whatSeoasisSays": "Use structured data to make product information machine-readable.",
+      "whyItMatters": "Clarifies entities and eligible product facts when markup matches the visible page.",
+      "howMeasured": [
+        "Valid eligible items",
+        "Price/availability consistency",
+        "Merchant-listing and product-snippet performance where available"
+      ],
+      "publiclyObservable": [
+        "JSON-LD presence and syntax",
+        "Visible content alignment"
+      ],
+      "requiresInternalAccess": [
+        "Search Console enhancement reports",
+        "Merchant Center diagnostics",
+        "Theme/app ownership"
+      ],
+      "operatorAction": "Validate syntax, content consistency and Google eligibility separately; schema does not guarantee AI inclusion.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "JSON-LD appears in the homepage core-service list.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "internal-linking",
+      "pillar": "Hub-and-Spoke Internal Linking",
+      "whatSeoasisSays": "Connect main collections, subcollections and supporting content.",
+      "whyItMatters": "Helps discovery and conveys useful relationships while giving shoppers a next step.",
+      "howMeasured": [
+        "Reachable commercial pages",
+        "Relevant inbound internal links",
+        "Crawl/index coverage",
+        "Assisted product discovery"
+      ],
+      "publiclyObservable": [
+        "HTML links",
+        "Anchors",
+        "Sampled click paths"
+      ],
+      "requiresInternalAccess": [
+        "Complete crawl and CMS inventory",
+        "GSC index/crawl evidence",
+        "Analytics paths"
+      ],
+      "operatorAction": "Design parent/child and related-collection links around useful browsing, then QA destinations.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "The homepage explicitly describes hub-and-spoke architecture.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "reddit",
+      "pillar": "Reddit Authority Building",
+      "whatSeoasisSays": "Develop relevant community presence alongside on-site work.",
+      "whyItMatters": "Useful participation may create discovery and independent discussion; effects need measurement.",
+      "howMeasured": [
+        "Relevant public mentions",
+        "Qualified referral visits",
+        "Documented answer citations",
+        "Community rule compliance"
+      ],
+      "publiclyObservable": [
+        "Published service positioning",
+        "Public discussions if individually verified"
+      ],
+      "requiresInternalAccess": [
+        "Approved account and disclosure policy",
+        "Referral conversions",
+        "Brand monitoring history"
+      ],
+      "operatorAction": "Listen first, follow community rules, disclose affiliation and avoid manufactured endorsements.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "Reddit is an explicit service component; no client community outputs were verified in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "foundation",
+      "pillar": "Foundation & Monitoring",
+      "whatSeoasisSays": "Audit and optimize existing pages before ongoing buildout.",
+      "whyItMatters": "Prevents scaling pages on unresolved crawl, template or measurement constraints.",
+      "howMeasured": [
+        "Validated releases",
+        "Index/canonical health",
+        "Template regressions",
+        "Performance by page cohort"
+      ],
+      "publiclyObservable": [
+        "Response and HTML samples",
+        "Metadata",
+        "Robots and sitemap"
+      ],
+      "requiresInternalAccess": [
+        "GSC and GA4",
+        "CMS/theme access",
+        "Historical issues and release log"
+      ],
+      "operatorAction": "Record baseline, issue owner, QA gate and rollback path before publishing.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Audit, existing-page optimization and monitoring appear in the public operating sequence.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "ai-monitoring",
+      "pillar": "AI Visibility Monitoring",
+      "whatSeoasisSays": "Track recommendations across ChatGPT, Perplexity, Google AI surfaces and Claude.",
+      "whyItMatters": "Tests whether relevant buyer questions expose the brand and cite useful sources.",
+      "howMeasured": [
+        "Repeated query-panel observations",
+        "Cited URLs",
+        "Model/surface, locale and date",
+        "Qualified AI referral outcomes"
+      ],
+      "publiclyObservable": [
+        "Entity clarity",
+        "Attributable case evidence",
+        "Published testing methodology if provided"
+      ],
+      "requiresInternalAccess": [
+        "Prompt panel and saved outputs",
+        "AI visibility tool history",
+        "Referral analytics and sales reconciliation"
+      ],
+      "operatorAction": "Use a stable prompt panel and preserve outputs; treat answer variability and referral undercount explicitly.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "The service page names these AI monitoring surfaces; no actual model-output tests were performed here.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "shopping",
+      "pillar": "Organic Shopping / Free Listings",
+      "whatSeoasisSays": "Use supplemental feeds and test product images and title structures.",
+      "whyItMatters": "Improves product information quality on shopping surfaces with a distinct measurement path.",
+      "howMeasured": [
+        "Eligible/approved items",
+        "Free-listing impressions, clicks and CTR",
+        "Qualified transactions and net revenue"
+      ],
+      "publiclyObservable": [
+        "Founder interview",
+        "Public merchant product attributes if sampled"
+      ],
+      "requiresInternalAccess": [
+        "Merchant Center feed and diagnostics",
+        "Free-listing performance export",
+        "GA4/Shopify attribution reconciliation"
+      ],
+      "operatorAction": "Separate feed quality from growth proof; test titles/images in controlled cohorts.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "evidence": "Mike describes supplemental feeds and images/title experiments; interview results are self-reported.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "recalibration",
+      "pillar": "90-Day Recalibration",
+      "whatSeoasisSays": "Review each quarter and set the next plan.",
+      "whyItMatters": "Creates a decision cadence for scaling, revising or stopping work.",
+      "howMeasured": [
+        "Hypotheses resolved",
+        "Cohort outcomes",
+        "Delivery throughput",
+        "Next-quarter decisions with rationale"
+      ],
+      "publiclyObservable": [
+        "Published quarterly cadence"
+      ],
+      "requiresInternalAccess": [
+        "Account baseline",
+        "Experiment and release history",
+        "Commercial outcomes",
+        "Client priorities"
+      ],
+      "operatorAction": "Close the quarter with a decision log, not only a results summary.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Homepage names a quarterly post-mortem and next-quarter planning.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "client-communication",
+      "pillar": "Direct Access & Transparent Reporting",
+      "whatSeoasisSays": "Provide direct operator access, Friday reports and fortnightly strategy calls.",
+      "whyItMatters": "Makes progress, risks and next decisions visible to the client.",
+      "howMeasured": [
+        "Report completion",
+        "Decision turnaround",
+        "Open dependencies",
+        "Client clarity and retention"
+      ],
+      "publiclyObservable": [
+        "Promised reporting cadence"
+      ],
+      "requiresInternalAccess": [
+        "Asana workflow",
+        "Report examples",
+        "Client feedback",
+        "Capacity and SLA targets"
+      ],
+      "operatorAction": "Keep one source of truth for owner, status, evidence, dependency and decision.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Homepage states direct operator access, Friday reports, bi-weekly calls and a private Slack channel.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "methodology": [
+    {
+      "id": "collection-pages",
+      "pillar": "AI-Ready Collection Pages",
+      "whatSeoasisSays": "Build Shopify collections for transactional clusters with products in the grid.",
+      "whyItMatters": "Places a useful assortment in front of shoppers who already know their need.",
+      "howMeasured": [
+        "Nonbrand collection clicks",
+        "Collection landing-page purchases and net revenue",
+        "Catalog coverage and qualified assortment"
+      ],
+      "publiclyObservable": [
+        "Page types and merchant-facing methodology",
+        "Page-template structure where public"
+      ],
+      "requiresInternalAccess": [
+        "GSC query/page export",
+        "Shopify catalog, inventory and margin",
+        "GA4/Shopify landing-page revenue"
+      ],
+      "operatorAction": "Map distinct buyer needs to viable assortments; pilot one cluster before scaling.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Collection work is the core public service pillar.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "keyword-clusters",
+      "pillar": "Transactional Keyword Clustering",
+      "whatSeoasisSays": "Organize catalog searches into a custom keyword roadmap.",
+      "whyItMatters": "Makes page selection answerable to demand, assortment and intent.",
+      "howMeasured": [
+        "Unique intent coverage",
+        "Query-to-page overlap",
+        "Revenue opportunity validated with first-party inputs"
+      ],
+      "publiclyObservable": [
+        "Commercial page themes",
+        "Category and modifier coverage"
+      ],
+      "requiresInternalAccess": [
+        "GSC performance",
+        "Paid keyword tool access if licensed",
+        "Product availability and margin"
+      ],
+      "operatorAction": "Maintain one preferred target page per coherent intent and document exceptions.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "Audit process names Search Console, keyword research and a catalog-specific cluster roadmap.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "schema",
+      "pillar": "Schema Markup (JSON-LD)",
+      "whatSeoasisSays": "Use structured data to make product information machine-readable.",
+      "whyItMatters": "Clarifies entities and eligible product facts when markup matches the visible page.",
+      "howMeasured": [
+        "Valid eligible items",
+        "Price/availability consistency",
+        "Merchant-listing and product-snippet performance where available"
+      ],
+      "publiclyObservable": [
+        "JSON-LD presence and syntax",
+        "Visible content alignment"
+      ],
+      "requiresInternalAccess": [
+        "Search Console enhancement reports",
+        "Merchant Center diagnostics",
+        "Theme/app ownership"
+      ],
+      "operatorAction": "Validate syntax, content consistency and Google eligibility separately; schema does not guarantee AI inclusion.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "JSON-LD appears in the homepage core-service list.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "internal-linking",
+      "pillar": "Hub-and-Spoke Internal Linking",
+      "whatSeoasisSays": "Connect main collections, subcollections and supporting content.",
+      "whyItMatters": "Helps discovery and conveys useful relationships while giving shoppers a next step.",
+      "howMeasured": [
+        "Reachable commercial pages",
+        "Relevant inbound internal links",
+        "Crawl/index coverage",
+        "Assisted product discovery"
+      ],
+      "publiclyObservable": [
+        "HTML links",
+        "Anchors",
+        "Sampled click paths"
+      ],
+      "requiresInternalAccess": [
+        "Complete crawl and CMS inventory",
+        "GSC index/crawl evidence",
+        "Analytics paths"
+      ],
+      "operatorAction": "Design parent/child and related-collection links around useful browsing, then QA destinations.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "The homepage explicitly describes hub-and-spoke architecture.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "reddit",
+      "pillar": "Reddit Authority Building",
+      "whatSeoasisSays": "Develop relevant community presence alongside on-site work.",
+      "whyItMatters": "Useful participation may create discovery and independent discussion; effects need measurement.",
+      "howMeasured": [
+        "Relevant public mentions",
+        "Qualified referral visits",
+        "Documented answer citations",
+        "Community rule compliance"
+      ],
+      "publiclyObservable": [
+        "Published service positioning",
+        "Public discussions if individually verified"
+      ],
+      "requiresInternalAccess": [
+        "Approved account and disclosure policy",
+        "Referral conversions",
+        "Brand monitoring history"
+      ],
+      "operatorAction": "Listen first, follow community rules, disclose affiliation and avoid manufactured endorsements.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "Reddit is an explicit service component; no client community outputs were verified in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "foundation",
+      "pillar": "Foundation & Monitoring",
+      "whatSeoasisSays": "Audit and optimize existing pages before ongoing buildout.",
+      "whyItMatters": "Prevents scaling pages on unresolved crawl, template or measurement constraints.",
+      "howMeasured": [
+        "Validated releases",
+        "Index/canonical health",
+        "Template regressions",
+        "Performance by page cohort"
+      ],
+      "publiclyObservable": [
+        "Response and HTML samples",
+        "Metadata",
+        "Robots and sitemap"
+      ],
+      "requiresInternalAccess": [
+        "GSC and GA4",
+        "CMS/theme access",
+        "Historical issues and release log"
+      ],
+      "operatorAction": "Record baseline, issue owner, QA gate and rollback path before publishing.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Audit, existing-page optimization and monitoring appear in the public operating sequence.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "ai-monitoring",
+      "pillar": "AI Visibility Monitoring",
+      "whatSeoasisSays": "Track recommendations across ChatGPT, Perplexity, Google AI surfaces and Claude.",
+      "whyItMatters": "Tests whether relevant buyer questions expose the brand and cite useful sources.",
+      "howMeasured": [
+        "Repeated query-panel observations",
+        "Cited URLs",
+        "Model/surface, locale and date",
+        "Qualified AI referral outcomes"
+      ],
+      "publiclyObservable": [
+        "Entity clarity",
+        "Attributable case evidence",
+        "Published testing methodology if provided"
+      ],
+      "requiresInternalAccess": [
+        "Prompt panel and saved outputs",
+        "AI visibility tool history",
+        "Referral analytics and sales reconciliation"
+      ],
+      "operatorAction": "Use a stable prompt panel and preserve outputs; treat answer variability and referral undercount explicitly.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "The service page names these AI monitoring surfaces; no actual model-output tests were performed here.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "shopping",
+      "pillar": "Organic Shopping / Free Listings",
+      "whatSeoasisSays": "Use supplemental feeds and test product images and title structures.",
+      "whyItMatters": "Improves product information quality on shopping surfaces with a distinct measurement path.",
+      "howMeasured": [
+        "Eligible/approved items",
+        "Free-listing impressions, clicks and CTR",
+        "Qualified transactions and net revenue"
+      ],
+      "publiclyObservable": [
+        "Founder interview",
+        "Public merchant product attributes if sampled"
+      ],
+      "requiresInternalAccess": [
+        "Merchant Center feed and diagnostics",
+        "Free-listing performance export",
+        "GA4/Shopify attribution reconciliation"
+      ],
+      "operatorAction": "Separate feed quality from growth proof; test titles/images in controlled cohorts.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "evidence": "Mike describes supplemental feeds and images/title experiments; interview results are self-reported.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "recalibration",
+      "pillar": "90-Day Recalibration",
+      "whatSeoasisSays": "Review each quarter and set the next plan.",
+      "whyItMatters": "Creates a decision cadence for scaling, revising or stopping work.",
+      "howMeasured": [
+        "Hypotheses resolved",
+        "Cohort outcomes",
+        "Delivery throughput",
+        "Next-quarter decisions with rationale"
+      ],
+      "publiclyObservable": [
+        "Published quarterly cadence"
+      ],
+      "requiresInternalAccess": [
+        "Account baseline",
+        "Experiment and release history",
+        "Commercial outcomes",
+        "Client priorities"
+      ],
+      "operatorAction": "Close the quarter with a decision log, not only a results summary.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Homepage names a quarterly post-mortem and next-quarter planning.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "client-communication",
+      "pillar": "Direct Access & Transparent Reporting",
+      "whatSeoasisSays": "Provide direct operator access, Friday reports and fortnightly strategy calls.",
+      "whyItMatters": "Makes progress, risks and next decisions visible to the client.",
+      "howMeasured": [
+        "Report completion",
+        "Decision turnaround",
+        "Open dependencies",
+        "Client clarity and retention"
+      ],
+      "publiclyObservable": [
+        "Promised reporting cadence"
+      ],
+      "requiresInternalAccess": [
+        "Asana workflow",
+        "Report examples",
+        "Client feedback",
+        "Capacity and SLA targets"
+      ],
+      "operatorAction": "Keep one source of truth for owner, status, evidence, dependency and decision.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Homepage states direct operator access, Friday reports, bi-weekly calls and a private Slack channel.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "operatingPhilosophy": [
+    {
+      "title": "Own the account",
+      "detail": "Translate a client goal into a clear plan, ship work, verify it and communicate decisions.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "End-to-end ownership is explicit. Operational interpretation is proposed.",
+      "classification": "INFERRED",
+      "confidence": "High"
+    },
+    {
+      "title": "Revenue before vanity metrics",
+      "detail": "Rankings and traffic inform diagnosis; qualified orders and profitable growth determine commercial value.",
+      "source": "src-company-shopify",
+      "sourceIds": [
+        "src-company-shopify"
+      ],
+      "evidence": "Revenue is central to public positioning. Incremental impact still requires controlled analysis.",
+      "classification": "INFERRED",
+      "confidence": "High"
+    },
+    {
+      "title": "AI with judgment",
+      "detail": "Use AI for clustering, drafts and checks; keep source verification, merchant context and release approval human-owned.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "AI-native workflows and editing AI-sounding copy are explicit. This division of responsibility is proposed.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High"
+    },
+    {
+      "title": "Test durable signals",
+      "detail": "Preserve hypotheses and repeated observations rather than promise that a single tactic causes AI recommendations.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "evidence": "Mike explicitly acknowledges uncertainty about lasting AI tactics.",
+      "classification": "INFERRED",
+      "confidence": "High"
+    }
+  ],
+  "scopeQuestions": [
+    {
+      "id": "scope-blogs",
+      "question": "Where do blog and link-building partners fit in current fulfillment, and when does the strategist choose them over collection work?",
+      "note": "Role lists both partners; commercial copy deemphasizes blogs/backlinks; case library includes blog results. These may reflect account needs or evolving positioning; this research cannot resolve it.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "evidence": "Cross-source difference in stated scope.",
+      "classification": "INFERRED",
+      "confidence": "High"
+    },
+    {
+      "id": "scope-output",
+      "question": "How is collection throughput adjusted for assortment size, stock, QA and existing coverage?",
+      "note": "Public throughput should be treated as a service promise, not the candidate’s unconditional target.",
+      "source": "src-company-home",
+      "sourceIds": [
+        "src-company-home"
+      ],
+      "evidence": "Homepage discusses approximately five new pages weekly.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High"
+    },
+    {
+      "id": "scope-ai",
+      "question": "What prompt panel and commercial evidence make an AI visibility experiment worth scaling?",
+      "note": "Ask for the internal measurement protocol before proposing a target.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "evidence": "Founder describes active testing and uncertainty in durable AI methods.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High"
+    }
+  ],
+  "claimPolicy": "Observed company statements establish what SEOasis says, not independent validation of technical mechanisms, revenue causality or guaranteed timing.",
+  "cases": {
+    "summary": "Public case library spans collection expansion, technical cleanup, AI referral outcomes and organic Shopping.",
+    "validation": "Requires Internal Access",
+    "platforms": [
+      "GA4",
+      "Shopify",
+      "Google Search Console",
+      "Google Merchant Center"
+    ],
+    "decision": "Validate attribution, comparison windows, seasonality, net revenue and concurrent changes before forecasting or generalizing.",
+    "source": "src-company-cases",
+    "sourceIds": [
+      "src-company-cases"
+    ],
+    "evidence": "Library includes diverse service case studies; no private source data was accessed.",
+    "classification": "OBSERVED",
+    "confidence": "High"
+  },
+  "founderInterview": {
+    "summary": "Mike describes boutique direct delivery, Free Listing feed work and title/image testing. He treats durable AI tactics as an open research problem.",
+    "resultCaveat": "Vendor-hosted, self-reported client outcomes; no independent verification or causal estimate.",
+    "source": "src-company-interview",
+    "sourceIds": [
+      "src-company-interview"
+    ],
+    "evidence": "First-person public interview on Productrise.",
+    "classification": "OBSERVED",
+    "confidence": "High"
+  },
+  "sources": [
+    {
+      "id": "src-company-home",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Live homepage: Shopify/ecommerce AEO positioning; team identities; collection, Reddit, foundation/monitoring pillars; quarterly recalibration and client reporting cadence. Outcome claims are company-reported.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-job-linkedin",
+      "url": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+      "title": "SEOasis hiring SEO Strategist - US Only - Full Time, Remote Opportunity | LinkedIn",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer listing exposed full role description without authentication. Role requirements and growth expectations are observed; active hiring status needs confirmation.",
+      "status": "Publicly accessible employer listing"
+    },
+    {
+      "id": "src-job-gusto",
+      "url": "https://jobs.gusto.com/postings/seoasis-seo-strategist-us-only-full-time-remote-opportunity-7efed2ec-3457-4268-8fd1-026d349add28",
+      "title": "SEO Strategist - US Only - Full Time, Remote Opportunity at SEOASIS",
+      "accessedAt": "2026-10-14",
+      "note": "Search index retained matching role text. Direct page returned HTTP 410 Gone when opened; do not present as a live vacancy or rely on it alone.",
+      "status": "HTTP 410 on direct open; historical corroboration"
+    },
+    {
+      "id": "src-job-board",
+      "url": "https://jobs.gusto.com/boards/seoasis-ca433255-e63d-4b9d-9bf2-ca87a3c84c98",
+      "title": "Careers at SEOASIS",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer careers board stated no open positions. This conflicts with the accessible LinkedIn role listing, so availability is unconfirmed.",
+      "status": "Publicly accessible; no positions listed"
+    },
+    {
+      "id": "src-company-shopify",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Commercial methodology page outlines audit/build/grow, collection production, schema, Reddit and AI monitoring. Its no-blog/no-backlink positioning differs from partner coordination in the role listing. Technical and outcome assertions are SEOasis claims, not independently established facts.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-cases",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public case library includes collection work, technical hack cleanup, AI referral revenue, organic Shopping, and blog-related results. Statistics are self-reported; baselines and causal attribution require source-system validation.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-interview",
+      "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+      "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Accessible first-person Q&A with Mike Sack, hosted by a vendor he uses. He discusses boutique delivery, supplemental feeds, images/title experiments, and uncertainty in durable AI tactics. Vendor-hosted results are self-reported.",
+      "status": "Publicly accessible primary interview"
+    },
+    {
+      "id": "src-company-blog",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public article library covers Shopify/ecommerce, AEO, collection strategy and AI recommendations; its existence does not establish client blog deliverable scope.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-guide",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Article attributed to Mike Sack, dated April 30, 2026. Public collection methodology discusses category/modifier research, catalog relevance, URL and structured data.",
+      "status": "Publicly accessible"
+    }
+  ]
+}

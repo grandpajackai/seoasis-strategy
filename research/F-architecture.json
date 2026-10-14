@@ -1,0 +1,3475 @@
+{
+  "metadata": {
+    "title": "Architecture: reinforce the paths that serve intent",
+    "workstream": "F — Site architecture + internal linking",
+    "accessedAt": "2026-10-14",
+    "scope": "20-page purposive sample; offline graph from source HTML. No additional crawling."
+  },
+  "summary": "Hub-and-spoke delivery is visible in the method, and service-to-proof/content-to-commercial links already exist. Validate discovery paths and choose primary destinations before adding a few useful contextual links.",
+  "sources": [
+    {
+      "id": "CF-HOMEPAGE",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES-DR-BRANDT-GEO",
+      "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CHATGPT-VISIBILITY-AUDIT",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-ECOMMERCE-SEO",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-ECOMMERCE-LINK-BUILDING",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-TECHNICAL-SEO-FOR-ECOMMERCE",
+      "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-AGENCY",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-COMPANY",
+      "url": "https://www.seoasis.io/shopify-seo-company",
+      "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-CONSULTANT",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-EXPERT",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-REDDIT-SEO",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-REDDIT-SEO-STRATEGY",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SITEMAP",
+      "url": "https://www.seoasis.io/sitemap.xml",
+      "title": "SEOasis XML sitemap",
+      "accessedAt": "2026-10-14",
+      "note": "70 URL entries in saved XML; URL presence is not indexation or a completed site crawl.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "findings": [
+    {
+      "id": "AR-01",
+      "title": "Focused homepage navigation versus broader public inventory",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Homepage source-HTML links resolve to four page URLs: home, case-study hub, privacy policy and terms. The sitemap lists 70 URLs, including 40 commercial-looking paths classified by URL pattern.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE",
+        "CF-SITEMAP"
+      ],
+      "businessImplication": "The public service inventory is broader than the homepage navigation exposes. A focused conversion path may be intentional."
+    },
+    {
+      "id": "AR-02",
+      "title": "Commercial discovery is worth a bounded validation",
+      "classification": "INFERRED",
+      "confidence": "Medium",
+      "evidence": "No homepage-to-commercial-service path is present when traversal is restricted to the sampled HTML graph. Other site pages, rendering and external discovery can change the full picture.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE",
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-BLOG"
+      ],
+      "businessImplication": "A selected service hub could help both interested visitors and crawlers discover the offering.",
+      "recommendedAction": "Confirm navigation intent and priority URLs; validate the full rendered graph before adding a restrained hub link. Do not declare all unlinked sample nodes orphaned."
+    },
+    {
+      "id": "AR-03",
+      "title": "Service-to-proof relationships are already present",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Shopify agency and category-page service HTML link directly to /case-studies/sports-nutrition-brand and /case-studies/roofnest.",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "businessImplication": "Existing proof links support commercial evaluation; strengthen relevant relationships rather than add indiscriminate links."
+    },
+    {
+      "id": "AR-04",
+      "title": "Supporting content already links to commercial pages",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The Shopify optimization guide links to /shopify-seo-company; the Reddit ecommerce guide links to /shopify-seo-consultant; the agency-selection guide links to /best-shopify-seo-agency.",
+      "source": {
+        "id": "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+        "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+        "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+      ],
+      "businessImplication": "Contextual reinforcement exists. Validate whether each destination best serves the article section and assigned intent."
+    },
+    {
+      "id": "AR-05",
+      "title": "Reciprocal methodology and proof links offer a small test",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "The Bronson AI case describes collection pages and hub-and-spoke linking, but its source HTML has no direct link to the category-page service. The Shopping case links to Bronson AI; the Bronson AI case does not link back to Shopping.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS",
+        "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "businessImplication": "Relevant links could help an evaluator move from proof to methodology or adjacent proof.",
+      "recommendedAction": "Add only where a useful sentence supports the relationship; no reciprocal-link quota or ranking guarantee."
+    }
+  ],
+  "inventory": {
+    "sitemapUrlCount": 70,
+    "commercialLookingPaths": 40,
+    "sampledPages": 20,
+    "sampledEdges": 67,
+    "homepageReachableSampleNodes": 5,
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "evidence": "Counts derived from saved sitemap and sampled source-HTML graph; commercial grouping is URL-pattern classification, not review of all pages.",
+    "source": {
+      "id": "CF-SITEMAP",
+      "url": "https://www.seoasis.io/sitemap.xml",
+      "title": "SEOasis XML sitemap",
+      "accessedAt": "2026-10-14",
+      "note": "70 URL entries in saved XML; URL presence is not indexation or a completed site crawl.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    "sourceIds": [
+      "CF-SITEMAP",
+      "CF-HOMEPAGE"
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "homepage",
+        "url": "https://www.seoasis.io/",
+        "label": "AI-Focused Shopify SEO Agency",
+        "group": "Homepage",
+        "minObservedDepthFromHome": 0,
+        "depthLabel": "0",
+        "sampledInboundSources": 19,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-HOMEPAGE",
+          "url": "https://www.seoasis.io/",
+          "title": "AI-Focused Shopify SEO Agency | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-HOMEPAGE"
+        ]
+      },
+      {
+        "id": "case-studies",
+        "url": "https://www.seoasis.io/case-studies",
+        "label": "Ecom SEO Case Studies",
+        "group": "Case-study hub",
+        "minObservedDepthFromHome": 1,
+        "depthLabel": "1",
+        "sampledInboundSources": 18,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-CASE-STUDIES",
+          "url": "https://www.seoasis.io/case-studies",
+          "title": "Ecom SEO Case Studies | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ]
+      },
+      {
+        "id": "case-studies__bronson-vitamins",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "label": "How SEOasis Unlocked AI Visibility for Bronson Vitamins",
+        "group": "Case studies",
+        "minObservedDepthFromHome": 2,
+        "depthLabel": "2",
+        "sampledInboundSources": 3,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+          "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+          "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ]
+      },
+      {
+        "id": "case-studies__bronson-vitamins-organic-shopping",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "label": "Bronson Vitamins: Google Merchant Center Case Study",
+        "group": "Case studies",
+        "minObservedDepthFromHome": 2,
+        "depthLabel": "2",
+        "sampledInboundSources": 1,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+          "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+          "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ]
+      },
+      {
+        "id": "case-studies__dr-brandt-geo",
+        "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "label": "Dr. Brandt Skincare's First 4 Months in the GEO Era Case Study",
+        "group": "Case studies",
+        "minObservedDepthFromHome": 2,
+        "depthLabel": "2",
+        "sampledInboundSources": 2,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-CASE-STUDIES-DR-BRANDT-GEO",
+          "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+          "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ]
+      },
+      {
+        "id": "chatgpt-visibility-audit",
+        "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+        "label": "Free ChatGPT Visibility Audit — Claude Code Plugin",
+        "group": "Audit tool",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 0,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-CHATGPT-VISIBILITY-AUDIT",
+          "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+          "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-CHATGPT-VISIBILITY-AUDIT"
+        ]
+      },
+      {
+        "id": "blog",
+        "url": "https://www.seoasis.io/blog",
+        "label": "Blog — Ecommerce SEO, AEO & AI Visibility",
+        "group": "Resource hub",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 3,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-BLOG",
+          "url": "https://www.seoasis.io/blog",
+          "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-BLOG"
+        ]
+      },
+      {
+        "id": "ecommerce-seo",
+        "url": "https://www.seoasis.io/ecommerce-seo",
+        "label": "Ecommerce SEO That Shows Up in AI Search",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 0,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-ECOMMERCE-SEO",
+          "url": "https://www.seoasis.io/ecommerce-seo",
+          "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ]
+      },
+      {
+        "id": "ecommerce-category-page-seo",
+        "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "label": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 0,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+          "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+          "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ]
+      },
+      {
+        "id": "ecommerce-link-building",
+        "url": "https://www.seoasis.io/ecommerce-link-building",
+        "label": "Ecommerce Link Building That Actually Drives Revenue",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 0,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-ECOMMERCE-LINK-BUILDING",
+          "url": "https://www.seoasis.io/ecommerce-link-building",
+          "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ]
+      },
+      {
+        "id": "technical-seo-for-ecommerce",
+        "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "label": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 0,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-TECHNICAL-SEO-FOR-ECOMMERCE",
+          "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+          "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ]
+      },
+      {
+        "id": "shopify-seo-agency",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "label": "Shopify SEO Agency Built for AI Search",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 4,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-SHOPIFY-SEO-AGENCY",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ]
+      },
+      {
+        "id": "shopify-seo-company",
+        "url": "https://www.seoasis.io/shopify-seo-company",
+        "label": "Shopify SEO Company Built for AI Search",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 2,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-SHOPIFY-SEO-COMPANY",
+          "url": "https://www.seoasis.io/shopify-seo-company",
+          "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ]
+      },
+      {
+        "id": "shopify-seo-consultant",
+        "url": "https://www.seoasis.io/shopify-seo-consultant",
+        "label": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 3,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-SHOPIFY-SEO-CONSULTANT",
+          "url": "https://www.seoasis.io/shopify-seo-consultant",
+          "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ]
+      },
+      {
+        "id": "shopify-seo-expert",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "label": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 2,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-SHOPIFY-SEO-EXPERT",
+          "url": "https://www.seoasis.io/shopify-seo-expert",
+          "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ]
+      },
+      {
+        "id": "reddit-seo",
+        "url": "https://www.seoasis.io/reddit-seo",
+        "label": "Reddit SEO for Ecommerce Brands",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 2,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-REDDIT-SEO",
+          "url": "https://www.seoasis.io/reddit-seo",
+          "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ]
+      },
+      {
+        "id": "reddit-seo-strategy",
+        "url": "https://www.seoasis.io/reddit-seo-strategy",
+        "label": "Reddit SEO Strategy for Ecommerce Brands",
+        "group": "Commercial services",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 2,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-REDDIT-SEO-STRATEGY",
+          "url": "https://www.seoasis.io/reddit-seo-strategy",
+          "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ]
+      },
+      {
+        "id": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "label": "How to Optimize Shopify Sites for Search Engines in 2026",
+        "group": "Articles",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 3,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+          "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+          "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ]
+      },
+      {
+        "id": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "label": "How to Use Reddit for Ecommerce SEO in 2026",
+        "group": "Articles",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 1,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+          "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+          "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ]
+      },
+      {
+        "id": "blog__how-to-choose-a-shopify-seo-agency",
+        "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "label": "How to Choose a Shopify SEO Agency That Drives Revenue",
+        "group": "Articles",
+        "minObservedDepthFromHome": null,
+        "depthLabel": "No path found in sampled graph",
+        "sampledInboundSources": 2,
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Minimum path uses only links in the 20 sampled source-HTML responses. Null is not a site-wide orphan or depth finding.",
+        "source": {
+          "id": "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+          "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+          "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "homepage",
+        "sourceUrl": "https://www.seoasis.io/",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-HOMEPAGE"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "anchor": "Skincare · GEO EraDr. Brandt SkincareFirst 4 Months in the GEO EraFrom near-zero AI-referred revenue to a compounding channel — visible and purchasable across ChatGPT, Google AI, and Perplexity.97% from ChatGPT+60% AI purchases+40.8% conversionRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "target": "case-studies__dr-brandt-geo"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "anchor": "Vitamins · Merchant CenterBronson — Organic ShoppingNearly Doubling Organic Shopping RevenueOne month of Google Merchant Center optimization turned Bronson's free product listings into a growth channel — more revenue from fewer, far more qualified sessions.+88.7% revenue+51% conversion+39% AOVRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "target": "case-studies__bronson-vitamins-organic-shopping"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "anchor": "Vitamins & SupplementsBronson VitaminsUnlocking AI Visibility — +264% AI RevenueMade a 65-year-old supplement brand recommendable by ChatGPT, Perplexity, and Google AI Overviews — with 71.6% of AI revenue from new customers.+204% AI sessions+283% AI purchases71.6% new buyersRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "target": "case-studies__bronson-vitamins"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "anchor": "Vitamins & SupplementsBronson Vitamins — +264% AI RevenueUnlocking AI visibility for a 65-year-old supplement brand.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "target": "case-studies__bronson-vitamins"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "anchor": "Skincare / DermatologyDr. Brandt — First 4 Months in the GEO EraA new AI-referred revenue channel built from zero.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "target": "case-studies__dr-brandt-geo"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "anchor": "Vitamins & SupplementsBronson Vitamins — +264% AI RevenueUnlocking AI visibility for a 65-year-old supplement brand.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "target": "case-studies__bronson-vitamins"
+      },
+      {
+        "source": "chatgpt-visibility-audit",
+        "sourceUrl": "https://www.seoasis.io/chatgpt-visibility-audit",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "seoasis.io",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CHATGPT-VISIBILITY-AUDIT"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "anchor": "Shopify SEOHow to Optimize Shopify Sites for Search Engines in 2026Learn how to optimize Shopify sites for search engines with collection pages, schema markup, and AI visibility strategies that drive revenue, not vanity metricsApril 30, 2026·14 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "target": "blog__how-to-optimize-shopify-sites-for-search-engines"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "anchor": "Reddit SEOHow to Use Reddit for Ecommerce SEO in 2026Learn how to use Reddit for ecommerce SEO. Build authority, reach AI-powered search, and drive revenue through strategic Reddit presence. SEOasis guide.April 16, 2026·18 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "target": "blog__how-to-use-reddit-for-ecommerce-seo"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "anchor": "Shopify SEOHow to Choose a Shopify SEO Agency That Drives RevenueLearn how to choose a Shopify SEO agency that builds revenue-generating collection pages, implements AI-parseable schema, and tracks real results. Not vanity meApril 10, 2026·13 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "target": "blog__how-to-choose-a-shopify-seo-agency"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "anchor": "Shopify SEO Agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "target": "shopify-seo-agency"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "anchor": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "target": "shopify-seo-consultant"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "anchor": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "target": "shopify-seo-consultant"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "anchor": "SEO Shopify Expert | AI-Era Optimization for Ecommerce Brands",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "shopify-seo-expert"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "anchor": "a Shopify SEO agency that",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "blog__how-to-choose-a-shopify-seo-agency"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/reddit-seo",
+        "anchor": "Reddit SEO for",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "target": "reddit-seo"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "anchor": "shopify seo agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "target": "shopify-seo-agency"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "anchor": "Reddit SEO Strategy for Ecommerce Brands",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "target": "reddit-seo-strategy"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "anchor": "shopify seo agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "target": "shopify-seo-agency"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "anchor": "shopify seo expert",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "target": "shopify-seo-expert"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-company",
+        "anchor": "shopify seo company",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "target": "shopify-seo-company"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "anchor": "Reddit SEO Strategy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "target": "reddit-seo-strategy"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "anchor": "Shopify SEO Agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "target": "shopify-seo-agency"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/reddit-seo",
+        "anchor": "Reddit SEO services",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "target": "reddit-seo"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/blog",
+        "anchor": "Back to Blog",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "target": "blog"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-company",
+        "anchor": "shopify seo company",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "target": "shopify-seo-company"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/blog",
+        "anchor": "Back to Blog",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "target": "blog"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "anchor": "shopify seo consultant",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "target": "shopify-seo-consultant"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "anchor": "Shopify SEOHow to Optimize Shopify Sites for Search Engines in 2026Learn how to optimize Shopify sites for search engines with collection pages, schema markup, and AI visibility strategies that drive revenue, not vanity metricsRead →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "target": "blog__how-to-optimize-shopify-sites-for-search-engines"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io",
+        "anchor": "Logo/image link",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "homepage"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/case-studies",
+        "anchor": "Case Studies",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "case-studies"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/blog",
+        "anchor": "Back to Blog",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "blog"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "anchor": "Shopify SEOHow to Optimize Shopify Sites for Search Engines in 2026Learn how to optimize Shopify sites for search engines with collection pages, schema markup, and AI visibility strategies that drive revenue, not vanity metricsRead →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "target": "blog__how-to-optimize-shopify-sites-for-search-engines"
+      }
+    ],
+    "outOfSampleEdges": [
+      {
+        "source": "homepage",
+        "sourceUrl": "https://www.seoasis.io/",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-HOMEPAGE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "homepage",
+        "sourceUrl": "https://www.seoasis.io/",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-HOMEPAGE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/planetary-design-google-discover",
+        "anchor": "Shopify · Google DiscoverPlanetary Design8,460 Google Discover Clicks in Two WeekendsTwo Sunday spikes took a coffee blog from zero Discover traffic to 8,460 clicks and lifted store sessions 63%. What it did to revenue, and how to turn the next spike into sales.8,460 Discover clicks+63% sessions+143% canister pageRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/six-shopify-brands-organic-revenue",
+        "anchor": "Shopify · Portfolio Results6 Shopify Brands$2.8M in Incremental Organic RevenueSix accounts doing $100K to $10M a month, each measured against an equivalent prior period. Full revenue, sessions, and first-90-day breakdowns.+$2,801,43437.7% avg 90-day lift6/6 accounts grewRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/counterfeit-hermes-hack-recovery",
+        "anchor": "Magento · Inherited Hack CleanupHidden Counterfeit StoreHow We Found a Hidden Hack That Cut Organic Revenue in HalfRevenue had already halved before this store came to us. A Japanese keyword hack was running a counterfeit Hermès storefront inside a boat cover site. We found it, classified every URL, and proved the cleanup worked.−50.8% before we arrived3,500 spam pages purged968 URLs re-crawledRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "anchor": "Onboarding · 3 BrandsOrganic Revenue in 90 DaysOrganic Revenue Lift in the First 90 DaysThree Shopify brands, three categories, one 90-day onboarding — first-quarter organic revenue reported from Shopify, year over year.+56% Dr. Brandt+16% Eikon+56% HeartlandRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/dr-brandt",
+        "anchor": "Skincare / DermatologyDr. Brandt Skincare+$99K/Month in Incremental Organic RevenueAfter three years of abandoned SEO, we drove a 334% revenue increase in 73 days and doubled AOV from $98 to $200.+$99K/mo+334% growth2x AOVRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed+$573K in Organic Revenue in 8 Months52% revenue increase with just 27% more traffic — by prioritizing collection pages with the highest conversion potential.+$573K revenue+52% growth+275 keywordsRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest+$182K in Organic Revenue GrowthRevitalized a diminishing organic channel, repositioned the brand among top results during AI headwinds and stiff competition.+$182K revenueRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/case-studies/tririg",
+        "anchor": "Triathlon GearTriRig+$66K Revenue in 4 Months — 50% Increase25% more traffic turned into 50% more revenue by targeting tipping-point pages ranked 5-9 on Google.+$66K revenue+50% growth+403% blog revenueRead case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies",
+        "sourceUrl": "https://www.seoasis.io/case-studies",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io/case-studies/dr-brandt",
+        "anchor": "Skincare / DermatologyDr. Brandt — +$99K/mo Incremental Revenue334% organic revenue increase in 73 days.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in 8 Months52% revenue growth with targeted SEO strategy.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue GrowthReversing a declining organic channel during AI headwinds.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "anchor": "Onboarding / 3 BrandsOrganic Revenue Growth in 90 DaysOrganic revenue lift in the first 90 days across three brands.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__bronson-vitamins-organic-shopping",
+        "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "anchor": "OnboardingOrganic Revenue Growth in 90 DaysThree Shopify brands, three categories, one 90-day onboarding.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io/case-studies/dr-brandt",
+        "anchor": "Skincare / DermatologyDr. Brandt — +$99K/mo Incremental Revenue334% organic revenue increase in 73 days.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "case-studies__dr-brandt-geo",
+        "sourceUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-CASE-STUDIES-DR-BRANDT-GEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "anchor": "Ecommerce SEOWhat to Look for in an Ecommerce SEO Audit (2026 Guide)Learn what to look for in an ecommerce SEO audit: collection page structure, schema markup, AI visibility, and technical fixes that drive revenue. Get the checkMay 4, 2026·20 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "anchor": "Ecommerce PlatformsHow to Optimize BigCommerce Stores for Search Engines in 2026BigCommerce SEO starts with platform-level technical fixes — schema markup, clean URLs, and AI-ready structure. Learn how to make your store visible in 2026.April 30, 2026·17 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-choose-an-ecommerce-seo-agency",
+        "anchor": "Ecommerce SEOHow to Choose an Ecommerce SEO Agency That Drives RevenueLearn how to choose an ecommerce SEO agency that delivers real results. Skip the vanity metrics and find a partner who understands AI-era search.April 27, 2026·15 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-improve-ecommerce-search-rankings",
+        "anchor": "Ecommerce SEOHow to Improve Ecommerce Search Rankings in 2026Learn how to improve ecommerce search rankings with collection pages, schema markup, and Reddit authority. Real strategies that drive revenue, not vanity metricApril 27, 2026·20 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/what-does-an-ecommerce-seo-agency-do",
+        "anchor": "Ecommerce SEOWhat Does an Ecommerce SEO Agency Do? (2026 Guide)Ecommerce SEO agencies optimize product pages, fix technical issues, and build visibility in AI search. Learn what they actually do and what to expect in 2026.April 27, 2026·13 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-get-backlinks-from-reddit-discussions",
+        "anchor": "Reddit SEOHow to Get Backlinks From Reddit Discussions (2026 Guide)Learn how to build Reddit backlinks that AI search systems actually cite. Step-by-step guide to Reddit authority building for ecommerce brands in 2026.April 16, 2026·15 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-reddit-posts-for-search-visibility",
+        "anchor": "Reddit SEOHow to Optimize Reddit Posts for Search Visibility in 2026Learn how to optimize Reddit posts for Google, AI Overviews, and ChatGPT. Schema, keywords, and engagement tactics that drive real visibility. Read the guide.April 16, 2026·18 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-seo",
+        "anchor": "Reddit SEOHow to Use Reddit for SEO: The 2026 AI-Era StrategyLearn how to use Reddit for SEO in 2026. Build authority, earn AI visibility, and drive revenue through strategic Reddit presence. SEOasis shows you how.April 16, 2026·15 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-improve-shopify-store-search-rankings",
+        "anchor": "Shopify SEOHow to Improve Shopify Store Search Rankings in 2026Learn how to improve Shopify store search rankings with collection pages, schema markup, and AI visibility. Revenue-focused tactics that actually work.April 10, 2026·13 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "anchor": "Shopify SEOHow to Optimize Your Shopify Store for Search Engines in 2026Learn how to optimize your Shopify store for AI-powered search engines like ChatGPT and Google AI Overviews. Schema markup, collection pages, and Reddit authoriApril 10, 2026·15 min readRead article →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog",
+        "sourceUrl": "https://www.seoasis.io/blog",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "Ecommerce SEO",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/reddit-ecommerce-seo",
+        "anchor": "Reddit Ecommerce SEO: How",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "ecommerce category page seo",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-category-page-seo",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "ecommerce link building",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/link-building-for-ecommerce-sites",
+        "anchor": "link building for ecommerce sites",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/reddit-backlink-strategy",
+        "anchor": "reddit backlink strategy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "ecommerce-link-building",
+        "sourceUrl": "https://www.seoasis.io/ecommerce-link-building",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-ECOMMERCE-LINK-BUILDING"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "Technical SEO for ecommerce",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/reddit-backlink-strategy",
+        "anchor": "drives ecommerce revenue",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "technical-seo-for-ecommerce",
+        "sourceUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "Shopify SEO agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/best-shopify-seo-agency",
+        "anchor": "Best Shopify SEO Agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "Shopify SEO company",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/best-shopify-seo-agency",
+        "anchor": "Best Shopify SEO Agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-company",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-company",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-COMPANY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/best-shopify-seo-agency",
+        "anchor": "best shopify seo agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-consultant",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-consultant",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-CONSULTANT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-services",
+        "anchor": "Shopify SEO expert",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-packages",
+        "anchor": "Ecommerce SEO Packages That Drive Revenue, Not Vanity Metrics",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/ecommerce-seo-audit",
+        "anchor": "Ecommerce SEO Audit",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "shopify-seo-expert",
+        "sourceUrl": "https://www.seoasis.io/shopify-seo-expert",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-SHOPIFY-SEO-EXPERT"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/reddit-for-seo",
+        "anchor": "reddit for seo",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/reddit-ecommerce-seo",
+        "anchor": "AI models find your products on Reddit",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "anchor": "how to optimize your shopify store for search engines",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "anchor": "Sports NutritionTheFeed — +$573K in Organic Revenue+$573K revenue+52% growth+275 keywordsRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/case-studies/roofnest",
+        "anchor": "Rooftop TentsRoofnest — +$182K Revenue Growth+$182K revenueRead full case study →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/best-shopify-seo-agency",
+        "anchor": "best shopify seo agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/reddit-for-seo",
+        "anchor": "reddit for seo",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "reddit-seo-strategy",
+        "sourceUrl": "https://www.seoasis.io/reddit-seo-strategy",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-REDDIT-SEO-STRATEGY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "anchor": "Ecommerce SEOWhat to Look for in an Ecommerce SEO Audit (2026 Guide)Learn what to look for in an ecommerce SEO audit: collection page structure, schema markup, AI visibility, and technical fixes that drive revenue. Get the checkRead →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "anchor": "Ecommerce PlatformsHow to Optimize BigCommerce Stores for Search Engines in 2026BigCommerce SEO starts with platform-level technical fixes — schema markup, clean URLs, and AI-ready structure. Learn how to make your store visible in 2026.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-choose-an-ecommerce-seo-agency",
+        "anchor": "Ecommerce SEOHow to Choose an Ecommerce SEO Agency That Drives RevenueLearn how to choose an ecommerce SEO agency that delivers real results. Skip the vanity metrics and find a partner who understands AI-era search.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-optimize-shopify-sites-for-search-engines",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "anchor": "Ecommerce SEOWhat to Look for in an Ecommerce SEO Audit (2026 Guide)Learn what to look for in an ecommerce SEO audit: collection page structure, schema markup, AI visibility, and technical fixes that drive revenue. Get the checkRead →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "anchor": "Ecommerce PlatformsHow to Optimize BigCommerce Stores for Search Engines in 2026BigCommerce SEO starts with platform-level technical fixes — schema markup, clean URLs, and AI-ready structure. Learn how to make your store visible in 2026.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-use-reddit-for-ecommerce-seo",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/best-shopify-seo-agency",
+        "anchor": "best shopify seo agency",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "anchor": "Ecommerce SEOWhat to Look for in an Ecommerce SEO Audit (2026 Guide)Learn what to look for in an ecommerce SEO audit: collection page structure, schema markup, AI visibility, and technical fixes that drive revenue. Get the checkRead →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "anchor": "Ecommerce PlatformsHow to Optimize BigCommerce Stores for Search Engines in 2026BigCommerce SEO starts with platform-level technical fixes — schema markup, clean URLs, and AI-ready structure. Learn how to make your store visible in 2026.Read →",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/privacy-policy",
+        "anchor": "Privacy Policy",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      },
+      {
+        "source": "blog__how-to-choose-a-shopify-seo-agency",
+        "sourceUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "targetUrl": "https://www.seoasis.io/terms-of-service",
+        "anchor": "Terms of Service",
+        "classification": "OBSERVED",
+        "confidence": "High",
+        "evidence": "Crawlable anchor in saved source HTML; fragments collapsed to page URLs.",
+        "sourceIds": [
+          "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+        ],
+        "targetStatus": "Outside sample; not status-checked"
+      }
+    ],
+    "depthDefinition": "Minimum observed depth from home using only sampled source-HTML anchors. Missing path does not mean site-wide orphan or infinite crawl depth.",
+    "layoutGroups": [
+      "Homepage",
+      "Commercial services",
+      "Case-study hub",
+      "Case studies",
+      "Resource hub",
+      "Articles",
+      "Audit tool"
+    ],
+    "legend": "Solid = observed sampled link; proposed recommendations belong in a separate overlay."
+  },
+  "linkRecommendations": [
+    {
+      "id": "AR-L01",
+      "title": "Expose the selected Shopify commercial hub",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Homepage describes Shopify delivery but no /shopify-seo-agency anchor appears in its source HTML.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE",
+        "CF-SHOPIFY-SEO-AGENCY"
+      ],
+      "sourceUrl": "https://www.seoasis.io/",
+      "targetURL": "https://www.seoasis.io/shopify-seo-agency",
+      "anchorIntent": "Shopify SEO approach",
+      "impact": "High",
+      "effort": "Low",
+      "priority": "P1",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Founder confirms homepage conversion intent and primary Shopify URL.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L02",
+      "title": "Connect collection methodology to the dedicated service explanation",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Agency copy discusses collection buildout; its saved links do not include the dedicated category-page service.",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "sourceUrl": "https://www.seoasis.io/shopify-seo-agency",
+      "targetURL": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "anchorIntent": "collection-page strategy",
+      "impact": "Medium",
+      "effort": "Low",
+      "priority": "P1",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Confirm the category-page URL is the selected owner for this sub-intent.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L03",
+      "title": "Let Bronson proof open the collection methodology",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Bronson AI methodology names AI-ready collection pages, while its links go to the case hub/other cases and homepage.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "targetURL": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "anchorIntent": "AI-ready collection-page approach",
+      "impact": "Medium",
+      "effort": "Low",
+      "priority": "P1",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Editorial approval; retain case-study claim attribution and client permissions.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L04",
+      "title": "Align a Reddit article link with Reddit service intent",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Article discusses subreddit participation but its only sampled commercial destination is /shopify-seo-consultant; /reddit-seo is not linked.",
+      "source": {
+        "id": "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+        "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+        "CF-REDDIT-SEO"
+      ],
+      "sourceUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "targetURL": "https://www.seoasis.io/reddit-seo",
+      "anchorIntent": "Reddit community approach for ecommerce",
+      "impact": "Medium",
+      "effort": "Low",
+      "priority": "P2",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Review Reddit URL family and choose one primary destination using query/page data.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L05",
+      "title": "Link practical collection guidance from the Shopify guide",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Guide has a collection-page section but no direct source-HTML link to /ecommerce-category-page-seo.",
+      "source": {
+        "id": "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "sourceUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "targetURL": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "anchorIntent": "collection-page optimization",
+      "impact": "Medium",
+      "effort": "Low",
+      "priority": "P2",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Match the specific section and approved intent map; preserve existing useful links.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L06",
+      "title": "Connect category strategy to technical implementation",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Category copy discusses schema, facets and canonicalization but the technical service URL is absent from its saved links.",
+      "source": {
+        "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+        "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+        "CF-TECHNICAL-SEO-FOR-ECOMMERCE"
+      ],
+      "sourceUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "targetURL": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "anchorIntent": "technical checks for ecommerce collections",
+      "impact": "Medium",
+      "effort": "Low",
+      "priority": "P2",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Technical owner reviews accuracy and canonical/facet policy; avoid universal rules.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L07",
+      "title": "Connect two different Bronson outcomes",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Shopping case links to Bronson AI, while Bronson AI has no reverse Shopping link in the source sample.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS",
+        "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+      ],
+      "sourceUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "targetURL": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "anchorIntent": "Bronson organic Shopping case study",
+      "impact": "Low",
+      "effort": "Low",
+      "priority": "P2",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Explain that AI referral and Organic Shopping are different channel cohorts.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L08",
+      "title": "Offer a restrained resource route",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Homepage names blog spokes in its system explanation but contains no /blog anchor in saved HTML.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE",
+        "CF-BLOG"
+      ],
+      "sourceUrl": "https://www.seoasis.io/",
+      "targetURL": "https://www.seoasis.io/blog",
+      "anchorIntent": "Ecommerce SEO resources",
+      "impact": "Medium",
+      "effort": "Low",
+      "priority": "P2",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Confirm educational discovery should be part of homepage navigation; retain primary audit journey.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    },
+    {
+      "id": "AR-L09",
+      "title": "Make the public audit tool discoverable where useful",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "The audit tool is in the sitemap and sampled at 200, but no link to it occurs on the homepage source HTML.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE",
+        "CF-CHATGPT-VISIBILITY-AUDIT"
+      ],
+      "sourceUrl": "https://www.seoasis.io/",
+      "targetURL": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "anchorIntent": "Explore the ChatGPT visibility audit tool",
+      "impact": "Low",
+      "effort": "Low",
+      "priority": "P3",
+      "owner": "Account Strategist + Developer/Editor",
+      "status": "Proposed test",
+      "dependency": "Founder confirms intended tool audience; document installation/privacy limits before adding the route.",
+      "metric": "Requires Internal Access: GSC destination-page/query signals and GA4 onward navigation/qualified audit requests; track the release cohort.",
+      "acceptanceGate": "Confirm intent map; existing target returns 200 with intended canonical/index policy; contextual crawlable anchor; no self-link; mobile/keyboard path works; QA records source and destination.",
+      "notes": "Impact is a qualitative planning input, not a forecast. Validate the full site graph and current page strategy before implementation."
+    }
+  ],
+  "orphanValidation": {
+    "id": "AR-D01",
+    "title": "Full discovery and query ownership check",
+    "classification": "REQUIRES INTERNAL DATA",
+    "confidence": "High",
+    "evidence": "The sample does not include all referring URLs, browser-rendered links, crawl logs or indexation data.",
+    "source": {
+      "id": "CF-HOMEPAGE",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    "sourceIds": [
+      "CF-HOMEPAGE"
+    ],
+    "display": "Requires Internal Access",
+    "platform": "Google Search Console + approved complete crawl/export + server logs if available",
+    "metric": "Canonical URL inventory, internal inlinks, minimum depth, rendering differences, indexed/crawled state and query ownership.",
+    "whyItMatters": "A zero-inlink node in a purposive sample cannot establish a real orphan, and linked pages can still be unindexed.",
+    "decision": "Prioritize navigation/contextual-link changes; investigate verified orphans and mapping conflicts."
+  },
+  "releaseWorkflow": {
+    "classification": "OPPORTUNITY",
+    "confidence": "Medium",
+    "steps": [
+      "Select priority intent and destination.",
+      "Write a contextual anchor with the reader task in mind.",
+      "Check status, canonical, index policy and mobile path.",
+      "Record source/target and before/after evidence in Asana.",
+      "Save baseline and release date.",
+      "Review destination queries and qualified outcomes; revise at the quarterly review."
+    ],
+    "doneDefinition": "Useful live link passes QA, has an owner and has a scheduled measurement review; link count alone is not success."
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "workstream": "J",
+  "reviewMode": "Independent specialist review before synthesis",
+  "status": "Ready for Strategy Lead review",
+  "accessedAt": "2026-10-14",
+  "method": {
+    "workstream": "J",
+    "reviewedAt": "2026-10-14",
+    "scope": "Public SEOasis positioning and proposed client authority coordination.",
+    "boundary": "No backlink inventory, licensed metric export or external outreach. Interview verified by the company workstream; public HTML reviewed from the shared audit sample."
+  },
+  "sources": [
+    {
+      "id": "src-authority-link-service",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "HTTP 200 public HTML sample. Commercial positioning prioritizes collection pages and revenue over backlink-count reporting; do not treat marketing assertions about links or AI causality as established facts.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-interview",
+      "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+      "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Accessible first-person Q&A with Mike Sack, hosted by a vendor he uses. He discusses boutique delivery, supplemental feeds, images/title experiments, and uncertainty in durable AI tactics. Vendor-hosted results are self-reported.",
+      "status": "Publicly accessible primary interview"
+    },
+    {
+      "id": "src-company-cases",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public case library includes collection work, technical hack cleanup, AI referral revenue, organic Shopping, and blog-related results. Statistics are self-reported; baselines and causal attribution require source-system validation.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-job-linkedin",
+      "url": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+      "title": "SEOasis hiring SEO Strategist - US Only - Full Time, Remote Opportunity | LinkedIn",
+      "accessedAt": "2026-10-14",
+      "note": "Public employer listing exposed full role description without authentication. Role requirements and growth expectations are observed; active hiring status needs confirmation.",
+      "status": "Publicly accessible employer listing"
+    },
+    {
+      "id": "src-company-shopify",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Commercial methodology page outlines audit/build/grow, collection production, schema, Reddit and AI monitoring. Its no-blog/no-backlink positioning differs from partner coordination in the role listing. Technical and outcome assertions are SEOasis claims, not independently established facts.",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-home",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Live homepage: Shopify/ecommerce AEO positioning; team identities; collection, Reddit, foundation/monitoring pillars; quarterly recalibration and client reporting cadence. Outcome claims are company-reported.",
+      "status": "Publicly accessible"
+    }
+  ],
+  "findings": [
+    {
+      "id": "AU-OBS-01",
+      "title": "Collection-first authority positioning",
+      "evidence": "The ecommerce link-building page explicitly prioritizes collection buildout and organic revenue over backlink-count reporting.",
+      "source": "src-authority-link-service",
+      "sourceIds": [
+        "src-authority-link-service"
+      ],
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "businessImplication": "Fit authority work to the account strategy; do not create a placement quota merely because a public link-building URL exists."
+    },
+    {
+      "id": "AU-OBS-02",
+      "title": "A named external founder interview exists",
+      "evidence": "The company-research workstream verified a Productrise-hosted Q&A identifying Mike Sack and discussing organic Shopping.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "businessImplication": "An attributable external venue provides discoverable expertise. Vendor-hosted interview results are self-reported, and one interview does not establish broad authority."
+    },
+    {
+      "id": "AU-OBS-03",
+      "title": "Public case evidence provides a starting point",
+      "evidence": "SEOasis publishes a case-study library, including collection, technical, AI referral and organic Shopping themes. Outcomes are company-reported.",
+      "source": "src-company-cases",
+      "sourceIds": [
+        "src-company-cases"
+      ],
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "businessImplication": "Reuse approved proof with dates, method and limitations; do not convert published results into independently audited attribution."
+    },
+    {
+      "id": "AU-INF-01",
+      "title": "Confirm where link-building partners fit",
+      "evidence": "The job includes link-building coordination; current commercial copy deemphasizes backlink outreach. This may reflect account-specific needs or a change in positioning.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin",
+        "src-authority-link-service",
+        "src-company-shopify"
+      ],
+      "classification": "INFERRED",
+      "confidence": "Medium",
+      "recommendedAction": "Confirm current deliverables, partner ownership, quality criteria and budget before commissioning authority work."
+    },
+    {
+      "id": "AU-PRI-01",
+      "title": "Backlink health and referral value are unmeasured here",
+      "evidence": "No Search Console link export, Ahrefs/Semrush export or analytics referral history was obtained.",
+      "source": "src-authority-link-service",
+      "sourceIds": [
+        "src-authority-link-service"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "businessImplication": "No backlink count, domain rating, authority score or missing-link claim is asserted."
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "AU-01",
+      "title": "Confirm authority partner scope before allocating effort",
+      "evidence": "Role coordination and public collection-first positioning have different apparent emphasis.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "opportunity": "Confirm authority partner scope before allocating effort",
+      "category": "Authority / Links",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "action": "Add an onboarding decision: when is a partner used, who approves the brief and what customer/revenue hypothesis makes it worthwhile?",
+      "recommendedAction": "Add an onboarding decision: when is a partner used, who approves the brief and what customer/revenue hypothesis makes it worthwhile?",
+      "acceptanceCriteria": [
+        "Document in-scope accounts and exclusions",
+        "Name strategist and partner responsibilities",
+        "Agree acceptance criteria and reporting cadence"
+      ],
+      "metric": "Scope approved; partner deliverables accepted against brief",
+      "impact": 3,
+      "effort": 1,
+      "priority": "P1",
+      "status": "Proposed",
+      "owner": "SEO Strategist",
+      "dependency": "Mike / account lead scope confirmation",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    },
+    {
+      "id": "AU-02",
+      "title": "Create a reusable evidence brief for expert commentary",
+      "evidence": "A verified founder interview shows an existing external expert format, without proving a broad mention footprint.",
+      "source": "src-company-interview",
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "opportunity": "Create a reusable evidence brief for expert commentary",
+      "category": "Authority / Links",
+      "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+      "action": "Prepare one approved brief from original collection/feed testing: method, cohort, date range, limitations and useful takeaway. Select a relevant publication or podcast only after audience review.",
+      "recommendedAction": "Prepare one approved brief from original collection/feed testing: method, cohort, date range, limitations and useful takeaway. Select a relevant publication or podcast only after audience review.",
+      "acceptanceCriteria": [
+        "Claims linked to approved first-party evidence",
+        "Client permissions and attribution documented",
+        "Pitch offers useful original insight",
+        "Any commercial relationship recorded"
+      ],
+      "metric": "Qualified editorial conversations and relevant published coverage; referral value requires analytics",
+      "impact": 3,
+      "effort": 3,
+      "priority": "P2",
+      "status": "Proposed",
+      "owner": "SEO Strategist",
+      "dependency": "Approved evidence, client consent, spokesperson availability",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    },
+    {
+      "id": "AU-03",
+      "title": "Audit relevant mentions and links with source-level QA",
+      "evidence": "Public service copy values revenue over counts; the backlink profile was not measured.",
+      "source": "src-authority-link-service",
+      "sourceIds": [
+        "src-authority-link-service"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "opportunity": "Audit relevant mentions and links with source-level QA",
+      "category": "Authority / Links",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "action": "With licensed exports, review relevant earned mentions, destination fit, context, link attributes and referral value. Treat missing mentions as research leads, not guaranteed link opportunities.",
+      "recommendedAction": "With licensed exports, review relevant earned mentions, destination fit, context, link attributes and referral value. Treat missing mentions as research leads, not guaranteed link opportunities.",
+      "acceptanceCriteria": [
+        "Source URL and access date retained",
+        "Destination and contextual relevance manually verified",
+        "Paid/sponsored relationships identified",
+        "No DA-only approval or purchased ranking-link quota"
+      ],
+      "metric": "Relevant verified placements; qualified referral sessions and outcomes require GA4",
+      "impact": 3,
+      "effort": 2,
+      "priority": "P2",
+      "status": "Proposed",
+      "owner": "SEO Strategist",
+      "dependency": "GSC and licensed Ahrefs/Semrush exports, GA4 access",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    },
+    {
+      "id": "AU-04",
+      "title": "Strengthen approved case proof for external reuse",
+      "evidence": "The public case library supplies useful proof themes, while source-system attribution is unavailable.",
+      "source": "src-company-cases",
+      "sourceIds": [
+        "src-company-cases"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "opportunity": "Strengthen approved case proof for external reuse",
+      "category": "Authority / Links",
+      "url": "https://www.seoasis.io/case-studies",
+      "action": "Create a concise proof packet with intervention dates, affected page cohort, baseline, metric definitions, caveats and client-approved quotes for proposals or editorial requests.",
+      "recommendedAction": "Create a concise proof packet with intervention dates, affected page cohort, baseline, metric definitions, caveats and client-approved quotes for proposals or editorial requests.",
+      "acceptanceCriteria": [
+        "Metric and source-system definitions agreed",
+        "Client permission attached",
+        "Correlation separated from causal estimates",
+        "Commercial and AI outcomes reported separately"
+      ],
+      "metric": "Approved evidence packets and assisted qualified conversations; revenue impact unmeasured",
+      "impact": 4,
+      "effort": 3,
+      "priority": "P2",
+      "status": "Proposed",
+      "owner": "SEO Strategist",
+      "dependency": "Client permission, GSC/GA4/Shopify evidence and account lead review",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    }
+  ],
+  "internalData": [
+    {
+      "id": "AU-DATA-01",
+      "title": "Referring sources and linked destinations",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-authority-link-service",
+      "sourceIds": [
+        "src-authority-link-service"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console; Ahrefs or Semrush if licensed",
+      "metric": "Referring sources and linked destinations",
+      "whyItMatters": "Find relevant earned coverage and maintain useful destinations. Tool indexes differ and are incomplete.",
+      "decisionInfluenced": "Repair relevant lost destinations, investigate coverage, or leave the profile alone.",
+      "value": "Requires Internal Access"
+    },
+    {
+      "id": "AU-DATA-02",
+      "title": "Referral landing-page sessions, engaged visits, purchases or qualified leads and revenue",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-authority-link-service",
+      "sourceIds": [
+        "src-authority-link-service"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "GA4; Shopify or CRM",
+      "metric": "Referral landing-page sessions, engaged visits, purchases or qualified leads and revenue",
+      "whyItMatters": "Assesses commercial quality beyond a domain metric. Referral attribution is incomplete.",
+      "decisionInfluenced": "Continue, refine or stop a placement channel; choose the most useful destination.",
+      "value": "Requires Internal Access"
+    },
+    {
+      "id": "AU-DATA-03",
+      "title": "Deliverable ownership, acceptance, turnaround and rework",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-job-linkedin",
+      "sourceIds": [
+        "src-job-linkedin"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "Asana; client scope of work; partner agreements",
+      "metric": "Deliverable ownership, acceptance, turnaround and rework",
+      "whyItMatters": "Keeps partner activity aligned with account goals and capacity.",
+      "decisionInfluenced": "Adjust scope, owner, brief or production cadence.",
+      "value": "Requires Internal Access"
+    }
+  ],
+  "rejectedClaims": [
+    "No fabricated backlink counts, rankings, referral revenue or AI visibility rates.",
+    "No claim that a Reddit mention causes training ingestion, AI recommendations or incremental revenue.",
+    "No deceptive account, endorsement, voting, spam or engagement automation recommendation."
+  ],
+  "synthesisNotes": [
+    "Confirm current link-building partner scope with Mike; public role and commercial positioning may have different account scopes.",
+    "Use community questions to inform collection hypotheses; validate catalog and buyer intent before page production.",
+    "Keep referral outcomes, branded search movement and AI citations as separate measurements."
+  ]
+}

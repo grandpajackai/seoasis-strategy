@@ -1,0 +1,2061 @@
+[
+  {
+    "id": "B-01",
+    "url": "https://www.seoasis.io/robots.txt",
+    "title": "SEOasis robots.txt",
+    "accessedAt": "2026-10-14",
+    "note": "User-agent: *; Allow: /; Sitemap points to https://www.seoasis.io/sitemap.xml.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-02",
+    "url": "https://www.seoasis.io/sitemap.xml",
+    "title": "SEOasis XML sitemap",
+    "accessedAt": "2026-10-14",
+    "note": "Direct XML response contains 70 loc elements; flat URL set including commercial, case study, blog and legal URLs.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-03",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-04",
+    "url": "https://www.seoasis.io/case-studies",
+    "title": "Ecom SEO Case Studies | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-05",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+    "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-06",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-07",
+    "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+    "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-08",
+    "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-09",
+    "url": "https://www.seoasis.io/blog",
+    "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-10",
+    "url": "https://www.seoasis.io/ecommerce-seo",
+    "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-11",
+    "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-12",
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-13",
+    "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-14",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-15",
+    "url": "https://www.seoasis.io/shopify-seo-company",
+    "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-16",
+    "url": "https://www.seoasis.io/shopify-seo-consultant",
+    "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-17",
+    "url": "https://www.seoasis.io/shopify-seo-expert",
+    "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-18",
+    "url": "https://www.seoasis.io/reddit-seo",
+    "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-19",
+    "url": "https://www.seoasis.io/reddit-seo-strategy",
+    "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-20",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-21",
+    "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "B-22",
+    "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot.",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-BLOG",
+    "url": "https://www.seoasis.io/blog",
+    "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+    "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+    "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-CASE-STUDIES",
+    "url": "https://www.seoasis.io/case-studies",
+    "title": "Ecom SEO Case Studies | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+    "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-CASE-STUDIES-DR-BRANDT-GEO",
+    "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+    "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-CHATGPT-VISIBILITY-AUDIT",
+    "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+    "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-ECOMMERCE-LINK-BUILDING",
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-ECOMMERCE-SEO",
+    "url": "https://www.seoasis.io/ecommerce-seo",
+    "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-HOMEPAGE",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-REDDIT-SEO",
+    "url": "https://www.seoasis.io/reddit-seo",
+    "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-REDDIT-SEO-STRATEGY",
+    "url": "https://www.seoasis.io/reddit-seo-strategy",
+    "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-SHOPIFY-SEO-AGENCY",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-SHOPIFY-SEO-COMPANY",
+    "url": "https://www.seoasis.io/shopify-seo-company",
+    "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-SHOPIFY-SEO-CONSULTANT",
+    "url": "https://www.seoasis.io/shopify-seo-consultant",
+    "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-SHOPIFY-SEO-EXPERT",
+    "url": "https://www.seoasis.io/shopify-seo-expert",
+    "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-SITEMAP",
+    "url": "https://www.seoasis.io/sitemap.xml",
+    "title": "SEOasis XML sitemap",
+    "accessedAt": "2026-10-14",
+    "note": "70 URL entries in saved XML; URL presence is not indexation or a completed site crawl.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "CF-TECHNICAL-SEO-FOR-ECOMMERCE",
+    "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "M-01",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "M-02",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "M-03",
+    "url": "https://www.seoasis.io/case-studies",
+    "title": "Ecom SEO Case Studies | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "M-04",
+    "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "M-05",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-01",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Homepage targets Shopify brands and foregrounds AEO, collections, Reddit, direct strategist access, and quarterly recalibration.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-02",
+    "url": "https://gofishdigital.com/seo-ai-search/",
+    "title": "SEO and AI Search That Drives Growth - Go Fish Digital",
+    "accessedAt": "2026-10-14",
+    "note": "Dedicated search page describes Barracuda, technical SEO, content, PR, analytics and AI search across a multi-industry agency.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-03",
+    "url": "https://gofishdigital.com/services/shopify/",
+    "title": "Top Shopify Marketing Agency for Growth | Go Fish",
+    "accessedAt": "2026-10-14",
+    "note": "Shopify practice combines SEO with paid, lifecycle and ecommerce marketing; keyword intent and Core Web Vitals appear in the SEO section.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-04",
+    "url": "https://gofishdigital.com/case-study/chicco-comprehensive-ecommerce-seo-program/",
+    "title": "14% Organic Revenue From An Ecommerce SEO Program - Go Fish Digital",
+    "accessedAt": "2026-10-14",
+    "note": "Named Chicco ecommerce SEO case page exists; outcome figures are company-reported and are not used for comparative scoring.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-05",
+    "url": "https://www.outerboxdesign.com/digital-marketing-services/seo/shopify/",
+    "title": "Shopify SEO Services | Shopify SEO Agency Experts - OuterBox",
+    "accessedAt": "2026-10-14",
+    "note": "Shopify page covers collections, themes, structured data, product feeds, internal links, implementation and revenue reporting.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-06",
+    "url": "https://www.outerboxdesign.com/digital-marketing-services/seo/ecommerce/",
+    "title": "eCommerce SEO Services | Top-Rated eCommerce SEO Agency Since 2004 - OuterBox",
+    "accessedAt": "2026-10-14",
+    "note": "Multi-platform ecommerce service page includes technical work, category and product optimization, CRO, authority, AI search and reporting.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-07",
+    "url": "https://www.outerboxdesign.com/work/case-studies/seo/home-gym-and-fitness-brand-lifts-organic-revenue-with-shopify-seo/",
+    "title": "Shopify SEO Case Study | Home Gym & Fitness Brand",
+    "accessedAt": "2026-10-14",
+    "note": "Published anonymized Shopify case is linked from the service page. It is evidence of published proof, not independently verified results.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-08",
+    "url": "https://eastsideco.com/shopify-seo-experts",
+    "title": "Shopify SEO Agency | Expert Ecommerce SEO Services",
+    "accessedAt": "2026-10-14",
+    "note": "Public indexed service text covers Shopify-specific SEO, collection optimization, developer collaboration, monthly reporting and an AI-search section. Direct retrieval was limited by a TLS certificate error; indexed primary-site text supports this bounded review. Do not infer site downtime or a user-visible outage.",
+    "retrievalMethod": "Primary-site publicly indexed text retrieved by search; direct fetch returned 502",
+    "classification": "OBSERVED",
+    "confidence": "Medium",
+    "urlCheck": {
+      "status": 0,
+      "checkedAt": "2026-10-14",
+      "label": "TLS / connection check inconclusive"
+    }
+  },
+  {
+    "id": "N-09",
+    "url": "https://eastsideco.com/",
+    "title": "Shopify Platinum Partner Agency | E-Commerce Website Design & Development",
+    "accessedAt": "2026-10-14",
+    "note": "Public indexed homepage positions Eastside around Shopify design, development, marketing and applications. Direct retrieval was limited by a TLS certificate error; indexed primary-site text supports this bounded review. Do not infer site downtime or a user-visible outage.",
+    "retrievalMethod": "Primary-site publicly indexed text retrieved by search; direct fetch timed out",
+    "classification": "OBSERVED",
+    "confidence": "Medium",
+    "urlCheck": {
+      "status": 0,
+      "checkedAt": "2026-10-14",
+      "label": "TLS / connection check inconclusive"
+    }
+  },
+  {
+    "id": "N-10",
+    "url": "https://www.smartsites.com/organic-seo/",
+    "title": "Organic SEO Services | SEO Agency | SmartSites",
+    "accessedAt": "2026-10-14",
+    "note": "Multi-industry SEO offer includes ecommerce category/product optimization, feed health, content, PR and a Client Hub.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-11",
+    "url": "https://www.smartsites.com/organic-seo/ai-search-optimization/",
+    "title": "Best Rated AI SEO Agency Services | SmartSites",
+    "accessedAt": "2026-10-14",
+    "note": "AI service page lists major assistants, answer-focused content, entity signals and named retail examples. No AI performance figures are adopted.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-12",
+    "url": "https://coalitiontechnologies.com/shopify-seo",
+    "title": "#1 Rated Shopify SEO Services | Top Shopify SEO Agency | Get Help",
+    "accessedAt": "2026-10-14",
+    "note": "Shopify service page includes technical audits, content, CRO and AI-search messaging inside a broader digital marketing offer.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 403,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 403)"
+    }
+  },
+  {
+    "id": "N-13",
+    "url": "https://coalitiontechnologies.com/portfolio/rainbow-symphony",
+    "title": "Web Development and Marketing Results for Rainbow Symphony | Case Study",
+    "accessedAt": "2026-10-14",
+    "note": "Named Shopify case identifies SEO, AI SEO, development, PPC and email work. Company-reported outcomes are not comparative evidence.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 403,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 403)"
+    }
+  },
+  {
+    "id": "N-14",
+    "url": "https://thisisnovos.com/",
+    "title": "eCommerce Growth Agency: SEO, PR, Paid & AI | NOVOS",
+    "accessedAt": "2026-10-14",
+    "note": "Homepage explicitly positions NOVOS as ecommerce specialists across SEO, AEO, digital PR, paid media, migrations and Shopify.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-15",
+    "url": "https://thisisnovos.com/services/geo/",
+    "title": "eCommerce AI Search & GEO Strategy Services | NOVOS",
+    "accessedAt": "2026-10-14",
+    "note": "Dedicated AEO page connects retrieval, relevance, authority, citations and AI visibility measurement; terminology is attributed to NOVOS.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-16",
+    "url": "https://thisisnovos.com/case-study/osprey-ai-search/",
+    "title": "Osprey: #1 Brand in AI Answers | AI Search Case Study | NOVOS",
+    "accessedAt": "2026-10-14",
+    "note": "Named AI-search case page exists; its rank-style headline is a company claim, not a verified ranking in this project.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-17",
+    "url": "https://www.searchbloom.com/ecommerce-seo/",
+    "title": "Ecommerce SEO Services - Award-Winning Ecommerce SEO Company",
+    "accessedAt": "2026-10-14",
+    "note": "Ecommerce practice uses ART, URL prioritization, catalog consolidation, product/category content and a linked Shopify case.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "N-18",
+    "url": "https://www.searchbloom.com/answer-engine-optimization/",
+    "title": "Answer Engine Optimization (AEO) Services | Searchbloom",
+    "accessedAt": "2026-10-14",
+    "note": "Dedicated AEO page advertises entity work, answer-first content, monthly visibility measurement and the MERIT framework.",
+    "retrievalMethod": "Public page retrieved in web research",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-authority-link-service",
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "HTTP 200 public HTML sample. Commercial positioning prioritizes collection pages and revenue over backlink-count reporting; do not treat marketing assertions about links or AI causality as established facts.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-community-guide",
+    "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "HTTP 200 public HTML sample. Guide by Mike Sack dated April 16, 2026; discusses listening, rules, participation, attribution limits and disclosure in an example. Numerical results and AI causality remain company claims.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-community-reddit-rules",
+    "url": "https://redditinc.com/policies/reddit-rules",
+    "title": "Reddit Rules",
+    "accessedAt": "2026-10-14",
+    "note": "Official rules inspected on October 14, 2026: Rules 2 and 5 address community rules, authentic participation and misleading identity. This supports the proposed participation guardrails, not channel performance.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-community-reddit-spam",
+    "url": "https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam",
+    "title": "Spam — Reddit Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official help page, updated October 6, 2026. Addresses mass engagement, repetitive content, spam-promoting tools, authenticity and moderator discretion. No universal contribution ratio is a safe harbor.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 403,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 403)"
+    }
+  },
+  {
+    "id": "src-community-service",
+    "url": "https://www.seoasis.io/reddit-seo",
+    "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "HTTP 200 public HTML sample. Reddit Authority Building and AI Visibility Monitoring are explicit service pillars; client results and model-behavior assertions are self-reported.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-community-strategy",
+    "url": "https://www.seoasis.io/reddit-seo-strategy",
+    "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "HTTP 200 public HTML sample. Describes subreddit mapping, participation and weekly query testing; no client accounts, threads or saved AI outputs were verified here.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-company-blog",
+    "url": "https://www.seoasis.io/blog",
+    "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public article library covers Shopify/ecommerce, AEO, collection strategy and AI recommendations; its existence does not establish client blog deliverable scope.",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-company-cases",
+    "url": "https://www.seoasis.io/case-studies",
+    "title": "Ecom SEO Case Studies | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public case library includes collection work, technical hack cleanup, AI referral revenue, organic Shopping, and blog-related results. Statistics are self-reported; baselines and causal attribution require source-system validation.",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-company-guide",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Article attributed to Mike Sack, dated April 30, 2026. Public collection methodology discusses category/modifier research, catalog relevance, URL and structured data.",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-company-home",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public reporting promises include Friday reports, fortnightly strategy calls and quarterly recalibration; performance claims are company-reported.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-company-interview",
+    "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+    "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+    "accessedAt": "2026-10-14",
+    "note": "First-person founder Q&A hosted by a vendor; supplemental feeds and title/image experiments are attributable methodology. Outcomes are self-reported.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-company-shopify",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Commercial methodology page outlines audit/build/grow, collection production, schema, Reddit and AI monitoring. Its no-blog/no-backlink positioning differs from partner coordination in the role listing. Technical and outcome assertions are SEOasis claims, not independently established facts.",
+    "status": "Publicly accessible",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-AGENCYGUIDE",
+    "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Founder-attributed buyer guide describes methodology, revenue proof and service scope.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-AUDITGUIDE",
+    "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+    "title": "What to Look for in an Ecommerce SEO Audit (2026 Guide) | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Audit guide covers collections and technical checks; its parameter section advises Search Console parameter configuration.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-BLOG",
+    "url": "https://www.seoasis.io/blog",
+    "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public blog hub lists Shopify optimization, agency selection, audit and Reddit articles.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-CONSULTANT",
+    "url": "https://www.seoasis.io/shopify-seo-consultant",
+    "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Consultant page presents a transactional collection-page service with the same audit/build/grow sequence.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-ECOM",
+    "url": "https://www.seoasis.io/ecommerce-seo",
+    "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-ECOMCONSULTANT",
+    "url": "https://www.seoasis.io/ecommerce-seo-consultant",
+    "title": "Ecommerce SEO Consultant | AI-Era SEO for Shopify Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "A separate consultant page promotes collection strategy and AI search visibility.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-HOME",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-INP",
+    "url": "https://developers.google.com/search/blog/2023/05/introducing-inp",
+    "title": "Introducing INP to Core Web Vitals | Google Search Central Blog",
+    "accessedAt": "2026-10-14",
+    "note": "Official update confirms INP replaced FID on March 12, 2024.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-LINKS",
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Link-building URL intentionally argues for collection pages and Reddit rather than offering conventional outreach.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-PARAMETERS",
+    "url": "https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated",
+    "title": "Spring cleaning: the URL Parameters tool | Google Search Central Blog",
+    "accessedAt": "2026-10-14",
+    "note": "Official March 2022 announcement retires the Search Console URL Parameters tool.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-REDDIT",
+    "url": "https://www.seoasis.io/reddit-ecommerce-seo",
+    "title": "Reddit Ecommerce SEO: How AI Models Find Your Products on Reddit | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Reddit service page describes research, community participation and AI visibility monitoring. Platform-effect claims are SEOasis claims, not independently validated here.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-SHOPIFY",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-SHOPIFYGUIDE",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-SHOPIFYGUIDE2",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+    "title": "How to Optimize Your Shopify Store for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Related April 10 guide includes an FID benchmark in its performance section and overlapping Shopify topics.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-SHOPPING",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public HTML describes Merchant Center feed ownership, attribute enrichment, title work, diagnostics and reporting. No private account or causal validation.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-DI-SITEMAP",
+    "url": "https://www.seoasis.io/sitemap.xml",
+    "title": "SEOasis XML Sitemap",
+    "accessedAt": "2026-10-14",
+    "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-E-EXPERT",
+    "url": "https://www.seoasis.io/shopify-seo-expert",
+    "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Collection design description specifies transactional URLs, early product grids, filters and related-collection links; Audit/Build/Grow includes catalog research and refinement.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-E-FACETS",
+    "url": "https://developers.google.com/crawling/docs/faceted-navigation",
+    "title": "Managing crawling of faceted navigation URLs | Google Crawling Infrastructure",
+    "accessedAt": "2026-10-14",
+    "note": "Google describes the crawl cost of facet combinations and explains why canonical hints alone are less effective crawl control than dedicated controls.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-E-HOME",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Public method: keyword clusters, real collections with product grids, hub-and-spoke linking, foundation work and 90-day recalibration. These are company statements, not independently verified results.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-E-PRODUCT",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+    "title": "How To Add Product Snippet Structured Data | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "Product rich results focus on single products or variants. Google recommends PDP markup and initial-HTML product data; syntax validation does not establish policy eligibility or guarantee appearance.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-E-SHOPIFY",
+    "url": "https://help.shopify.com/en/manual/products/collections",
+    "title": "Shopify Help Center | Collections",
+    "accessedAt": "2026-10-14",
+    "note": "Collections group products for discovery. Shopify documents a new collections model replacing legacy manual/smart collections, with account-dependent availability; menus and sorting remain operational checks.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 403,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 403)"
+    }
+  },
+  {
+    "id": "SRC-E-STRUCTURE",
+    "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure?hl=en",
+    "title": "Ecommerce Website Navigation Structure | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "Google recommends linked category → subcategory → product paths and crawlable anchor links; search-box discovery alone is insufficient.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-E-URLS",
+    "url": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
+    "title": "Ecommerce URL Structure Best Practices | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "Guidance covers consistent canonical URLs, pagination URLs, duplicate alternatives, crawlable links and empty category handling.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-ARTICLE",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "BlogPosting with author Person and BreadcrumbList in downloaded HTML; Shopify checklist referenced.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-AUDIT",
+    "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "No application/ld+json script block detected in initial downloaded HTML. Not evidence of AI inaccessibility.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-CASE",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Downloaded HTML includes Article and BreadcrumbList; case outcomes are first-party SEOasis claims.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-GOOGLE-AI",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "title": "AI features and your website | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-GOOGLE-FAQ",
+    "url": "https://developers.google.com/search/updates",
+    "title": "Latest Google Search Documentation Updates | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "May 8, 2026 entry states FAQ rich result feature no longer appears starting May 7, 2026. FAQPage guide redirects here.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-GOOGLE-INTRO",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "title": "Introduction to structured data markup in Google Search",
+    "accessedAt": "2026-10-14",
+    "note": "Valid syntax, required properties, quality rules, visible content and eligibility are different QA gates; use Rich Results Test then Search Console.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-GOOGLE-REVIEWS",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "title": "Review Snippet Structured Data | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "Self-serving Organization/LocalBusiness reviews are not eligible for review stars; markup must accurately represent visible content.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-GOOGLE-VIDEO",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+    "title": "VideoObject Schema Markup | Google Search Central",
+    "accessedAt": "2026-10-14",
+    "note": "contentUrl should point to actual video bytes; embedUrl can identify the specific player.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-HOME",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-HUB",
+    "url": "https://www.seoasis.io/case-studies",
+    "title": "Ecom SEO Case Studies | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Case-study hub has CollectionPage, ItemList and BreadcrumbList.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-blog",
+    "url": "https://www.seoasis.io/blog",
+    "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-blog__how-to-choose-a-shopify-seo-agency",
+    "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-blog__how-to-optimize-shopify-sites-for-search-engines",
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-blog__how-to-use-reddit-for-ecommerce-seo",
+    "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-case-studies",
+    "url": "https://www.seoasis.io/case-studies",
+    "title": "Ecom SEO Case Studies | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-case-studies__bronson-vitamins",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+    "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-case-studies__bronson-vitamins-organic-shopping",
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-case-studies__dr-brandt-geo",
+    "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+    "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-chatgpt-visibility-audit",
+    "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-ecommerce-category-page-seo",
+    "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-ecommerce-link-building",
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-ecommerce-seo",
+    "url": "https://www.seoasis.io/ecommerce-seo",
+    "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-homepage",
+    "url": "https://www.seoasis.io/",
+    "title": "AI-Focused Shopify SEO Agency | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-reddit-seo",
+    "url": "https://www.seoasis.io/reddit-seo",
+    "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-reddit-seo-strategy",
+    "url": "https://www.seoasis.io/reddit-seo-strategy",
+    "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-shopify-seo-agency",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-shopify-seo-company",
+    "url": "https://www.seoasis.io/shopify-seo-company",
+    "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-shopify-seo-consultant",
+    "url": "https://www.seoasis.io/shopify-seo-consultant",
+    "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-shopify-seo-expert",
+    "url": "https://www.seoasis.io/shopify-seo-expert",
+    "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-PAGE-technical-seo-for-ecommerce",
+    "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-G-SERVICE",
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+    "accessedAt": "2026-10-14",
+    "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "src-job-board",
+    "url": "https://jobs.gusto.com/boards/seoasis-ca433255-e63d-4b9d-9bf2-ca87a3c84c98",
+    "title": "Careers at SEOASIS",
+    "accessedAt": "2026-10-14",
+    "note": "Public employer careers board stated no open positions. This conflicts with the accessible LinkedIn role listing, so availability is unconfirmed.",
+    "status": "Publicly accessible; no positions listed",
+    "urlCheck": {
+      "status": 403,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 403)"
+    }
+  },
+  {
+    "id": "src-job-gusto",
+    "url": "https://jobs.gusto.com/postings/seoasis-seo-strategist-us-only-full-time-remote-opportunity-7efed2ec-3457-4268-8fd1-026d349add28",
+    "title": "SEO Strategist - US Only - Full Time, Remote Opportunity at SEOASIS",
+    "accessedAt": "2026-10-14",
+    "note": "Search index retained matching role text. Direct page returned HTTP 410 Gone when opened; do not present as a live vacancy or rely on it alone.",
+    "status": "HTTP 410 on direct open; historical corroboration",
+    "urlCheck": {
+      "status": 403,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 403)"
+    }
+  },
+  {
+    "id": "src-job-linkedin",
+    "url": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+    "title": "SEOasis hiring SEO Strategist - US Only - Full Time, Remote Opportunity | LinkedIn",
+    "accessedAt": "2026-10-14",
+    "note": "Public employer listing exposed full role description without authentication. Role requirements and growth expectations are observed; active hiring status needs confirmation.",
+    "status": "Publicly accessible employer listing",
+    "urlCheck": {
+      "status": 429,
+      "checkedAt": "2026-10-14",
+      "label": "Automated access restricted (HTTP 429)"
+    }
+  },
+  {
+    "id": "SRC-L-FREE",
+    "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+    "title": "Free listings for products - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-IMAGE",
+    "url": "https://support.google.com/merchants/answer/6324350?hl=en",
+    "title": "Image link [image_link] - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official image guidance covers crawl access, product fidelity and image requirements. The page announces 500 × 500 enforcement from January 31, 2027; re-check at release.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-PERFORMANCE",
+    "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+    "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-RATINGS",
+    "url": "https://support.google.com/merchants/answer/14620732?hl=en",
+    "title": "Upload a product reviews data source to Merchant Center - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official product-review data-source documentation; review-program setup must be inspected separately from ordinary product feeds.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-SPEC",
+    "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "title": "Product data specification - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-SUPPLEMENT",
+    "url": "https://support.google.com/merchants/answer/14990942?hl=en",
+    "title": "Create a product data source - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Supplemental sources update existing primary-source items and require Advanced data source management. They do not independently create products.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-TITLE",
+    "url": "https://support.google.com/merchants/answer/6324415?hl=en",
+    "title": "Title [title] and structured title [structured_title] - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official title rules distinguish variants and accurate product identity; AI-generated titles require structured_title and the specified digital source type.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-L-TRACK",
+    "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+    "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-O-ATTRIBUTION",
+    "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+    "title": "Get started with attribution - Analytics Help",
+    "accessedAt": "2026-10-14",
+    "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-O-CHANNELS",
+    "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+    "title": "Default channel group - Analytics Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official channel classification reference; Organic Shopping and Organic Search must be segmented consistently rather than combined without definition.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-O-GA4",
+    "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+    "title": "Measure ecommerce | Google Analytics | Google for Developers",
+    "accessedAt": "2026-10-14",
+    "note": "Official implementation guide describes list/detail/cart/checkout/purchase/refund events, transaction IDs, item data and currency.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-O-GSC",
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "title": "Performance report (Search results): Overview and basic setup - Search Console Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official report documentation for Search clicks, impressions, CTR and average position; performance requires verified property access.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-O-SHOPIFY",
+    "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+    "title": "Shopify Help Center | Sales reports",
+    "accessedAt": "2026-10-14",
+    "note": "Official definitions distinguish gross sales, net sales and total sales. Reconcile discounts, returns, shipping, taxes, fees and timing before comparisons.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  },
+  {
+    "id": "SRC-R-GA4-CVR",
+    "url": "https://support.google.com/analytics/answer/12923437?department=product+and+engineering",
+    "title": "[GA4] Traffic acquisition report - Analytics Help",
+    "accessedAt": "2026-10-14",
+    "note": "Official documentation defines session key event rate using sessions containing a key event, divided by sessions. Event counts per session are a different ratio.",
+    "classification": "OBSERVED",
+    "confidence": "High",
+    "urlCheck": {
+      "status": 200,
+      "checkedAt": "2026-10-14",
+      "label": "HTTP 200 verified"
+    }
+  }
+]

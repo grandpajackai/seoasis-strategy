@@ -1,0 +1,417 @@
+{
+  "scope": {
+    "accessed": "2026-10-14",
+    "pageCount": 20,
+    "httpRequestCount": 20,
+    "intervalSeconds": 1.1,
+    "method": "Serial curl GET of 20 sitemap-selected pages; raw HTML parsed with Python standard library.",
+    "limitations": [
+      "Purposive sample, not a complete crawl.",
+      "Source HTML only; browser rendering not tested.",
+      "HTTP 200 and no robots block do not prove Google indexation.",
+      "No GSC, GA4, backlink database, rankings, field CWV or revenue data accessed.",
+      "Linked targets outside this sample were not status-checked; no site-wide broken-link conclusion.",
+      "Image bytes and decoded dimensions not downloaded; HTML response size is not image weight.",
+      "JSON parse success is not a Google Rich Results or Schema.org validation result."
+    ],
+    "sitemapUrlCount": 70,
+    "additionalEndpointRequests": 2,
+    "coverage": "20 purposively selected HTML pages plus robots.txt and sitemap.xml; not a complete crawl."
+  },
+  "findings": [
+    {
+      "id": "B-F01",
+      "issue": "Sampled crawl foundation is accessible",
+      "classification": "OBSERVED",
+      "severity": "Informational",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/",
+      "evidence": "20/20 sampled pages returned final HTTP 200 and one H1. All 20 source pages include index, follow robots meta. robots.txt allows / and references a 70-URL sitemap. This establishes public accessibility, not Google indexation.",
+      "source": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-04",
+        "B-05",
+        "B-06",
+        "B-07",
+        "B-08",
+        "B-09",
+        "B-10",
+        "B-11",
+        "B-12",
+        "B-13",
+        "B-14",
+        "B-15",
+        "B-16",
+        "B-17",
+        "B-18",
+        "B-19",
+        "B-20",
+        "B-21",
+        "B-22"
+      ],
+      "businessImplication": "Existing public access gives an operator a useful starting point; search-engine selected canonicals and actual index coverage still need verification.",
+      "recommendedAction": "Preserve these controls; join sitemap URLs to Search Console Page indexing and URL Inspection samples before claiming indexed coverage.",
+      "effort": 1,
+      "potentialImpact": 3,
+      "status": "Verified sample"
+    },
+    {
+      "id": "B-F02",
+      "issue": "Case-study canonical consistency is worth validating",
+      "classification": "OBSERVED",
+      "severity": "Low",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/case-studies",
+      "evidence": "No rel=canonical link appeared in server-delivered HTML on the case-study hub and the three sampled case studies; the remaining 16 sampled pages expose a canonical. Omission alone does not establish duplication or indexation loss.",
+      "affectedUrls": [
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "https://www.seoasis.io/case-studies/dr-brandt-geo"
+      ],
+      "source": [
+        "B-04",
+        "B-05",
+        "B-06",
+        "B-07"
+      ],
+      "businessImplication": "A consistent preferred-URL signal may help maintain the proof-content library as URL variants grow.",
+      "recommendedAction": "Check Google-selected canonical and any URL variants; if preferred URLs are confirmed, implement an absolute self-canonical through the shared case-study template and QA it.",
+      "effort": 1,
+      "potentialImpact": 2,
+      "status": "Worth validating"
+    },
+    {
+      "id": "B-F03",
+      "issue": "Repeated brand suffix in sampled title templates",
+      "classification": "OBSERVED",
+      "severity": "Low",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "evidence": "7 of 20 sampled titles end with the exact repeated suffix '| SEOasis | SEOasis'. Example: Shopify SEO Agency Built for AI Search | SEOasis | SEOasis. Natural mentions of SEOasis in a title subject are excluded; this is repeated branding within a title, not duplicate titles across URLs.",
+      "affectedUrls": [
+        "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "https://www.seoasis.io/ecommerce-seo",
+        "https://www.seoasis.io/ecommerce-link-building",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/shopify-seo-company",
+        "https://www.seoasis.io/reddit-seo",
+        "https://www.seoasis.io/reddit-seo-strategy"
+      ],
+      "source": [
+        "B-05",
+        "B-06",
+        "B-07",
+        "B-10",
+        "B-12",
+        "B-14",
+        "B-15",
+        "B-18",
+        "B-19"
+      ],
+      "businessImplication": "Removing redundant branding could improve title clarity; CTR impact remains unmeasured.",
+      "recommendedAction": "Remove the repeated suffix in the shared title/template source, confirm unique intent-focused titles, then monitor query-adjusted CTR in Search Console.",
+      "effort": 1,
+      "potentialImpact": 2,
+      "status": "Ready for template QA"
+    },
+    {
+      "id": "B-F04",
+      "issue": "Homepage commercial discovery paths merit a controlled test",
+      "classification": "INFERRED",
+      "severity": "Medium",
+      "confidence": "Medium",
+      "url": "https://www.seoasis.io/",
+      "evidence": "Homepage source HTML exposes four distinct internal destinations after fragments are removed: /, /case-studies, /privacy-policy and /terms-of-service. The sitemap contains 70 URLs including /shopify-seo-agency, /ecommerce-seo and /blog. This sample does not establish sitewide orphan pages or actual crawl depth.",
+      "source": [
+        "B-02",
+        "B-03"
+      ],
+      "businessImplication": "Relevant service/resource links could help visitors discover the operating model and provide more explicit commercial pathways.",
+      "recommendedAction": "Validate the complete rendered link graph, then test a restrained service/resource pathway from the homepage or shared navigation; connect relevant case studies contextually.",
+      "effort": 2,
+      "potentialImpact": 4,
+      "status": "Needs graph validation"
+    },
+    {
+      "id": "B-F05",
+      "issue": "Structured data is already present across most sampled templates",
+      "classification": "OBSERVED",
+      "severity": "Informational",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/",
+      "evidence": "19/20 sampled pages contain parseable JSON-LD. Homepage includes Organization, ProfessionalService, WebSite and additional types; commercial templates include Service/FAQPage; case studies Article; sampled posts BlogPosting/Person. The ChatGPT visibility audit page has no JSON-LD detected. JSON parse success does not validate Google eligibility or claim accuracy.",
+      "source": [
+        "B-03",
+        "B-04",
+        "B-05",
+        "B-06",
+        "B-07",
+        "B-08",
+        "B-09",
+        "B-10",
+        "B-11",
+        "B-12",
+        "B-13",
+        "B-14",
+        "B-15",
+        "B-16",
+        "B-17",
+        "B-18",
+        "B-19",
+        "B-20",
+        "B-21",
+        "B-22"
+      ],
+      "businessImplication": "QA can focus on eligible, accurate markup and visible-content parity instead of assuming schema needs to be introduced from scratch.",
+      "recommendedAction": "Run representative templates through Schema.org and Rich Results validators; review IDs, factual claims, visible-content parity and Google feature-specific restrictions before changing markup.",
+      "effort": 2,
+      "potentialImpact": 3,
+      "status": "Needs specialist validation"
+    },
+    {
+      "id": "B-F06",
+      "issue": "Image alt attributes exist throughout the sample",
+      "classification": "OBSERVED",
+      "severity": "Informational",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/",
+      "evidence": "75 img elements across 20 sampled HTML pages all include an alt attribute. Presence does not establish useful alternative text; empty alt may be appropriate for decorative images. Image byte weight was not tested.",
+      "source": [
+        "B-03",
+        "B-04",
+        "B-05",
+        "B-06",
+        "B-07",
+        "B-08",
+        "B-09",
+        "B-10",
+        "B-11",
+        "B-12",
+        "B-13",
+        "B-14",
+        "B-15",
+        "B-16",
+        "B-17",
+        "B-18",
+        "B-19",
+        "B-20",
+        "B-21",
+        "B-22"
+      ],
+      "businessImplication": "An accessibility/content review should examine meaning and decorative treatment rather than assigning a blanket missing-alt task.",
+      "recommendedAction": "Keep the attribute coverage; manually review representative alt text in context and inspect downloaded image dimensions/weight only if performance evidence warrants it.",
+      "effort": 1,
+      "potentialImpact": 1,
+      "status": "Presence verified"
+    },
+    {
+      "id": "B-F07",
+      "issue": "One sampled description ends mid-phrase in the HTML",
+      "classification": "OBSERVED",
+      "severity": "Low",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "evidence": "The source meta description ends: tracks real results. Not vanity me. This incomplete ending is in source HTML; it is not an observation of a Google snippet.",
+      "source": [
+        "B-22"
+      ],
+      "businessImplication": "A complete, concise description would communicate the article promise more clearly; Google may choose a different snippet.",
+      "recommendedAction": "Replace the incomplete phrase with a complete intent-matched description and inspect the published source. Measure query-adjusted CTR only after a baseline exists.",
+      "effort": 1,
+      "potentialImpact": 1,
+      "status": "Ready for editorial QA"
+    },
+    {
+      "id": "B-F08",
+      "issue": "Index coverage and performance remain unvalidated",
+      "classification": "REQUIRES INTERNAL DATA",
+      "severity": "Validation",
+      "confidence": "High",
+      "url": "https://www.seoasis.io/",
+      "evidence": "Requires Internal Access. No Search Console, GA4, Shopify, Merchant Center or private crawler account was accessed. Public field Core Web Vitals and a browser mobile/rendered audit were not collected in this bounded HTTP workstream.",
+      "source": [
+        "B-01",
+        "B-02"
+      ],
+      "businessImplication": "Public HTML cannot establish indexation, organic traffic, conversions, revenue, selected canonicals, real-user performance or priority based on business outcomes.",
+      "recommendedAction": "Pull Search Console Page indexing, sitemap processing, URL Inspection and query/page performance; GA4 landing-page outcomes; use PageSpeed Insights/CrUX when accessible. Let verified indexation/performance and revenue exposure determine remediation order.",
+      "effort": 2,
+      "potentialImpact": 5,
+      "status": "Requires Internal Access",
+      "platform": "Google Search Console; GA4; public PageSpeed Insights/CrUX for performance",
+      "metric": "Indexed/canonical status, clicks/impressions/CTR, landing-page conversions, field LCP/INP/CLS",
+      "decision": "Whether technical remediation or acquisition/conversion work should lead the 90-day plan"
+    }
+  ],
+  "limitations": [
+    "Purposive sample, not a complete crawl.",
+    "Source HTML only; browser rendering not tested.",
+    "HTTP 200 and no robots block do not prove Google indexation.",
+    "No GSC, GA4, backlink database, rankings, field CWV or revenue data accessed.",
+    "Linked targets outside this sample were not status-checked; no site-wide broken-link conclusion.",
+    "Image bytes and decoded dimensions not downloaded; HTML response size is not image weight.",
+    "JSON parse success is not a Google Rich Results or Schema.org validation result.",
+    "No redirect-variant matrix, mobile interaction, pagination or full external/internal target status sweep was performed.",
+    "All conclusions are restricted to the selected URLs and the access date; no sitewide orphan, broken-link, CWV or rank conclusion is justified.",
+    "Published case-study revenue/AI metrics are company-reported claims, not independently verified account data."
+  ],
+  "sources": [
+    {
+      "id": "B-01",
+      "url": "https://www.seoasis.io/robots.txt",
+      "title": "SEOasis robots.txt",
+      "accessedAt": "2026-10-14",
+      "note": "User-agent: *; Allow: /; Sitemap points to https://www.seoasis.io/sitemap.xml."
+    },
+    {
+      "id": "B-02",
+      "url": "https://www.seoasis.io/sitemap.xml",
+      "title": "SEOasis XML sitemap",
+      "accessedAt": "2026-10-14",
+      "note": "Direct XML response contains 70 loc elements; flat URL set including commercial, case study, blog and legal URLs."
+    },
+    {
+      "id": "B-03",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-04",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-05",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-06",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-07",
+      "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-08",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-09",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-10",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-11",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-12",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-13",
+      "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-14",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-15",
+      "url": "https://www.seoasis.io/shopify-seo-company",
+      "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-16",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-17",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-18",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-19",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-20",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-21",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    },
+    {
+      "id": "B-22",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Direct HTTP GET and server-delivered HTML; locally preserved headers, HTML and parsed snapshot."
+    }
+  ]
+}

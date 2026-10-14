@@ -1,0 +1,341 @@
+{
+  "workstream": "K",
+  "reviewMode": "Independent specialist review before synthesis",
+  "status": "Ready for Strategy Lead review",
+  "accessedAt": "2026-10-14",
+  "method": {
+    "workstream": "K",
+    "reviewedAt": "2026-10-14",
+    "scope": "Public SEOasis Reddit philosophy and proposed transparent client workflow.",
+    "boundary": "Public HTML sample reviewed; official Reddit policies checked live. No posts, outreach or automated engagement performed. No client threads or actual AI outputs verified."
+  },
+  "sources": [
+    {
+      "id": "src-community-service",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "HTTP 200 public HTML sample. Reddit Authority Building and AI Visibility Monitoring are explicit service pillars; client results and model-behavior assertions are self-reported.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-community-strategy",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "HTTP 200 public HTML sample. Describes subreddit mapping, participation and weekly query testing; no client accounts, threads or saved AI outputs were verified here.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-community-guide",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "HTTP 200 public HTML sample. Guide by Mike Sack dated April 16, 2026; discusses listening, rules, participation, attribution limits and disclosure in an example. Numerical results and AI causality remain company claims.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-community-reddit-rules",
+      "url": "https://redditinc.com/policies/reddit-rules",
+      "title": "Reddit Rules",
+      "accessedAt": "2026-10-14",
+      "note": "Official rules inspected on October 14, 2026: Rules 2 and 5 address community rules, authentic participation and misleading identity. This supports the proposed participation guardrails, not channel performance.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-community-reddit-spam",
+      "url": "https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam",
+      "title": "Spam \u2014 Reddit Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official help page, updated October 6, 2026. Addresses mass engagement, repetitive content, spam-promoting tools, authenticity and moderator discretion. No universal contribution ratio is a safe harbor.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "status": "Publicly accessible"
+    },
+    {
+      "id": "src-company-home",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Live homepage: Shopify/ecommerce AEO positioning; team identities; collection, Reddit, foundation/monitoring pillars; quarterly recalibration and client reporting cadence. Outcome claims are company-reported.",
+      "status": "Publicly accessible"
+    }
+  ],
+  "findings": [
+    {
+      "id": "CO-OBS-01",
+      "title": "Reddit Authority Building is an explicit pillar",
+      "evidence": "The Reddit service page pairs community work with collection pages, schema and AI visibility monitoring.",
+      "source": "src-community-service",
+      "sourceIds": [
+        "src-community-service"
+      ],
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "businessImplication": "Treat community listening as part of the account strategy, with a named specialist and measurable hypotheses."
+    },
+    {
+      "id": "CO-OBS-02",
+      "title": "SEOasis publishes an operating philosophy",
+      "evidence": "The public guide and strategy page discuss identifying relevant communities, understanding rules, helpful participation and query monitoring.",
+      "source": "src-community-guide",
+      "sourceIds": [
+        "src-community-guide",
+        "src-community-strategy"
+      ],
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "businessImplication": "Translate public philosophy into an account-specific, transparent workflow rather than assuming all communities permit promotion."
+    },
+    {
+      "id": "CO-INF-01",
+      "title": "Public claims do not establish model causality",
+      "evidence": "The service pages assert relationships between Reddit activity, AI recommendations and revenue, but client threads, repeated model outputs and attribution exports were not inspected.",
+      "source": "src-community-strategy",
+      "sourceIds": [
+        "src-community-strategy"
+      ],
+      "classification": "INFERRED",
+      "confidence": "High",
+      "businessImplication": "Preserve these as SEOasis marketing claims. This artifact makes no claim that a post enters a training set, that mentions cause recommendations, or that schema guarantees AI inclusion."
+    },
+    {
+      "id": "CO-OBS-03",
+      "title": "Official Reddit guidance sets the participation boundary",
+      "evidence": "Reddit requires community-rule compliance and authentic identity, and prohibits spam and manipulation.",
+      "source": "src-community-reddit-rules",
+      "sourceIds": [
+        "src-community-reddit-rules"
+      ],
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "businessImplication": "Use transparent, useful participation and community-specific permissions; no disguised endorsement or coordinated voting."
+    },
+    {
+      "id": "CO-PRI-01",
+      "title": "No client community output or performance is verified",
+      "evidence": "No approved client Reddit account, live thread inventory, referral export or saved AI test series was provided.",
+      "source": "src-community-guide",
+      "sourceIds": [
+        "src-community-guide"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "businessImplication": "No post count, upvote total, mention share, conversion rate or AI visibility percentage is reported."
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "CO-01",
+      "title": "Build a listening map before choosing participation",
+      "evidence": "SEOasis publicly prioritizes subreddit research and community norms. No target-client community fit was verified.",
+      "source": "src-community-guide",
+      "sourceIds": [
+        "src-community-guide"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "opportunity": "Build a listening map before choosing participation",
+      "category": "Reddit / Community",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "action": "For one approved client, record relevant questions, product/use-case language, current rules and whether the appropriate action is listen, answer or abstain.",
+      "recommendedAction": "For one approved client, record relevant questions, product/use-case language, current rules and whether the appropriate action is listen, answer or abstain.",
+      "acceptanceCriteria": [
+        "Community rule URL and review date saved",
+        "Example public thread URLs saved without unnecessary personal data",
+        "Explicit listen-only status where promotion is restricted",
+        "No minimum size or posting quota assumed"
+      ],
+      "metric": "Verified relevant questions and approved community fit",
+      "impact": 4,
+      "effort": 2,
+      "priority": "P1",
+      "status": "Proposed",
+      "owner": "Strategist + Reddit specialist",
+      "dependency": "Client audience and product-fit briefing",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    },
+    {
+      "id": "CO-02",
+      "title": "Document transparent participation and escalation",
+      "evidence": "Official Reddit rules support authentic participation; SEOasis guide discusses usefulness and includes an affiliated founder-response example.",
+      "source": "src-community-reddit-rules",
+      "sourceIds": [
+        "src-community-reddit-rules"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "opportunity": "Document transparent participation and escalation",
+      "category": "Reddit / Community",
+      "url": "https://redditinc.com/policies/reddit-rules",
+      "action": "Write a concise response gate: relevant expertise, accurate product facts, clear affiliation, allowed format and human final review. Record removals and feedback; pause rather than evade a community decision.",
+      "recommendedAction": "Write a concise response gate: relevant expertise, accurate product facts, clear affiliation, allowed format and human final review. Record removals and feedback; pause rather than evade a community decision.",
+      "acceptanceCriteria": [
+        "Disclose employee/agency/client affiliation in a relevant recommendation",
+        "No fake customers, bought accounts or votes",
+        "No mass comments, copied replies or automated engagement",
+        "No karma farming or ratio used to bypass moderation",
+        "Owner and escalation path documented"
+      ],
+      "metric": "Approved participation brief and useful accepted contributions; no volume target",
+      "impact": 4,
+      "effort": 2,
+      "priority": "P1",
+      "status": "Proposed",
+      "owner": "Reddit specialist + account lead",
+      "dependency": "Approved identity, scope and current community rules",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    },
+    {
+      "id": "CO-03",
+      "title": "Separate referral, search and AI observation logs",
+      "evidence": "SEOasis describes weekly query monitoring, but saved client outputs and attribution evidence are unavailable.",
+      "source": "src-community-strategy",
+      "sourceIds": [
+        "src-community-strategy"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "opportunity": "Separate referral, search and AI observation logs",
+      "category": "Reddit / Community",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "action": "Use three ledgers: permitted referral links/landing pages; branded GSC trend with confounders; repeated AI prompt outputs with exact cited URLs. Review each against the hypothesis without implying causality.",
+      "recommendedAction": "Use three ledgers: permitted referral links/landing pages; branded GSC trend with confounders; repeated AI prompt outputs with exact cited URLs. Review each against the hypothesis without implying causality.",
+      "acceptanceCriteria": [
+        "Prompt wording, model/surface, locale, date and saved output retained",
+        "Brand mention separated from citation and linked referral",
+        "UTMs only on permitted links",
+        "Concurrent releases, promotions and seasonality logged",
+        "No training-ingestion claims or visibility percentage without a defined denominator"
+      ],
+      "metric": "Referral outcomes; branded query movement; repeatable citation observations reported separately",
+      "impact": 4,
+      "effort": 3,
+      "priority": "P2",
+      "status": "Proposed",
+      "owner": "Strategist + analyst",
+      "dependency": "GA4/GSC access, approved prompt panel and human test operator",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    },
+    {
+      "id": "CO-04",
+      "title": "Turn community questions into useful collection briefs",
+      "evidence": "Public philosophy connects community questions to transactional collection pages. No client assortment or margin data was inspected.",
+      "source": "src-community-guide",
+      "sourceIds": [
+        "src-community-guide"
+      ],
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "opportunity": "Turn community questions into useful collection briefs",
+      "category": "Reddit / Community",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "action": "Route repeated use-case questions to keyword/collection research. Validate distinct intent, product fit, stock, substantiated claims and margin before creating a page.",
+      "recommendedAction": "Route repeated use-case questions to keyword/collection research. Validate distinct intent, product fit, stock, substantiated claims and margin before creating a page.",
+      "acceptanceCriteria": [
+        "Questions preserved with source URLs",
+        "Existing page match checked before expansion",
+        "Qualified assortment and stock approved",
+        "Buyer criteria reflected in useful copy and internal links",
+        "No health or performance claim invented from a comment"
+      ],
+      "metric": "Approved collection hypotheses; qualified collection outcomes require GSC/Shopify",
+      "impact": 4,
+      "effort": 3,
+      "priority": "P2",
+      "status": "Proposed",
+      "owner": "Strategist + ecommerce specialist",
+      "dependency": "Catalog, inventory, margin, GSC query data and editorial QA",
+      "notes": "Proposed operating task; benefit and commercial outcome require validation."
+    }
+  ],
+  "internalData": [
+    {
+      "id": "CO-DATA-01",
+      "title": "Authorized identity, relationship disclosure and contribution history",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-community-reddit-rules",
+      "sourceIds": [
+        "src-community-reddit-rules"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "Approved Reddit account history; Asana; client policy",
+      "metric": "Authorized identity, relationship disclosure and contribution history",
+      "whyItMatters": "Avoids duplicate work and records permitted participation.",
+      "decisionInfluenced": "Choose authorized owner, permitted communities and listen-only areas.",
+      "value": "Requires Internal Access"
+    },
+    {
+      "id": "CO-DATA-02",
+      "title": "Reddit referral landing-page sessions, transactions/leads, net revenue and permitted campaign tags",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-community-guide",
+      "sourceIds": [
+        "src-community-guide"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "GA4; Shopify/CRM",
+      "metric": "Reddit referral landing-page sessions, transactions/leads, net revenue and permitted campaign tags",
+      "whyItMatters": "Checks whether a measurable referral path brings qualified customers.",
+      "decisionInfluenced": "Change destination, contribution focus or continue listening.",
+      "value": "Requires Internal Access"
+    },
+    {
+      "id": "CO-DATA-03",
+      "title": "Branded/nonbrand clicks, impressions, country/device and collection page cohorts",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-community-guide",
+      "sourceIds": [
+        "src-community-guide"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console; release and promotion log",
+      "metric": "Branded/nonbrand clicks, impressions, country/device and collection page cohorts",
+      "whyItMatters": "Provides search context with confounders; it cannot isolate Reddit impact by itself.",
+      "decisionInfluenced": "Validate the page hypothesis and determine whether further testing is justified.",
+      "value": "Requires Internal Access"
+    },
+    {
+      "id": "CO-DATA-04",
+      "title": "Prompt, date, model/surface, locale, exact output and cited URLs",
+      "evidence": "No authenticated platform was accessed for this project.",
+      "source": "src-community-strategy",
+      "sourceIds": [
+        "src-community-strategy"
+      ],
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "display": "Requires Internal Access",
+      "platform": "AI visibility tool or saved manual prompt panel",
+      "metric": "Prompt, date, model/surface, locale, exact output and cited URLs",
+      "whyItMatters": "Provides reproducible observations instead of an invented visibility score.",
+      "decisionInfluenced": "Expand, revise or stop a query hypothesis after repeated observations.",
+      "value": "Requires Internal Access"
+    }
+  ],
+  "rejectedClaims": [
+    "No fabricated backlink counts, rankings, referral revenue or AI visibility rates.",
+    "No claim that a Reddit mention causes training ingestion, AI recommendations or incremental revenue.",
+    "No deceptive account, endorsement, voting, spam or engagement automation recommendation."
+  ],
+  "synthesisNotes": [
+    "Confirm current link-building partner scope with Mike; public role and commercial positioning may have different account scopes.",
+    "Use community questions to inform collection hypotheses; validate catalog and buyer intent before page production.",
+    "Keep referral outcomes, branded search movement and AI citations as separate measurements."
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+.DS_Store
+research/**/*.html
+research/technical/*.headers.txt
+research/technical/sample.json
+research/seoasis-home.html
+qa/desktop-draft.jpg
+qa/competitor-desktop.jpg

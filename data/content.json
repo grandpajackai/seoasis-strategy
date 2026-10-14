@@ -1,0 +1,653 @@
+{
+  "metadata": {
+    "title": "Content as commercial support",
+    "accessedAt": "2026-10-14",
+    "workstream": "I — Content strategy",
+    "reviewMode": "Independent editorial pass before synthesis",
+    "scope": "SEOasis agency-site content and a reusable client workflow; these are proposed operating practices, not claims about current fulfillment."
+  },
+  "sources": [
+    {
+      "id": "SRC-DI-HOME",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SITEMAP",
+      "url": "https://www.seoasis.io/sitemap.xml",
+      "title": "SEOasis XML Sitemap",
+      "accessedAt": "2026-10-14",
+      "note": "Public URL inventory includes commercial families, case studies and blog URLs; listing does not prove indexation or performance.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPIFY",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-CONSULTANT",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Consultant page presents a transactional collection-page service with the same audit/build/grow sequence.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-ECOM",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-ECOMCONSULTANT",
+      "url": "https://www.seoasis.io/ecommerce-seo-consultant",
+      "title": "Ecommerce SEO Consultant | AI-Era SEO for Shopify Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "A separate consultant page promotes collection strategy and AI search visibility.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-BLOG",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public blog hub lists Shopify optimization, agency selection, audit and Reddit articles.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPIFYGUIDE",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPIFYGUIDE2",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+      "title": "How to Optimize Your Shopify Store for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Related April 10 guide includes an FID benchmark in its performance section and overlapping Shopify topics.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-AGENCYGUIDE",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Founder-attributed buyer guide describes methodology, revenue proof and service scope.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-AUDITGUIDE",
+      "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+      "title": "What to Look for in an Ecommerce SEO Audit (2026 Guide) | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Audit guide covers collections and technical checks; its parameter section advises Search Console parameter configuration.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-REDDIT",
+      "url": "https://www.seoasis.io/reddit-ecommerce-seo",
+      "title": "Reddit Ecommerce SEO: How AI Models Find Your Products on Reddit | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Reddit service page describes research, community participation and AI visibility monitoring. Platform-effect claims are SEOasis claims, not independently validated here.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPPING",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "First-party case study describes feed, attributes, titles, diagnostics and reporting. Client outcomes are reported by SEOasis and not independently audited.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-LINKS",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Link-building URL intentionally argues for collection pages and Reddit rather than offering conventional outreach.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-INP",
+      "url": "https://developers.google.com/search/blog/2023/05/introducing-inp",
+      "title": "Introducing INP to Core Web Vitals | Google Search Central Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Official update confirms INP replaced FID on March 12, 2024.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-PARAMETERS",
+      "url": "https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated",
+      "title": "Spring cleaning: the URL Parameters tool | Google Search Central Blog",
+      "accessedAt": "2026-10-14",
+      "note": "Official March 2022 announcement retires the Search Console URL Parameters tool.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "observations": [
+    {
+      "id": "CT-OBS-01",
+      "title": "Public educational content exists",
+      "source": {
+        "id": "SRC-DI-BLOG",
+        "url": "https://www.seoasis.io/blog",
+        "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public blog hub lists Shopify optimization, agency selection, audit and Reddit articles.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-BLOG",
+        "SRC-DI-AGENCYGUIDE"
+      ],
+      "evidence": "The blog hub includes Shopify, audit and Reddit guides; the reviewed agency-selection guide identifies Mike Sack as author.",
+      "confidence": "High",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "CT-OBS-02",
+      "title": "Validate what blog coordination means in this role",
+      "source": {
+        "id": "SRC-DI-SHOPIFY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFY",
+        "SRC-DI-HOME"
+      ],
+      "evidence": "Service copy explicitly excludes blog production while the homepage includes blog spokes. The job's blog-coordination responsibility may have a different account, support or editorial scope.",
+      "confidence": "Medium",
+      "classification": "INFERRED",
+      "recommendedAction": "Ask which accounts and deliverables need blog coordination; use collection-first support until scope is confirmed.",
+      "internalDependency": "Current scope of work, job expectations, client content ownership"
+    },
+    {
+      "id": "CT-OBS-03",
+      "title": "Small documentation freshness opportunity",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE2",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "title": "How to Optimize Your Shopify Store for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Related April 10 guide includes an FID benchmark in its performance section and overlapping Shopify topics.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE2",
+        "SRC-DI-INP",
+        "SRC-DI-AUDITGUIDE",
+        "SRC-DI-PARAMETERS"
+      ],
+      "evidence": "One Shopify guide lists FID in its performance checklist; the audit guide suggests Search Console parameter settings. Official Google sources confirm INP replaced FID and the parameter tool was retired.",
+      "confidence": "High",
+      "classification": "OBSERVED",
+      "recommendedAction": "Refresh these two passages against primary documentation, then run a bounded check for similar dated platform instructions.",
+      "businessImplication": "Keeps implementation guidance current and reduces avoidable delivery rework.",
+      "severity": "Low"
+    }
+  ],
+  "workflow": [
+    {
+      "id": "CT-WF-01",
+      "stage": "Intake",
+      "owner": "Strategist",
+      "artifact": "One-page brief",
+      "exitGate": "Define buyer task, target commercial page, account scope and success metric.",
+      "source": {
+        "id": "SRC-DI-ECOM",
+        "url": "https://www.seoasis.io/ecommerce-seo",
+        "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Ecommerce service page explains catalog research, collection creation and performance review.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-ECOM"
+      ],
+      "evidence": "Proposed workflow applies the public catalog-first methodology.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-WF-02",
+      "stage": "Intent and catalog review",
+      "owner": "Strategist + client merchandiser",
+      "artifact": "Cluster → page map",
+      "exitGate": "Validate query intent, available SKUs, category distinctions and existing URL role; no one-keyword-per-page rule.",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE"
+      ],
+      "evidence": "Proposed gate connects collection strategy to the available catalog.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-WF-03",
+      "stage": "Brief and evidence pack",
+      "owner": "Strategist",
+      "artifact": "Writer/developer brief",
+      "exitGate": "Include title/H1/meta, product facts, first-party proof, source links, internal-link destinations and unsupported-claim exclusions.",
+      "source": {
+        "id": "SRC-DI-AUDITGUIDE",
+        "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "title": "What to Look for in an Ecommerce SEO Audit (2026 Guide) | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Audit guide covers collections and technical checks; its parameter section advises Search Console parameter configuration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-AUDITGUIDE"
+      ],
+      "evidence": "Proposed briefing practice connects technical and content checks.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-WF-04",
+      "stage": "Draft and build",
+      "owner": "Writer or Shopify implementer",
+      "artifact": "Collection, resource or case-study update",
+      "exitGate": "Useful context and relevant products remain visible; AI may assist outlines or comparisons, and the owner verifies every factual claim.",
+      "source": {
+        "id": "SRC-DI-SHOPIFY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFY"
+      ],
+      "evidence": "Proposed execution stage prioritizes commercial assets.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-WF-05",
+      "stage": "Editorial and technical QA",
+      "owner": "Independent reviewer",
+      "artifact": "Signed checklist in Asana",
+      "exitGate": "Confirm factual sources, original value, accessible headings, mobile layout, links, canonical, metadata, visible/schema consistency and primary CTA.",
+      "source": {
+        "id": "SRC-DI-AUDITGUIDE",
+        "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "title": "What to Look for in an Ecommerce SEO Audit (2026 Guide) | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Audit guide covers collections and technical checks; its parameter section advises Search Console parameter configuration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-AUDITGUIDE"
+      ],
+      "evidence": "Proposed QA gate combines implementation accuracy with user usefulness.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-WF-06",
+      "stage": "Measure and revise",
+      "owner": "Account strategist",
+      "artifact": "Weekly status and 90-day decision log",
+      "exitGate": "Record publish date, change hypothesis and appropriate metrics; evaluate cohorts and seasonality before claiming causality.",
+      "source": {
+        "id": "SRC-DI-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-HOME",
+        "SRC-DI-SHOPPING"
+      ],
+      "evidence": "Proposed review step follows quarterly recalibration and revenue orientation.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    }
+  ],
+  "editorialOpportunities": [
+    {
+      "id": "CT-01",
+      "title": "Refresh two dated implementation instructions",
+      "format": "Existing-page maintenance",
+      "targetUrls": [
+        "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit"
+      ],
+      "supportsCommercialPage": "https://www.seoasis.io/ecommerce-seo-audit",
+      "audience": "Client implementers and audit buyers",
+      "brief": "Use current INP guidance and remove the retired Search Console parameter-tool instruction; verify replacement guidance with the technical owner.",
+      "businessPurpose": "Preserve trust and prevent obsolete implementation tasks.",
+      "metric": "Two reviewed passages corrected and primary sources attached; search/lead effects require GA4/GSC.",
+      "priority": "P1",
+      "impact": 2,
+      "effort": 1,
+      "owner": "Strategist + technical reviewer",
+      "status": "Proposed",
+      "dependency": "Editorial access and technical sign-off",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE2",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+        "title": "How to Optimize Your Shopify Store for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Related April 10 guide includes an FID benchmark in its performance section and overlapping Shopify topics.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE2",
+        "SRC-DI-INP",
+        "SRC-DI-AUDITGUIDE",
+        "SRC-DI-PARAMETERS"
+      ],
+      "evidence": "Public instructions can be compared directly with Google's official updates.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-02",
+      "title": "How we decide whether a collection deserves its own URL",
+      "format": "Existing collection-methodology section or focused resource",
+      "targetUrls": [
+        "https://www.seoasis.io/ecommerce-category-page-seo"
+      ],
+      "supportsCommercialPage": "https://www.seoasis.io/shopify-seo-agency",
+      "audience": "Shopify owner evaluating the collection-first model",
+      "brief": "Show a clearly hypothetical category → modifier → inventory → page-role example; include no fabricated demand, margins or results.",
+      "businessPurpose": "Make the judgment behind collection buildout tangible.",
+      "metric": "Qualified audit requests and resource-to-service clicks — Requires Internal Access",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Strategist + merchandiser",
+      "status": "Proposed",
+      "dependency": "Review existing category page; secure a client-approved example if using real outcomes",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE",
+        "SRC-DI-SITEMAP"
+      ],
+      "evidence": "Collection construction is covered; a more explicit decision artifact is a proposed test.",
+      "confidence": "Medium",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-03",
+      "title": "A reproducible AI visibility test log",
+      "format": "Audit-methodology appendix",
+      "targetUrls": [
+        "https://www.seoasis.io/chatgpt-visibility-audit"
+      ],
+      "supportsCommercialPage": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "audience": "Ecommerce owner comparing AEO providers",
+      "brief": "Publish a blank sample logging platform/model, web mode, exact query, locale, date, repeat count, response and citation URL; separate citation from referral and purchase.",
+      "businessPurpose": "Make evidence quality clear without promising recommendations.",
+      "metric": "Audit-start to qualified-call conversion — Requires Internal Access",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "AEO strategist",
+      "status": "Proposed",
+      "dependency": "Review existing audit page and current monitoring protocol",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE"
+      ],
+      "evidence": "The public guide describes manual AI query testing; the proposed appendix standardizes the record.",
+      "confidence": "Medium",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-04",
+      "title": "Feed-quality checklist behind the Bronson Shopping work",
+      "format": "Case-study companion or expanded methodology section",
+      "targetUrls": [
+        "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping"
+      ],
+      "supportsCommercialPage": "https://www.seoasis.io/ecommerce-seo",
+      "audience": "Merchant with a large eligible catalog",
+      "brief": "Explain feed eligibility, required attributes, title rationale and diagnostics; preserve first-party attribution and avoid claiming period-over-period causality is proven.",
+      "businessPurpose": "Help buyers understand delivery scope and surface qualified Shopping opportunities.",
+      "metric": "Qualified Shopping inquiries and eligible-item trend for clients — Requires Internal Access",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Feed specialist + strategist",
+      "status": "Proposed",
+      "dependency": "Confirm Shopping service scope and any client permission for underlying examples",
+      "source": {
+        "id": "SRC-DI-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "First-party case study describes feed, attributes, titles, diagnostics and reporting. Client outcomes are reported by SEOasis and not independently audited.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPPING"
+      ],
+      "evidence": "The case study documents feed, attribute and title work; its methodology can support a reusable checklist.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-05",
+      "title": "What changes at a 90-day recalibration",
+      "format": "Methodology update with blank review template",
+      "targetUrls": [
+        "https://www.seoasis.io/ecommerce-seo"
+      ],
+      "supportsCommercialPage": "https://www.seoasis.io/shopify-seo-agency",
+      "audience": "Prospective client assessing independent account ownership",
+      "brief": "Show keep / expand / revise / stop decisions by collection cohort, with placeholders for demand, revenue, stock and confidence.",
+      "businessPurpose": "Demonstrate a clear operating cadence and reduce ambiguous expectations.",
+      "metric": "Template adoption and decision completeness; commercial conversion requires internal data",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Account strategist",
+      "status": "Proposed",
+      "dependency": "Align with current account reporting and founder expectations",
+      "source": {
+        "id": "SRC-DI-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Homepage names collection pages, keyword clustering, JSON-LD, hub-and-spoke linking, Reddit and quarterly recalibration.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-HOME",
+        "SRC-DI-ECOM"
+      ],
+      "evidence": "Quarterly recalibration is public positioning; the review artifact is a proposed execution aid.",
+      "confidence": "High",
+      "classification": "OPPORTUNITY"
+    },
+    {
+      "id": "CT-06",
+      "title": "Differentiate or maintain the Shopify optimization guides",
+      "format": "Editorial inventory review",
+      "targetUrls": [
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines"
+      ],
+      "supportsCommercialPage": "https://www.seoasis.io/shopify-seo-agency",
+      "audience": "Shopify implementer",
+      "brief": "Assign distinct reader tasks or maintain one source of truth only after checking query histories, external links and lead paths.",
+      "businessPurpose": "Reduce maintenance duplication while preserving useful demand coverage.",
+      "metric": "Maintained-guide completeness; URL/query results and service exits — Requires Internal Access",
+      "priority": "P1",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Content strategist",
+      "status": "Needs validation",
+      "dependency": "GSC + GA4 and full editorial comparison",
+      "source": {
+        "id": "SRC-DI-SHOPIFYGUIDE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Guide covers collection construction, linking, schema and AI query testing; attributed to Mike Sack, April 30, 2026.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFYGUIDE",
+        "SRC-DI-SHOPIFYGUIDE2"
+      ],
+      "evidence": "Both guides cover similar implementation themes; performance harm has not been established.",
+      "confidence": "Medium",
+      "classification": "OPPORTUNITY"
+    }
+  ],
+  "qualityChecklist": [
+    "Answers the specific reader or buyer task immediately",
+    "Uses accurate product facts and specific first-party experience",
+    "Cites current primary documentation for technical instructions",
+    "Separates company-reported outcomes from independently verified evidence",
+    "Avoids unverified statistics and universal AI-platform claims",
+    "Adds useful original detail rather than synonym paragraphs",
+    "Has an accountable author, reviewer and review date",
+    "Keeps grid, comparison and conversion tasks usable on mobile",
+    "Links to the relevant commercial destination with a useful anchor",
+    "Matches structured data to visible content and eligibility rules"
+  ],
+  "internalData": [
+    {
+      "id": "CT-PRIVATE-01",
+      "title": "Editorial contribution to commercial outcomes",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + CRM for SEOasis; GA4 + Shopify for clients",
+      "metric": "Resource → service/collection paths, qualified leads or purchases, engagement and assisted journeys",
+      "why": "A helpful resource may support later conversion without being the last landing page.",
+      "decision": "Maintain, refresh, expand or stop a content format",
+      "source": {
+        "id": "SRC-DI-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "First-party case study describes feed, attributes, titles, diagnostics and reporting. Client outcomes are reported by SEOasis and not independently audited.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPPING"
+      ],
+      "evidence": "The revenue-first case study supports evaluating quality beyond traffic.",
+      "confidence": "High",
+      "classification": "REQUIRES INTERNAL DATA"
+    },
+    {
+      "id": "CT-PRIVATE-02",
+      "title": "Current blog and link coordination scope",
+      "value": "Requires Internal Access",
+      "platform": "Current job description, client scopes of work and Asana",
+      "metric": "Accounts needing coordination, writer ownership, approved deliverables and QA capacity",
+      "why": "Public service positioning and role wording may refer to different scopes.",
+      "decision": "Allocate coordination capacity without assuming a new blog-retainer strategy",
+      "source": {
+        "id": "SRC-DI-SHOPIFY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Commercial Shopify agency page emphasizes collection buildout, schema, Reddit and AI monitoring; explicitly excludes blogging and backlink outreach.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPIFY",
+        "SRC-DI-HOME"
+      ],
+      "evidence": "Public service copy excludes blog production while the homepage diagram includes blog spokes.",
+      "confidence": "High",
+      "classification": "REQUIRES INTERNAL DATA"
+    }
+  ],
+  "aiWorkflow": {
+    "allowedAssistance": [
+      "Cluster candidate grouping",
+      "Compare duplicate briefs",
+      "Draft outline and metadata alternatives",
+      "Prepare source-maintenance checks",
+      "Summarize approved evidence for reports"
+    ],
+    "humanGates": [
+      "Validate intent and real product inventory",
+      "Verify every technical and outcome claim",
+      "Approve brand voice and final content",
+      "Check links, source dates and schema eligibility",
+      "Own prioritization and client interpretation"
+    ],
+    "policy": "Do not infer AI authorship from writing style; assess correctness, specificity, usefulness and evidence."
+  }
+}

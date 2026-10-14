@@ -1,0 +1,805 @@
+{
+  "metadata": {
+    "title": "Readiness is observable. Visibility must be measured.",
+    "accessedAt": "2026-10-14",
+    "workstream": "H — AEO / AI search visibility",
+    "scope": "Public content and machine-readable readiness proxies for five AI-search environments; no AI outputs sampled.",
+    "limitation": "Readiness labels are qualitative editorial judgments, not AI visibility percentages, rankings or inclusion predictions."
+  },
+  "sources": [
+    {
+      "id": "SRC-G-HOME",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-SERVICE",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-ARTICLE",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "BlogPosting with author Person and BreadcrumbList in downloaded HTML; Shopify checklist referenced.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-CASE",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Downloaded HTML includes Article and BreadcrumbList; case outcomes are first-party SEOasis claims.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-HUB",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Case-study hub has CollectionPage, ItemList and BreadcrumbList.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-AUDIT",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "No application/ld+json script block detected in initial downloaded HTML. Not evidence of AI inaccessibility.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-AI",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "title": "AI features and your website | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-REVIEWS",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+      "title": "Review Snippet Structured Data | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Self-serving Organization/LocalBusiness reviews are not eligible for review stars; markup must accurately represent visible content.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-VIDEO",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+      "title": "VideoObject Schema Markup | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "contentUrl should point to actual video bytes; embedUrl can identify the specific player.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-FAQ",
+      "url": "https://developers.google.com/search/updates",
+      "title": "Latest Google Search Documentation Updates | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "May 8, 2026 entry states FAQ rich result feature no longer appears starting May 7, 2026. FAQPage guide redirects here.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-INTRO",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "title": "Introduction to structured data markup in Google Search",
+      "accessedAt": "2026-10-14",
+      "note": "Valid syntax, required properties, quality rules, visible content and eligibility are different QA gates; use Rich Results Test then Search Console.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "summary": {
+    "id": "AE-EXEC",
+    "title": "A clear AI-era Shopify narrative is already visible",
+    "source": {
+      "id": "SRC-G-HOME",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    "sourceIds": [
+      "SRC-G-HOME"
+    ],
+    "evidence": "Public positioning, named team, methodology, structured data and case studies provide a useful base. Citation frequency, sentiment, qualified traffic and revenue remain unmeasured.",
+    "classification": "INFERRED",
+    "confidence": "Medium",
+    "action": "Establish a repeatable query baseline before expanding tactics."
+  },
+  "readinessMatrix": [
+    {
+      "id": "AE-SIGNAL-1",
+      "title": "Entity identity",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage names the business, Mike Sack and operating team; Organization and Person markup reinforce identity.",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "status": "Established",
+      "action": "Preserve consistent company/profile facts.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-2",
+      "title": "First-party experience",
+      "source": {
+        "id": "SRC-G-CASE",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Downloaded HTML includes Article and BreadcrumbList; case outcomes are first-party SEOasis claims.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-CASE"
+      ],
+      "evidence": "Public named-client case studies and methodology exist; published outcomes remain company-reported.",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "status": "Established",
+      "action": "Add scope, dates and measurement definitions when approved.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-3",
+      "title": "Author accountability",
+      "source": {
+        "id": "SRC-G-ARTICLE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "BlogPosting with author Person and BreadcrumbList in downloaded HTML; Shopify checklist referenced.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-ARTICLE"
+      ],
+      "evidence": "Sampled Shopify guide declares Mike Sack as author with Person metadata.",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "status": "Established",
+      "action": "Maintain author/reviewer ownership and update dates.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-4",
+      "title": "Source support",
+      "source": {
+        "id": "SRC-G-ARTICLE",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "BlogPosting with author Person and BreadcrumbList in downloaded HTML; Shopify checklist referenced.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-ARTICLE"
+      ],
+      "evidence": "Shopify guide links to an official Shopify checklist; public outcomes were not independently audited.",
+      "classification": "INFERRED",
+      "confidence": "Medium",
+      "status": "Partial",
+      "action": "Use primary references for technical instructions and qualify company-reported results.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-5",
+      "title": "Semantic clarity",
+      "source": {
+        "id": "SRC-G-SERVICE",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-SERVICE"
+      ],
+      "evidence": "Service and editorial page families explicitly explain Shopify, collections, schema and AI search.",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "status": "Established",
+      "action": "Prioritize task clarity and distinctive evidence over repetitive phrase variants.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-6",
+      "title": "Topical depth",
+      "source": {
+        "id": "SRC-G-SERVICE",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-SERVICE"
+      ],
+      "evidence": "Service families, case studies and articles are observable; demand and completeness need a query-to-page review.",
+      "classification": "INFERRED",
+      "confidence": "Medium",
+      "status": "Partial",
+      "action": "Align covered questions with qualified buyer needs.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-7",
+      "title": "Crawl / snippet eligibility",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "20 public pages returned HTML in the public sample. HTTP access does not establish Google indexation or every AI crawler’s access.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "Medium",
+      "status": "Needs validation",
+      "action": "Check robots, rendered content, CDN controls and GSC before inferring eligibility.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-8",
+      "title": "Structured information",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Schema is present across representative templates; local JSON syntax passed.",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "status": "Established",
+      "action": "Validate accuracy; no AI inclusion prerequisite or citation guarantee.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-9",
+      "title": "Third-party corroboration",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "An owned-site review cannot establish independent mentions, authority, citation frequency or reputation.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "Medium",
+      "status": "Unmeasured",
+      "action": "Compile genuine independent mentions and links with dates and contexts.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    },
+    {
+      "id": "AE-SIGNAL-10",
+      "title": "Community signals",
+      "source": {
+        "id": "SRC-G-SERVICE",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-SERVICE"
+      ],
+      "evidence": "SEOasis publicly positions Reddit as part of its offer; community outcomes were not measured in this workstream.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "Medium",
+      "status": "Needs validation",
+      "action": "Review genuine participation, disclosure and referral context without promising AI effects.",
+      "appliesTo": [
+        "ChatGPT",
+        "Google AI Overviews / AI Mode",
+        "Perplexity",
+        "Claude",
+        "Gemini"
+      ],
+      "interpretation": "Public readiness proxy; no measured platform visibility or causal attribution."
+    }
+  ],
+  "platforms": [
+    {
+      "id": "AE-PLATFORM-ChatGPT",
+      "title": "ChatGPT",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "No platform output captured in this project. Testing protocol is proposed, not an observed visibility result.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "actualOutput": "Not run",
+      "status": "Suggested test",
+      "focus": "Run discovery, comparison and collection-methodology prompts with search enabled where available; record model and mode.",
+      "visibility": "Unmeasured"
+    },
+    {
+      "id": "AE-PLATFORM-Google",
+      "title": "Google AI Overviews / AI Mode",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "No platform output captured in this project. Testing protocol is proposed, not an observed visibility result.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "actualOutput": "Not run",
+      "status": "Suggested test",
+      "focus": "Record actual feature presence and supporting links; AI Overviews may not trigger. GSC Web includes AI-feature traffic.",
+      "visibility": "Unmeasured"
+    },
+    {
+      "id": "AE-PLATFORM-Perplexity",
+      "title": "Perplexity",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "No platform output captured in this project. Testing protocol is proposed, not an observed visibility result.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "actualOutput": "Not run",
+      "status": "Suggested test",
+      "focus": "Record answer, brand mentions, citation URLs and whether evidence supports the recommendation.",
+      "visibility": "Unmeasured"
+    },
+    {
+      "id": "AE-PLATFORM-Claude",
+      "title": "Claude",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "No platform output captured in this project. Testing protocol is proposed, not an observed visibility result.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "actualOutput": "Not run",
+      "status": "Suggested test",
+      "focus": "Use a clearly recorded web-enabled mode where available; do not compare offline answers to search-enabled tests.",
+      "visibility": "Unmeasured"
+    },
+    {
+      "id": "AE-PLATFORM-Gemini",
+      "title": "Gemini",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "No platform output captured in this project. Testing protocol is proposed, not an observed visibility result.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "actualOutput": "Not run",
+      "status": "Suggested test",
+      "focus": "Record interface, model and web-grounding context; avoid treating one answer as a stable ranking.",
+      "visibility": "Unmeasured"
+    }
+  ],
+  "queryTestingFramework": {
+    "status": "Proposed; no actual platform outputs",
+    "prompts": [
+      {
+        "id": "AE-QUERY-1",
+        "title": "Best Shopify SEO agencies",
+        "source": {
+          "id": "SRC-G-SERVICE",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "SRC-G-SERVICE"
+        ],
+        "evidence": "Suggested prompt designed from observable SEOasis positioning; no answer or citation has been collected.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "intent": "Agency discovery",
+        "status": "Not run",
+        "actualOutputs": []
+      },
+      {
+        "id": "AE-QUERY-2",
+        "title": "How do Shopify brands grow organic revenue?",
+        "source": {
+          "id": "SRC-G-SERVICE",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "SRC-G-SERVICE"
+        ],
+        "evidence": "Suggested prompt designed from observable SEOasis positioning; no answer or citation has been collected.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "intent": "Methodology education",
+        "status": "Not run",
+        "actualOutputs": []
+      },
+      {
+        "id": "AE-QUERY-3",
+        "title": "Best ecommerce SEO agencies for 7-figure brands",
+        "source": {
+          "id": "SRC-G-SERVICE",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "SRC-G-SERVICE"
+        ],
+        "evidence": "Suggested prompt designed from observable SEOasis positioning; no answer or citation has been collected.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "intent": "Fit / comparison",
+        "status": "Not run",
+        "actualOutputs": []
+      },
+      {
+        "id": "AE-QUERY-4",
+        "title": "How should Shopify collection pages be optimized?",
+        "source": {
+          "id": "SRC-G-SERVICE",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "SRC-G-SERVICE"
+        ],
+        "evidence": "Suggested prompt designed from observable SEOasis positioning; no answer or citation has been collected.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "intent": "Implementation",
+        "status": "Not run",
+        "actualOutputs": []
+      },
+      {
+        "id": "AE-QUERY-5",
+        "title": "Which agencies combine Shopify collection SEO and AEO?",
+        "source": {
+          "id": "SRC-G-SERVICE",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "SRC-G-SERVICE"
+        ],
+        "evidence": "Suggested prompt designed from observable SEOasis positioning; no answer or citation has been collected.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "intent": "Differentiation",
+        "status": "Not run",
+        "actualOutputs": []
+      },
+      {
+        "id": "AE-QUERY-6",
+        "title": "How should an ecommerce brand evaluate an AI visibility audit?",
+        "source": {
+          "id": "SRC-G-SERVICE",
+          "url": "https://www.seoasis.io/shopify-seo-agency",
+          "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+          "accessedAt": "2026-10-14",
+          "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+          "classification": "OBSERVED",
+          "confidence": "High"
+        },
+        "sourceIds": [
+          "SRC-G-SERVICE"
+        ],
+        "evidence": "Suggested prompt designed from observable SEOasis positioning; no answer or citation has been collected.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "intent": "Buyer evaluation",
+        "status": "Not run",
+        "actualOutputs": []
+      }
+    ],
+    "captureFields": [
+      "Prompt ID and exact text",
+      "Date/time, market, language and location",
+      "Platform, model, interface and search/grounding mode",
+      "Fresh session and personalization state",
+      "Full answer screenshot or transcript",
+      "Brand mention / recommendation context",
+      "Cited URL and citation accuracy",
+      "Observed competitors and first-party vs independent source",
+      "Run number and changed conditions",
+      "Next action and reviewer"
+    ],
+    "cadence": "Establish a small fixed prompt set, repeat across separate sessions, review monthly and compare only like-for-like conditions.",
+    "interpretation": "Report observed counts with sample size and context; no market-wide share of voice or revenue causation from a small prompt panel.",
+    "suggestedWorkflow": [
+      "Select buyer-relevant branded and unbranded intents.",
+      "Run and archive the same prompts across the five environments under documented conditions.",
+      "Separate brand mention, recommendation, source citation and citation correctness.",
+      "Investigate missing or misleading evidence before changing content.",
+      "Connect referral sessions and qualified outcomes where observable; revisit the strategy every 90 days."
+    ]
+  },
+  "opportunities": [
+    {
+      "id": "AE-OP-01",
+      "title": "Create an evidence-led AI query baseline",
+      "source": {
+        "id": "SRC-G-SERVICE",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-SERVICE"
+      ],
+      "evidence": "No actual AI outputs or visibility statistics were collected. A fixed test panel can identify which questions and cited sources merit attention.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "priority": "P1",
+      "impact": 4,
+      "effort": 2,
+      "owner": "SEO strategist",
+      "metric": "Auditable completed runs and citation correctness, then qualified referral outcomes"
+    },
+    {
+      "id": "AE-OP-02",
+      "title": "Strengthen case-study measurement context",
+      "source": {
+        "id": "SRC-G-CASE",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Downloaded HTML includes Article and BreadcrumbList; case outcomes are first-party SEOasis claims.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-CASE"
+      ],
+      "evidence": "Published named-client proof is available; raw analytics and attribution assumptions are private.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 3,
+      "owner": "SEO strategist + founder",
+      "metric": "Case studies with approved scope, period, definitions and evidence context"
+    }
+  ],
+  "internalData": [
+    {
+      "id": "AE-PRIVATE-01",
+      "title": "AI referral outcomes",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Public content cannot reveal visits, qualified leads or downstream ecommerce revenue from AI referrals.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + CRM for SEOasis; GA4 + Shopify for clients",
+      "metric": "Referrer sessions, landing pages, qualified leads, purchases and revenue with attribution caveats",
+      "why": "Distinguishes visible mentions from useful customer activity",
+      "decision": "Prioritize prompts, landing pages and tactics that support business outcomes"
+    },
+    {
+      "id": "AE-PRIVATE-02",
+      "title": "Google AI-feature performance context",
+      "source": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-AI"
+      ],
+      "evidence": "Google says AI features are included in Search Console Web reporting; this review has no account access.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Google Search Console + GA4",
+      "metric": "Query/page impressions, clicks, CTR and associated landing-page outcomes; no unsupported separate AI visibility percentage",
+      "why": "Connects changing discovery to overall search outcomes",
+      "decision": "Evaluate page cohorts alongside manually archived AI tests"
+    }
+  ],
+  "guardrails": [
+    "Google says no special schema or AI text files are required for its AI features.",
+    "Do not generalize Google eligibility rules to all AI platforms.",
+    "Structured data is not a prerequisite for an AI system to read text or cite a page.",
+    "No actual AI outputs, rankings, citation frequencies or visibility percentages are present.",
+    "A mention, citation, visit and purchase are different events; preserve those distinctions.",
+    "Do not create inauthentic third-party mentions, fake reviews or deceptive community engagement."
+  ]
+}

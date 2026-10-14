@@ -1,0 +1,895 @@
+{
+  "updatedAt": "2026-10-14",
+  "title": "Competitive landscape: public positioning",
+  "subtitle": "Seven plausible peers. Compare delivery models and proof, not unverified performance.",
+  "classification": "OBSERVED",
+  "confidence": "High",
+  "evidence": "Bounded review of primary public service pages, homepage text and case pages.",
+  "source": [
+    "N-01",
+    "N-02",
+    "N-03",
+    "N-04",
+    "N-05",
+    "N-06",
+    "N-07",
+    "N-08",
+    "N-09",
+    "N-10",
+    "N-11",
+    "N-12",
+    "N-13",
+    "N-14",
+    "N-15",
+    "N-16",
+    "N-17",
+    "N-18"
+  ],
+  "positioningMap": {
+    "label": "Qualitative public-positioning map",
+    "classification": "INFERRED",
+    "confidence": "Medium",
+    "evidence": "Analyst placement from company and service messaging; not performance, AI visibility, traffic, rank or market share.",
+    "source": [
+      "N-01",
+      "N-02",
+      "N-03",
+      "N-04",
+      "N-05",
+      "N-06",
+      "N-07",
+      "N-08",
+      "N-09",
+      "N-10",
+      "N-11",
+      "N-12",
+      "N-13",
+      "N-14",
+      "N-15",
+      "N-16",
+      "N-17",
+      "N-18"
+    ],
+    "xAxis": {
+      "label": "Generalist → Ecommerce specialist",
+      "min": 1,
+      "max": 5,
+      "anchors": {
+        "1": "Company-wide general search/marketing offer",
+        "3": "Dedicated ecommerce practice within a broad offer",
+        "5": "Ecommerce or Shopify leads company identity"
+      }
+    },
+    "yAxis": {
+      "label": "Traditional SEO led → AI/AEO forward",
+      "min": 1,
+      "max": 5,
+      "anchors": {
+        "1": "Sampled offer leads with traditional SEO",
+        "3": "AI is included as a service component",
+        "5": "AI search leads primary proposition or dedicated methodology"
+      }
+    },
+    "caution": "Ordinal editorial placement; overlapping points are expected and do not rank agency quality."
+  },
+  "competitors": [
+    {
+      "id": "seoasis",
+      "name": "SEOasis",
+      "url": "https://www.seoasis.io/",
+      "isSubject": true,
+      "positioning": "Shopify-focused ecommerce SEO and AEO with direct access to senior operators.",
+      "services": [
+        "Collection-page production",
+        "Schema and internal links",
+        "Reddit authority",
+        "Foundation and monitoring"
+      ],
+      "commercialPages": [
+        "Homepage service sections"
+      ],
+      "contentFocus": "Transactional collection clusters, a visible delivery cadence and quarterly learning.",
+      "caseStudyEvidence": "Named Roofnest, TheFeed, Christy Dawn and TriRig examples on the homepage.",
+      "aeoPositioning": "AI product recommendations lead the homepage proposition.",
+      "shopifySpecialization": "Shopify is the explicit target platform.",
+      "authoritySignals": "Named client examples, testimonials and named operating team; effectiveness is not independently verified.",
+      "differentiation": "A focused combination of collection execution, Reddit presence and direct strategist communication.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Homepage names the audience, workstreams, collection cadence, reporting cadence and 90-day recalibration.",
+      "source": [
+        "N-01"
+      ],
+      "sourceIds": [
+        "N-01"
+      ],
+      "sourceUrls": [
+        "https://www.seoasis.io/"
+      ],
+      "position": {
+        "x": 5,
+        "y": 5,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Company-level Shopify positioning and AI recommendations appear in the primary headline.",
+        "source": [
+          "N-01"
+        ],
+        "sourceIds": [
+          "N-01"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Use the interview artifact to demonstrate shipping, QA and learning inside this existing operating model.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-01"
+        ],
+        "sourceIds": [
+          "N-01"
+        ]
+      }
+    },
+    {
+      "id": "go-fish-digital",
+      "name": "Go Fish Digital",
+      "url": "https://gofishdigital.com/",
+      "isSubject": false,
+      "positioning": "Integrated multi-industry agency with a substantial ecommerce and Shopify practice.",
+      "services": [
+        "SEO and AI search",
+        "Digital PR",
+        "Analytics",
+        "Shopify marketing"
+      ],
+      "commercialPages": [
+        "SEO and AI Search",
+        "Shopify marketing"
+      ],
+      "contentFocus": "Search and GEO resources plus a proprietary intelligence-platform narrative.",
+      "caseStudyEvidence": "Named Chicco ecommerce SEO case and retail client references.",
+      "aeoPositioning": "Barracuda is presented as connecting website, social, paid and AI-search analysis.",
+      "shopifySpecialization": "Dedicated Shopify practice, alongside other industries.",
+      "authoritySignals": "Named case pages and attributed client testimonials; no comparative backlink or authority score is available.",
+      "differentiation": "Cross-channel intelligence and integrated marketing are prominent in the sampled offer.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The search page lists technical SEO, content, PR and analytics; the Shopify page includes SEO and paid-media execution.",
+      "source": [
+        "N-02",
+        "N-03",
+        "N-04"
+      ],
+      "sourceIds": [
+        "N-02",
+        "N-03",
+        "N-04"
+      ],
+      "sourceUrls": [
+        "https://gofishdigital.com/seo-ai-search/",
+        "https://gofishdigital.com/services/shopify/",
+        "https://gofishdigital.com/case-study/chicco-comprehensive-ecommerce-seo-program/"
+      ],
+      "position": {
+        "x": 3,
+        "y": 5,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Broad industries are visible; AI search and proprietary intelligence lead the dedicated search proposition.",
+        "source": [
+          "N-02",
+          "N-03",
+          "N-04"
+        ],
+        "sourceIds": [
+          "N-02",
+          "N-03",
+          "N-04"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Demonstrate how a focused Shopify account log connects shipped work to observed outcomes without needing a proprietary platform.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-02",
+          "N-03",
+          "N-04"
+        ],
+        "sourceIds": [
+          "N-02",
+          "N-03",
+          "N-04"
+        ]
+      }
+    },
+    {
+      "id": "outerbox",
+      "name": "OuterBox",
+      "url": "https://www.outerboxdesign.com/",
+      "isSubject": false,
+      "positioning": "Ecommerce-centered SEO and development with multiple commerce-platform capabilities.",
+      "services": [
+        "Ecommerce SEO",
+        "Shopify SEO",
+        "Development",
+        "CRO and analytics"
+      ],
+      "commercialPages": [
+        "Ecommerce SEO",
+        "Shopify SEO"
+      ],
+      "contentFocus": "Detailed platform, catalog, migration and product-data guidance.",
+      "caseStudyEvidence": "Linked anonymized home-gym Shopify case; client outcome claims are unverified here.",
+      "aeoPositioning": "AI-search optimization is explicitly included in the ecommerce service.",
+      "shopifySpecialization": "Detailed Shopify implementation coverage within a multi-platform ecommerce offer.",
+      "authoritySignals": "Public implementation details and linked cases; they establish available proof material, not relative market authority.",
+      "differentiation": "Catalog, feed, template, development and conversion work are described as one connected program.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The service pages cover collection architecture, Liquid/theme constraints, Merchant Center checks and revenue reporting.",
+      "source": [
+        "N-05",
+        "N-06",
+        "N-07"
+      ],
+      "sourceIds": [
+        "N-05",
+        "N-06",
+        "N-07"
+      ],
+      "sourceUrls": [
+        "https://www.outerboxdesign.com/digital-marketing-services/seo/shopify/",
+        "https://www.outerboxdesign.com/digital-marketing-services/seo/ecommerce/",
+        "https://www.outerboxdesign.com/work/case-studies/seo/home-gym-and-fitness-brand-lifts-organic-revenue-with-shopify-seo/"
+      ],
+      "position": {
+        "x": 4,
+        "y": 4,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Ecommerce is central but platforms are broader than Shopify; AI is integrated into the search offer.",
+        "source": [
+          "N-05",
+          "N-06",
+          "N-07"
+        ],
+        "sourceIds": [
+          "N-05",
+          "N-06",
+          "N-07"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Show template dependencies, feed checks and revenue metrics alongside collection-page tasks so recommendations can become implementation.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-05",
+          "N-06",
+          "N-07"
+        ],
+        "sourceIds": [
+          "N-05",
+          "N-06",
+          "N-07"
+        ]
+      }
+    },
+    {
+      "id": "eastside-co",
+      "name": "Eastside Co",
+      "url": "https://eastsideco.com/",
+      "isSubject": false,
+      "positioning": "Shopify and Shopify Plus agency spanning design, development and marketing.",
+      "services": [
+        "Shopify SEO",
+        "Development",
+        "Content and digital PR",
+        "International SEO"
+      ],
+      "commercialPages": [
+        "Shopify SEO",
+        "Shopify agency homepage"
+      ],
+      "contentFocus": "Shopify platform constraints, theme implementation and international growth.",
+      "caseStudyEvidence": "A named Scandibørn testimonial appears in the indexed SEO service text.",
+      "aeoPositioning": "AI-search optimization appears as a section within the Shopify SEO offer.",
+      "shopifySpecialization": "Shopify and Shopify Plus are explicit company and service audiences.",
+      "authoritySignals": "Platform specialization, named testimonial and multidisciplinary team description; no outcome comparison is claimed.",
+      "differentiation": "SEO strategists and developers are described as collaborating within Shopify themes.",
+      "classification": "OBSERVED",
+      "confidence": "Medium",
+      "evidence": "Primary-site indexed text describes collections/products, canonicals, structured data, Core Web Vitals and reporting. Direct retrieval was limited by a TLS certificate error; no site downtime or user-visible outage is inferred.",
+      "source": [
+        "N-08",
+        "N-09"
+      ],
+      "sourceIds": [
+        "N-08",
+        "N-09"
+      ],
+      "sourceUrls": [
+        "https://eastsideco.com/shopify-seo-experts",
+        "https://eastsideco.com/"
+      ],
+      "position": {
+        "x": 5,
+        "y": 3,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Shopify leads company positioning; the sampled SEO offer incorporates AI as a supporting service section.",
+        "source": [
+          "N-08",
+          "N-09"
+        ],
+        "sourceIds": [
+          "N-08",
+          "N-09"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Make implementation tickets precise enough for a Shopify developer to execute and a strategist to QA.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-08",
+          "N-09"
+        ],
+        "sourceIds": [
+          "N-08",
+          "N-09"
+        ]
+      }
+    },
+    {
+      "id": "smartsites",
+      "name": "SmartSites",
+      "url": "https://www.smartsites.com/",
+      "isSubject": false,
+      "positioning": "Broad multi-industry digital agency with ecommerce and AI SEO practices.",
+      "services": [
+        "SEO",
+        "AI search",
+        "Technical/content/PR",
+        "PPC and web design"
+      ],
+      "commercialPages": [
+        "Organic SEO",
+        "AI search optimization",
+        "Ecommerce SEO linked from SEO hub"
+      ],
+      "contentFocus": "Commercial SEO pages explain service scope and live client reporting.",
+      "caseStudyEvidence": "Named retail examples include Droyd and Sullivan Hardware; results remain company-reported.",
+      "aeoPositioning": "A dedicated AI page covers major assistants, structured answers and entity signals.",
+      "shopifySpecialization": "Shopify is supported among multiple platforms; company positioning is broader.",
+      "authoritySignals": "Named cases, named team and attributed testimonials; no relative authority score is inferred.",
+      "differentiation": "The live Client Hub and client-owned analytics are central to the public reporting story.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The SEO hub covers local, national, ecommerce and franchise practices; ecommerce text includes categories, products and feed health.",
+      "source": [
+        "N-10",
+        "N-11"
+      ],
+      "sourceIds": [
+        "N-10",
+        "N-11"
+      ],
+      "sourceUrls": [
+        "https://www.smartsites.com/organic-seo/",
+        "https://www.smartsites.com/organic-seo/ai-search-optimization/"
+      ],
+      "position": {
+        "x": 2,
+        "y": 4,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Multiple industries and SEO segments are explicit; AI has a dedicated commercial page and appears in the SEO headline.",
+        "source": [
+          "N-10",
+          "N-11"
+        ],
+        "sourceIds": [
+          "N-10",
+          "N-11"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Make the evidence trail and business decision visible in every report, including when internal metrics are unavailable.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-10",
+          "N-11"
+        ],
+        "sourceIds": [
+          "N-10",
+          "N-11"
+        ]
+      }
+    },
+    {
+      "id": "coalition-technologies",
+      "name": "Coalition Technologies",
+      "url": "https://coalitiontechnologies.com/",
+      "isSubject": false,
+      "positioning": "Full-service digital marketing with an established Shopify SEO offer.",
+      "services": [
+        "Shopify SEO",
+        "AI SEO",
+        "Development and CRO",
+        "PPC and email"
+      ],
+      "commercialPages": [
+        "Shopify SEO",
+        "Named Shopify portfolio case"
+      ],
+      "contentFocus": "Platform service explanations and multi-channel client case narratives.",
+      "caseStudyEvidence": "Rainbow Symphony case explicitly lists Shopify, SEO, AI SEO and development.",
+      "aeoPositioning": "Shopify service copy and the named case include AI-search work.",
+      "shopifySpecialization": "Dedicated Shopify service and named Shopify client work within a broader agency.",
+      "authoritySignals": "Named portfolio, service descriptions and client testimony; case outcomes are not independently audited.",
+      "differentiation": "The sampled client case connects storefront changes and several acquisition channels.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The Shopify page covers technical audits, optimized descriptions and CRO; the case describes AI content work and visibility tracking.",
+      "source": [
+        "N-12",
+        "N-13"
+      ],
+      "sourceIds": [
+        "N-12",
+        "N-13"
+      ],
+      "sourceUrls": [
+        "https://coalitiontechnologies.com/shopify-seo",
+        "https://coalitiontechnologies.com/portfolio/rainbow-symphony"
+      ],
+      "position": {
+        "x": 3,
+        "y": 4,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Shopify is a dedicated practice within a full-service offer; AI is explicit in service and case copy.",
+        "source": [
+          "N-12",
+          "N-13"
+        ],
+        "sourceIds": [
+          "N-12",
+          "N-13"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Avoid overstating SEO causality when several channels and storefront changes occur together; preserve attribution caveats.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-12",
+          "N-13"
+        ],
+        "sourceIds": [
+          "N-12",
+          "N-13"
+        ]
+      }
+    },
+    {
+      "id": "novos",
+      "name": "NOVOS",
+      "url": "https://thisisnovos.com/",
+      "isSubject": false,
+      "positioning": "Ecommerce growth specialist combining search, AEO, digital PR and paid media.",
+      "services": [
+        "Ecommerce SEO",
+        "AEO",
+        "Digital PR",
+        "Paid media and migrations"
+      ],
+      "commercialPages": [
+        "SEO",
+        "AEO / GEO",
+        "Digital PR"
+      ],
+      "contentFocus": "Ecommerce AI-search education, methodology and category-focused case stories.",
+      "caseStudyEvidence": "Named Osprey AI-search case alongside Ruggable, Vitabiotics and other ecommerce examples.",
+      "aeoPositioning": "AEO is prominent on the homepage and has a dedicated methodology page.",
+      "shopifySpecialization": "Shopify expertise is named within a wider ecommerce platform focus.",
+      "authoritySignals": "Named ecommerce cases and published education; AI case claims are attributed and not treated as verified visibility.",
+      "differentiation": "Persona, relevance and authority are connected across search and earned media.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Homepage lists ecommerce-specialist services; AEO page organizes retrieval, relevance and citation/authority work.",
+      "source": [
+        "N-14",
+        "N-15",
+        "N-16"
+      ],
+      "sourceIds": [
+        "N-14",
+        "N-15",
+        "N-16"
+      ],
+      "sourceUrls": [
+        "https://thisisnovos.com/",
+        "https://thisisnovos.com/services/geo/",
+        "https://thisisnovos.com/case-study/osprey-ai-search/"
+      ],
+      "position": {
+        "x": 5,
+        "y": 5,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Ecommerce specialist identity is explicit and AI/AEO appears in the primary commercial navigation and narrative.",
+        "source": [
+          "N-14",
+          "N-15",
+          "N-16"
+        ],
+        "sourceIds": [
+          "N-14",
+          "N-15",
+          "N-16"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Use a defined buyer-query cohort and an evidence log to distinguish citation experiments from organic revenue outcomes.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-14",
+          "N-15",
+          "N-16"
+        ],
+        "sourceIds": [
+          "N-14",
+          "N-15",
+          "N-16"
+        ]
+      }
+    },
+    {
+      "id": "searchbloom",
+      "name": "Searchbloom",
+      "url": "https://www.searchbloom.com/",
+      "isSubject": false,
+      "positioning": "Search marketing agency with explicit ecommerce and Shopify practices.",
+      "services": [
+        "Ecommerce SEO",
+        "AEO/GEO",
+        "Technical SEO",
+        "CRO and analytics"
+      ],
+      "commercialPages": [
+        "Ecommerce SEO",
+        "AEO",
+        "Shopify SEO linked in navigation"
+      ],
+      "contentFocus": "ART methodology, catalog consolidation and URL-level commercial prioritization.",
+      "caseStudyEvidence": "Ecommerce page links a Shopify beauty retailer case; the example is anonymized.",
+      "aeoPositioning": "Dedicated AEO page names MERIT, entity work and monthly visibility measurement.",
+      "shopifySpecialization": "Dedicated Shopify service is visible in navigation and ecommerce platform discussion.",
+      "authoritySignals": "Published methodology, linked case and free tool navigation; no comparative domain-authority metric is available.",
+      "differentiation": "The sampled offer puts catalog consolidation and prioritization before additional content.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Ecommerce text describes scoring URLs by potential revenue, competitive gap and effort; AEO page lists answer-first content and entity work.",
+      "source": [
+        "N-17",
+        "N-18"
+      ],
+      "sourceIds": [
+        "N-17",
+        "N-18"
+      ],
+      "sourceUrls": [
+        "https://www.searchbloom.com/ecommerce-seo/",
+        "https://www.searchbloom.com/answer-engine-optimization/"
+      ],
+      "position": {
+        "x": 3,
+        "y": 4,
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "evidence": "Ecommerce sits alongside local, national and enterprise SEO; AEO has dedicated service and methodology pages.",
+        "source": [
+          "N-17",
+          "N-18"
+        ],
+        "sourceIds": [
+          "N-17",
+          "N-18"
+        ]
+      },
+      "operatingImplication": {
+        "summary": "Validate demand, distinct assortment and existing URL overlap before creating more collections; expansion and consolidation are account-specific choices.",
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "evidence": "Proposed operator response to the observed public positioning; validate with SEOasis sales and client evidence.",
+        "source": [
+          "N-17",
+          "N-18"
+        ],
+        "sourceIds": [
+          "N-17",
+          "N-18"
+        ]
+      }
+    }
+  ],
+  "synthesis": [
+    {
+      "id": "N-insight-1",
+      "title": "AI messaging is already shared across this comparison set",
+      "summary": "All seven peers have explicit AI-search or AEO messaging in the sampled public material. AEO terminology by itself should not be treated as an exclusive differentiator.",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "evidence": "Dedicated AI/AEO pages or AI sections were observed for all seven peers; this is a bounded sample, not a market census.",
+      "source": [
+        "N-02",
+        "N-06",
+        "N-08",
+        "N-11",
+        "N-12",
+        "N-15",
+        "N-18"
+      ]
+    },
+    {
+      "id": "N-insight-2",
+      "title": "Make the operating system tangible",
+      "summary": "SEOasis already communicates a collection-production cadence, direct strategist access and quarterly recalibration. The interview can demonstrate how a strategist would organize and QA those commitments.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "The SEOasis homepage states collection production, communication and 90-day planning practices.",
+      "source": [
+        "N-01"
+      ]
+    },
+    {
+      "id": "N-insight-3",
+      "title": "Collection expansion needs an account-level gate",
+      "summary": "SEOasis emphasizes new transactional collections while Searchbloom emphasizes consolidation for some catalogs. These are compatible account-specific choices: validate unique intent, assortment and URL overlap before deciding.",
+      "classification": "INFERRED",
+      "confidence": "Medium",
+      "evidence": "The sampled methodologies emphasize different catalog conditions; no client catalog was available to select one action.",
+      "source": [
+        "N-01",
+        "N-17"
+      ]
+    },
+    {
+      "id": "N-insight-4",
+      "title": "Use case proof responsibly",
+      "summary": "Compare the specificity and availability of published cases, then ask for attribution definitions and time windows. Published agency outcomes do not support relative performance rankings.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Peers publish named and anonymized cases across different channels, periods and attribution contexts.",
+      "source": [
+        "N-04",
+        "N-07",
+        "N-13",
+        "N-16",
+        "N-17"
+      ]
+    }
+  ],
+  "limitations": [
+    "Selected peers are plausible commercial alternatives because they publicly offer ecommerce or Shopify SEO; actual SEOasis sales competitors require CRM or founder validation.",
+    "This is a positioning comparison, not a verified search-rank, AI-output, pricing, market-share or performance comparison.",
+    "Axes are ordinal analyst interpretations of sampled public positioning. A one-step difference is not a measured advantage.",
+    "Case studies and client testimonials are company-published proof. No client analytics or attribution model was independently verified.",
+    "Eastside Co evidence came from publicly indexed primary-site text after direct fetch errors. Do not infer an outage or technical SEO issue from that tool limitation.",
+    "A service not found in the sample is not evidence that the agency does not provide it.",
+    "No paid keyword, traffic, backlink or AI-visibility dataset was used."
+  ],
+  "sources": [
+    {
+      "id": "N-01",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Homepage targets Shopify brands and foregrounds AEO, collections, Reddit, direct strategist access, and quarterly recalibration.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-02",
+      "url": "https://gofishdigital.com/seo-ai-search/",
+      "title": "SEO and AI Search That Drives Growth - Go Fish Digital",
+      "accessedAt": "2026-10-14",
+      "note": "Dedicated search page describes Barracuda, technical SEO, content, PR, analytics and AI search across a multi-industry agency.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-03",
+      "url": "https://gofishdigital.com/services/shopify/",
+      "title": "Top Shopify Marketing Agency for Growth | Go Fish",
+      "accessedAt": "2026-10-14",
+      "note": "Shopify practice combines SEO with paid, lifecycle and ecommerce marketing; keyword intent and Core Web Vitals appear in the SEO section.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-04",
+      "url": "https://gofishdigital.com/case-study/chicco-comprehensive-ecommerce-seo-program/",
+      "title": "14% Organic Revenue From An Ecommerce SEO Program - Go Fish Digital",
+      "accessedAt": "2026-10-14",
+      "note": "Named Chicco ecommerce SEO case page exists; outcome figures are company-reported and are not used for comparative scoring.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-05",
+      "url": "https://www.outerboxdesign.com/digital-marketing-services/seo/shopify/",
+      "title": "Shopify SEO Services | Shopify SEO Agency Experts - OuterBox",
+      "accessedAt": "2026-10-14",
+      "note": "Shopify page covers collections, themes, structured data, product feeds, internal links, implementation and revenue reporting.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-06",
+      "url": "https://www.outerboxdesign.com/digital-marketing-services/seo/ecommerce/",
+      "title": "eCommerce SEO Services | Top-Rated eCommerce SEO Agency Since 2004 - OuterBox",
+      "accessedAt": "2026-10-14",
+      "note": "Multi-platform ecommerce service page includes technical work, category and product optimization, CRO, authority, AI search and reporting.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-07",
+      "url": "https://www.outerboxdesign.com/work/case-studies/seo/home-gym-and-fitness-brand-lifts-organic-revenue-with-shopify-seo/",
+      "title": "Shopify SEO Case Study | Home Gym & Fitness Brand",
+      "accessedAt": "2026-10-14",
+      "note": "Published anonymized Shopify case is linked from the service page. It is evidence of published proof, not independently verified results.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-08",
+      "url": "https://eastsideco.com/shopify-seo-experts",
+      "title": "Shopify SEO Agency | Expert Ecommerce SEO Services",
+      "accessedAt": "2026-10-14",
+      "note": "Public indexed service text covers Shopify-specific SEO, collection optimization, developer collaboration, monthly reporting and an AI-search section. Direct retrieval was limited by a TLS certificate error; indexed primary-site text supports this bounded review. Do not infer site downtime or a user-visible outage.",
+      "retrievalMethod": "Primary-site publicly indexed text retrieved by search; direct fetch returned 502",
+      "classification": "OBSERVED",
+      "confidence": "Medium"
+    },
+    {
+      "id": "N-09",
+      "url": "https://eastsideco.com/",
+      "title": "Shopify Platinum Partner Agency | E-Commerce Website Design & Development",
+      "accessedAt": "2026-10-14",
+      "note": "Public indexed homepage positions Eastside around Shopify design, development, marketing and applications. Direct retrieval was limited by a TLS certificate error; indexed primary-site text supports this bounded review. Do not infer site downtime or a user-visible outage.",
+      "retrievalMethod": "Primary-site publicly indexed text retrieved by search; direct fetch timed out",
+      "classification": "OBSERVED",
+      "confidence": "Medium"
+    },
+    {
+      "id": "N-10",
+      "url": "https://www.smartsites.com/organic-seo/",
+      "title": "Organic SEO Services | SEO Agency | SmartSites",
+      "accessedAt": "2026-10-14",
+      "note": "Multi-industry SEO offer includes ecommerce category/product optimization, feed health, content, PR and a Client Hub.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-11",
+      "url": "https://www.smartsites.com/organic-seo/ai-search-optimization/",
+      "title": "Best Rated AI SEO Agency Services | SmartSites",
+      "accessedAt": "2026-10-14",
+      "note": "AI service page lists major assistants, answer-focused content, entity signals and named retail examples. No AI performance figures are adopted.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-12",
+      "url": "https://coalitiontechnologies.com/shopify-seo",
+      "title": "#1 Rated Shopify SEO Services | Top Shopify SEO Agency | Get Help",
+      "accessedAt": "2026-10-14",
+      "note": "Shopify service page includes technical audits, content, CRO and AI-search messaging inside a broader digital marketing offer.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-13",
+      "url": "https://coalitiontechnologies.com/portfolio/rainbow-symphony",
+      "title": "Web Development and Marketing Results for Rainbow Symphony | Case Study",
+      "accessedAt": "2026-10-14",
+      "note": "Named Shopify case identifies SEO, AI SEO, development, PPC and email work. Company-reported outcomes are not comparative evidence.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-14",
+      "url": "https://thisisnovos.com/",
+      "title": "eCommerce Growth Agency: SEO, PR, Paid & AI | NOVOS",
+      "accessedAt": "2026-10-14",
+      "note": "Homepage explicitly positions NOVOS as ecommerce specialists across SEO, AEO, digital PR, paid media, migrations and Shopify.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-15",
+      "url": "https://thisisnovos.com/services/geo/",
+      "title": "eCommerce AI Search & GEO Strategy Services | NOVOS",
+      "accessedAt": "2026-10-14",
+      "note": "Dedicated AEO page connects retrieval, relevance, authority, citations and AI visibility measurement; terminology is attributed to NOVOS.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-16",
+      "url": "https://thisisnovos.com/case-study/osprey-ai-search/",
+      "title": "Osprey: #1 Brand in AI Answers | AI Search Case Study | NOVOS",
+      "accessedAt": "2026-10-14",
+      "note": "Named AI-search case page exists; its rank-style headline is a company claim, not a verified ranking in this project.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-17",
+      "url": "https://www.searchbloom.com/ecommerce-seo/",
+      "title": "Ecommerce SEO Services - Award-Winning Ecommerce SEO Company",
+      "accessedAt": "2026-10-14",
+      "note": "Ecommerce practice uses ART, URL prioritization, catalog consolidation, product/category content and a linked Shopify case.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "N-18",
+      "url": "https://www.searchbloom.com/answer-engine-optimization/",
+      "title": "Answer Engine Optimization (AEO) Services | Searchbloom",
+      "accessedAt": "2026-10-14",
+      "note": "Dedicated AEO page advertises entity work, answer-first content, monthly visibility measurement and the MERIT framework.",
+      "retrievalMethod": "Public page retrieved in web research",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "internalValidation": {
+    "label": "Requires Internal Access",
+    "classification": "REQUIRES INTERNAL DATA",
+    "confidence": "High",
+    "evidence": "Public positioning cannot show which peers appear in SEOasis sales cycles or why buyers choose an agency.",
+    "source": [
+      "N-01"
+    ],
+    "platform": "CRM / sales notes and founder interview",
+    "metrics": [
+      "Recurring competitor names",
+      "Win/loss reasons",
+      "Objections by prospect segment",
+      "Retention and fulfillment feedback"
+    ],
+    "whyItMatters": "Tests which comparison matters for actual buyers rather than an analyst-selected shortlist.",
+    "decision": "Refine proof assets, qualification criteria and client communication around real objections."
+  }
+}

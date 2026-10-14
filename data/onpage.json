@@ -1,0 +1,971 @@
+{
+  "metadata": {
+    "title": "On-page review: precise tests, measured decisions",
+    "accessedAt": "2026-10-14",
+    "workstream": "C — On-page SEO",
+    "sampleSize": 20,
+    "representativePages": 5,
+    "scope": "Saved public HTML only. No extra crawl, rankings, analytics or AI-authorship detection."
+  },
+  "summary": "The sampled pages have explicit positioning, one H1 and clear CTAs. Prioritize small template/editorial checks, then validate query ownership before larger page changes.",
+  "sources": [
+    {
+      "id": "CF-HOMEPAGE",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES-BRONSON-VITAMINS",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CASE-STUDIES-DR-BRANDT-GEO",
+      "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-CHATGPT-VISIBILITY-AUDIT",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-ECOMMERCE-SEO",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-ECOMMERCE-LINK-BUILDING",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-TECHNICAL-SEO-FOR-ECOMMERCE",
+      "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-AGENCY",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-COMPANY",
+      "url": "https://www.seoasis.io/shopify-seo-company",
+      "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-CONSULTANT",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-SHOPIFY-SEO-EXPERT",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-REDDIT-SEO",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-REDDIT-SEO-STRATEGY",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "pages": [
+    {
+      "id": "OP-P-HOMEPAGE",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Metadata, headings and links were extracted from the saved source HTML; effectiveness has not been measured.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE"
+      ],
+      "url": "https://www.seoasis.io/",
+      "currentTitle": "AI-Focused Shopify SEO Agency | SEOasis",
+      "currentMeta": "SEOasis is a Shopify SEO agency built for the AI era. We help ecommerce brands get recommended by ChatGPT, Perplexity, and Google with AI-ready collection pages, schema markup, and Reddit authority.",
+      "h1": "We'll Get Your Products Recommended by ChatGPT with Our Full-Stack AEO System",
+      "subheads": [
+        "Search Is Splitting in Two.Most Brands Are Only Visible in Half.",
+        "Built for Shopify Brands Burned by Agencies",
+        "One Shopify SEO System, Every Angle Covered",
+        "See How It All Connects",
+        "From Invisible to Recommended",
+        "Real Brands. Real Revenue.",
+        "What Our Clients Say",
+        "Meet the Humans Behind the Strategy",
+        "See How AI Searches for Your Brand"
+      ],
+      "intent": {
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "assessment": "Commercial discovery for established Shopify brands seeking ecommerce SEO and AI visibility support."
+      },
+      "entities": [
+        "SEOasis",
+        "Shopify",
+        "ChatGPT",
+        "Perplexity",
+        "Google",
+        "Mike Sack",
+        "Nick Winikoff",
+        "Jacob Copple",
+        "Arly Belgado"
+      ],
+      "strengths": [
+        "Title states Shopify specialization; H1 states the full-stack AEO proposition.",
+        "Named team, client testimonials, operating cadence and attributed revenue examples provide first-party proof.",
+        "The 90-day recalibration section explains how the work is revised."
+      ],
+      "checks": [
+        "Metadata is present and the brand suffix appears once; no title rewrite is warranted from the sample alone.",
+        "The system section discusses collections, blog content and Reddit; the page-level links only lead to home, case studies and legal pages.",
+        "Revenue, timing and AI-effect claims are SEOasis statements and were not independently verified."
+      ],
+      "proposedTest": {
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "action": "Retain the positioning and test one clear link from the method section to the selected Shopify commercial hub, plus an optional resource route."
+      },
+      "acceptanceGate": "Founder confirms intended conversion path; approved destination is 200, canonical and indexable; link is crawlable, descriptive and usable on mobile; preserve the primary audit CTA.",
+      "measurement": "Requires Internal Access: GSC landing-page/query data and GA4 + CRM qualified audit requests. Compare qualified requests and navigation use; no CTR or revenue lift is assumed.",
+      "cta": [
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        }
+      ],
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "semanticStructure": {
+        "h1Count": 1,
+        "h2Count": 9,
+        "note": "Single H1 and topic sections are present. Footer headings use H4. Semantic presence alone does not establish usability or ranking performance."
+      }
+    },
+    {
+      "id": "OP-P-SHOPIFY-SEO-AGENCY",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Metadata, headings and links were extracted from the saved source HTML; effectiveness has not been measured.",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY"
+      ],
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "currentTitle": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "currentMeta": "SEOasis is a Shopify SEO agency that builds collection pages AI crawlers can parse. $1.1M+ organic revenue generated. No blogs, no backlinks.",
+      "h1": "The Shopify SEO Agency That Builds for AI Search",
+      "subheads": [
+        "Why Most general ecommerce Brands Are Invisible to AI",
+        "What We Do Differently",
+        "How We Get Results",
+        "Real Brands. Real Revenue.",
+        "Everything You Need to Know About general ecommerce SEO",
+        "Frequently Asked Questions",
+        "Book a Free Strategy Call"
+      ],
+      "intent": {
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "assessment": "Commercial agency selection with a Shopify-specific service proposition and supporting implementation detail."
+      },
+      "entities": [
+        "Shopify",
+        "SEOasis",
+        "ChatGPT",
+        "Perplexity",
+        "Google AI Overviews",
+        "TheFeed",
+        "Roofnest",
+        "JSON-LD"
+      ],
+      "strengths": [
+        "H1 distinguishes the Shopify agency service and AI-search positioning.",
+        "Audit / Build / Grow process and links to TheFeed and Roofnest proof are present.",
+        "Hero links offer a strategy call or a process explanation."
+      ],
+      "checks": [
+        "The title repeats the brand suffix.",
+        "H2s contain the wording \"general ecommerce\" on this Shopify-specific URL.",
+        "Shared section headings also appear on /shopify-seo-company; query overlap and performance impact remain unknown.",
+        "The /shopify-seo-expert anchor includes a title-like pipe string; a shorter descriptive anchor could improve reading clarity."
+      ],
+      "proposedTest": {
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "action": "Remove the extra title suffix; review the two shared H2s for Shopify-specific wording; retain the page unless query-by-page evidence supports a different mapping."
+      },
+      "acceptanceGate": "Rendered title has one brand suffix; H1 remains unique and aligned; headings and anchors read naturally; editorial reviewer checks factual claims, Shopify constraints and proof consistency.",
+      "measurement": "Requires Internal Access: GSC query × page data, GA4 lead events and CRM lead quality. Inspect primary query ownership before changing overlapping URLs.",
+      "cta": [
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "#final-cta",
+          "text": "Book a Strategy Call"
+        },
+        {
+          "href": "#how-it-works",
+          "text": "See How It Works"
+        }
+      ],
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-agency",
+        "https://www.seoasis.io/shopify-seo-expert",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "semanticStructure": {
+        "h1Count": 1,
+        "h2Count": 7,
+        "note": "Single H1 and topic sections are present. Footer headings use H4. Semantic presence alone does not establish usability or ranking performance."
+      }
+    },
+    {
+      "id": "OP-P-ECOMMERCE-CATEGORY-PAGE-SEO",
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Metadata, headings and links were extracted from the saved source HTML; effectiveness has not been measured.",
+      "source": {
+        "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+        "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "currentTitle": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "currentMeta": "Category pages are your revenue engine. We build collection pages that rank in AI search, convert browsers into buyers, and generate measurable revenue.",
+      "h1": "Ecommerce Category Page SEO That Turns Collections Into Revenue Engines",
+      "subheads": [
+        "Why Most general ecommerce Brands Are Invisible to AI",
+        "What We Do Differently",
+        "How We Get Results",
+        "Real Brands. Real Revenue.",
+        "Everything You Need to Know About general ecommerce SEO",
+        "Frequently Asked Questions",
+        "See Where You're Invisible to AI Search"
+      ],
+      "intent": {
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "assessment": "Commercial investigation of collection/category-page SEO and how SEOasis builds revenue-focused ecommerce landing pages."
+      },
+      "entities": [
+        "Shopify",
+        "SEOasis",
+        "category pages",
+        "collection pages",
+        "Search Console",
+        "TheFeed",
+        "Roofnest",
+        "JSON-LD"
+      ],
+      "strengths": [
+        "Title, meta and H1 center category/collection pages and business outcomes.",
+        "The deep-dive headings cover intent, schema, linking, facets and conversion layout.",
+        "Proof links and a strategy-call CTA connect the method to a next action."
+      ],
+      "checks": [
+        "Two H2s retain the shared phrase \"general ecommerce\" instead of the category-page subject.",
+        "The page includes a hub-and-spoke linking explanation, but no direct source-HTML link to /technical-seo-for-ecommerce.",
+        "Broad claims about AI parsing, universal conversion uplifts and ranking timelines need evidence review before reuse in client documentation. They are not endorsed as facts here."
+      ],
+      "proposedTest": {
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "action": "Make headings specific to category-page intent and add one contextual link to the technical implementation explanation if the account strategist confirms that destination."
+      },
+      "acceptanceGate": "Use factual, supportable copy; no fixed word count or guaranteed ranking timeline as a release criterion; links match reader intent and approved page mapping.",
+      "measurement": "Requires Internal Access: GSC nonbrand query/page signals and qualified audit-request outcomes. For clients add inventory, margin and collection revenue before prioritizing scale.",
+      "cta": [
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "#final-cta",
+          "text": "Book a Strategy Call"
+        },
+        {
+          "href": "#how-it-works",
+          "text": "See How It Works"
+        }
+      ],
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/roofnest",
+        "https://www.seoasis.io/case-studies/sports-nutrition-brand",
+        "https://www.seoasis.io/ecommerce-category-page-seo",
+        "https://www.seoasis.io/ecommerce-seo-services",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/shopify-seo-consultant",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "semanticStructure": {
+        "h1Count": 1,
+        "h2Count": 7,
+        "note": "Single H1 and topic sections are present. Footer headings use H4. Semantic presence alone does not establish usability or ranking performance."
+      }
+    },
+    {
+      "id": "OP-P-CASE-STUDIES__BRONSON-VITAMINS-ORGANIC-SHOPPING",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Metadata, headings and links were extracted from the saved source HTML; effectiveness has not been measured.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+      ],
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "currentTitle": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "currentMeta": "SEOasis case study: one month of Google Merchant Center optimization nearly doubled Bronson Vitamins' organic Shopping revenue (+88.7%), with conversion rate +51% and AOV +39% — from fewer, far more qualified sessions.",
+      "h1": "Nearly Doubling Bronson's Organic Shopping Revenue",
+      "subheads": [
+        "About Bronson Vitamins",
+        "Nearly Double the Revenue From Fewer Sessions",
+        "Why Organic Shopping Outperformed",
+        "How We Did It: Merchant Center Optimization",
+        "More Case Studies",
+        "Free Traffic. Real Revenue."
+      ],
+      "intent": {
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "assessment": "Proof-led evaluation of Merchant Center and organic Shopping work, followed by an audit request."
+      },
+      "entities": [
+        "Bronson Vitamins",
+        "Google Merchant Center",
+        "GA4",
+        "Shopify",
+        "GTIN",
+        "Organic Shopping"
+      ],
+      "strengths": [
+        "H1 describes the case-study outcome; visible copy names May 2026 and a comparison period.",
+        "Method sections describe product attributes, feed optimization, titles and diagnostics.",
+        "Related case studies and a free-audit CTA are present."
+      ],
+      "checks": [
+        "The title repeats the brand suffix.",
+        "Revenue and conversion figures are first-party reported results, not metrics independently audited by this project.",
+        "The comparison says May 2026 versus prior period; a reproducible methodology note could clarify exact dates, channel definition and attribution limitations."
+      ],
+      "proposedTest": {
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "action": "Deduplicate the title suffix and propose an approved measurement note describing comparison dates, channel scope and confounders without exposing client data."
+      },
+      "acceptanceGate": "Client permission and source export are confirmed internally; definitions and date ranges match; reported outcome and causal interpretation remain distinct; no unapproved client data is published.",
+      "measurement": "Requires Internal Access: GA4 Organic Shopping definition and revenue export, Merchant Center free-listing performance and release log. Use to validate attribution and the next feed test.",
+      "cta": [
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Book Your Free Audit"
+        }
+      ],
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "https://www.seoasis.io/case-studies/organic-revenue-growth-90-days",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "semanticStructure": {
+        "h1Count": 1,
+        "h2Count": 6,
+        "note": "Single H1 and topic sections are present. Footer headings use H4. Semantic presence alone does not establish usability or ranking performance."
+      }
+    },
+    {
+      "id": "OP-P-BLOG__HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Metadata, headings and links were extracted from the saved source HTML; effectiveness has not been measured.",
+      "source": {
+        "id": "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+      ],
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "currentTitle": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "currentMeta": "Learn how to choose a Shopify SEO agency that builds revenue-generating collection pages, implements AI-parseable schema, and tracks real results. Not vanity me",
+      "h1": "How to Choose a Shopify SEO Agency That Drives Revenue",
+      "subheads": [
+        "What Makes Shopify SEO Different From General Ecommerce Optimization",
+        "Step 1: Verify They Actually Work on Shopify Stores",
+        "Step 2: Evaluate Their Methodology (Not Their Promises)",
+        "Step 3: Demand Revenue Metrics, Not Vanity Numbers",
+        "Step 4: Understand What They Actually Do (And What They Don't)",
+        "Step 5: Assess Their Understanding of AI-Era Search",
+        "Step 6: Review Their Communication and Support Structure",
+        "Step 7: Verify They Understand Shopify's Technical Constraints",
+        "Step 8: Confirm They Have a Clear Onboarding Process",
+        "Step 9: Evaluate Pricing Transparency",
+        "Step 10: Trust Your Gut on Cultural Fit",
+        "Frequently Asked Questions",
+        "Conclusion",
+        "Frequently Asked Questions",
+        "More from the Blog",
+        "Want Results Like the Ones You Just Read About?"
+      ],
+      "intent": {
+        "classification": "INFERRED",
+        "confidence": "Medium",
+        "assessment": "Buyer education before an agency decision; useful support for the primary Shopify commercial page."
+      },
+      "entities": [
+        "Mike Sack",
+        "Shopify",
+        "SEOasis",
+        "ChatGPT",
+        "Perplexity",
+        "Google AI Overviews",
+        "GA4",
+        "Rich Results Test"
+      ],
+      "strengths": [
+        "Article names Mike Sack, has a publication date and a section-linked table of contents.",
+        "Questions about process, revenue reporting and platform experience support buyer decisions.",
+        "Commercial and related-article links give readers onward paths."
+      ],
+      "checks": [
+        "Two source-HTML H2s read \"Frequently Asked Questions\"; the question \"How to Choose the Right SEO Agency?\" occurs twice outside scripts.",
+        "A contextual commercial link targets /best-shopify-seo-agency; the optimal primary commercial destination requires a query/page map.",
+        "Public HTML cannot reliably establish whether text was AI-authored. Editorial quality should be assessed through specificity, accuracy and evidence, not an AI detector."
+      ],
+      "proposedTest": {
+        "classification": "OPPORTUNITY",
+        "confidence": "Medium",
+        "action": "Review whether the body FAQ and separate FAQ component intentionally repeat the same answers; keep one clear reader presentation if the rendered page confirms duplication."
+      },
+      "acceptanceGate": "Check desktop/mobile rendering and accordion accessibility; one intended FAQ presentation; visible content and FAQ markup agree; author/date and useful section links remain present.",
+      "measurement": "Requires Internal Access: GSC informational and commercial query ownership plus GA4 article-to-audit journey and CRM quality. No assumed rich-result or AI citation benefit.",
+      "cta": [
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Get Pricing"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Book a Free Call"
+        },
+        {
+          "href": "/#final-cta",
+          "text": "Book Your Free Audit"
+        }
+      ],
+      "internalLinks": [
+        "https://www.seoasis.io/",
+        "https://www.seoasis.io/best-shopify-seo-agency",
+        "https://www.seoasis.io/blog",
+        "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "https://www.seoasis.io/blog/how-to-optimize-bigcommerce-stores-for-search-engines",
+        "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+        "https://www.seoasis.io/case-studies",
+        "https://www.seoasis.io/privacy-policy",
+        "https://www.seoasis.io/terms-of-service"
+      ],
+      "semanticStructure": {
+        "h1Count": 1,
+        "h2Count": 16,
+        "note": "Single H1 and topic sections are present. Footer headings use H4. Semantic presence alone does not establish usability or ranking performance."
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "OP-01",
+      "title": "Small title-template QA opportunity",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "7 of 20 sampled titles end with '| SEOasis | SEOasis'. This is repeated branding within each title, not evidence of duplicate titles across different URLs.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+        "CF-ECOMMERCE-SEO",
+        "CF-ECOMMERCE-LINK-BUILDING",
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-SHOPIFY-SEO-COMPANY",
+        "CF-REDDIT-SEO",
+        "CF-REDDIT-SEO-STRATEGY"
+      ],
+      "recommendedAction": "Review the page title + site title template; apply branding once and verify the rendered title on representative routes.",
+      "severity": "Low",
+      "impact": "Low",
+      "effort": "Low",
+      "businessImplication": "Cleaner search-result wording and a more consistent brand presentation; no measured CTR benefit is asserted.",
+      "acceptanceGate": "One appropriate brand suffix; page subject retained; source HTML and rendered browser title agree."
+    },
+    {
+      "id": "OP-02",
+      "title": "Page-specific headings worth an editorial pass",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Both sampled Shopify agency/company pages and the category-page service use H2 strings containing \"general ecommerce\".",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-SHOPIFY-SEO-COMPANY",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "recommendedAction": "Review shared template text against the page brief and intended audience.",
+      "severity": "Low",
+      "impact": "Low",
+      "effort": "Low",
+      "businessImplication": "Could strengthen specificity and interview/client-facing polish.",
+      "acceptanceGate": "Every heading fits the URL subject and has an editorial reviewer."
+    },
+    {
+      "id": "OP-03",
+      "title": "FAQ presentation worth validating in the rendered article",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The agency-selection article has two H2 FAQ sections and the same first question twice in non-script HTML.",
+      "source": {
+        "id": "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-BLOG-HOW-TO-CHOOSE-A-SHOPIFY-SEO-AGENCY"
+      ],
+      "recommendedAction": "Inspect the rendered body and FAQ component together; remove unintended repetition after confirming presentation intent.",
+      "severity": "Low",
+      "impact": "Low",
+      "effort": "Low",
+      "businessImplication": "A shorter, clearer reading path could support buyer confidence.",
+      "acceptanceGate": "One intended presentation, accessible controls and markup consistent with visible content."
+    },
+    {
+      "id": "OP-04",
+      "title": "Commercial overlap is a validation question",
+      "classification": "INFERRED",
+      "confidence": "Medium",
+      "evidence": "Shopify agency and company pages share several section headings and Audit / Build / Grow framing but have distinct H1s and URLs. No rankings or query ownership were accessed.",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-SHOPIFY-SEO-COMPANY"
+      ],
+      "recommendedAction": "Compare query-by-page intent, leads and indexing before choosing differentiate, retain or consolidate. No redirect recommendation is made from titles alone.",
+      "impact": "Medium",
+      "effort": "Medium",
+      "businessImplication": "Avoid changing a useful landing page based only on lexical similarity.",
+      "acceptanceGate": "Approved query-to-page mapping, baseline, evidence for chosen action and rollback plan."
+    },
+    {
+      "id": "OP-05",
+      "title": "Keep proof and interpretation separate",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "Case study copy includes reported outcomes and a claim that a channel comparison confirms the Merchant Center work as the driver; source analytics and experimental controls are not available.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+      ],
+      "recommendedAction": "If revising proof pages, add an approved method note and describe attribution limits; use first-party reported results as proof statements, not independent causal validation.",
+      "impact": "Medium",
+      "effort": "Medium",
+      "businessImplication": "Maintains credible evidence standards in client reporting and AI-readable content.",
+      "acceptanceGate": "Exact date windows, channel definitions, permission and confounders confirmed internally."
+    }
+  ],
+  "beforeAfterTests": [
+    {
+      "id": "OP-T01",
+      "title": "Deduplicate Shopify page title branding",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "The current title ends in two identical brand suffixes.",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY"
+      ],
+      "field": "title",
+      "before": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "after": "Shopify SEO Agency Built for AI Search | SEOasis",
+      "testPurpose": "Correct repeated branding; preserve the commercial proposition.",
+      "measure": "Requires Internal Access: GSC query/page CTR with stable-position and query-mix context. No promised improvement."
+    },
+    {
+      "id": "OP-T02",
+      "title": "Deduplicate case-study title branding",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "The current title ends in two identical brand suffixes.",
+      "source": {
+        "id": "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-CASE-STUDIES-BRONSON-VITAMINS-ORGANIC-SHOPPING"
+      ],
+      "field": "title",
+      "before": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "after": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis",
+      "testPurpose": "Correct repeated branding without changing the subject.",
+      "measure": "Requires Internal Access: GSC query/page snippet performance; clean rendering is the acceptance criterion."
+    },
+    {
+      "id": "OP-T03",
+      "title": "Align deep-dive heading with the category-page brief",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "The category-page URL has an H2 ending in \"general ecommerce SEO\".",
+      "source": {
+        "id": "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+        "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ],
+      "field": "H2",
+      "before": "Everything You Need to Know About general ecommerce SEO",
+      "after": "How Ecommerce Category Page SEO Works",
+      "testPurpose": "Editorial specificity and simpler reading; proposed wording requires owner review.",
+      "measure": "Rendered readability QA; Requires Internal Access for subsequent behavior or conversion analysis."
+    },
+    {
+      "id": "OP-T04",
+      "title": "Shorten a title-like internal anchor",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "evidence": "The agency page links to /shopify-seo-expert using \"SEO Shopify Expert | AI-Era Optimization for Ecommerce Brands\".",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY"
+      ],
+      "field": "anchor",
+      "before": "SEO Shopify Expert | AI-Era Optimization for Ecommerce Brands",
+      "after": "Shopify SEO expertise",
+      "testPurpose": "Readable descriptive anchor; keep destination only if the intent map supports it.",
+      "measure": "Approved destination and editorial QA; no ranking lift promised."
+    }
+  ],
+  "privateInputs": [
+    {
+      "id": "OP-D01",
+      "title": "Query ownership and snippet response",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "No Search Console account was accessed.",
+      "source": {
+        "id": "CF-SHOPIFY-SEO-AGENCY",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-SHOPIFY-SEO-AGENCY"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Query × landing-page clicks, impressions, CTR and average position; canonical/indexing inspection.",
+      "whyItMatters": "Separates shared wording from actual intent competition and supplies a snippet baseline.",
+      "decision": "Retain, differentiate, consolidate or change snippet wording."
+    },
+    {
+      "id": "OP-D02",
+      "title": "Qualified commercial outcomes",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "No analytics or CRM account was accessed.",
+      "source": {
+        "id": "CF-HOMEPAGE",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved direct HTTP response and server-delivered HTML; no browser rendering or private performance data.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "CF-HOMEPAGE"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "GA4 + CRM",
+      "metric": "Organic landing-page audit requests, qualified leads and agreed downstream revenue attribution.",
+      "whyItMatters": "Distinguishes traffic and form starts from commercially useful demand.",
+      "decision": "Prioritize page and CTA tests by lead quality, rather than rankings alone."
+    }
+  ],
+  "editorialReview": {
+    "classification": "OPPORTUNITY",
+    "confidence": "Medium",
+    "rule": "No AI-sounding-copy score. Review accuracy, unique detail, evidence, audience fit, repetition, dated platform guidance and clarity with a human editor.",
+    "doneDefinition": "Brief approved → copy checked → metadata/headings/links/schema verified → mobile CTA journey tested → release logged → measurement review owned."
+  }
+}

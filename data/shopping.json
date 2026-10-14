@@ -1,0 +1,1199 @@
+{
+  "metadata": {
+    "title": "Organic Shopping: feed quality to commercial learning",
+    "workstream": "L — Organic Google Shopping / product feeds",
+    "accessedAt": "2026-10-14",
+    "scope": "Reusable client-account audit informed by SEOasis public methodology. SEOasis itself is an agency; no merchant account was audited.",
+    "limitations": "No Merchant Center, GA4, Shopify or product-feed account access. No client eligibility, feed quality, revenue, conversion or incremental-lift conclusion."
+  },
+  "summary": "SEOasis publicly connects feed ownership, product attributes and controlled listing improvements to revenue-oriented reporting. Start with eligibility and measurement, then test a viable product cohort.",
+  "findings": [
+    {
+      "id": "L-F01",
+      "title": "Feed optimization is already part of SEOasis’s public playbook",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The Bronson case describes feed rebuilding, required attributes, title/description enrichment and ongoing issue monitoring. This verifies published methodology, not completed client implementation.",
+      "source": {
+        "id": "SRC-DI-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public HTML describes Merchant Center feed ownership, attribute enrichment, title work, diagnostics and reporting. No private account or causal validation.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPPING"
+      ],
+      "businessImplication": "A client operating board can use the agency’s existing language: feed quality → eligible products → qualified shopping visits → commercial outcomes."
+    },
+    {
+      "id": "L-F02",
+      "title": "The founder describes supplemental feeds and title/image tests",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "The attributable Productrise interview discusses supplemental-feed workflows and testing product presentation; vendor-hosted results were not independently audited.",
+      "source": {
+        "id": "src-company-interview",
+        "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+        "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+        "accessedAt": "2026-10-14",
+        "note": "First-person founder Q&A hosted by a vendor; supplemental feeds and title/image experiments are attributable methodology. Outcomes are self-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-interview"
+      ],
+      "businessImplication": "Offer a bounded test framework with an owner, change log, comparable product cohort and stop/scale decision."
+    },
+    {
+      "id": "L-F03",
+      "title": "Free listings serve product pages",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "evidence": "Google documents free listings as product-page discovery; collection-page strategy is a separate, complementary client workstream.",
+      "source": {
+        "id": "SRC-L-FREE",
+        "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+        "title": "Free listings for products - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-FREE"
+      ],
+      "businessImplication": "Map feeds to product/variant destinations and collections to category intent. Keep separate metrics for each."
+    },
+    {
+      "id": "L-F04",
+      "title": "Reported channel growth is a useful hypothesis, not an incrementality estimate",
+      "classification": "INFERRED",
+      "confidence": "High",
+      "evidence": "The Bronson case compares channels and attributes an outcome to feed work. Without baseline exports, treatment/control design and trading context, the causal size of the contribution remains undetermined.",
+      "source": {
+        "id": "SRC-DI-SHOPPING",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public HTML describes Merchant Center feed ownership, attribute enrichment, title work, diagnostics and reporting. No private account or causal validation.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-DI-SHOPPING",
+        "SRC-O-ATTRIBUTION"
+      ],
+      "businessImplication": "Ask for period definitions, channel setup, sample size, stock/promotion history and reconciled orders before forecasting."
+    },
+    {
+      "id": "L-F05",
+      "title": "Account health and outcomes need private validation",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "No client account, catalog export or order data was available to this public study.",
+      "source": {
+        "id": "SRC-L-PERFORMANCE",
+        "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+        "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-PERFORMANCE",
+        "SRC-L-TRACK"
+      ],
+      "display": "Requires Internal Access",
+      "platform": "Merchant Center + GA4 + Shopify",
+      "metric": "Eligible items, free-listing clicks, attributed orders and reconciled net sales",
+      "whyItMatters": "Distinguishes feed delivery, acquisition and commercial outcome.",
+      "decision": "Fix eligibility first, test presentation next, scale only after commercially useful evidence."
+    }
+  ],
+  "auditTemplate": [
+    {
+      "id": "L-A01",
+      "title": "Merchant Center ownership and destination setup",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-FREE",
+        "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+        "title": "Free listings for products - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-FREE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify channel configuration",
+      "check": "Verify claimed website, markets, account access, linked store and free-listing destination.",
+      "metric": "Configured markets, destinations and account-level issues",
+      "whyItMatters": "Confirms that the intended catalog can participate.",
+      "decision": "Resolve setup or policy constraints before optimizing copy.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A02",
+      "title": "Primary feed and stable IDs",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center data sources + Shopify catalog",
+      "check": "Map source owner, refresh cadence, item/variant IDs and processed output.",
+      "metric": "Feed processing errors, refresh age and ID mapping",
+      "whyItMatters": "Stable joins support reliable testing and order reconciliation.",
+      "decision": "Fix sync or identity conflicts before cohort testing.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A03",
+      "title": "Titles",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-TITLE",
+        "url": "https://support.google.com/merchants/answer/6324415?hl=en",
+        "title": "Title [title] and structured title [structured_title] - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official title rules distinguish variants and accurate product identity; AI-generated titles require structured_title and the specified digital source type.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-TITLE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center processed items + approved catalog",
+      "check": "Test buyer-relevant attribute order; distinguish variants and preserve accurate product identity.",
+      "metric": "Title completeness and cohort free-listing CTR",
+      "whyItMatters": "Clear product identity may improve qualified matching.",
+      "decision": "Pilot one title pattern; retain a comparison cohort.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A04",
+      "title": "Descriptions",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center processed feed + catalog owner",
+      "check": "Check product-specific accuracy, useful attributes and landing-page consistency; validate AI-text submission format.",
+      "metric": "Description coverage and issue diagnostics",
+      "whyItMatters": "Reduces ambiguous product information.",
+      "decision": "Repair missing or inconsistent fields before expanding tests.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A05",
+      "title": "GTIN / MPN / brand",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + manufacturer/catalog master",
+      "check": "Verify genuine assigned identifiers; never invent a GTIN or MPN. Apply product-specific requirements.",
+      "metric": "Identifier coverage and identifier-related issues",
+      "whyItMatters": "Correct identifiers help product identity.",
+      "decision": "Resolve source data; record legitimate exceptions.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A06",
+      "title": "Product type",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify catalog taxonomy",
+      "check": "Review the merchant’s category hierarchy for consistent segmentation.",
+      "metric": "Product-type coverage and mapping exceptions",
+      "whyItMatters": "Supports category analysis.",
+      "decision": "Standardize taxonomy before comparing product cohorts.",
+      "priority": "P2",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A07",
+      "title": "Google product category",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center processed product data",
+      "check": "Check the correct Google taxonomy selection where submitted or required.",
+      "metric": "Category-related issues and mapping exceptions",
+      "whyItMatters": "Misclassification can affect eligibility.",
+      "decision": "Correct mappings using current specification.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A08",
+      "title": "Supplemental sources / attribute rules",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SUPPLEMENT",
+        "url": "https://support.google.com/merchants/answer/14990942?hl=en",
+        "title": "Create a product data source - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Supplemental sources update existing primary-source items and require Advanced data source management. They do not independently create products.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SUPPLEMENT"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center advanced data source management",
+      "check": "Audit overrides, source precedence and ID joins; retain rollback values.",
+      "metric": "Override coverage, unmatched IDs and rule errors",
+      "whyItMatters": "An override layer can separate listing tests from store-copy changes.",
+      "decision": "Use a small matched cohort; verify processed values before scaling.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A09",
+      "title": "Images",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-IMAGE",
+        "url": "https://support.google.com/merchants/answer/6324350?hl=en",
+        "title": "Image link [image_link] - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official image guidance covers crawl access, product fidelity and image requirements. The page announces 500 × 500 enforcement from January 31, 2027; re-check at release.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-IMAGE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + image asset library",
+      "check": "Check real product/variant fidelity, crawl access, current size rules and absence of promotional overlays.",
+      "metric": "Image issues, processed image URLs and cohort CTR",
+      "whyItMatters": "Product clarity is both a feed and shopper concern.",
+      "decision": "Repair eligibility issues; then test compliant image presentation.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A10",
+      "title": "Price / sale price / currency",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify pricing",
+      "check": "Compare feed, structured data, product page and checkout.",
+      "metric": "Price mismatches and sync delays",
+      "whyItMatters": "Unexpected prices can interrupt buying.",
+      "decision": "Resolve price synchronization before acquisition tests.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A11",
+      "title": "Availability / variants",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify inventory",
+      "check": "Compare feed and live inventory; verify selected variant destination.",
+      "metric": "Availability mismatches and in-stock cohort share",
+      "whyItMatters": "Out-of-stock traffic can distort commercial evaluation.",
+      "decision": "Suppress or update invalid offers; prioritize stocked products.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A12",
+      "title": "Shipping / returns / eligibility",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-FREE",
+        "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+        "title": "Free listings for products - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-FREE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + approved merchant policies",
+      "check": "Inspect market-specific shipping, return settings and product/account issues.",
+      "metric": "Eligible/limited/disapproved item counts by destination",
+      "whyItMatters": "Eligibility is a prerequisite, not a promise of impressions.",
+      "decision": "Clear blockers and QA purchase paths.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A13",
+      "title": "Product ratings",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-RATINGS",
+        "url": "https://support.google.com/merchants/answer/14620732?hl=en",
+        "title": "Upload a product reviews data source to Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official product-review data-source documentation; review-program setup must be inspected separately from ordinary product feeds.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-RATINGS"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + review provider",
+      "check": "Verify review provenance, product matching and applicable program setup.",
+      "metric": "Review-data processing issues and product matches",
+      "whyItMatters": "Trust evidence needs an accountable source.",
+      "decision": "Repair mapping or defer until a valid review source exists.",
+      "priority": "P2",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A14",
+      "title": "Free-listing performance",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-PERFORMANCE",
+        "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+        "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-PERFORMANCE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center Analytics",
+      "check": "Segment free traffic from ads; inspect product/category/market cohorts.",
+      "metric": "Free-listing impressions, clicks and CTR",
+      "whyItMatters": "Separates exposure and click response.",
+      "decision": "Select commercially relevant candidates for controlled tests.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A15",
+      "title": "Orders and revenue reconciliation",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-TRACK",
+        "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+        "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-TRACK"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + GA4 + Shopify",
+      "check": "Validate tags and purchase/refund capture before evaluating feed work.",
+      "metric": "Attributed purchases, purchase revenue and reconciled net sales",
+      "whyItMatters": "Clicks alone do not establish valuable growth.",
+      "decision": "Continue, revise or stop a test using reconciled outcomes.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    }
+  ],
+  "experiments": [
+    {
+      "id": "L-X01",
+      "title": "Pilot one title structure in a matched product cohort",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed experiment; no baseline, lift or target is assumed.",
+      "source": {
+        "id": "src-company-interview",
+        "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+        "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+        "accessedAt": "2026-10-14",
+        "note": "First-person founder Q&A hosted by a vendor; supplemental feeds and title/image experiments are attributable methodology. Outcomes are self-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-interview",
+        "SRC-L-TITLE"
+      ],
+      "hypothesis": "A clearer product attribute order could improve qualified free-listing visits.",
+      "prerequisites": [
+        "Eligible, in-stock products",
+        "Stable product IDs",
+        "Validated purchase/refund data",
+        "Approved copy and source rollback"
+      ],
+      "design": "Choose comparable product cohorts using actual category, stock and prior performance; change titles only for the treatment group. Log promotions, price and other changes.",
+      "primaryMetric": "Reconciled contribution or net sales per eligible product, subject to access and sufficient data",
+      "secondaryMetrics": [
+        "Free-listing clicks and CTR",
+        "Purchases",
+        "Revenue per session"
+      ],
+      "guardrails": [
+        "Eligibility/disapproval changes",
+        "Product stock",
+        "Refunds",
+        "Margin",
+        "Other changes"
+      ],
+      "decision": "Pre-register the observation window and minimum useful effect after baseline access. Scale, revise, continue collecting data or stop; do not force a significance claim."
+    },
+    {
+      "id": "L-X02",
+      "title": "Test images as a separate release",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "evidence": "Proposed test reflects public founder commentary.",
+      "source": {
+        "id": "src-company-interview",
+        "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+        "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+        "accessedAt": "2026-10-14",
+        "note": "First-person founder Q&A hosted by a vendor; supplemental feeds and title/image experiments are attributable methodology. Outcomes are self-reported.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "src-company-interview",
+        "SRC-L-IMAGE"
+      ],
+      "design": "Run after title testing or on a separate cohort. Check real product fidelity and current policies; keep source assets and rollback ready.",
+      "primaryMetric": "Qualified shopping response and reconciled product outcomes",
+      "decision": "Retain the variant only when evidence justifies it; distinguish low data volume from no effect."
+    }
+  ],
+  "releaseGates": [
+    "Named owner and approved source-of-truth fields",
+    "Processed-item spot check after feed refresh",
+    "Product/variant destination, price and stock match",
+    "No new blocking issues in the reviewed cohort",
+    "Free-listing and paid traffic separated",
+    "Purchase/refund QA and order reconciliation",
+    "Change log, reporting window and rollback recorded"
+  ],
+  "sources": [
+    {
+      "id": "src-company-interview",
+      "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+      "title": "Interview with Mike Sack on organic shopping - Productrise Blog",
+      "accessedAt": "2026-10-14",
+      "note": "First-person founder Q&A hosted by a vendor; supplemental feeds and title/image experiments are attributable methodology. Outcomes are self-reported.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-DI-SHOPPING",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Saved public HTML describes Merchant Center feed ownership, attribute enrichment, title work, diagnostics and reporting. No private account or causal validation.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-SPEC",
+      "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+      "title": "Product data specification - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-FREE",
+      "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+      "title": "Free listings for products - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-TITLE",
+      "url": "https://support.google.com/merchants/answer/6324415?hl=en",
+      "title": "Title [title] and structured title [structured_title] - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official title rules distinguish variants and accurate product identity; AI-generated titles require structured_title and the specified digital source type.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-IMAGE",
+      "url": "https://support.google.com/merchants/answer/6324350?hl=en",
+      "title": "Image link [image_link] - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official image guidance covers crawl access, product fidelity and image requirements. The page announces 500 × 500 enforcement from January 31, 2027; re-check at release.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-SUPPLEMENT",
+      "url": "https://support.google.com/merchants/answer/14990942?hl=en",
+      "title": "Create a product data source - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Supplemental sources update existing primary-source items and require Advanced data source management. They do not independently create products.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-RATINGS",
+      "url": "https://support.google.com/merchants/answer/14620732?hl=en",
+      "title": "Upload a product reviews data source to Merchant Center - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official product-review data-source documentation; review-program setup must be inspected separately from ordinary product feeds.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-TRACK",
+      "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+      "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-L-PERFORMANCE",
+      "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+      "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+      "accessedAt": "2026-10-14",
+      "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-O-ATTRIBUTION",
+      "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+      "title": "Get started with attribution - Analytics Help",
+      "accessedAt": "2026-10-14",
+      "note": "Attribution assigns credit under a specified model. Credited revenue is not proof of causal incremental lift.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "internalDataInputs": [
+    {
+      "id": "L-A01",
+      "title": "Merchant Center ownership and destination setup",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-FREE",
+        "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+        "title": "Free listings for products - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-FREE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify channel configuration",
+      "check": "Verify claimed website, markets, account access, linked store and free-listing destination.",
+      "metric": "Configured markets, destinations and account-level issues",
+      "whyItMatters": "Confirms that the intended catalog can participate.",
+      "decision": "Resolve setup or policy constraints before optimizing copy.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A02",
+      "title": "Primary feed and stable IDs",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center data sources + Shopify catalog",
+      "check": "Map source owner, refresh cadence, item/variant IDs and processed output.",
+      "metric": "Feed processing errors, refresh age and ID mapping",
+      "whyItMatters": "Stable joins support reliable testing and order reconciliation.",
+      "decision": "Fix sync or identity conflicts before cohort testing.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A03",
+      "title": "Titles",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-TITLE",
+        "url": "https://support.google.com/merchants/answer/6324415?hl=en",
+        "title": "Title [title] and structured title [structured_title] - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official title rules distinguish variants and accurate product identity; AI-generated titles require structured_title and the specified digital source type.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-TITLE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center processed items + approved catalog",
+      "check": "Test buyer-relevant attribute order; distinguish variants and preserve accurate product identity.",
+      "metric": "Title completeness and cohort free-listing CTR",
+      "whyItMatters": "Clear product identity may improve qualified matching.",
+      "decision": "Pilot one title pattern; retain a comparison cohort.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A04",
+      "title": "Descriptions",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center processed feed + catalog owner",
+      "check": "Check product-specific accuracy, useful attributes and landing-page consistency; validate AI-text submission format.",
+      "metric": "Description coverage and issue diagnostics",
+      "whyItMatters": "Reduces ambiguous product information.",
+      "decision": "Repair missing or inconsistent fields before expanding tests.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A05",
+      "title": "GTIN / MPN / brand",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + manufacturer/catalog master",
+      "check": "Verify genuine assigned identifiers; never invent a GTIN or MPN. Apply product-specific requirements.",
+      "metric": "Identifier coverage and identifier-related issues",
+      "whyItMatters": "Correct identifiers help product identity.",
+      "decision": "Resolve source data; record legitimate exceptions.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A06",
+      "title": "Product type",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify catalog taxonomy",
+      "check": "Review the merchant’s category hierarchy for consistent segmentation.",
+      "metric": "Product-type coverage and mapping exceptions",
+      "whyItMatters": "Supports category analysis.",
+      "decision": "Standardize taxonomy before comparing product cohorts.",
+      "priority": "P2",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A07",
+      "title": "Google product category",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center processed product data",
+      "check": "Check the correct Google taxonomy selection where submitted or required.",
+      "metric": "Category-related issues and mapping exceptions",
+      "whyItMatters": "Misclassification can affect eligibility.",
+      "decision": "Correct mappings using current specification.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A08",
+      "title": "Supplemental sources / attribute rules",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SUPPLEMENT",
+        "url": "https://support.google.com/merchants/answer/14990942?hl=en",
+        "title": "Create a product data source - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Supplemental sources update existing primary-source items and require Advanced data source management. They do not independently create products.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SUPPLEMENT"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center advanced data source management",
+      "check": "Audit overrides, source precedence and ID joins; retain rollback values.",
+      "metric": "Override coverage, unmatched IDs and rule errors",
+      "whyItMatters": "An override layer can separate listing tests from store-copy changes.",
+      "decision": "Use a small matched cohort; verify processed values before scaling.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A09",
+      "title": "Images",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-IMAGE",
+        "url": "https://support.google.com/merchants/answer/6324350?hl=en",
+        "title": "Image link [image_link] - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official image guidance covers crawl access, product fidelity and image requirements. The page announces 500 × 500 enforcement from January 31, 2027; re-check at release.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-IMAGE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + image asset library",
+      "check": "Check real product/variant fidelity, crawl access, current size rules and absence of promotional overlays.",
+      "metric": "Image issues, processed image URLs and cohort CTR",
+      "whyItMatters": "Product clarity is both a feed and shopper concern.",
+      "decision": "Repair eligibility issues; then test compliant image presentation.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A10",
+      "title": "Price / sale price / currency",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify pricing",
+      "check": "Compare feed, structured data, product page and checkout.",
+      "metric": "Price mismatches and sync delays",
+      "whyItMatters": "Unexpected prices can interrupt buying.",
+      "decision": "Resolve price synchronization before acquisition tests.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A11",
+      "title": "Availability / variants",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-SPEC",
+        "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+        "title": "Product data specification - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official attribute specification covering descriptions, identifiers, price/availability, product type/category and destinations; requirements vary by product and market.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-SPEC"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + Shopify inventory",
+      "check": "Compare feed and live inventory; verify selected variant destination.",
+      "metric": "Availability mismatches and in-stock cohort share",
+      "whyItMatters": "Out-of-stock traffic can distort commercial evaluation.",
+      "decision": "Suppress or update invalid offers; prioritize stocked products.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A12",
+      "title": "Shipping / returns / eligibility",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-FREE",
+        "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+        "title": "Free listings for products - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Free listings promote eligible product pages. Activation and eligibility do not guarantee appearance; shipping, return and policy checks remain necessary.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-FREE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + approved merchant policies",
+      "check": "Inspect market-specific shipping, return settings and product/account issues.",
+      "metric": "Eligible/limited/disapproved item counts by destination",
+      "whyItMatters": "Eligibility is a prerequisite, not a promise of impressions.",
+      "decision": "Clear blockers and QA purchase paths.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A13",
+      "title": "Product ratings",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-RATINGS",
+        "url": "https://support.google.com/merchants/answer/14620732?hl=en",
+        "title": "Upload a product reviews data source to Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official product-review data-source documentation; review-program setup must be inspected separately from ordinary product feeds.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-RATINGS"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + review provider",
+      "check": "Verify review provenance, product matching and applicable program setup.",
+      "metric": "Review-data processing issues and product matches",
+      "whyItMatters": "Trust evidence needs an accountable source.",
+      "decision": "Repair mapping or defer until a valid review source exists.",
+      "priority": "P2",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A14",
+      "title": "Free-listing performance",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-PERFORMANCE",
+        "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+        "title": "View ad campaigns performance in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Merchant Center Analytics can separate free listings and ads and segment product, brand and category. Different reporting surfaces can use different tracking definitions.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-PERFORMANCE"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center Analytics",
+      "check": "Segment free traffic from ads; inspect product/category/market cohorts.",
+      "metric": "Free-listing impressions, clicks and CTR",
+      "whyItMatters": "Separates exposure and click response.",
+      "decision": "Select commercially relevant candidates for controlled tests.",
+      "priority": "P1",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    },
+    {
+      "id": "L-A15",
+      "title": "Orders and revenue reconciliation",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "evidence": "Client-account check proposed; no account values were accessed.",
+      "source": {
+        "id": "SRC-L-TRACK",
+        "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+        "title": "Set up key event tracking in Merchant Center - Google Merchant Center Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official free-listing key-event tracking guide explains tagging, linked measurement and referral parameters. Tracking must be validated in the client implementation.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-L-TRACK"
+      ],
+      "display": "Requires Internal Access",
+      "accessStatus": "REQUIRES INTERNAL ACCESS",
+      "platform": "Merchant Center + GA4 + Shopify",
+      "check": "Validate tags and purchase/refund capture before evaluating feed work.",
+      "metric": "Attributed purchases, purchase revenue and reconciled net sales",
+      "whyItMatters": "Clicks alone do not establish valuable growth.",
+      "decision": "Continue, revise or stop a test using reconciled outcomes.",
+      "priority": "P0",
+      "status": "Awaiting access",
+      "owner": "Strategist + feed owner",
+      "value": null
+    }
+  ]
+}

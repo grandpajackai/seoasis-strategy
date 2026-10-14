@@ -1,0 +1,780 @@
+{
+  "assessment": "SEOasis presents a focused Shopify growth system: transactional collections, schema, hub-and-spoke linking, Reddit and AI monitoring, with organic Shopping visible in case evidence and founder commentary. I would work inside that model: agree the commercial baseline, ship a small batch with QA, measure by cohort and revise the account plan at 90 days. The public review supports a few modest editorial/template tests; it cannot establish account results or a forecast.",
+  "source": [
+    "src-company-home",
+    "src-company-shopify",
+    "src-company-interview",
+    "src-job-linkedin"
+  ],
+  "scores": [
+    {
+      "id": "technical",
+      "name": "Technical foundation",
+      "score": 75,
+      "confidence": "High",
+      "classification": "INFERRED",
+      "scope": "Agency-site public HTML sample only. Checks describe observed controls, not indexation, Core Web Vitals or traffic performance.",
+      "criteria": [
+        {
+          "label": "Sampled pages respond successfully",
+          "met": true,
+          "evidence": "20/20 sampled pages returned final HTTP 200.",
+          "source": [
+            "B-03",
+            "B-22"
+          ]
+        },
+        {
+          "label": "Public discovery controls are accessible",
+          "met": true,
+          "evidence": "robots.txt allows / and declares a 70-URL XML sitemap.",
+          "source": [
+            "B-01",
+            "B-02"
+          ]
+        },
+        {
+          "label": "Index directives and primary headings are present",
+          "met": true,
+          "evidence": "20/20 sampled pages expose index, follow and one H1 in source HTML; actual indexing remains unknown.",
+          "source": [
+            "B-03",
+            "B-22"
+          ]
+        },
+        {
+          "label": "Preferred URL signals are consistent in the sample",
+          "met": false,
+          "evidence": "The case hub and three sampled case studies lack a source-HTML canonical; Google-selected canonicals were not checked.",
+          "source": [
+            "B-04",
+            "B-05",
+            "B-06",
+            "B-07"
+          ]
+        }
+      ],
+      "source": [
+        "B-03",
+        "B-22",
+        "B-01",
+        "B-02",
+        "B-04",
+        "B-05",
+        "B-06",
+        "B-07"
+      ]
+    },
+    {
+      "id": "intent",
+      "name": "Search intent coverage",
+      "score": 75,
+      "confidence": "Medium",
+      "classification": "INFERRED",
+      "scope": "Agency-site public topic coverage only. No search volume, ranking, competitive difficulty or cannibalization score is implied.",
+      "criteria": [
+        {
+          "label": "Core commercial service destinations exist",
+          "met": true,
+          "evidence": "Shopify agency, consultant and ecommerce service pages are public.",
+          "source": [
+            "SRC-DI-SHOPIFY",
+            "SRC-DI-CONSULTANT",
+            "SRC-DI-ECOM"
+          ]
+        },
+        {
+          "label": "Buyer education supports the offering",
+          "met": true,
+          "evidence": "Audit, Shopify implementation and agency-selection guides exist.",
+          "source": [
+            "SRC-DI-AUDITGUIDE",
+            "SRC-DI-SHOPIFYGUIDE",
+            "SRC-DI-AGENCYGUIDE"
+          ]
+        },
+        {
+          "label": "Adjacent acquisition themes have public coverage",
+          "met": true,
+          "evidence": "Reddit service content and an organic Shopping case are available.",
+          "source": [
+            "SRC-DI-REDDIT",
+            "SRC-DI-SHOPPING"
+          ]
+        },
+        {
+          "label": "Distinct roles across close page variants are substantiated",
+          "met": false,
+          "evidence": "Near-synonym service URLs and overlapping guide themes warrant a page-role review; query ownership was not established.",
+          "source": [
+            "SRC-DI-SITEMAP",
+            "SRC-DI-SHOPIFYGUIDE2"
+          ]
+        }
+      ],
+      "source": [
+        "SRC-DI-SHOPIFY",
+        "SRC-DI-CONSULTANT",
+        "SRC-DI-ECOM",
+        "SRC-DI-AUDITGUIDE",
+        "SRC-DI-SHOPIFYGUIDE",
+        "SRC-DI-AGENCYGUIDE",
+        "SRC-DI-REDDIT",
+        "SRC-DI-SHOPPING",
+        "SRC-DI-SITEMAP",
+        "SRC-DI-SHOPIFYGUIDE2"
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "Ecommerce architecture",
+      "score": 100,
+      "confidence": "High",
+      "classification": "INFERRED",
+      "scope": "Public client-methodology documentation only. SEOasis is an agency, not a Shopify merchant; 100 means four method elements are described, not that any client implementation is verified.",
+      "criteria": [
+        {
+          "label": "Transactional clusters guide collection work",
+          "met": true,
+          "evidence": "Public method connects keyword clusters to dedicated Shopify collections.",
+          "source": [
+            "SRC-E-HOME"
+          ]
+        },
+        {
+          "label": "Collections are presented as shopping destinations",
+          "met": true,
+          "evidence": "The method specifies real product grids for the intended buyer need.",
+          "source": [
+            "SRC-E-HOME"
+          ]
+        },
+        {
+          "label": "Parent and supporting relationships are documented",
+          "met": true,
+          "evidence": "Hub-and-spoke linking connects main collections, subcollections and supporting content.",
+          "source": [
+            "src-company-home"
+          ]
+        },
+        {
+          "label": "An audit-to-review operating sequence is described",
+          "met": true,
+          "evidence": "Public method includes foundations, buildout and 90-day recalibration.",
+          "source": [
+            "SRC-E-EXPERT"
+          ]
+        }
+      ],
+      "source": [
+        "SRC-E-HOME",
+        "src-company-home",
+        "SRC-E-EXPERT"
+      ]
+    },
+    {
+      "id": "onpage",
+      "name": "On-page",
+      "score": 75,
+      "confidence": "High",
+      "classification": "INFERRED",
+      "scope": "Agency-site representative-page evidence only. The checks cover presence and consistency, not conversion or ranking effectiveness.",
+      "criteria": [
+        {
+          "label": "Titles and descriptions are present",
+          "met": true,
+          "evidence": "Representative service, guide and proof pages provide source metadata.",
+          "source": [
+            "B-06",
+            "B-11",
+            "B-14",
+            "B-22"
+          ]
+        },
+        {
+          "label": "A primary heading is identifiable",
+          "met": true,
+          "evidence": "All 20 sampled pages have one H1.",
+          "source": [
+            "B-03",
+            "B-22"
+          ]
+        },
+        {
+          "label": "Commercial purpose and proof are explicit",
+          "met": true,
+          "evidence": "Sampled commercial pages explain service scope, show proof and offer a next step.",
+          "source": [
+            "CF-SHOPIFY-SEO-AGENCY"
+          ]
+        },
+        {
+          "label": "Template wording passes the sampled editorial checks",
+          "met": false,
+          "evidence": "Repeated brand wording, a description ending mid-phrase and generic headings support a small QA pass.",
+          "source": [
+            "B-14",
+            "B-22",
+            "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+          ]
+        }
+      ],
+      "source": [
+        "B-06",
+        "B-11",
+        "B-14",
+        "B-22",
+        "B-03",
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+      ]
+    },
+    {
+      "id": "linking",
+      "name": "Internal linking",
+      "score": 75,
+      "confidence": "Medium",
+      "classification": "INFERRED",
+      "scope": "Agency-site bounded source-HTML graph plus public client method. No sitewide orphan count or full crawl depth is claimed.",
+      "criteria": [
+        {
+          "label": "Commercial pages link to relevant proof",
+          "met": true,
+          "evidence": "Shopify and category service pages link to sports-nutrition and Roofnest cases.",
+          "source": [
+            "CF-SHOPIFY-SEO-AGENCY",
+            "CF-ECOMMERCE-CATEGORY-PAGE-SEO"
+          ]
+        },
+        {
+          "label": "Editorial pages link to commercial destinations",
+          "met": true,
+          "evidence": "Reviewed Shopify, Reddit and agency-selection guides include commercial links.",
+          "source": [
+            "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+            "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO"
+          ]
+        },
+        {
+          "label": "A hub-and-spoke method is explicitly described",
+          "met": true,
+          "evidence": "Homepage methodology names hub-and-spoke linking.",
+          "source": [
+            "src-company-home"
+          ]
+        },
+        {
+          "label": "A homepage service-hub path is verified",
+          "met": false,
+          "evidence": "No direct commercial-service path appears in the sampled homepage HTML graph; full rendering and navigation intent need validation.",
+          "source": [
+            "CF-HOMEPAGE"
+          ]
+        }
+      ],
+      "source": [
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-ECOMMERCE-CATEGORY-PAGE-SEO",
+        "CF-BLOG-HOW-TO-OPTIMIZE-SHOPIFY-SITES-FOR-SEARCH-ENGINES",
+        "CF-BLOG-HOW-TO-USE-REDDIT-FOR-ECOMMERCE-SEO",
+        "src-company-home",
+        "CF-HOMEPAGE"
+      ]
+    },
+    {
+      "id": "schema",
+      "name": "Structured data",
+      "score": 75,
+      "confidence": "High",
+      "classification": "INFERRED",
+      "scope": "Agency-site markup evidence only. JSON parsing, semantic accuracy and Google feature eligibility are separate checks.",
+      "criteria": [
+        {
+          "label": "JSON-LD is broadly present and parseable",
+          "met": true,
+          "evidence": "19/20 sampled pages contain parseable JSON-LD; all detected blocks parsed.",
+          "source": [
+            "B-03",
+            "B-08",
+            "SRC-G-HOME"
+          ]
+        },
+        {
+          "label": "Company and people have explicit entities",
+          "met": true,
+          "evidence": "Homepage and articles expose Organization and Person entities.",
+          "source": [
+            "SRC-G-HOME",
+            "SRC-G-ARTICLE"
+          ]
+        },
+        {
+          "label": "Markup varies with template purpose",
+          "met": true,
+          "evidence": "Service/FAQPage, Article/BlogPosting and BreadcrumbList are observed.",
+          "source": [
+            "SRC-G-SERVICE",
+            "SRC-G-CASE",
+            "SRC-G-ARTICLE"
+          ]
+        },
+        {
+          "label": "Visible parity and feature eligibility are fully validated",
+          "met": false,
+          "evidence": "Review provenance, video endpoints and feature-specific eligibility need specialist QA; syntax success is insufficient.",
+          "source": [
+            "SRC-G-GOOGLE-REVIEWS",
+            "SRC-G-GOOGLE-VIDEO",
+            "SRC-G-GOOGLE-FAQ"
+          ]
+        }
+      ],
+      "source": [
+        "B-03",
+        "B-08",
+        "SRC-G-HOME",
+        "SRC-G-ARTICLE",
+        "SRC-G-SERVICE",
+        "SRC-G-CASE",
+        "SRC-G-GOOGLE-REVIEWS",
+        "SRC-G-GOOGLE-VIDEO",
+        "SRC-G-GOOGLE-FAQ"
+      ]
+    },
+    {
+      "id": "aeo",
+      "name": "AEO readiness",
+      "score": 75,
+      "confidence": "Medium",
+      "classification": "INFERRED",
+      "scope": "Public evidence and reproducibility readiness only. This is not an AI visibility, citation, sentiment or platform recommendation score.",
+      "criteria": [
+        {
+          "label": "Business identity and expertise are explicit",
+          "met": true,
+          "evidence": "Homepage identifies the company and named operating team.",
+          "source": [
+            "SRC-G-HOME"
+          ]
+        },
+        {
+          "label": "Public expertise has accountable authorship",
+          "met": true,
+          "evidence": "A reviewed Shopify guide names Mike Sack and supplies Person metadata.",
+          "source": [
+            "SRC-G-ARTICLE"
+          ]
+        },
+        {
+          "label": "First-party experience and external commentary are available",
+          "met": true,
+          "evidence": "Named case studies and an attributable Productrise founder interview exist; outcomes remain self-reported.",
+          "source": [
+            "src-company-cases",
+            "src-company-interview"
+          ]
+        },
+        {
+          "label": "A repeatable saved model-output panel is available in this study",
+          "met": false,
+          "evidence": "No actual AI answer outputs or repeat-test dataset was collected. Suggested prompts are proposed tests.",
+          "source": [
+            "SRC-G-GOOGLE-AI",
+            "SRC-G-SERVICE"
+          ]
+        }
+      ],
+      "source": [
+        "SRC-G-HOME",
+        "SRC-G-ARTICLE",
+        "src-company-cases",
+        "src-company-interview",
+        "SRC-G-GOOGLE-AI",
+        "SRC-G-SERVICE"
+      ]
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "score": 75,
+      "confidence": "High",
+      "classification": "INFERRED",
+      "scope": "Agency-site public editorial evidence only. No content traffic, lead contribution or completeness against market demand is measured.",
+      "criteria": [
+        {
+          "label": "A public educational library exists",
+          "met": true,
+          "evidence": "Blog hub provides Shopify, audit and Reddit topics.",
+          "source": [
+            "SRC-DI-BLOG"
+          ]
+        },
+        {
+          "label": "Buyer evaluation and implementation are covered",
+          "met": true,
+          "evidence": "Reviewed guides address agency selection and Shopify implementation.",
+          "source": [
+            "SRC-DI-AGENCYGUIDE",
+            "SRC-DI-SHOPIFYGUIDE"
+          ]
+        },
+        {
+          "label": "Public experience supports educational themes",
+          "met": true,
+          "evidence": "Case library supplies collection, technical and Shopping examples.",
+          "source": [
+            "src-company-cases"
+          ]
+        },
+        {
+          "label": "Sampled platform instructions are current",
+          "met": false,
+          "evidence": "One guide names FID and the audit guide suggests the retired Search Console parameter settings; official Google updates support an editorial refresh.",
+          "source": [
+            "SRC-DI-SHOPIFYGUIDE2",
+            "SRC-DI-AUDITGUIDE",
+            "SRC-DI-INP",
+            "SRC-DI-PARAMETERS"
+          ]
+        }
+      ],
+      "source": [
+        "SRC-DI-BLOG",
+        "SRC-DI-AGENCYGUIDE",
+        "SRC-DI-SHOPIFYGUIDE",
+        "src-company-cases",
+        "SRC-DI-SHOPIFYGUIDE2",
+        "SRC-DI-AUDITGUIDE",
+        "SRC-DI-INP",
+        "SRC-DI-PARAMETERS"
+      ]
+    },
+    {
+      "id": "authority",
+      "name": "Authority",
+      "score": 50,
+      "confidence": "Medium",
+      "classification": "INFERRED",
+      "scope": "Public corroboration coverage only. This is not domain authority, backlink health, reputation or comparative market strength.",
+      "criteria": [
+        {
+          "label": "Attributable external expert commentary exists",
+          "met": true,
+          "evidence": "A Productrise interview identifies Mike Sack and discusses feed testing.",
+          "source": [
+            "src-company-interview"
+          ]
+        },
+        {
+          "label": "Named first-party proof is available",
+          "met": true,
+          "evidence": "Public client case studies can support approved expert briefs; results are company-reported.",
+          "source": [
+            "src-company-cases"
+          ]
+        },
+        {
+          "label": "A source-level independent mention inventory is established",
+          "met": false,
+          "evidence": "A broad independent mention inventory was not collected; one interview cannot establish a wider footprint.",
+          "source": [
+            "src-company-interview"
+          ]
+        },
+        {
+          "label": "Link quality and referral value are verified",
+          "met": false,
+          "evidence": "No GSC link, licensed backlink or referral export was available. This says nothing about unseen account capability.",
+          "source": [
+            "src-authority-link-service"
+          ]
+        }
+      ],
+      "source": [
+        "src-company-interview",
+        "src-company-cases",
+        "src-authority-link-service"
+      ]
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement readiness",
+      "score": 50,
+      "confidence": "Medium",
+      "classification": "INFERRED",
+      "scope": "Public reporting documentation coverage only. This score does not assess actual SEOasis/client tracking readiness or private reporting quality.",
+      "criteria": [
+        {
+          "label": "An operator reporting cadence is public",
+          "met": true,
+          "evidence": "Friday updates, fortnightly strategy calls and quarterly recalibration are stated.",
+          "source": [
+            "src-company-home"
+          ]
+        },
+        {
+          "label": "Commercial outcomes are part of public proof",
+          "met": true,
+          "evidence": "Case library and Shopping case discuss revenue rather than rankings alone.",
+          "source": [
+            "src-company-cases",
+            "SRC-DI-SHOPPING"
+          ]
+        },
+        {
+          "label": "Cross-platform revenue definitions are reconciled here",
+          "met": false,
+          "evidence": "No GA4/Shopify order reconciliation, refund treatment or attribution contract was accessed.",
+          "source": [
+            "SRC-O-GA4",
+            "SRC-O-SHOPIFY",
+            "SRC-O-ATTRIBUTION"
+          ]
+        },
+        {
+          "label": "Cohort baselines and incremental effects are reproducible here",
+          "met": false,
+          "evidence": "No private baseline exports or credible counterfactual dataset was available; published attribution is not causal proof.",
+          "source": [
+            "SRC-O-ATTRIBUTION",
+            "SRC-DI-SHOPPING"
+          ]
+        }
+      ],
+      "source": [
+        "src-company-home",
+        "src-company-cases",
+        "SRC-DI-SHOPPING",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY",
+        "SRC-O-ATTRIBUTION"
+      ]
+    }
+  ],
+  "strengths": [
+    {
+      "title": "A specific Shopify buyer and commercial goal",
+      "summary": "Positioning connects product discovery with ecommerce revenue.",
+      "evidence": "Homepage qualifies Shopify brands above $100K/month and names AI/search product discovery.",
+      "action": "Keep the account goal tied to qualified demand, stock and profitable orders.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "source": [
+        "src-company-home"
+      ]
+    },
+    {
+      "title": "A recognizable collection-first method",
+      "summary": "Transactional clusters, real product grids and hub-and-spoke links form a coherent delivery model.",
+      "evidence": "Homepage and Shopify method explicitly describe these connected workstreams.",
+      "action": "Use that language in collection briefs and release QA.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "source": [
+        "src-company-home",
+        "src-company-shopify"
+      ]
+    },
+    {
+      "title": "Complementary acquisition workstreams",
+      "summary": "Public method spans on-site work, Reddit and organic Shopping.",
+      "evidence": "Reddit is a named pillar; the Shopping case and founder interview describe feeds and presentation tests.",
+      "action": "Give each channel its own evidence log and measurement definition.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "source": [
+        "src-community-service",
+        "SRC-DI-SHOPPING",
+        "src-company-interview"
+      ]
+    },
+    {
+      "title": "Named people and accessible proof",
+      "summary": "Founder, team and client case studies make expertise concrete.",
+      "evidence": "Public homepage identifies operators and the case library covers several intervention types; results are company-reported.",
+      "action": "Preserve dates, scope and attribution caveats when reusing proof.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "source": [
+        "src-company-home",
+        "src-company-cases"
+      ]
+    },
+    {
+      "title": "A clear ownership and review cadence",
+      "summary": "The role and public promises connect delivery with communication and quarterly revision.",
+      "evidence": "Role describes account ownership; homepage states Friday reports, fortnightly calls and 90-day recalibration.",
+      "action": "Show one accountable plan, release log and next-quarter decision per account.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "source": [
+        "src-job-linkedin",
+        "src-company-home"
+      ]
+    }
+  ],
+  "topOpportunities": [
+    {
+      "title": "Make a compact release QA pack",
+      "summary": "Start with a few directly observed editorial/template checks.",
+      "evidence": "Repeated title branding, one incomplete description and two dated implementation references are verified in the bounded review.",
+      "action": "Batch fixes by template, verify published output and preserve a change log; no traffic lift is promised.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "source": [
+        "B-14",
+        "B-22",
+        "SRC-DI-SHOPIFYGUIDE2",
+        "SRC-DI-AUDITGUIDE",
+        "SRC-DI-INP",
+        "SRC-DI-PARAMETERS"
+      ]
+    },
+    {
+      "title": "Test restrained paths from methodology to proof",
+      "summary": "Help a prospective client move between a useful service explanation and relevant evidence.",
+      "evidence": "Homepage HTML has no commercial-service link in the sample; existing service-to-case and content-to-commercial links already provide a base.",
+      "action": "Validate the full graph and conversion intent, then pilot one hub link and a few contextual proof links.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "source": [
+        "CF-HOMEPAGE",
+        "CF-SHOPIFY-SEO-AGENCY",
+        "CF-CASE-STUDIES-BRONSON-VITAMINS"
+      ]
+    },
+    {
+      "title": "Give close page variants an explicit job",
+      "summary": "Validate intent ownership before changing useful pages.",
+      "evidence": "Near-synonym service URLs and two Shopify optimization guides have overlapping themes; no performance harm is established.",
+      "action": "Join query \u00d7 page evidence, qualified outcomes and page purpose; retain, differentiate or consolidate only after review.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "source": [
+        "SRC-DI-SITEMAP",
+        "SRC-DI-SHOPIFYGUIDE",
+        "SRC-DI-SHOPIFYGUIDE2"
+      ]
+    },
+    {
+      "title": "Pilot collections with commercial release gates",
+      "summary": "Demonstrate the role using one client cluster, then scale only a viable pattern.",
+      "evidence": "SEOasis documents transactional collection buildout; this study has no client assortment, margin or query data.",
+      "action": "Check distinct intent, available products, margin, URL policy, copy, links, schema and mobile purchase flow before launch.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "source": [
+        "SRC-E-HOME",
+        "SRC-E-EXPERT",
+        "SRC-E-PRODUCT"
+      ]
+    },
+    {
+      "title": "Make evidence drive the day-90 decision",
+      "summary": "Connect shipping, search response and commercial outcomes in one account record.",
+      "evidence": "Public reporting cadence exists; reconciled account metrics and repeatable AI outputs were not provided.",
+      "action": "Agree definitions, save cohort baselines and AI observations, then decide keep, expand, revise or stop with the client.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "source": [
+        "src-company-home",
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY",
+        "SRC-O-ATTRIBUTION",
+        "SRC-G-GOOGLE-AI"
+      ]
+    }
+  ],
+  "internalValidation": [
+    {
+      "title": "Query ownership and actual indexation",
+      "description": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Page indexing, selected-canonical samples and query \u00d7 landing-page clicks/impressions/CTR by market/device.",
+      "why": "Public HTTP access and similar URLs cannot establish indexing or cannibalization.",
+      "decision": "Retain, differentiate, consolidate or repair an affected cohort.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "source": [
+        "SRC-O-GSC",
+        "B-01",
+        "B-02"
+      ]
+    },
+    {
+      "title": "Viable and profitable collection priorities",
+      "description": "Requires Internal Access",
+      "platform": "Shopify + merchandising/finance + GSC",
+      "metric": "Available assortment, stock, product overlap, net category sales, returns, margin and query opportunity.",
+      "why": "Intent is valuable only when a merchant can fulfill it profitably.",
+      "decision": "Build, improve, defer or consolidate a collection; agree capacity.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "source": [
+        "SRC-E-EXPERT",
+        "SRC-O-SHOPIFY"
+      ]
+    },
+    {
+      "title": "Tracking and commercial attribution",
+      "description": "Requires Internal Access",
+      "platform": "GA4 + Shopify + agreed attribution dataset",
+      "metric": "Purchase/refund event integrity, transaction-ID reconciliation, landing-cohort purchases, net sales and new-customer revenue.",
+      "why": "Channel attribution, net revenue and incremental lift answer different questions.",
+      "decision": "Repair measurement first; prioritize cohorts using comparable commercial definitions.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "source": [
+        "SRC-O-GA4",
+        "SRC-O-SHOPIFY",
+        "SRC-O-ATTRIBUTION"
+      ]
+    },
+    {
+      "title": "Free-listing eligibility and outcomes",
+      "description": "Requires Internal Access",
+      "platform": "Google Merchant Center + GA4 + Shopify",
+      "metric": "Disapproved/limited items, feed attribute issues, free-listing clicks/CTR and reconciled purchases.",
+      "why": "A presentation test cannot be interpreted without feed health, stock and channel definitions.",
+      "decision": "Repair blockers, select a product cohort and stop or scale the feed test.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "source": [
+        "SRC-L-PERFORMANCE",
+        "SRC-L-TRACK"
+      ]
+    },
+    {
+      "title": "AI, community and earned-mention evidence",
+      "description": "Requires Internal Access",
+      "platform": "Saved AI outputs / AI tools + approved community log + GSC or licensed backlink tools",
+      "metric": "Repeated prompt outputs and exact citations; genuine mentions and source-level relevant links; qualified referrals measured separately.",
+      "why": "Public service messaging does not establish observed AI visibility or causal community effects.",
+      "decision": "Validate or revise each hypothesis; avoid a combined visibility percentage or fabricated authority metric.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "source": [
+        "SRC-G-GOOGLE-AI",
+        "src-community-strategy",
+        "src-authority-link-service"
+      ]
+    }
+  ],
+  "quickWins": [
+    "Remove repeated title branding through shared-template QA.",
+    "Complete the sampled agency-selection meta description.",
+    "Refresh FID and retired parameter-tool guidance against current primary documentation.",
+    "After rendered-graph review, test a small number of useful methodology-to-proof links."
+  ],
+  "mediumTerm": [
+    "Build a query-to-page ownership matrix before retaining, differentiating or consolidating variants.",
+    "Pilot one commercially viable Shopify collection cluster with a full release gate.",
+    "Connect feed health, collection cohorts and agreed revenue definitions to the reporting cadence."
+  ],
+  "strategicBets": [
+    "Run a repeated AI query panel with saved conditions and exact citations.",
+    "Test feed titles and images as separate, comparable product-cohort releases.",
+    "Turn approved experiment evidence into reusable briefs, SOPs and expert commentary."
+  ],
+  "assessmentSummary": "SEOasis has a focused Shopify playbook: transactional collections, supporting structure, community authority, and measurement. I would make the execution visible: baseline, prioritize, ship with QA, measure by cohort, and recalibrate every 90 days."
+}

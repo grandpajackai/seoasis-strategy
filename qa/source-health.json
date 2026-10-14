@@ -1,0 +1,582 @@
+[
+  {
+    "url": "https://coalitiontechnologies.com/portfolio/rainbow-symphony",
+    "status": 403,
+    "finalUrl": "https://coalitiontechnologies.com/portfolio/rainbow-symphony",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://coalitiontechnologies.com/shopify-seo",
+    "status": 403,
+    "finalUrl": "https://coalitiontechnologies.com/shopify-seo",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/crawling/docs/faceted-navigation",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/crawling/docs/faceted-navigation",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2023/05/introducing-inp",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2023/05/introducing-inp",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/ai-features",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/structured-data/video",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure?hl=en",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/search/updates",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/updates",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://eastsideco.com/",
+    "status": 0,
+    "finalUrl": "https://eastsideco.com/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the s"
+  },
+  {
+    "url": "https://eastsideco.com/shopify-seo-experts",
+    "status": 0,
+    "finalUrl": "https://eastsideco.com/shopify-seo-experts",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the s"
+  },
+  {
+    "url": "https://gofishdigital.com/case-study/chicco-comprehensive-ecommerce-seo-program/",
+    "status": 200,
+    "finalUrl": "https://gofishdigital.com/case-study/chicco-comprehensive-ecommerce-seo-program/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://gofishdigital.com/seo-ai-search/",
+    "status": 200,
+    "finalUrl": "https://gofishdigital.com/seo-ai-search/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://gofishdigital.com/services/shopify/",
+    "status": 200,
+    "finalUrl": "https://gofishdigital.com/services/shopify/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://help.shopify.com/en/manual/products/collections",
+    "status": 403,
+    "finalUrl": "https://help.shopify.com/en/manual/products/collections",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+    "status": 200,
+    "finalUrl": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/sales-report",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://jobs.gusto.com/boards/seoasis-ca433255-e63d-4b9d-9bf2-ca87a3c84c98",
+    "status": 403,
+    "finalUrl": "https://jobs.gusto.com/boards/seoasis-ca433255-e63d-4b9d-9bf2-ca87a3c84c98",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://jobs.gusto.com/postings/seoasis-seo-strategist-us-only-full-time-remote-opportunity-7efed2ec-3457-4268-8fd1-026d349add28",
+    "status": 403,
+    "finalUrl": "https://jobs.gusto.com/postings/seoasis-seo-strategist-us-only-full-time-remote-opportunity-7efed2ec-3457-4268-8fd1-026d349add28",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://productrise.app/blog/interview-mike-sack-seoasis",
+    "status": 200,
+    "finalUrl": "https://productrise.app/blog/interview-mike-sack-seoasis",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://redditinc.com/policies/reddit-rules",
+    "status": 200,
+    "finalUrl": "https://redditinc.com/policies/reddit-rules",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/analytics/answer/10596866?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/analytics/answer/12923437?department=product+and+engineering",
+    "status": 200,
+    "finalUrl": "https://support.google.com/analytics/answer/12923437?department=product+and+engineering",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/analytics/answer/9756891?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/13287767?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/13287767?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/13889434?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/14166401?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/14166401?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/14620732?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/14620732?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/14990942?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/14990942?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/6324350?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/6324350?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/6324415?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/6324415?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam",
+    "status": 403,
+    "finalUrl": "https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://thisisnovos.com/",
+    "status": 200,
+    "finalUrl": "https://thisisnovos.com/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://thisisnovos.com/case-study/osprey-ai-search/",
+    "status": 200,
+    "finalUrl": "https://thisisnovos.com/case-study/osprey-ai-search/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://thisisnovos.com/services/geo/",
+    "status": 200,
+    "finalUrl": "https://thisisnovos.com/services/geo/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+    "status": 429,
+    "finalUrl": "https://www.linkedin.com/jobs/view/seo-strategist-us-only-full-time-remote-opportunity-at-seoasis-4476379142",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.outerboxdesign.com/digital-marketing-services/seo/ecommerce/",
+    "status": 200,
+    "finalUrl": "https://www.outerboxdesign.com/digital-marketing-services/seo/ecommerce/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.outerboxdesign.com/digital-marketing-services/seo/shopify/",
+    "status": 200,
+    "finalUrl": "https://www.outerboxdesign.com/digital-marketing-services/seo/shopify/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.outerboxdesign.com/work/case-studies/seo/home-gym-and-fitness-brand-lifts-organic-revenue-with-shopify-seo/",
+    "status": 200,
+    "finalUrl": "https://www.outerboxdesign.com/work/case-studies/seo/home-gym-and-fitness-brand-lifts-organic-revenue-with-shopify-seo/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.searchbloom.com/answer-engine-optimization/",
+    "status": 200,
+    "finalUrl": "https://www.searchbloom.com/answer-engine-optimization/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.searchbloom.com/ecommerce-seo/",
+    "status": 200,
+    "finalUrl": "https://www.searchbloom.com/ecommerce-seo/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/blog",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/blog",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/blog/how-to-optimize-your-shopify-store-for-search-engines",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/blog/what-to-look-for-in-an-ecommerce-seo-audit",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/case-studies",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/case-studies",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/case-studies/bronson-vitamins",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/chatgpt-visibility-audit",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/ecommerce-category-page-seo",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/ecommerce-link-building",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/ecommerce-link-building",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/ecommerce-seo",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/ecommerce-seo",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/ecommerce-seo-consultant",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/ecommerce-seo-consultant",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/reddit-ecommerce-seo",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/reddit-ecommerce-seo",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/reddit-seo",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/reddit-seo",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/reddit-seo-strategy",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/reddit-seo-strategy",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/robots.txt",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/robots.txt",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/shopify-seo-agency",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/shopify-seo-agency",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/shopify-seo-company",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/shopify-seo-company",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/shopify-seo-consultant",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/shopify-seo-consultant",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/shopify-seo-expert",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/shopify-seo-expert",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.seoasis.io/sitemap.xml",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/sitemap.xml",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "status": 200,
+    "finalUrl": "https://www.seoasis.io/technical-seo-for-ecommerce",
+    "method": "Reused bounded audit HTTP response",
+    "checkedAt": "2026-10-14"
+  },
+  {
+    "url": "https://www.smartsites.com/organic-seo/",
+    "status": 200,
+    "finalUrl": "https://www.smartsites.com/organic-seo/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  },
+  {
+    "url": "https://www.smartsites.com/organic-seo/ai-search-optimization/",
+    "status": 200,
+    "finalUrl": "https://www.smartsites.com/organic-seo/ai-search-optimization/",
+    "method": "Serial curl GET",
+    "checkedAt": "2026-10-14",
+    "error": null
+  }
+]

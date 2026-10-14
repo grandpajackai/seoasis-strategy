@@ -1,0 +1,1089 @@
+{
+  "metadata": {
+    "title": "CRO & Revenue Alignment",
+    "reviewedAt": "2026-10-14",
+    "scope": "Agency public lead journey plus reusable Shopify client measurement framework. Delivered HTML only; no bookings, forms, mobile behavior, conversion rates or client economics tested.",
+    "classification": "OPPORTUNITY",
+    "confidence": "Medium",
+    "source": {
+      "id": "M-01",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  },
+  "sources": [
+    {
+      "id": "M-01",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "M-02",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "M-03",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "M-04",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "M-05",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-R-GA4-CVR",
+      "url": "https://support.google.com/analytics/answer/12923437?department=product+and+engineering",
+      "title": "[GA4] Traffic acquisition report - Analytics Help",
+      "accessedAt": "2026-10-14",
+      "note": "Official documentation defines session key event rate using sessions containing a key event, divided by sessions. Event counts per session are a different ratio.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "findings": [
+    {
+      "id": "M-OBS-01",
+      "title": "Buyer qualification is explicit",
+      "source": {
+        "id": "M-01",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-01"
+      ],
+      "evidence": "Homepage names Shopify brands doing $100K+/month and leads with product discovery across ChatGPT, Perplexity and Google.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "implication": "This is an agency qualified-lead journey; ecommerce purchase events belong to client storefronts."
+    },
+    {
+      "id": "M-OBS-02",
+      "title": "Commercial trust has named owners and clients",
+      "source": {
+        "id": "M-01",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-01"
+      ],
+      "evidence": "Homepage includes named team roles, named testimonial authors and brands, and revenue-led case examples.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "implication": "Preserve direct access and proof in any copy or navigation experiment. Revenue statements are publisher-reported, not independently verified."
+    },
+    {
+      "id": "M-OBS-03",
+      "title": "Revenue outcomes are central to public proof",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Case-study hub presents cases spanning collection pages, technical cleanup, AI referrals, organic Shopping and Google Discover.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "implication": "Workstream success needs distinct channel definitions and attribution notes; do not combine incompatible cases into a forecast."
+    },
+    {
+      "id": "M-OBS-04",
+      "title": "The free audit has technical prerequisites",
+      "source": {
+        "id": "M-04",
+        "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+        "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-04"
+      ],
+      "evidence": "Audit page requests name, work email and company to reveal installation commands, and states Claude Code plus an OpenAI API key are required.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "implication": "Self-service installation and strategist-led discovery are different journeys; neither completion rate is publicly available."
+    }
+  ],
+  "agencyFunnel": [
+    {
+      "stage": "Organic discovery",
+      "events": "GSC impression and click",
+      "decision": "Validate intent and page fit",
+      "id": "M-AGENCY-1",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Service / proof exploration",
+      "events": "Service, methodology and relevant case interactions",
+      "decision": "Validate message comprehension and lead fit",
+      "id": "M-AGENCY-2",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Pricing / audit interest",
+      "events": "CTA click; booking or form start",
+      "decision": "Validate next-step clarity",
+      "id": "M-AGENCY-3",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Completed booking",
+      "events": "Confirmed booking; deduplicated lead",
+      "decision": "Check completion and scheduling friction",
+      "id": "M-AGENCY-4",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Qualified discovery",
+      "events": "Attended call and agreed qualification criteria",
+      "decision": "Distinguish interest from account fit",
+      "id": "M-AGENCY-5",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Proposal → retained client",
+      "events": "CRM pipeline, won/lost, retention",
+      "decision": "Measure commercial contribution with sales-cycle lag",
+      "id": "M-AGENCY-6",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    }
+  ],
+  "clientFunnel": [
+    {
+      "stage": "Impression",
+      "platform": "Google Search Console / Merchant Center",
+      "metric": "Search and free-listing impressions; separate surfaces",
+      "id": "M-CLIENT-1",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Organic click",
+      "platform": "Google Search Console / Merchant Center",
+      "metric": "Clicks and CTR; separate branded/nonbranded where feasible",
+      "id": "M-CLIENT-2",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Landing page",
+      "platform": "GA4",
+      "metric": "Organic sessions and agreed engagement",
+      "id": "M-CLIENT-3",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Category / product interaction",
+      "platform": "GA4 + Shopify catalog",
+      "metric": "view_item_list, select_item, view_item and product cohort mapping",
+      "id": "M-CLIENT-4",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Add to cart",
+      "platform": "GA4 + Shopify",
+      "metric": "add_to_cart and step progression",
+      "id": "M-CLIENT-5",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Checkout",
+      "platform": "GA4 + Shopify",
+      "metric": "begin_checkout and step progression",
+      "id": "M-CLIENT-6",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Purchase",
+      "platform": "GA4 + Shopify",
+      "metric": "purchase and deduplicated transaction IDs",
+      "id": "M-CLIENT-7",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    },
+    {
+      "stage": "Revenue",
+      "platform": "Shopify + GA4",
+      "metric": "Agreed net/gross, new/repeat and attributed revenue; incremental estimate only with defensible design",
+      "id": "M-CLIENT-8",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed operating model; no live event data or platform configuration inspected.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "value": "Requires Internal Access"
+    }
+  ],
+  "uxHypotheses": [
+    {
+      "id": "M-UX-01",
+      "title": "Test next-step clarity around pricing and audit calls",
+      "source": {
+        "id": "M-01",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-01"
+      ],
+      "evidence": "Homepage repeats Get Pricing, while its closing section invites a free audit call and an ROI discussion.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "hypothesis": "A concise description of what the next step includes could improve qualified visitor understanding.",
+      "test": "Ask target buyers to explain the next step before clicking; then test a clearly scoped label against the current one if volume permits.",
+      "metric": "Qualified completed bookings / eligible landing sessions; booking attendance and qualification as guardrails.",
+      "dependency": "Requires Internal Access: GA4 events, booking provider and CRM qualification.",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Strategist + founder"
+    },
+    {
+      "id": "M-UX-02",
+      "title": "Test a concise route from service scope to relevant proof",
+      "source": {
+        "id": "M-02",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-02"
+      ],
+      "evidence": "Service page has approach, process, revenue proof, extensive explanatory sections, pricing and FAQs; multiple headings repeat collection-page and AI themes.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "hypothesis": "A small scope-and-proof summary or jump links could help a time-constrained founder find the service and most relevant case.",
+      "test": "Run task-based reading sessions; measure time to locate deliverables and relevant proof before any page-length change.",
+      "metric": "Task completion and qualified service-to-booking progression; preserve organic intent coverage.",
+      "dependency": "Requires Internal Access: analytics paths and CRM; rendered UX review remains a separate QA gate.",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Strategist + content + designer"
+    },
+    {
+      "id": "M-UX-03",
+      "title": "Test proof navigation by growth problem",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Case-study hub includes different categories and channels, such as collection-page growth, inherited hack cleanup, GEO and organic Shopping.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "hypothesis": "Problem-led filters or a curated path could help prospects select evidence relevant to their own catalog and constraints.",
+      "test": "Ask buyers with a defined scenario to choose the most relevant case; test grouped navigation only after observing friction.",
+      "metric": "Relevant-case discovery, case-to-booking progression and lead fit.",
+      "dependency": "Requires Internal Access: GA4 and CRM; no claim that current visitors struggle.",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 3,
+      "owner": "Strategist + designer"
+    },
+    {
+      "id": "M-UX-04",
+      "title": "Test compact measurement context beside revenue proof",
+      "source": {
+        "id": "M-05",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-05"
+      ],
+      "evidence": "Organic Shopping case explicitly gives May 2026 vs. prior period, sessions, purchases, revenue and methodology; public before/after results cannot independently establish causation.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "hypothesis": "A concise comparison-period and attribution note beside summaries could support sophisticated buyers evaluating relevance and evidence.",
+      "test": "Use a research session to check whether readers can identify period, channel, denominator and limits; approve any revised claims with the account owner.",
+      "metric": "Proof comprehension and qualified-call questions; no target uplift invented.",
+      "dependency": "Requires Internal Access: original reports, comparison definition and permission to publish.",
+      "priority": "P1",
+      "impact": 4,
+      "effort": 2,
+      "owner": "Strategist + account owner"
+    },
+    {
+      "id": "M-UX-05",
+      "title": "Test a suitable path for technical and nontechnical audit visitors",
+      "source": {
+        "id": "M-04",
+        "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+        "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-04"
+      ],
+      "evidence": "Audit page offers install commands, states prerequisites near the form and in a dedicated section, then offers a strategy call.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "hypothesis": "Keeping prerequisites and the assisted next step prominent could help visitors choose the path suited to their capability.",
+      "test": "Observe technical and nontechnical prospects explaining prerequisites and choosing install vs. call; avoid interpreting email capture as successful audit activation.",
+      "metric": "Qualified audit activation and qualified bookings, measured separately; form completion and setup support load as guardrails.",
+      "dependency": "Requires Internal Access: consented form, activation and CRM data. Do not collect API keys in this dashboard.",
+      "priority": "P2",
+      "impact": 3,
+      "effort": 2,
+      "owner": "Strategist + product owner"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "M-METRIC-ctr",
+      "title": "Search CTR",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "Clicks / impressions by query, page, device and country; compare like-for-like position and intent.",
+      "why": "Separates snippet and intent opportunities from traffic growth.",
+      "decision": "Test relevant titles/snippets when impressions exist and delivery is weak."
+    },
+    {
+      "id": "M-METRIC-sessions",
+      "title": "Organic sessions",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4",
+      "metric": "Sessions using an agreed Organic Search definition; report Organic Shopping and AI referrals separately.",
+      "why": "Reconciles acquired visits with channel definitions.",
+      "decision": "Choose acquisition workstreams without mixing channel changes."
+    },
+    {
+      "id": "M-METRIC-engagement",
+      "title": "Engagement",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4",
+      "metric": "Engaged sessions, engagement rate and agreed collection/product interactions by landing-page cohort.",
+      "why": "Shows whether arrivals engage with the catalog; engagement is a diagnostic.",
+      "decision": "Investigate intent match, page UX or instrumentation."
+    },
+    {
+      "id": "M-METRIC-cvr",
+      "title": "Purchase session conversion rate",
+      "source": {
+        "id": "SRC-R-GA4-CVR",
+        "url": "https://support.google.com/analytics/answer/12923437?department=product+and+engineering",
+        "title": "[GA4] Traffic acquisition report - Analytics Help",
+        "accessedAt": "2026-10-14",
+        "note": "Official documentation defines session key event rate using sessions containing a key event, divided by sessions. Event counts per session are a different ratio.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-R-GA4-CVR"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Organic sessions containing at least one purchase / organic sessions, using the same session scope. Report purchases per session separately; reconcile orders and tracking gaps.",
+      "why": "Distinguishes traffic quantity from commercial fit.",
+      "decision": "Compare intent and template cohorts before scaling."
+    },
+    {
+      "id": "M-METRIC-rps",
+      "title": "Revenue per session",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Attributed revenue / sessions with consistent currency, period and gross/net definition.",
+      "why": "Connects acquisition quality and basket economics.",
+      "decision": "Prioritize useful collections rather than raw traffic."
+    },
+    {
+      "id": "M-METRIC-transactions",
+      "title": "Transactions",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Deduplicated purchase transaction IDs reconciled against Shopify orders, cancellations and refunds.",
+      "why": "Tests purchase tracking completeness.",
+      "decision": "Repair measurement before reporting growth."
+    },
+    {
+      "id": "M-METRIC-organic-revenue",
+      "title": "Organic revenue",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Attributed Organic Search purchase revenue with model, lookback, channel, currency and return policy documented.",
+      "why": "Connects organic work to commercial outcomes.",
+      "decision": "Allocate work among cohorts and channels."
+    },
+    {
+      "id": "M-METRIC-new-customer",
+      "title": "New customer revenue",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Shopify + GA4",
+      "metric": "Revenue from first-time purchasers using an agreed customer identity and order-history definition.",
+      "why": "Separates acquisition from repeat demand.",
+      "decision": "Prioritize discovery cohorts when new acquisition is the objective."
+    },
+    {
+      "id": "M-METRIC-assisted",
+      "title": "Assisted revenue",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 attribution paths + consented customer/order reporting",
+      "metric": "Revenue on paths containing organic interaction; document attribution model and window. Do not add to last-click revenue.",
+      "why": "Shows organic involvement across a journey while acknowledging observability limits.",
+      "decision": "Adjust cross-channel interpretation without double-counting."
+    },
+    {
+      "id": "M-METRIC-landing-cvr",
+      "title": "Landing-page conversion",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify",
+      "metric": "Purchase conversion and revenue/session by session landing page and intent cohort; reconcile measurement limitations.",
+      "why": "Reveals which entry templates create qualified demand.",
+      "decision": "Fix weak-fit or weak-experience templates before expanding."
+    },
+    {
+      "id": "M-METRIC-category",
+      "title": "Category revenue",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Shopify catalog + GA4 item/collection reporting",
+      "metric": "Item revenue mapped to stable product/collection cohorts; define treatment of products in multiple collections.",
+      "why": "Associates collection work with catalog economics.",
+      "decision": "Fund relevant categories with stock and viable contribution."
+    },
+    {
+      "id": "M-METRIC-incremental",
+      "title": "Incremental organic revenue",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "No SEOasis/client platform access or primary analytics exports were supplied. This is a proposed measurement specification.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify + experiment/release log",
+      "metric": "Estimate against a documented counterfactual using comparable control cohorts or an appropriate design; include uncertainty.",
+      "why": "Before/after growth alone does not establish SEO causation.",
+      "decision": "Scale, revise or stop only with evidence proportionate to the claim."
+    }
+  ],
+  "revenuePrioritization": [
+    {
+      "id": "M-ECON-1",
+      "title": "Stock and assortment",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Shopify inventory, product catalog and merchandising calendar",
+      "decision": "Defer a high-intent collection if useful products are unavailable or replenishment is uncertain; validate minimum viable assortment."
+    },
+    {
+      "id": "M-ECON-2",
+      "title": "Margin and fulfillment",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Shopify cost inputs + finance/operations",
+      "decision": "Prefer stronger contribution after COGS, discounts, shipping, returns and service costs when demand and effort are comparable."
+    },
+    {
+      "id": "M-ECON-3",
+      "title": "Attribution and tracking",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GA4 + Shopify + GSC",
+      "decision": "Reconcile models and tracking before calling a page a winner; branded demand, AI referral undercount and consent gaps affect interpretation."
+    },
+    {
+      "id": "M-ECON-4",
+      "title": "Seasonality and promotion",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Prior-year/period data + promotion calendar",
+      "decision": "Separate seasonal demand, price and paid-media effects from the release cohort; compare equivalent periods and controls."
+    },
+    {
+      "id": "M-ECON-5",
+      "title": "Net vs. gross revenue",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Shopify + finance",
+      "decision": "Agree taxes, shipping, refunds, cancellations, currency and reporting lag before ranking economic outcomes."
+    },
+    {
+      "id": "M-ECON-6",
+      "title": "New vs. returning customers",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Shopify customer/order history",
+      "decision": "Promote discovery collections when acquisition is the goal; assess repeat-customer demand separately."
+    },
+    {
+      "id": "M-ECON-7",
+      "title": "Observed demand and capacity",
+      "source": {
+        "id": "M-03",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "M-03"
+      ],
+      "evidence": "Proposed account input; public case outcomes do not supply client-specific economics.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "GSC + delivery capacity + catalog",
+      "decision": "Fund a relevant collection with visible demand and an executable QA path; hold expansion if foundational defects or staffing constrain delivery."
+    }
+  ],
+  "prioritizationExample": {
+    "id": "M-EXAMPLE-01",
+    "title": "Illustrative decision, no invented inputs",
+    "source": {
+      "id": "M-03",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Public server-delivered HTML from research/technical/sample.json. Scripts, responsive behavior, form completion and bookings were not tested in this workstream.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    "sourceIds": [
+      "M-03"
+    ],
+    "evidence": "Hypothetical operating decision without numerical assumptions.",
+    "classification": "OPPORTUNITY",
+    "confidence": "Medium",
+    "beforeAccess": "Prioritize by relevant public intent evidence, impact hypothesis, confidence and effort. Leave revenue potential unscored.",
+    "afterAccess": "A modest-demand in-stock collection with strong contribution and qualified new-customer purchases may outrank a higher-traffic collection with weak margin, returns or unavailable inventory. Validate cohort evidence before changing priority.",
+    "guardrail": "Revenue potential is Requires Internal Access until catalog, margin, inventory and measurement inputs are validated."
+  },
+  "experimentWorkflow": [
+    "Agree account goal, owner and primary metric; preserve the original definition.",
+    "Validate events, deduplication, consent and Shopify reconciliation before baseline.",
+    "Record hypothesis, eligible cohort, release date and a meaningful decision rule.",
+    "Use qualitative research when conversion volume is too low for a reliable split test; do not declare significance from small samples.",
+    "Check accessibility, performance, merchandising, stock and organic intent as release guardrails.",
+    "Review weekly; decide scale, revise or stop in the 90-day post-mortem."
+  ],
+  "guardrails": [
+    "SEOasis is an agency; its site is not being audited as a Shopify merchant.",
+    "All UX effects are untested hypotheses; public HTML does not prove conversion friction or loss.",
+    "Published case metrics remain attributed publisher claims; no baseline is adopted as verified client performance.",
+    "GSC cannot by itself identify revenue per keyword; connect aggregate page/intent evidence with analytics under documented limits.",
+    "Do not sum assisted revenue with attributed revenue or treat before/after revenue as proven incrementality.",
+    "GA4 event names are proposed instrumentation; implementation must follow current official documentation and the client consent setup."
+  ]
+}

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "90D-01",
+    "task": "Agree account goals, scope, owners and capacity",
+    "owner": "Account Strategist + Account Lead",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "dependency": "Client kickoff; current fulfillment and Asana process",
+    "metric": "Approved account plan and task acceptance criteria",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "src-job-linkedin",
+      "src-company-home"
+    ],
+    "evidence": "Role describes account ownership, Asana, QA and partner coordination.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "One account brief records commercial goals, constraints, owners, scope questions and reporting cadence; no assumed output quota."
+  },
+  {
+    "id": "90D-02",
+    "task": "Reconcile measurement and save commercial baselines",
+    "owner": "Analytics + Strategist",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 3,
+    "confidence": "High",
+    "priority": "P0",
+    "dependency": "Requires Internal Access: GA4, Shopify, GSC, finance; 90D-01",
+    "metric": "Event integrity, order reconciliation and cohort baseline completeness",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "SRC-O-GA4",
+      "SRC-O-SHOPIFY",
+      "SRC-O-ATTRIBUTION"
+    ],
+    "evidence": "Public revenue claims cannot replace account definitions or baseline exports.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Document channels, attribution, net-sales/refund treatment, time zones and comparison windows; flag missing/duplicated purchases and annotate affected periods."
+  },
+  {
+    "id": "90D-03",
+    "task": "Validate index controls and representative templates",
+    "owner": "Technical SEO + QA",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P0",
+    "dependency": "Requires Internal Access: GSC; public HTML, sitemap and browser checks",
+    "metric": "Index/canonical exceptions and template QA coverage",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "B-01",
+      "B-02",
+      "B-04",
+      "B-22",
+      "SRC-O-GSC"
+    ],
+    "evidence": "The 20-page public sample is accessible; selected canonicals and field/mobile evidence remain unvalidated.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Join sitemap to index evidence, inspect a representative set, distinguish source/rendered checks, and assign only verified defects with owners."
+  },
+  {
+    "id": "90D-04",
+    "task": "Select one viable collection cluster",
+    "owner": "Strategist + Merchandiser",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 3,
+    "confidence": "High",
+    "priority": "P0",
+    "dependency": "Requires Internal Access: catalog, stock, margin and query data; 90D-02",
+    "metric": "Approved intent-to-collection brief with commercial constraints",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "SRC-E-HOME",
+      "SRC-E-EXPERT",
+      "SRC-O-SHOPIFY"
+    ],
+    "evidence": "Collection-first methodology is public; no hypothetical merchant assortment was verified.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Save target-market intent evidence, existing-page decision, approved product set, stock/margin input and success/stop criteria."
+  },
+  {
+    "id": "90D-05",
+    "task": "Ship the observed editorial/template QA batch",
+    "owner": "Editor + Developer + QA",
+    "status": "Proposed",
+    "impact": 2,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P1",
+    "dependency": "Approved agency scope; template owner; 90D-03",
+    "metric": "Published title/description/instruction acceptance checks",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "B-14",
+      "B-22",
+      "SRC-DI-INP",
+      "SRC-DI-PARAMETERS"
+    ],
+    "evidence": "Repeated branding, one incomplete meta description and dated platform instructions have direct public evidence.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Apply branding once, complete the description, refresh specific instructions from primary guidance and verify published HTML; record release/date."
+  },
+  {
+    "id": "90D-06",
+    "task": "Confirm content and authority partner handoffs",
+    "owner": "Account Lead + Content Lead",
+    "status": "Proposed",
+    "impact": 3,
+    "effort": 1,
+    "confidence": "High",
+    "priority": "P1",
+    "dependency": "90D-01; current partner and client scope",
+    "metric": "Approved briefs and named review/approval owners",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "src-job-linkedin",
+      "src-authority-link-service",
+      "SRC-DI-SHOPIFY"
+    ],
+    "evidence": "Job and current service messaging have different emphases for blogs and links.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Document when partners are used, account rationale, brief format, factual sources, voice, link destinations and approval gates."
+  },
+  {
+    "id": "90D-07",
+    "task": "Baseline AI tests and community listening",
+    "owner": "AEO Strategist + Reddit Specialist",
+    "status": "Proposed",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P1",
+    "dependency": "Agreed query panel and approved community policy; 90D-01",
+    "metric": "Saved repeated outputs and community-fit decision log",
+    "dueWindow": "Days 1–30",
+    "source": [
+      "SRC-G-GOOGLE-AI",
+      "src-community-guide",
+      "src-community-reddit-rules"
+    ],
+    "evidence": "AI monitoring and Reddit are public pillars; no client outputs were provided.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Record model/surface, date, locale, conditions and citations; map buyer questions and current community rules; do not post before disclosure/approval gates."
+  },
+  {
+    "id": "90D-08",
+    "task": "Build and release the first collection pilot",
+    "owner": "Strategist + Shopify Developer + Merchandiser",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 4,
+    "confidence": "Medium",
+    "priority": "P1",
+    "dependency": "90D-02, 90D-03, 90D-04; approved assortment and release capacity",
+    "metric": "Released viable-intent cohort; all release gates passed",
+    "dueWindow": "Days 31–60",
+    "source": [
+      "SRC-E-HOME",
+      "SRC-E-EXPERT"
+    ],
+    "evidence": "Proposed account pilot follows the public audit/build/review sequence.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Brief, products, copy, metadata, URLs, inventory and measurement are approved; independent mobile/purchase-path QA and rollback record are complete."
+  },
+  {
+    "id": "90D-09",
+    "task": "QA facets, internal links and schema on the pilot",
+    "owner": "Technical SEO + Schema Specialist + Independent QA",
+    "status": "Proposed",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "High",
+    "priority": "P1",
+    "dependency": "90D-08 staging release; theme/app ownership",
+    "metric": "Validated URL policy, product discovery and visible schema parity",
+    "dueWindow": "Days 31–60",
+    "source": [
+      "SRC-E-FACETS",
+      "SRC-E-STRUCTURE",
+      "SRC-E-PRODUCT",
+      "SRC-G-GOOGLE-AI"
+    ],
+    "evidence": "Platform eligibility and crawl policies must be verified separately from JSON syntax.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Verify crawlable product links/pagination, allowed facets, preferred URLs and actual Product/Offer facts on PDPs; do not promise collection stars or AI inclusion."
+  },
+  {
+    "id": "90D-10",
+    "task": "Repair feed blockers, then pilot one product-title change",
+    "owner": "Feed Specialist + Analytics",
+    "status": "Proposed",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P1",
+    "dependency": "Requires Internal Access: Merchant Center and tracking; 90D-02; client scope",
+    "metric": "Eligibility, free-listing response and reconciled cohort outcomes",
+    "dueWindow": "Days 31–60",
+    "source": [
+      "src-company-interview",
+      "SRC-L-PERFORMANCE",
+      "SRC-L-TRACK"
+    ],
+    "evidence": "Public founder commentary supports testing supplemental feeds and presentation.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Resolve critical diagnostics, lock eligible/stocked cohort, record control/comparison design and title change; reserve image changes for a separate release."
+  },
+  {
+    "id": "90D-11",
+    "task": "Test a restrained methodology-to-proof path",
+    "owner": "Strategist + UX + Editor",
+    "status": "Proposed",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P1",
+    "dependency": "Full rendered graph, navigation intent and baseline; 90D-03",
+    "metric": "Destination QA and qualified visitor next steps",
+    "dueWindow": "Days 31–60",
+    "source": [
+      "CF-HOMEPAGE",
+      "CF-CASE-STUDIES-BRONSON-VITAMINS"
+    ],
+    "evidence": "Public graph suggests a limited discovery-path test; existing proof links already work as a base.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Agree one selected hub/path, add only contextually useful links, verify anchors/destinations/mobile operation and annotate the release."
+  },
+  {
+    "id": "90D-12",
+    "task": "Choose one revenue-informed conversion hypothesis",
+    "owner": "CRO + Strategist + Analytics",
+    "status": "Proposed",
+    "impact": 4,
+    "effort": 3,
+    "confidence": "Medium",
+    "priority": "P2",
+    "dependency": "90D-02; sufficient cohort data and client scope",
+    "metric": "Relevant funnel step and commercial outcome",
+    "dueWindow": "Days 31–60",
+    "source": [
+      "M-01",
+      "M-02",
+      "SRC-O-GA4"
+    ],
+    "evidence": "Public UX observations are hypotheses; no measured friction or conversion rate is available.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Choose agency lead or merchant purchase funnel explicitly, set primary outcome/guardrails, preserve context and avoid simultaneous uncontrolled changes."
+  },
+  {
+    "id": "90D-13",
+    "task": "Compare released cohorts and investigate confounders",
+    "owner": "Account Strategist + Analytics",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 3,
+    "confidence": "High",
+    "priority": "P1",
+    "dependency": "90D-08 through 90D-12; sufficient observation window",
+    "metric": "Query response, landing purchases, net sales, stock and margin context",
+    "dueWindow": "Days 61–90",
+    "source": [
+      "SRC-O-ATTRIBUTION",
+      "SRC-O-CHANNELS",
+      "SRC-O-SHOPIFY"
+    ],
+    "evidence": "Attributed outcomes do not by themselves establish incremental effects.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Compare agreed periods/cohorts, annotate promotions/seasonality/stock, separate Search from Shopping and document uncertainty; do not force a positive result."
+  },
+  {
+    "id": "90D-14",
+    "task": "Repeat AI/community observations and revise hypotheses",
+    "owner": "AEO Strategist + Reddit Specialist",
+    "status": "Proposed",
+    "impact": 3,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P2",
+    "dependency": "90D-07; approved continued observations",
+    "metric": "Repeated citations, genuine mentions and qualified referrals reported separately",
+    "dueWindow": "Days 61–90",
+    "source": [
+      "SRC-G-GOOGLE-AI",
+      "src-community-strategy"
+    ],
+    "evidence": "Public positioning does not prove stable AI visibility or community causality.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Repeat consistent prompt conditions, save exact outputs, classify mentions/citations/referrals separately and pause unsupported tactics."
+  },
+  {
+    "id": "90D-15",
+    "task": "Peer-test one reusable fulfillment SOP",
+    "owner": "Account Lead + QA + Strategist",
+    "status": "Proposed",
+    "impact": 4,
+    "effort": 2,
+    "confidence": "Medium",
+    "priority": "P2",
+    "dependency": "Completed pilot, release evidence and Asana access",
+    "metric": "Independent handoff success, rework and visible dependencies",
+    "dueWindow": "Days 61–90",
+    "source": [
+      "src-job-linkedin"
+    ],
+    "evidence": "Documentation and future leadership are explicit role requirements.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "A second operator follows the brief and QA checklist; capture missing context, account exceptions and capacity before broader rollout."
+  },
+  {
+    "id": "90D-16",
+    "task": "Run the 90-day strategy review with the client",
+    "owner": "Account Strategist + Client + Account Lead",
+    "status": "Proposed",
+    "impact": 5,
+    "effort": 2,
+    "confidence": "High",
+    "priority": "P1",
+    "dependency": "90D-13, 90D-14, 90D-15; client priorities and trading context",
+    "metric": "Keep/expand/revise/stop decision for each workstream",
+    "dueWindow": "Days 61–90",
+    "source": [
+      "src-company-home",
+      "src-job-linkedin",
+      "SRC-O-ATTRIBUTION"
+    ],
+    "evidence": "Quarterly recalibration is publicly stated; the proposed review converts reporting into a revised plan.",
+    "classification": "OPPORTUNITY",
+    "acceptanceCriteria": "Close each hypothesis with evidence and uncertainty, explain business implications, agree next-quarter priorities/owners and archive the decision log."
+  }
+]

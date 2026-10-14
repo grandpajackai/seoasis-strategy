@@ -1,0 +1,1327 @@
+{
+  "metadata": {
+    "title": "Maintain the foundation. Validate the details.",
+    "accessedAt": "2026-10-14",
+    "workstream": "G — Schema / structured data",
+    "scope": "20-page initial-HTML public sample; no Google-rendered inspection or rich-result validator run.",
+    "limitation": "Valid JSON syntax is not schema vocabulary validation, Google eligibility, indexation or guaranteed search appearance."
+  },
+  "sources": [
+    {
+      "id": "SRC-G-HOME",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-SERVICE",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-ARTICLE",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "BlogPosting with author Person and BreadcrumbList in downloaded HTML; Shopify checklist referenced.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-CASE",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Downloaded HTML includes Article and BreadcrumbList; case outcomes are first-party SEOasis claims.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-HUB",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "Case-study hub has CollectionPage, ItemList and BreadcrumbList.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-AUDIT",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "accessedAt": "2026-10-14",
+      "note": "No application/ld+json script block detected in initial downloaded HTML. Not evidence of AI inaccessibility.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-AI",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "title": "AI features and your website | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-REVIEWS",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+      "title": "Review Snippet Structured Data | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "Self-serving Organization/LocalBusiness reviews are not eligible for review stars; markup must accurately represent visible content.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-VIDEO",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+      "title": "VideoObject Schema Markup | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "contentUrl should point to actual video bytes; embedUrl can identify the specific player.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-FAQ",
+      "url": "https://developers.google.com/search/updates",
+      "title": "Latest Google Search Documentation Updates | Google Search Central",
+      "accessedAt": "2026-10-14",
+      "note": "May 8, 2026 entry states FAQ rich result feature no longer appears starting May 7, 2026. FAQPage guide redirects here.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SRC-G-GOOGLE-INTRO",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "title": "Introduction to structured data markup in Google Search",
+      "accessedAt": "2026-10-14",
+      "note": "Valid syntax, required properties, quality rules, visible content and eligibility are different QA gates; use Rich Results Test then Search Console.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "pages": [
+    {
+      "id": "SC-PAGE-homepage",
+      "url": "https://www.seoasis.io/",
+      "title": "AI-Focused Shopify SEO Agency | SEOasis",
+      "observedTypes": [
+        "AggregateRating",
+        "BreadcrumbList",
+        "ContactPoint",
+        "Country",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "OfferCatalog",
+        "Organization",
+        "Person",
+        "ProfessionalService",
+        "Rating",
+        "Review",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebSite"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "HowTo",
+        "Organization",
+        "Person",
+        "ProfessionalService",
+        "VideoObject",
+        "WebSite"
+      ],
+      "jsonLdBlocks": 10,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-homepage",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "10 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-case-studies",
+      "url": "https://www.seoasis.io/case-studies",
+      "title": "Ecom SEO Case Studies | SEOasis",
+      "observedTypes": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ItemList",
+        "ListItem"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "ItemList"
+      ],
+      "jsonLdBlocks": 3,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-case-studies",
+        "url": "https://www.seoasis.io/case-studies",
+        "title": "Ecom SEO Case Studies | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "3 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-case-studies__bronson-vitamins",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+      "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+      "observedTypes": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem"
+      ],
+      "topLevelTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-case-studies__bronson-vitamins",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins",
+        "title": "How SEOasis Unlocked AI Visibility for Bronson Vitamins | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-case-studies__bronson-vitamins-organic-shopping",
+      "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+      "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+      "observedTypes": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem"
+      ],
+      "topLevelTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-case-studies__bronson-vitamins-organic-shopping",
+        "url": "https://www.seoasis.io/case-studies/bronson-vitamins-organic-shopping",
+        "title": "Bronson Vitamins: Google Merchant Center Case Study | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-case-studies__dr-brandt-geo",
+      "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+      "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+      "observedTypes": [
+        "Article",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem"
+      ],
+      "topLevelTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-case-studies__dr-brandt-geo",
+        "url": "https://www.seoasis.io/case-studies/dr-brandt-geo",
+        "title": "Dr. Brandt Skincare's First 4 Months in the GEO Era | SEOasis Case Study | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-chatgpt-visibility-audit",
+      "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+      "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+      "observedTypes": [],
+      "topLevelTypes": [],
+      "jsonLdBlocks": 0,
+      "jsonSyntax": "No JSON-LD detected",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-chatgpt-visibility-audit",
+        "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+        "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "0 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-blog",
+      "url": "https://www.seoasis.io/blog",
+      "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+      "observedTypes": [
+        "Blog",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ListItem"
+      ],
+      "topLevelTypes": [
+        "Blog",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-blog",
+        "url": "https://www.seoasis.io/blog",
+        "title": "Blog — Ecommerce SEO, AEO & AI Visibility | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-ecommerce-seo",
+      "url": "https://www.seoasis.io/ecommerce-seo",
+      "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-ecommerce-seo",
+        "url": "https://www.seoasis.io/ecommerce-seo",
+        "title": "Ecommerce SEO That Shows Up in AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-ecommerce-category-page-seo",
+      "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+      "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-ecommerce-category-page-seo",
+        "url": "https://www.seoasis.io/ecommerce-category-page-seo",
+        "title": "Ecommerce Category Page SEO That Drives Revenue, Not Just Traffic | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-ecommerce-link-building",
+      "url": "https://www.seoasis.io/ecommerce-link-building",
+      "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-ecommerce-link-building",
+        "url": "https://www.seoasis.io/ecommerce-link-building",
+        "title": "Ecommerce Link Building That Actually Drives Revenue | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-technical-seo-for-ecommerce",
+      "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+      "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-technical-seo-for-ecommerce",
+        "url": "https://www.seoasis.io/technical-seo-for-ecommerce",
+        "title": "Technical SEO for Ecommerce | AI-Era Optimization for Shopify Stores | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-shopify-seo-agency",
+      "url": "https://www.seoasis.io/shopify-seo-agency",
+      "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-shopify-seo-agency",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-shopify-seo-company",
+      "url": "https://www.seoasis.io/shopify-seo-company",
+      "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-shopify-seo-company",
+        "url": "https://www.seoasis.io/shopify-seo-company",
+        "title": "Shopify SEO Company Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-shopify-seo-consultant",
+      "url": "https://www.seoasis.io/shopify-seo-consultant",
+      "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-shopify-seo-consultant",
+        "url": "https://www.seoasis.io/shopify-seo-consultant",
+        "title": "Shopify SEO Consultant | AI-Era SEO for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-shopify-seo-expert",
+      "url": "https://www.seoasis.io/shopify-seo-expert",
+      "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-shopify-seo-expert",
+        "url": "https://www.seoasis.io/shopify-seo-expert",
+        "title": "Shopify SEO Expert | AI-Era Optimization for Ecommerce Brands | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-reddit-seo",
+      "url": "https://www.seoasis.io/reddit-seo",
+      "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-reddit-seo",
+        "url": "https://www.seoasis.io/reddit-seo",
+        "title": "Reddit SEO for Ecommerce Brands | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-reddit-seo-strategy",
+      "url": "https://www.seoasis.io/reddit-seo-strategy",
+      "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+      "observedTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "Country",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Question",
+        "Service",
+        "SpeakableSpecification",
+        "UnitPriceSpecification",
+        "VideoObject",
+        "WebPage"
+      ],
+      "topLevelTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "Service",
+        "VideoObject",
+        "WebPage"
+      ],
+      "jsonLdBlocks": 6,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-reddit-seo-strategy",
+        "url": "https://www.seoasis.io/reddit-seo-strategy",
+        "title": "Reddit SEO Strategy for Ecommerce Brands | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "6 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-blog__how-to-optimize-shopify-sites-for-search-engines",
+      "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+      "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+      "observedTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "Person"
+      ],
+      "topLevelTypes": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-blog__how-to-optimize-shopify-sites-for-search-engines",
+        "url": "https://www.seoasis.io/blog/how-to-optimize-shopify-sites-for-search-engines",
+        "title": "How to Optimize Shopify Sites for Search Engines in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-blog__how-to-use-reddit-for-ecommerce-seo",
+      "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+      "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+      "observedTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "Person"
+      ],
+      "topLevelTypes": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-blog__how-to-use-reddit-for-ecommerce-seo",
+        "url": "https://www.seoasis.io/blog/how-to-use-reddit-for-ecommerce-seo",
+        "title": "How to Use Reddit for Ecommerce SEO in 2026 | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    },
+    {
+      "id": "SC-PAGE-blog__how-to-choose-a-shopify-seo-agency",
+      "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+      "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+      "observedTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "Person"
+      ],
+      "topLevelTypes": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "jsonLdBlocks": 2,
+      "jsonSyntax": "Parsed successfully",
+      "validationStatus": "Local JSON parser only; Rich Results Test and Schema Markup Validator not run",
+      "source": {
+        "id": "SRC-G-PAGE-blog__how-to-choose-a-shopify-seo-agency",
+        "url": "https://www.seoasis.io/blog/how-to-choose-a-shopify-seo-agency",
+        "title": "How to Choose a Shopify SEO Agency That Drives Revenue | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Saved public initial HTML in research/technical; JSON-LD extracted and parsed locally.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "evidence": "2 JSON-LD blocks detected in initial HTML; nested @types listed separately from top-level entities.",
+      "classification": "OBSERVED",
+      "confidence": "High"
+    }
+  ],
+  "findings": [
+    {
+      "id": "SC-01",
+      "title": "Structured data is already an established foundation",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Representative homepage, service, hub, article and case-study templates contain JSON-LD. All detected blocks in the 20-page public sample parsed as JSON.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "purpose": "Maintain template consistency and prevent regressions",
+      "priority": "P2",
+      "action": "Build a template QA checklist before recommending new schema."
+    },
+    {
+      "id": "SC-02",
+      "title": "Review video contentUrl values",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage VideoObject contentUrl values end in .jsonp while embedUrl identifies Wistia players. Google documents contentUrl as actual video bytes; response contents were not independently fetched.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "purpose": "Accurate video discovery and metadata",
+      "priority": "P1",
+      "action": "Validate media endpoints and use a verified playable file URL, or rely on correct embedUrl when unavailable.",
+      "guidelineSource": {
+        "id": "SRC-G-GOOGLE-VIDEO",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+        "title": "VideoObject Schema Markup | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "contentUrl should point to actual video bytes; embedUrl can identify the specific player.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "SC-03",
+      "title": "Keep testimonial proof distinct from review-star eligibility",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage ProfessionalService nests AggregateRating and three Reviews about SEOasis. Google excludes self-serving reviews for Organization/LocalBusiness types from review stars; authenticity of testimonials has not been independently verified.",
+      "classification": "OPPORTUNITY",
+      "confidence": "High",
+      "purpose": "Accurate expectations and policy-aware QA",
+      "priority": "P1",
+      "action": "Confirm visible testimonial accuracy and provenance; do not use this markup as a forecast of review stars.",
+      "guidelineSource": {
+        "id": "SRC-G-GOOGLE-REVIEWS",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+        "title": "Review Snippet Structured Data | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Self-serving Organization/LocalBusiness reviews are not eligible for review stars; markup must accurately represent visible content.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "SC-04",
+      "title": "FAQPage is present; do not forecast Google FAQ rich results",
+      "source": {
+        "id": "SRC-G-SERVICE",
+        "url": "https://www.seoasis.io/shopify-seo-agency",
+        "title": "Shopify SEO Agency Built for AI Search | SEOasis | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Service page HTML includes Service, FAQPage, HowTo, VideoObject, WebPage with SpeakableSpecification and BreadcrumbList.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-SERVICE"
+      ],
+      "evidence": "Service-page HTML contains FAQPage. Google official updates state FAQ rich results stopped appearing May 7, 2026.",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "purpose": "Useful visible Q&A and faithful semantic markup",
+      "priority": "P2",
+      "action": "Keep Q&A because it helps buyers; maintain accuracy and visible parity. Do not sell FAQ markup as a Google rich-result or AI inclusion requirement.",
+      "guidelineSource": {
+        "id": "SRC-G-GOOGLE-FAQ",
+        "url": "https://developers.google.com/search/updates",
+        "title": "Latest Google Search Documentation Updates | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "May 8, 2026 entry states FAQ rich result feature no longer appears starting May 7, 2026. FAQPage guide redirects here.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "SC-05",
+      "title": "Confirm entity references across templates",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage Organization has stable @id and founder Person reference; sameAs is an empty array. Verified official public profiles could strengthen identity consistency.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "purpose": "Unambiguous company and author identity",
+      "priority": "P2",
+      "action": "Map verified owned profiles to the organization/person entities where accurate; never add unverified profiles."
+    },
+    {
+      "id": "SC-06",
+      "title": "Audit-tool page is a selective schema opportunity",
+      "source": {
+        "id": "SRC-G-AUDIT",
+        "url": "https://www.seoasis.io/chatgpt-visibility-audit",
+        "title": "Free ChatGPT Visibility Audit — Claude Code Plugin | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "No application/ld+json script block detected in initial downloaded HTML. Not evidence of AI inaccessibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-AUDIT"
+      ],
+      "evidence": "No JSON-LD scripts were detected in initial public HTML of the ChatGPT audit page. Other sampled templates contain structured data.",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "purpose": "Consistent page/entity semantics",
+      "priority": "P3",
+      "action": "Consider WebPage and BreadcrumbList if they reflect the page. This is not an AI visibility blocker.",
+      "guidelineSource": {
+        "id": "SRC-G-GOOGLE-AI",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features",
+        "title": "AI features and your website | Google Search Central",
+        "accessedAt": "2026-10-14",
+        "note": "Foundational SEO applies; no special schema or machine-readable AI files required for Google AI features. Indexed, snippet-eligible pages are required for supporting-link eligibility.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "id": "SC-TYPE-Organization",
+      "title": "Organization",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Homepage",
+      "purpose": "Company identity",
+      "action": "Verify logo, contact facts and official profile links.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-WebSite",
+      "title": "WebSite",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Homepage",
+      "purpose": "Website identity",
+      "action": "Maintain canonical site URL and publisher relation.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-BreadcrumbList",
+      "title": "BreadcrumbList",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage, service, article, hub and case pages",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Homepage, service, article, hub and case pages",
+      "purpose": "Hierarchy",
+      "action": "Match declared paths to meaningful user navigation.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-BlogPosting",
+      "title": "BlogPosting / Article",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Blog articles / case-study pages",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Blog articles / case-study pages",
+      "purpose": "Editorial metadata",
+      "action": "Confirm author, publisher, image and date accuracy. No special CaseStudy rich-result guarantee.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-Person",
+      "title": "Person",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage founder and article authors",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Homepage founder and article authors",
+      "purpose": "Accountable expertise",
+      "action": "Validate author identity and profile references.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-Service",
+      "title": "Service / Offer",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Service templates / homepage offer catalog",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Service templates / homepage offer catalog",
+      "purpose": "Service semantics",
+      "action": "Confirm visible scope and current pricing; no generic Service rich-result guarantee.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-FAQPage",
+      "title": "FAQPage",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Service templates",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Service templates",
+      "purpose": "Buyer Q&A",
+      "action": "Google FAQ rich results discontinued May 2026; maintain visible accuracy.",
+      "priority": "P2",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-VideoObject",
+      "title": "VideoObject",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage and service templates",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Homepage and service templates",
+      "purpose": "Video metadata",
+      "action": "Validate .jsonp contentUrl usage, embed URL and real upload dates.",
+      "priority": "P1",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-AggregateRating",
+      "title": "AggregateRating / Review",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Homepage ProfessionalService",
+      "classification": "OBSERVED",
+      "confidence": "High",
+      "observed": "Homepage ProfessionalService",
+      "purpose": "Testimonial representation",
+      "action": "Self-serving review stars are not an eligible business outcome; confirm provenance.",
+      "priority": "P1",
+      "validationStatus": "Syntax observed; Google eligibility not tested"
+    },
+    {
+      "id": "SC-TYPE-Product",
+      "title": "Product",
+      "source": {
+        "id": "SRC-G-HOME",
+        "url": "https://www.seoasis.io/",
+        "title": "AI-Focused Shopify SEO Agency | SEOasis",
+        "accessedAt": "2026-10-14",
+        "note": "Inspected downloaded public HTML: 10 JSON-LD blocks, Organization, WebSite, ProfessionalService, reviews, breadcrumb, videos, Person and HowTo.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-HOME"
+      ],
+      "evidence": "Not detected in 20-page agency-site sample",
+      "classification": "OPPORTUNITY",
+      "confidence": "Medium",
+      "observed": "Not detected in 20-page agency-site sample",
+      "purpose": "Client product-detail pages when applicable",
+      "action": "Use only for real products with accurate required properties; do not blanket apply to collections or agency services.",
+      "priority": "P3",
+      "validationStatus": "Not detected in agency-site sample; proposed client PDP implementation requires validation"
+    }
+  ],
+  "validationWorkflow": [
+    "Match every entity, price, review, date and answer to visible current facts.",
+    "Parse JSON; check entity IDs and schema vocabulary with Schema Markup Validator.",
+    "Run Rich Results Test for supported Google features and archive results.",
+    "Check rendered HTML, canonical and access in Search Console URL Inspection — Requires Internal Access.",
+    "Monitor enhancements and performance by template; recheck after releases."
+  ],
+  "internalData": [
+    {
+      "id": "SC-PRIVATE-01",
+      "title": "Rendered structured data and Google status",
+      "source": {
+        "id": "SRC-G-GOOGLE-INTRO",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+        "title": "Introduction to structured data markup in Google Search",
+        "accessedAt": "2026-10-14",
+        "note": "Valid syntax, required properties, quality rules, visible content and eligibility are different QA gates; use Rich Results Test then Search Console.",
+        "classification": "OBSERVED",
+        "confidence": "High"
+      },
+      "sourceIds": [
+        "SRC-G-GOOGLE-INTRO"
+      ],
+      "evidence": "Public initial HTML cannot establish what Google indexed or whether enhancements are eligible.",
+      "classification": "REQUIRES INTERNAL DATA",
+      "confidence": "High",
+      "value": "Requires Internal Access",
+      "platform": "Google Search Console",
+      "metric": "URL Inspection rendered HTML, indexing and enhancement reports",
+      "why": "Confirms processing of deployed templates",
+      "decision": "Fix template defects, release or monitor"
+    }
+  ],
+  "guardrails": [
+    "No special AI schema required; schema does not guarantee AI citation.",
+    "Never invent ratings, reviews, authors, prices, dates or product facts.",
+    "Do not blanket apply Product to collection pages or agency service pages.",
+    "Do not promise FAQ, HowTo, Speakable or Service rich results from observed markup."
+  ]
+}
