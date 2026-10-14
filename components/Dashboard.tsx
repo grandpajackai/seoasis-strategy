@@ -939,9 +939,25 @@ function Overview({ go }: { go: (s: string) => void }) {
             <article key={i} className="validation-card">
               <Icons.LockKeyhole size={18} />
               <h3>{f.title || f.name}</h3>
-              <p>{f.evidence || f.description || f.why}</p>
+              <p>{f.why || f.evidence || f.description}</p>
               <span>Requires Internal Access</span>
               <small>{f.platform || f.platforms}</small>
+              <small>{f.confidence} confidence</small>
+              <details className="validation-detail">
+                <summary>
+                  Metric &amp; decision
+                  <Icons.ChevronDown size={12} />
+                </summary>
+                <p>
+                  <strong>Pull</strong>
+                  {f.metric}
+                </p>
+                <p>
+                  <strong>Decision</strong>
+                  {f.decision}
+                </p>
+                <SourceRefs ids={f.source} sources={sources} />
+              </details>
             </article>
           ))}
       </div>
@@ -1590,7 +1606,7 @@ function InterviewStage({
                   .slice(0, 3)
                   .map((f: any) => ({
                     ...f,
-                    summary: f.description || f.why,
+                    summary: f.why || f.description,
                     action: `${f.platform} · ${f.metric} · Decision: ${f.decision}`,
                   }))
               : step === 5

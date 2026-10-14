@@ -1,5 +1,7 @@
 # SEOasis — Strategist Workspace
 
+[Open the live dashboard](https://grandpajackai.github.io/seoasis-strategy/) · [Public repository](https://github.com/grandpajackai/seoasis-strategy)
+
 An independent interview work sample: a public-evidence audit, reusable Shopify client frameworks, and an accountable 90-day operating plan. This project is not commissioned by or affiliated with SEOasis.
 
 ## Run locally

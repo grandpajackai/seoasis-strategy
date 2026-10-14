@@ -1,0 +1,127 @@
+{
+  "baseUrl": "https://grandpajackai.github.io/seoasis-strategy/",
+  "checkedAt": "2026-10-14T13:07:45Z",
+  "passed": true,
+  "totalChecked": 20,
+  "checks": [
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/",
+      "status": 200,
+      "kind": "HTML"
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/632-d6dc9e690350c179.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/794-7ecffd766fccb442.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/app/page-be81a06b33accbbc.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/main-app-38ff9f02097aa424.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/chunks/webpack-8070d06824e79ec3.js",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/css/5654ba16ffcae474.css",
+      "status": 200,
+      "kind": "CSS",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/_next/static/media/Inter.74b8e81c.ttf",
+      "status": 200,
+      "kind": "CSS asset/font",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/icon.svg?29cecb8d4c2c8b28",
+      "status": 200,
+      "kind": "asset",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/README.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/RESEARCH.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/SOURCES.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/ASSUMPTIONS.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/90-DAY-PLAN.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/INTERVIEW-WALKTHROUGH.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/JOB-REQUIREMENTS-MATRIX.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/OPPORTUNITY-BACKLOG.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    },
+    {
+      "url": "https://grandpajackai.github.io/seoasis-strategy/QA-REPORT.md",
+      "status": 200,
+      "kind": "document",
+      "error": null
+    }
+  ]
+}
