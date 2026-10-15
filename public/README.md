@@ -20,6 +20,7 @@ Open http://127.0.0.1:3000. The application has 20 navigable workspace sections 
 ```bash
 npm run research:compile
 npm run verify
+npm run test:assistant
 npm run typecheck
 npm run build
 npm start
@@ -58,6 +59,16 @@ Raw HTML snapshots and full page text remain local and are excluded from version
 Interview Mode, light/dark theme, section search, score-rubric disclosures, evidence detail panels, source search, sortable/filterable opportunity queue, configurable priority weights, editable status/owner, a collection brief builder, and an AI manual-testing log.
 
 Working edits are saved in this browser’s localStorage. They do not update JSON files, connect to Asana, or leave the device. JSON exports create a portable review snapshot. Refresh preserves edits. A different browser starts with the original proposed backlog.
+
+## Workspace assistant — no AI API bill
+
+Open **Ask workspace** in the top bar to discuss the research and inspect the evidence behind an answer. Research mode immediately retrieves relevant records and their source links. It is labeled as source-based retrieval, rather than model generation.
+
+**Enable free AI** optionally loads a Qwen model through WebLLM in a browser worker. It generates conversational analysis using retrieved workspace evidence and recent conversation as context. There is no API key, inference server, or paid AI request. First use downloads approximately 500 MB of model assets; a compatible WebGPU browser and roughly 2 GB of available GPU memory are needed. Model files can be cached by the browser. Device speed, network access, storage, and browser support affect availability; Research mode remains usable when local AI is unavailable.
+
+The model is grounded in the existing public research, not trained or fine-tuned on SEOasis. It has no live website browsing or private account access. Actual revenue, traffic, rankings, and conversion questions require internal data. Generated analysis is a draft to verify against the attached evidence; source links are taken from the validated ledger rather than invented by the model. Chat messages stay in this tab’s memory and clear on reload. No chat history is uploaded or added to the research datasets.
+
+Implementation details and primary references: [AI assistant guide](AI-ASSISTANT.md).
 
 ## Delivery documents
 

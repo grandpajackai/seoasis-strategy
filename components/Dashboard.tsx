@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import {
   ArrowLeft,
   ArrowRight,
@@ -110,6 +111,9 @@ import strategyData from "@/data/strategy.json";
 import sourceData from "@/data/sources.json";
 import opportunityData from "@/data/opportunities.json";
 import roadmapData from "@/data/roadmap.json";
+const ResearchAssistant = dynamic(() => import("./ResearchAssistant"), {
+  ssr: false,
+});
 import {
   Backlog,
   CollectionLab,
@@ -161,6 +165,8 @@ export default function Dashboard() {
     [interview, setInterview] = useState(false),
     [step, setStep] = useState(0),
     [searchOpen, setSearchOpen] = useState(false),
+    [assistantOpen, setAssistantOpen] = useState(false),
+    [assistantMounted, setAssistantMounted] = useState(false),
     [search, setSearch] = useState(""),
     [small, setSmall] = useState(false),
     [interviewDetail, setInterviewDetail] = useState(false);
@@ -174,6 +180,7 @@ export default function Dashboard() {
   const navRef = useRef<HTMLElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
   const mainRef = useRef<HTMLElement>(null);
+  const assistantTriggerRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     const sync = () => {
       const id = window.location.hash.slice(1);
@@ -212,18 +219,22 @@ export default function Dashboard() {
     return () => media.removeEventListener("change", sync);
   }, []);
   useEffect(() => {
-    document.body.style.overflow = mobile || searchOpen ? "hidden" : "";
-    if (mainRef.current) mainRef.current.inert = mobile || searchOpen;
-    if (headerRef.current) headerRef.current.inert = mobile || searchOpen;
+    document.body.style.overflow =
+      mobile || searchOpen || assistantOpen ? "hidden" : "";
+    if (mainRef.current)
+      mainRef.current.inert = mobile || searchOpen || assistantOpen;
+    if (headerRef.current)
+      headerRef.current.inert = mobile || searchOpen || assistantOpen;
     if (sidebarRef.current)
-      sidebarRef.current.inert = searchOpen || (small && !mobile);
+      sidebarRef.current.inert =
+        searchOpen || assistantOpen || (small && !mobile);
     return () => {
       document.body.style.overflow = "";
       if (mainRef.current) mainRef.current.inert = false;
       if (headerRef.current) headerRef.current.inert = false;
       if (sidebarRef.current) sidebarRef.current.inert = false;
     };
-  }, [mobile, searchOpen, small]);
+  }, [mobile, searchOpen, small, assistantOpen]);
   useEffect(() => {
     if (!mobile && !searchOpen) return;
     const target = searchOpen ? searchPanelRef.current : sidebarRef.current;
@@ -260,8 +271,9 @@ export default function Dashboard() {
       if (e.key === "Escape") {
         setSearchOpen(false);
         setMobile(false);
+        setAssistantOpen(false);
       }
-      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+      if ((e.metaKey || e.ctrlKey) && e.key === "k" && !assistantOpen) {
         e.preventDefault();
         setSearchOpen((s) => {
           if (!s) returnFocus.current = document.activeElement as HTMLElement;
@@ -271,7 +283,7 @@ export default function Dashboard() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, []);
+  }, [assistantOpen]);
   useEffect(() => {
     if (searchOpen) searchRef.current?.focus();
   }, [searchOpen]);
@@ -469,6 +481,22 @@ export default function Dashboard() {
             </button>
             <span className="top-divider" />
             <button
+              className="button subtle assistant-trigger"
+              ref={assistantTriggerRef}
+              aria-label="Ask workspace assistant"
+              aria-haspopup="dialog"
+              aria-controls="workspace-assistant"
+              onClick={() => {
+                setSearchOpen(false);
+                setMobile(false);
+                setAssistantMounted(true);
+                setAssistantOpen(true);
+              }}
+            >
+              <Icons.Sparkles size={17} />
+              <span>Ask workspace</span>
+            </button>
+            <button
               className="icon-button theme-toggle"
               aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
               onClick={() => {
@@ -645,6 +673,15 @@ export default function Dashboard() {
           </footer>
         </main>
       </div>
+      {assistantMounted && (
+        <ResearchAssistant
+          open={assistantOpen}
+          onClose={() => setAssistantOpen(false)}
+          section={active}
+          onNavigate={go}
+          returnFocusRef={assistantTriggerRef}
+        />
+      )}
     </div>
   );
 }

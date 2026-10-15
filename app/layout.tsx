@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./interview.css";
+import "./assistant.css";
 export const metadata: Metadata = {
   title: "SEOasis — Strategist Workspace",
   description:

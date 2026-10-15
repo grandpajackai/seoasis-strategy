@@ -8,11 +8,13 @@
     "start": "node scripts/serve.mjs",
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify-data.mjs",
+    "test:assistant": "node scripts/check-assistant.mjs",
     "research:compile": "node scripts/compile-research.mjs"
   },
   "dependencies": {
+    "@mlc-ai/web-llm": "0.2.85",
     "lucide-react": "^1.31.0",
-    "next": "16.3.4",
+    "next": "16.3.8",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },

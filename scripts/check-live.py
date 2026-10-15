@@ -29,7 +29,7 @@ for url in sorted(urls):
    if not ref.startswith('data:'):
     target=urljoin(url,ref);c,_,e=fetch(target);results.append({'url':target,'status':c,'kind':'CSS asset/font','error':e or None})
  time.sleep(.15)
-for doc in ['README.md','RESEARCH.md','SOURCES.md','ASSUMPTIONS.md','90-DAY-PLAN.md','INTERVIEW-WALKTHROUGH.md','JOB-REQUIREMENTS-MATRIX.md','OPPORTUNITY-BACKLOG.md','QA-REPORT.md']:
+for doc in ['README.md','RESEARCH.md','SOURCES.md','ASSUMPTIONS.md','90-DAY-PLAN.md','INTERVIEW-WALKTHROUGH.md','JOB-REQUIREMENTS-MATRIX.md','OPPORTUNITY-BACKLOG.md','QA-REPORT.md','AI-ASSISTANT.md']:
  url=urljoin(BASE,doc);c,_,e=fetch(url);results.append({'url':url,'status':c,'kind':'document','error':e or None});time.sleep(.15)
 report={'baseUrl':BASE,'checkedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'passed':all(x['status']==200 for x in results),'totalChecked':len(results),'checks':results}
 (ROOT/'qa/live-http.json').write_text(json.dumps(report,indent=2)+'\n')

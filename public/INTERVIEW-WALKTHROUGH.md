@@ -26,6 +26,7 @@ If Mike wants to discuss a finding, follow that conversation. The artifact is a 
 - **Organic Shopping:** feed truth and eligibility first, controlled title/image testing second. The founder interview and public case study provide context; client results need internal validation.
 - **AEO:** manually test a fixed query set, record platform/model/locale/date/conditions, preserve outputs and citations, and repeat. No platform visibility percentage is claimed here.
 - **Operations:** demonstrate the full collection template, dependencies, partner handoff, QA acceptance criteria, and the local export.
+- **Assistant (optional, 30 seconds):** open Ask workspace and ask about the current section. Show the evidence cards and their sources, then explain that optional local AI uses the same research as context. It has no private account access or live metrics. Enable and load the local model before the meeting if demonstrating generation; keep the five-minute path focused on the operating judgment.
 
 ## Five questions to ask Mike
 

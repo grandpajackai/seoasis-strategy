@@ -46,3 +46,5 @@ Public pages and guidelines can change after the snapshot. Sources retain titles
 ## Local working data
 
 Backlog edits, priority settings, collection briefs, theme preference, and manual AI notes stay in browser localStorage. They are not connected to client platforms. Manual AI notes are user-entered and unverified; the research contains no tested model-output dataset. Clear or export browser data as appropriate before sharing a device.
+
+The Workspace assistant adds source-based retrieval and optional browser-local model generation. It is grounded in the public snapshot, rather than trained on SEOasis or connected to client platforms. Research-mode answers are labeled separately from generated drafts. Chat stays in tab memory and clears on reload; downloaded model assets may remain cached. Local AI requires a compatible device/browser and an initial model download. Its generated statements still need human verification against the attached evidence. Chat outputs are not added to the research dataset or presented as verified business results.

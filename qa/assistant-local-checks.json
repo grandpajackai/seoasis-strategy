@@ -1,0 +1,395 @@
+{
+  "environment": "Production static export at GitHub Pages base path; final public release separately checked",
+  "knowledgeRecords": 498,
+  "sources": 149,
+  "desktop": [
+    {
+      "href": "#overview",
+      "label": "Executive overview",
+      "hash": "#overview",
+      "heading": "Search creates opportunity. Execution creates revenue.",
+      "overflow": false
+    },
+    {
+      "href": "#methodology",
+      "label": "SEOasis methodology",
+      "hash": "#methodology",
+      "heading": "Built around your operating model.",
+      "overflow": false
+    },
+    {
+      "href": "#technical",
+      "label": "Technical SEO",
+      "hash": "#technical",
+      "heading": "Verify the crawl. Then make the call.",
+      "overflow": false
+    },
+    {
+      "href": "#keywords",
+      "label": "Search & keyword strategy",
+      "hash": "#keywords",
+      "heading": "Start with the buyer’s intent.",
+      "overflow": false
+    },
+    {
+      "href": "#collections",
+      "label": "Shopify collection pages",
+      "hash": "#collections",
+      "heading": "A collection is a revenue hypothesis.",
+      "overflow": false
+    },
+    {
+      "href": "#onpage",
+      "label": "On-page SEO",
+      "hash": "#onpage",
+      "heading": "Make every page earn its place.",
+      "overflow": false
+    },
+    {
+      "href": "#architecture",
+      "label": "Architecture & internal links",
+      "hash": "#architecture",
+      "heading": "Connect the pages. Reinforce the journey.",
+      "overflow": false
+    },
+    {
+      "href": "#schema",
+      "label": "Schema & structured data",
+      "hash": "#schema",
+      "heading": "Structured facts. Validated implementation.",
+      "overflow": false
+    },
+    {
+      "href": "#aeo",
+      "label": "AEO & AI visibility",
+      "hash": "#aeo",
+      "heading": "AI visibility starts with evidence.",
+      "overflow": false
+    },
+    {
+      "href": "#content",
+      "label": "Content coordination",
+      "hash": "#content",
+      "heading": "Useful content, with a clear commercial job.",
+      "overflow": false
+    },
+    {
+      "href": "#authority",
+      "label": "Authority & digital PR",
+      "hash": "#authority",
+      "heading": "Build proof people can verify.",
+      "overflow": false
+    },
+    {
+      "href": "#community",
+      "label": "Reddit & community",
+      "hash": "#community",
+      "heading": "Trust is earned in the conversation.",
+      "overflow": false
+    },
+    {
+      "href": "#shopping",
+      "label": "Organic Google Shopping",
+      "hash": "#shopping",
+      "heading": "Make the catalog eligible. Then test the shelf.",
+      "overflow": false
+    },
+    {
+      "href": "#cro",
+      "label": "CRO & revenue alignment",
+      "hash": "#cro",
+      "heading": "Follow the journey to the purchase.",
+      "overflow": false
+    },
+    {
+      "href": "#competitors",
+      "label": "Competitive landscape",
+      "hash": "#competitors",
+      "heading": "Differentiate through how the work gets done.",
+      "overflow": false
+    },
+    {
+      "href": "#roadmap",
+      "label": "90-day strategy",
+      "hash": "#roadmap",
+      "heading": "A quarter of work. A system that compounds.",
+      "overflow": false
+    },
+    {
+      "href": "#measurement",
+      "label": "Measurement framework",
+      "hash": "#measurement",
+      "heading": "The metric matters when it changes the next move.",
+      "overflow": false
+    },
+    {
+      "href": "#backlog",
+      "label": "Opportunity backlog",
+      "hash": "#backlog",
+      "heading": "Prioritize the work. Make the tradeoffs visible.",
+      "overflow": false
+    },
+    {
+      "href": "#sources",
+      "label": "Sources & evidence",
+      "hash": "#sources",
+      "heading": "Every conclusion has a trail.",
+      "overflow": false
+    },
+    {
+      "href": "#interview",
+      "label": "Interview notes & job fit",
+      "hash": "#interview",
+      "heading": "Show the judgment behind the dashboard.",
+      "overflow": false
+    }
+  ],
+  "mobile": [
+    {
+      "href": "#overview",
+      "label": "Executive overview",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#overview",
+      "heading": "Search creates opportunity. Execution creates revenue.",
+      "overflow": false
+    },
+    {
+      "href": "#methodology",
+      "label": "SEOasis methodology",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#methodology",
+      "heading": "Built around your operating model.",
+      "overflow": false
+    },
+    {
+      "href": "#technical",
+      "label": "Technical SEO",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#technical",
+      "heading": "Verify the crawl. Then make the call.",
+      "overflow": false
+    },
+    {
+      "href": "#keywords",
+      "label": "Search & keyword strategy",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#keywords",
+      "heading": "Start with the buyer’s intent.",
+      "overflow": false
+    },
+    {
+      "href": "#collections",
+      "label": "Shopify collection pages",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#collections",
+      "heading": "A collection is a revenue hypothesis.",
+      "overflow": false
+    },
+    {
+      "href": "#onpage",
+      "label": "On-page SEO",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#onpage",
+      "heading": "Make every page earn its place.",
+      "overflow": false
+    },
+    {
+      "href": "#architecture",
+      "label": "Architecture & internal links",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#architecture",
+      "heading": "Connect the pages. Reinforce the journey.",
+      "overflow": false
+    },
+    {
+      "href": "#schema",
+      "label": "Schema & structured data",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#schema",
+      "heading": "Structured facts. Validated implementation.",
+      "overflow": false
+    },
+    {
+      "href": "#aeo",
+      "label": "AEO & AI visibility",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#aeo",
+      "heading": "AI visibility starts with evidence.",
+      "overflow": false
+    },
+    {
+      "href": "#content",
+      "label": "Content coordination",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#content",
+      "heading": "Useful content, with a clear commercial job.",
+      "overflow": false
+    },
+    {
+      "href": "#authority",
+      "label": "Authority & digital PR",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#authority",
+      "heading": "Build proof people can verify.",
+      "overflow": false
+    },
+    {
+      "href": "#community",
+      "label": "Reddit & community",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#community",
+      "heading": "Trust is earned in the conversation.",
+      "overflow": false
+    },
+    {
+      "href": "#shopping",
+      "label": "Organic Google Shopping",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#shopping",
+      "heading": "Make the catalog eligible. Then test the shelf.",
+      "overflow": false
+    },
+    {
+      "href": "#cro",
+      "label": "CRO & revenue alignment",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#cro",
+      "heading": "Follow the journey to the purchase.",
+      "overflow": false
+    },
+    {
+      "href": "#competitors",
+      "label": "Competitive landscape",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#competitors",
+      "heading": "Differentiate through how the work gets done.",
+      "overflow": false
+    },
+    {
+      "href": "#roadmap",
+      "label": "90-day strategy",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#roadmap",
+      "heading": "A quarter of work. A system that compounds.",
+      "overflow": false
+    },
+    {
+      "href": "#measurement",
+      "label": "Measurement framework",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#measurement",
+      "heading": "The metric matters when it changes the next move.",
+      "overflow": false
+    },
+    {
+      "href": "#backlog",
+      "label": "Opportunity backlog",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#backlog",
+      "heading": "Prioritize the work. Make the tradeoffs visible.",
+      "overflow": false
+    },
+    {
+      "href": "#sources",
+      "label": "Sources & evidence",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#sources",
+      "heading": "Every conclusion has a trail.",
+      "overflow": false
+    },
+    {
+      "href": "#interview",
+      "label": "Interview notes & job fit",
+      "askVisible": true,
+      "drawerClosed": true,
+      "hash": "#interview",
+      "heading": "Show the judgment behind the dashboard.",
+      "overflow": false
+    }
+  ],
+  "interview": [
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "What I learned about SEOasis"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "How I understand the operating model"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "What I observed"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "Three opportunities worth exploring"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "What I would validate internally"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "How I would prioritize client work"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "My first 90-day framework"
+    },
+    {
+      "cards": 3,
+      "links": 8,
+      "overflow": false,
+      "step": "How I could contribute"
+    }
+  ],
+  "escape": {
+    "dialogClosed": true,
+    "focus": "Ask workspace assistant",
+    "mainInert": false
+  },
+  "sessionRetained": true,
+  "stopExercised": true,
+  "localAIGeneration": {
+    "modelFamily": "Qwen3.5-0.8B",
+    "answer": "INFERRED · AI analysisSEOasis methodology is a structured framework for Shopify growth, focusing on strategic positioning and operational execution. It is derived from evidence [1] (positioning), [2] (AI-Ready Collection Pages), [3] (Direct Access & Transparent Reporting), and [4] (founder Interview). To apply it to clients, one must first define the core public service pillar—building transactional clusters with products in the grid [2], ensuring nonbrand collection clicks [2], and translating client goals into clear plans [5]. This approach utilizes direct operator access via Friday reports and fortnightly strategy calls [3], maintaining a single source of truth for status and decisions [3], and employs quarterly post-mortems for scaling decisions [6]. The methodology ensures progress, risks, and next decisions are visible to the client, making progress, risks, and next decisions visible to the client [3]. [1]",
+    "cards": 6,
+    "label": "Local AIAI DRAFT",
+    "mode": " Local AI · verify sources",
+    "question": "Explain SEOasis methodology and how I would apply it to Shopify clients."
+  },
+  "consoleErrors": []
+}

@@ -46,8 +46,9 @@ for (const file of [
   "JOB-REQUIREMENTS-MATRIX.md",
   "OPPORTUNITY-BACKLOG.md",
   "QA-REPORT.md",
+  "AI-ASSISTANT.md",
 ])
   if (fs.existsSync(file)) fs.copyFileSync(file, "public/" + file);
 console.log(
-  "Generated source register, job matrix, full backlog; packaged nine downloadable documents.",
+  "Generated source register, job matrix, full backlog; packaged ten downloadable documents.",
 );

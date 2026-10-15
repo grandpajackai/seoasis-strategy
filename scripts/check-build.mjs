@@ -22,6 +22,7 @@ const docs = [
   "JOB-REQUIREMENTS-MATRIX.md",
   "OPPORTUNITY-BACKLOG.md",
   "QA-REPORT.md",
+  "AI-ASSISTANT.md",
 ];
 for (const d of docs)
   assert.ok(fs.existsSync(path.join(root, d)), `Missing exported doc ${d}`);
