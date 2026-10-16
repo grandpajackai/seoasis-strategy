@@ -140,6 +140,7 @@ function harness(fixtures) {
     }
   }
   const module = { exports: {} };
+  const actualModules = new Map();
   const context = vm.createContext({
     module,
     exports: module.exports,
@@ -165,6 +166,28 @@ function harness(fixtures) {
           needsPrivateData: () => false,
           buildGroundingContext: () => "[1] OBSERVED: saved public evidence.",
         };
+      if (id === "./assistant-draft") {
+        if (!actualModules.has(id)) {
+          const actual = { exports: {} };
+          const output = ts.transpileModule(
+            fs.readFileSync(path.resolve("lib/assistant-draft.ts"), "utf8"),
+            {
+              compilerOptions: {
+                module: ts.ModuleKind.CommonJS,
+                target: ts.ScriptTarget.ES2020,
+                esModuleInterop: true,
+              },
+            },
+          ).outputText;
+          const load = new vm.Script(
+            `(function(exports, require, module) {\n${output}\n})`,
+            { filename: "assistant-draft.fixture.cjs" },
+          ).runInContext(context);
+          load(actual.exports, context.require, actual);
+          actualModules.set(id, actual.exports);
+        }
+        return actualModules.get(id);
+      }
       throw new Error(`Unexpected fixture import: ${id}`);
     },
   });
@@ -277,9 +300,121 @@ async function unloadThenReload() {
   }
 }
 
+async function stopAgainWhileQueued() {
+  const first = fixture("stopped", { malformed: true });
+  const last = fixture("last");
+  const h = harness([first, last]);
+  try {
+    await h.api.loadLocalAI(() => undefined);
+    const old = h.ask("stopped");
+    await bounded(first.started.promise, "first queued scenario starts");
+    h.api.interruptLocalAI();
+    await assert.rejects(old, { name: "AbortError" });
+    const queued = h.ask("cancelled-while-queued");
+    await flush();
+    h.api.interruptLocalAI();
+    await assert.rejects(queued, { name: "AbortError" });
+    const latest = h.ask("last");
+    await flush();
+    assert.deepEqual(h.calls, ["stopped"]);
+    first.first.resolve();
+    await bounded(first.draining.promise, "first queued scenario drains");
+    first.eof.resolve();
+    await bounded(last.started.promise, "latest request skips cancelled queue");
+    last.first.resolve();
+    last.eof.resolve();
+    assert.match(
+      await bounded(latest, "latest response completes"),
+      /last grounded/,
+    );
+    assert.deepEqual(h.calls, ["stopped", "last"]);
+    assert.ok(h.tokens.every((token) => token.name === "last"));
+  } finally {
+    await h.close();
+  }
+}
+
+async function workerFailureThenReload() {
+  const first = fixture("failed", { early: true });
+  const second = fixture("recovered");
+  const h = harness([first, second]);
+  try {
+    await h.api.loadLocalAI(() => undefined);
+    const old = h.ask("failed");
+    await bounded(first.started.promise, "worker failure scenario starts");
+    h.engines[0].worker.onerror(new Error("Fixture worker failure"));
+    await assert.rejects(
+      bounded(old, "worker failure settles response"),
+      /worker stopped/,
+    );
+    assert.equal(h.engines[0].worker.terminated, true);
+    await h.api.loadLocalAI(() => undefined);
+    const recovered = h.ask("recovered");
+    await bounded(second.started.promise, "reload clears failed drain tail");
+    second.first.resolve();
+    second.eof.resolve();
+    assert.match(
+      await bounded(recovered, "recovered response completes"),
+      /recovered grounded/,
+    );
+    first.initialization.resolve();
+    first.first.resolve();
+    await flush();
+    assert.ok(h.tokens.every((token) => token.name === "recovered"));
+  } finally {
+    await h.close();
+  }
+}
+
+async function rejectUnsupportedDraftBeforeDisplay() {
+  const unsafe = fixture("unsafe");
+  const safe = fixture("accepted-after-guard");
+  unsafe.text = JSON.stringify({
+    answer: "Weak stock or margins should not lower collection priority.",
+    evidence: [1],
+  });
+  const h = harness([unsafe, safe]);
+  try {
+    await h.api.loadLocalAI(() => undefined);
+    const result = h.ask("unsafe");
+    await bounded(unsafe.started.promise, "guarded generation starts");
+    unsafe.first.resolve();
+    unsafe.eof.resolve();
+    await assert.rejects(bounded(result, "unsafe draft is rejected"), {
+      name: "EvidenceError",
+    });
+    assert.equal(
+      h.tokens.length,
+      0,
+      "An unchecked draft leaked into the UI before grounding validation",
+    );
+    assert.equal(h.engines[0].locked, false);
+    const accepted = h.ask("accepted-after-guard");
+    await bounded(
+      safe.started.promise,
+      "valid request after rejected draft starts",
+    );
+    safe.first.resolve();
+    safe.eof.resolve();
+    assert.match(
+      await bounded(accepted, "valid response after rejected draft completes"),
+      /accepted-after-guard grounded answer/,
+    );
+    assert.ok(
+      h.tokens.every((token) => token.name === "accepted-after-guard"),
+      "Rejected draft affected a subsequent response",
+    );
+  } finally {
+    await h.close();
+  }
+}
+
 await stopThenNext();
 await stopThenNext({ early: true });
 await unloadThenReload();
+await stopAgainWhileQueued();
+await workerFailureThenReload();
+await rejectUnsupportedDraftBeforeDisplay();
 console.log(
-  "PASS: actual assistant engine — Stop then immediate next request, early Stop before stream initialization, silent EOF drain, stale-token suppression, and unload/fresh reload.",
+  "PASS: actual assistant engine — Stop/immediate next, early Stop, queued Stop, silent EOF drain, stale-token suppression, unload/fresh reload, worker failure/reload, and unsafe-draft rejection before display.",
 );

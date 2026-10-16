@@ -340,7 +340,7 @@ export default function ResearchAssistant({
             reason:
               "Local AI is unavailable in this browser. Source-based research still works.",
             model: "Local model",
-            downloadLabel: "About 500 MB",
+            downloadLabel: "About 1.1 GB",
           });
       });
     return () => {
@@ -482,14 +482,24 @@ export default function ResearchAssistant({
         setAnnouncement(
           "Reply ready. Supporting evidence is available below the response.",
         );
-    } catch {
+    } catch (error) {
+      const evidenceRejected =
+        error instanceof Error && error.name === "EvidenceError";
       update({
         content: buildResearchReply(cleanQuestion, evidence),
         mode: "research",
         status: "complete",
-        note: "Local AI was interrupted by a device or model error. A source-based summary is shown instead.",
+        note: evidenceRejected
+          ? "The AI draft did not pass the evidence checks. A source-based summary is shown instead."
+          : "Local AI was interrupted by a device or model error. A source-based summary is shown instead.",
       });
       if (run.current === currentRun) {
+        if (evidenceRejected) {
+          setAnnouncement(
+            "The AI draft did not pass evidence checks. A source-based reply is ready.",
+          );
+          return;
+        }
         setAiEnabled(false);
         setModelReady(false);
         setModelError(
@@ -596,7 +606,7 @@ export default function ResearchAssistant({
                   ? "No API key. No per-message charges."
                   : modelReady
                     ? "Ready when you want a generated reply."
-                    : "~500 MB first download · WebGPU required"}
+                    : "~1.1 GB first download · WebGPU required"}
               </p>
             </div>
             {aiEnabled ? (
@@ -666,7 +676,7 @@ export default function ResearchAssistant({
                 {capability && !capability.supported
                   ? `${capability.reason || "This browser does not support local AI."} `
                   : ""}
-                {capability?.downloadLabel || "About 500 MB on first use"}.
+                {capability?.downloadLabel || "About 1.1 GB on first use"}.
                 First setup can take a few minutes. Local AI needs a compatible
                 WebGPU browser and enough device memory. Replies run in your
                 browser; questions and workspace research are not sent to an AI
