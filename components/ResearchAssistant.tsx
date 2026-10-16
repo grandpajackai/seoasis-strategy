@@ -667,12 +667,12 @@ export default function ResearchAssistant({
                   ? `${capability.reason || "This browser does not support local AI."} `
                   : ""}
                 {capability?.downloadLabel || "About 500 MB on first use"}.
-                Local AI needs a compatible WebGPU browser and enough device
-                memory. Replies run in your browser; questions and workspace
-                research are not sent to an AI API. Public hosts serve the model
-                files, which your browser may cache. This is retrieval over the
-                workspace research, not a model trained on private client
-                accounts.
+                First setup can take a few minutes. Local AI needs a compatible
+                WebGPU browser and enough device memory. Replies run in your
+                browser; questions and workspace research are not sent to an AI
+                API. Public hosts serve the model files, which your browser may
+                cache. This is retrieval over the workspace research, not a
+                model trained on private client accounts.
               </p>
               {modelReady && (
                 <button

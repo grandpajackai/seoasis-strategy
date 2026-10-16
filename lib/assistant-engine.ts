@@ -22,6 +22,9 @@ let ready = false;
 let interrupted = false;
 let loadVersion = 0;
 let generationVersion = 0;
+// WebLLM's worker releases its model lock only when a stream reaches EOF.
+// Keep draining stopped streams and serialize the next request behind them.
+let activeConsumption: Promise<void> | null = null;
 function cancellation(message: string): Error {
   const error = new Error(message);
   error.name = "AbortError";
@@ -125,6 +128,7 @@ export async function loadLocalAI(
       worker?.terminate();
       worker = null;
       engine = null;
+      activeConsumption = null;
     };
     const timedOut = new Promise<never>((_, reject) => {
       timer = setTimeout(
@@ -166,6 +170,7 @@ export async function loadLocalAI(
       worker = null;
       engine = null;
       ready = false;
+      activeConsumption = null;
     }
     throw error;
   } finally {
@@ -208,6 +213,7 @@ export async function streamLocalReply({
   interrupted = false;
   const version = ++generationVersion;
   const local = engine;
+  const previousConsumption = activeConsumption;
   const schema = JSON.stringify({
     type: "object",
     properties: {
@@ -247,6 +253,7 @@ export async function streamLocalReply({
       worker = null;
       engine = null;
       ready = false;
+      activeConsumption = null;
       rejectGeneration?.(
         new Error(
           "Local AI took too long. Try a shorter question or use Research mode.",
@@ -254,6 +261,11 @@ export async function streamLocalReply({
       );
     }, 120000);
     const consume = async () => {
+      await previousConsumption;
+      if (version !== generationVersion)
+        throw cancellation("Generation stopped.");
+      if (local !== engine || !ready)
+        throw new Error("Reload local AI before generating another response.");
       const chunks = await local.chat.completions.create({
         messages,
         stream: true,
@@ -264,7 +276,13 @@ export async function streamLocalReply({
         response_format: { type: "json_object", schema },
       });
       for await (const chunk of chunks) {
-        if (interrupted || version !== generationVersion) break;
+        if (interrupted || version !== generationVersion) {
+          // A stop during stream initialization can precede the worker's reset
+          // of its interrupt flag. Reassert it once a chunk arrives, then drain
+          // silently through EOF rather than abandoning the worker generator.
+          local.interruptGenerate();
+          continue;
+        }
         result += chunk.choices[0]?.delta.content || "";
         const partial = result.match(/"answer"\s*:\s*"((?:\\.|[^"\\])*)/);
         if (partial) {
@@ -276,6 +294,8 @@ export async function streamLocalReply({
           }
         }
       }
+      if (version !== generationVersion)
+        throw cancellation("Generation stopped.");
       if (!result.trim())
         throw new Error(
           "The model returned no answer. Try Research mode or a shorter question.",
@@ -316,7 +336,16 @@ export async function streamLocalReply({
       }
       return `INFERRED · AI analysis\n\n${reply.answer.trim()} ${refs}${nextStep}`;
     };
-    return await Promise.race([consume(), cancelled]);
+    const response = consume();
+    const drained = response.then(
+      () => undefined,
+      () => undefined,
+    );
+    activeConsumption = drained;
+    void drained.then(() => {
+      if (activeConsumption === drained) activeConsumption = null;
+    });
+    return await Promise.race([response, cancelled]);
   } finally {
     clearTimeout(timer);
     if (version === generationVersion) rejectGeneration = null;
@@ -341,4 +370,5 @@ export async function unloadLocalAI(): Promise<void> {
   engine = null;
   ready = false;
   loading = null;
+  activeConsumption = null;
 }
