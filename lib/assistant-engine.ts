@@ -139,7 +139,7 @@ export async function loadLocalAI(
               "Model loading took too long. Check the connection and retry; research mode is still available.",
             ),
           ),
-        5 * 60 * 1000,
+        15 * 60 * 1000,
       );
     });
     try {
