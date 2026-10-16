@@ -17,6 +17,50 @@ export function assertGroundedDraft(text: string): void {
   };
 
   for (const sentence of sentences) {
+    const companyCadenceContext =
+      /\b(?:seoasis|friday reports?|(?:public|current|documented|published|operating) (?:methodology|cadence|model)|(?:its|their|the) methodology)\b/.test(
+        normalized,
+      );
+    for (const cadence of sentence.matchAll(
+      /\b(?:weekly|daily|monthly)\s+(?:strategy\s+)?calls?\b/g,
+    )) {
+      if (!/\bstrategy\b/.test(cadence[0]) && !companyCadenceContext) continue;
+      if (
+        !/\bstrategy\b/.test(cadence[0]) &&
+        /\b(?:its|their|your)\s+own(?:\s+[a-z'-]+){0,3}\s+team\b/.test(sentence)
+      )
+        continue;
+      const index = cadence.index || 0;
+      const before = sentence.slice(Math.max(0, index - 160), index);
+      const after = sentence.slice(
+        index + cadence[0].length,
+        index + cadence[0].length + 100,
+      );
+      const proposed =
+        /\b(?:could|may|might|proposed|proposal|hypothesis|opportunity|suggest|consider)\b/.test(
+          before,
+        ) ||
+        /\b(?:should|would)\b.{0,60}\b(?:test|pilot|experiment)\b/.test(
+          before,
+        ) ||
+        /\btest whether\b/.test(before) ||
+        /^\s*(?:is|are|as|would be)\s+(?:(?:a|an|the)\s+)?(?:proposed|test|experiment|hypothesis|opportunity)\b/.test(
+          after,
+        );
+      const question =
+        /^(?:does|do|should|could|would|can|are|is|what|why|how|when)\b/.test(
+          sentence,
+        ) && normalized.includes("?");
+      const caution =
+        negatedBefore(sentence, index) ||
+        /\b(?:rather than|instead of|lacks?)\s*$/.test(before) ||
+        /^\s*(?:is|are|was|were)\s+(?:not|never)\s+(?:the\s+)?(?:documented|published|observed|confirmed|current|supported)\b/.test(
+          after,
+        );
+      if (!proposed && !question && !caution)
+        reject("the documented fortnightly strategy-call cadence was changed");
+    }
+
     const commercialRisk =
       /\b(?:weak|shallow|unavailable|out[- ]of[- ]stock|insufficient|limited)\b/.test(
         sentence,
@@ -76,6 +120,42 @@ export function assertGroundedDraft(text: string): void {
         reject(
           "account validation was placed before collecting its required inputs",
         );
+    }
+
+    const performanceClaims = sentence.matchAll(
+      /\b(?:maintain(?:s|ed|ing)?|preserv(?:e|es|ed|ing)|increas(?:e|es|ed|ing)|improv(?:e|es|ed|ing)|boost(?:s|ed|ing)?|stabili[sz](?:e|es|ed|ing))\s+(?:(?:the|our|their|your|organic|search|ecommerce|site|existing|current|overall|total|landing-page)\s+){0,4}(?:conversion rates?|ctr|click[- ]through rates?|revenue)\b/g,
+    );
+    for (const claim of performanceClaims) {
+      const index = claim.index || 0;
+      const before =
+        sentence
+          .slice(Math.max(0, index - 160), index)
+          .split(/[;:]|\bbut\b/)
+          .pop() || "";
+      const after = sentence.slice(
+        index + claim[0].length,
+        index + claim[0].length + 140,
+      );
+      const framed =
+        /\b(?:could|may|might|hypothesis|hypothesi[sz]e(?:d)?|potentially|proposed|opportunity|goal|aim|intend|seek|want|target)\b/.test(
+          before,
+        ) ||
+        /\b(?:test|testing|experiment|evaluate|measure|investigate)\s+(?:whether|if|to|for)\b/.test(
+          before,
+        ) ||
+        /^\s*(?:is|are|as|would be|remains?)\s+(?:(?:a|the|an|our)\s+)?(?:goal|aim|guardrail|hypothesis|test|opportunity)\b/.test(
+          after,
+        ) ||
+        /^\s*(?:requires?|needs?|must be tested|should be tested)\b/.test(
+          after,
+        );
+      const negativeBoundary =
+        negatedBefore(sentence, index) ||
+        /^\s*(?:is|are|was|were)\s+(?:not|never)\s+(?:guaranteed|known|measured|established|supported|assumed)\b/.test(
+          after,
+        );
+      if (!framed && !negativeBoundary)
+        reject("an unmeasured conversion, CTR or revenue outcome was implied");
     }
 
     const outcome =
